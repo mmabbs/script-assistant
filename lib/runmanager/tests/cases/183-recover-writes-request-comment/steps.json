@@ -1,0 +1,50 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "migration",
+      "--request",
+      "put the ferry lines in idea-tobias"
+    ],
+    "now": "2026-10-23 15:30",
+    "exit": 0
+  },
+  {
+    "copy": "files/notes-b1",
+    "to": "."
+  },
+  {
+    "copy": "files/record-b1.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 0
+  },
+  {
+    "run": [
+      "recover"
+    ],
+    "now": "2026-10-23 16:50",
+    "exit": 0
+  },
+  {
+    "editguard": true,
+    "exit": 0
+  },
+  {
+    "run": [
+      "act"
+    ],
+    "exit": 0
+  },
+  {
+    "run": [
+      "close"
+    ],
+    "exit": 0
+  }
+]

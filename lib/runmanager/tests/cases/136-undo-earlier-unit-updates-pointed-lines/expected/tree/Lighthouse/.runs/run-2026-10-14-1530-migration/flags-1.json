@@ -1,0 +1,10 @@
+[
+  {
+    "id": "f1",
+    "rule": "copy-mismatch",
+    "note": "Ideas/idea-tobias.md",
+    "before": "",
+    "after": "- Tobias refuses to eat fish from the bay. #status/provisional",
+    "unit": "b1-u2"
+  }
+]

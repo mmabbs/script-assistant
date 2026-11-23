@@ -1,0 +1,13 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "research",
+      "--run-number",
+      "2"
+    ],
+    "now": "2026-10-11 09:00",
+    "exit": 0
+  }
+]

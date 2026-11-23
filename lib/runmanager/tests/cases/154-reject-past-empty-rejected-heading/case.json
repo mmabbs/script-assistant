@@ -1,0 +1,13 @@
+{
+  "about": "idea-tobias's last live bullet, which the writer tagged #status/rejected, sits directly above an empty '## Rejected' heading. A reject unit moves it below the heading, same text. Line by line, the note can read as the bullet moving down past the heading or as the heading moving up past the bullet; only the first is the record's move. `record` must find the copy below the heading, at a place the snapshot can't account for, and pass to verifying. The unit is approved; `pointers` writes nothing (a reject gets no pointer), so b1-u1 stays approved with pointed_lines []. The real Edit guard gives [] (as its fixture 48 does). `act` goes straight to acted, and `close` puts the moved line on the handled list as `rejected`, pointer null. The log opens with 'Nothing needs you.' and holds only Rejected.",
+  "spec": [
+    "CONTRACT.md 5.3 item 1 (spec 11 Decisions Log item 81); 5.4 items 1, 2; 5.6 items 3, 6",
+    "spec-migrator.md 05.4 item 5; 05.5 item 2",
+    "spec-edit-guard.md 03.1 items 1, 3; 03.2 items 1, 3",
+    "lib/editguard/tests/fixtures/48-reject-move-past-empty-rejected-heading"
+  ],
+  "readings": [
+    "The note, record, and snapshot are the Edit guard fixture's, with the run id changed to this case's.",
+    "The Rejected section of the log is checked only for the moved line's words; its other wording isn't fixed."
+  ]
+}

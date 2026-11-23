@@ -1,0 +1,15 @@
+{
+  "about": "One piece under 2026-09-20 holds two comments, A above the Mara line and B below the Tobias line, and two untagged bullets. u1 moves the Mara line to idea-mara; its record's trigger is kind `comment` with text 'Put it in idea-mara.', which only comment A's words hold. u2 moves the Tobias line to idea-tobias; its trigger is kind `comment` with text 'Agent, put the swim line in idea-tobias.', which no comment in the piece holds (the migrator paraphrased). Both copies are written, then the migration-verifier fails and `findings --failed` undoes both. `pointers` writes nothing, the Edit guard gives [], and the run closes. Under Units undone, u1's entry gets one keep line, for A, right above 'The next migration run tries this again.'; u2's entry gets one keep line for each comment in the piece, A then B, right above it. The log has no questions, so it still opens with 'Nothing needs you.' Both comments and both bullets stay off the handled list.",
+  "spec": [
+    "spec-run-manager.md 11 Decisions Log items 93 and 97 (trigger kind comment; the comment whose words hold the trigger's text, or every comment in the piece when none matches; 'Nothing needs you.' stands)",
+    "spec-run-manager.md 07.3 item 2, entry 7",
+    "plan-run-manager.md Milestone 15, first checkbox, group 1"
+  ],
+  "readings": [
+    "The comment is quoted whole as it reads in the note, `%%` marks included, inside the code marks of 'Keep your comment `…` until this migrates.' (CONTRACT.md 5.2 item 3: a comment's text is the whole block).",
+    "The keep line is its own sub-bullet of the entry, at the same level as 'The next migration run tries this again.', and sits directly above it (the log's existing entry form). log.json checks this by matching the lines as one block with the four-space sub-bullet indent.",
+    "Several keep lines go in the comments' note order.",
+    "Each entry's block is matched from its destination link through 'It was undone because…', the log's existing entry lines, so u1's and u2's keep lines can't be swapped.",
+    "'Words hold the trigger's text' is read as: the comment's text contains the trigger's `text` as a substring."
+  ]
+}

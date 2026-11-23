@@ -1,0 +1,15 @@
+{
+  "about": "Case 126's flags: f1 (writer-line-edited on b1-u1, which a comment started) stands, and only f2 (unexplained-change) goes to the flags call. At judging, `act` is refused (it needs judged), then `findings` is refused with no findings-flags.json, then with seven wrong files (file name says how), each judging f2: no flag at all, an extra flag, f2 twice, asked with a null asked_by, an unknown verdict, not-asked with an asked_by, and an asked_by kind that isn't comment or request. Each exits 1 and changes nothing: had one moved the run on, the last `findings` would be refused at the wrong step. Then a valid file: f2 not asked for. `act` keeps the edit (its flag stood) and removes the added line; acted, next_check 2; the second check comes back [].",
+  "spec": [
+    "CONTRACT.md 5.5 item 4",
+    "spec-migration-verifier.md 05.1 item 2, 05.3",
+    "spec-run-manager.md 01 item 3; 04 item 22 (findings and act rows)",
+    "plan-run-manager.md 04 Milestone 11, test case 2",
+    "spec-migration-verifier.md 06 item 7; 10 item 35",
+    "spec-run-manager.md 05 item 8; 11 item 101"
+  ],
+  "readings": [
+    "A flag id the verify file doesn't hold ('f3') is refused like a missing one: `flags` must hold exactly the verify file's ids.",
+    "Revised 2026-10-23 for Run manager Milestone 16 (spec-migration-verifier.md 06 item 7; spec-run-manager.md 05 item 8 and 11 item 101): f1 now stands, so verify-flags.json holds f2 alone, and each findings file is rewritten to judge f2 with the same single fault it had. The end state is unchanged: f1's change stands as it did when judged asked for."
+  ]
+}

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: 2026-11-10-unasked-edit-committed-contradiction
+context:
+  scaffold_script: fixture.sh

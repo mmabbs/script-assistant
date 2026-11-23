@@ -1,0 +1,31 @@
+{
+  "open_run": null,
+  "history": [
+    {
+      "id": "run-2026-10-14-1530-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-14 15:30",
+      "ended": "2026-10-14 16:10",
+      "how": "closed",
+      "renamed": []
+    }
+  ],
+  "handled": [
+    {
+      "note": "Ideas/idea-tobias.md",
+      "text": "- Tobias was a strong swimmer as a boy. #status/rejected",
+      "outcome": "rejected",
+      "run": "run-2026-10-14-1530-migration",
+      "pointer": null
+    }
+  ],
+  "unit_index": [
+    {
+      "run": "run-2026-10-14-1530-migration",
+      "unit": "b1-u1",
+      "state": "approved",
+      "pointed_lines": []
+    }
+  ]
+}

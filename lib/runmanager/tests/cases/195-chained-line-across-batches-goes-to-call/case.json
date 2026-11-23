@@ -1,0 +1,15 @@
+{
+  "about": "Two batches: the 2026-09-20 piece (20 tagged lines and the writer's comment under the lamp line) is b1, and the 2026-09-21 piece is b2. b1-u1, started by the comment under the lamp line, adds 'then diesel' to it. b2-u1, started by a comment in the 2026-09-21 piece, changes 1958 to 1962 on the line as b1-u1 left it. b2-u2, started by the comment under the harbour line, adds 'and favour' to that line. All three are edit units with trigger kind `comment`, and all are approved. The real Edit guard explains the lamp line by the chain of the two edits and raises writer-line-edited on b1-u1 and on b2-u1, each with its own before and after, and writer-line-edited on b2-u2. Both lamp-line flags are on a line two of the run's units edited in turn, across two batches, so both go to the flags call. The harbour flag stands. verify-flags.json holds the two lamp-line flags and the cut-down b1-u1 and b2-u1, and not the harbour flag or b2-u2. The step is judging.",
+  "spec": [
+    "spec-migration-verifier.md 06 item 7 (third exception: every flag on a line two or more of the run's units edited in turn, in one batch or across two); 10 item 35",
+    "spec-run-manager.md 05 item 8; 11 item 101",
+    "CONTRACT.md 5.4 item 11 (a line two or more of the run's edits changed in turn)",
+    "plan-run-manager.md Milestone 16, test case 2 (a line two units edited in turn, across two batches)"
+  ],
+  "readings": [
+    "flags-1.json is the real Edit guard's output on this case's state, taken by running the steps on 2026-10-23.",
+    "verify-flags.json is the file the current `act` writes on this case's state with the harbour flag and b2-u2 taken out.",
+    "Each record's `sources` holds the lamp line as it read when the run started, and b2-u1's `edits` entry starts from b1-u1's `after`, as case 161's chained edit does.",
+    "The 18 other tagged lines of b1's piece have no unit; the case stops at judging, before `close` would list them."
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "kind": "research",
+  "run_id": "run-2026-10-10-1600-research",
+  "about": "Every fingerprinted note is unchanged: the Brain Dump doc, two Idea Notes, the plot outline, and an older research note (spec-run-manager.md 04 items 9 and 14). The run log in Runs/, a scratch note in llm-files/, and an image in Attachments/ are new, but Runs/ and llm-files/ are never covered and neither is a file that isn't .md (spec-run-manager.md 04 item 9), so none is fingerprint-changed. The one request passed cleanly. No flags."
+}

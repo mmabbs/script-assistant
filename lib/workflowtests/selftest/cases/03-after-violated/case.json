@@ -1,0 +1,65 @@
+{
+  "about": "Must fail an after check: the writer cannot start after a topic call that ends later than it, so we claim topic r1 1 starts after write r1.",
+  "spec": [
+    "CONTRACT.md 02, 03, 05"
+  ],
+  "expect_harness_fail": true,
+  "expect_fail_includes": "after [",
+  "args": {
+    "project": "/abs/Selftest",
+    "topics": [
+      1,
+      2
+    ],
+    "requests": [
+      {
+        "id": "r2"
+      },
+      {
+        "id": "r1"
+      }
+    ]
+  },
+  "answers": {
+    "topic r1 1": [
+      {
+        "result": "found"
+      }
+    ],
+    "topic r1 2": [
+      null,
+      {
+        "result": "found"
+      }
+    ],
+    "write r1": [
+      {
+        "note": "Research/research-x.md"
+      }
+    ],
+    "topic r2 1": [
+      {
+        "$throw": "boom"
+      }
+    ],
+    "topic r2 2": [
+      {
+        "result": "none"
+      }
+    ]
+  },
+  "delay_ms": {
+    "topic r1 1": 30,
+    "topic r1 2": 30,
+    "topic r2 1": 30,
+    "topic r2 2": 30
+  },
+  "expect": {
+    "after": [
+      [
+        "topic r1 1",
+        "write r1"
+      ]
+    ]
+  }
+}

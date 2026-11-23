@@ -1,0 +1,21 @@
+{
+  "batches": [
+    {
+      "batch": "b1",
+      "pieces": [
+        {
+          "note": "brain-dump.md",
+          "heading": "### 2026-10-02",
+          "lines": [
+            {
+              "line": 12,
+              "text": "%% Agent, Tobias belongs in idea-tobias,\nand put the storm night in area-mara too. %%"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": [],
+  "renamed": []
+}

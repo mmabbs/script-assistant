@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: retry-21-no-second-copy
+context:
+  scaffold_script: fixture.sh

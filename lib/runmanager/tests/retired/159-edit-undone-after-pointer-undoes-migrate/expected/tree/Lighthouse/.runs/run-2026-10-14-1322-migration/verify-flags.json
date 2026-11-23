@@ -1,0 +1,43 @@
+{
+  "flags": [
+    {
+      "id": "f1",
+      "rule": "writer-line-edited",
+      "note": "brain-dump.md",
+      "before": "- Mara has never once left the light during a storm.",
+      "after": "- Mara has never once left the light during a storm. #status/provisional",
+      "unit": "b1-u6"
+    },
+    {
+      "id": "f2",
+      "rule": "brain-dump-status-tag",
+      "note": "brain-dump.md",
+      "before": "- Mara has never once left the light during a storm.",
+      "after": "- Mara has never once left the light during a storm. #status/provisional",
+      "unit": "b1-u6"
+    }
+  ],
+  "units": {
+    "b1-u6": {
+      "id": "u6",
+      "action": "edit",
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Mara has never once left the light during a storm."
+        }
+      ],
+      "copies": [],
+      "edits": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "before": "- Mara has never once left the light during a storm.",
+          "after": "- Mara has never once left the light during a storm. #status/provisional"
+        }
+      ],
+      "status": "provisional"
+    }
+  }
+}

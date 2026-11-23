@@ -1,0 +1,6 @@
+[
+  {"run": ["status"], "now": "2026-10-10 16:00"},
+  {"copy": "files/new.md", "to": "Ideas/new.md"},
+  {"delete": "Ideas/gone.md"},
+  {"run": ["init"], "exit": 1, "stderr": "already exists"}
+]

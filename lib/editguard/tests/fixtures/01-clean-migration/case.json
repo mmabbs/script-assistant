@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "A clean migration: a plain copy and a split, one copy opening with a heading it adds, every pointer correct. Every added line is a copies line in the note its record names (spec-edit-guard.md 03.2 item 1; spec-migrator.md 05.5 item 6), and each pointer is a Run manager addition stripped before comparing (spec-edit-guard.md 03.1 item 2). The copies carry the writer's own tag, so no status-tag rule fires (spec-edit-guard.md 04 items 2 and 3). No flags."
+}

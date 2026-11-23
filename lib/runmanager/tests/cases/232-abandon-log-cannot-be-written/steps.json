@@ -1,0 +1,39 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "research",
+      "--run-number",
+      "2"
+    ],
+    "now": "2026-10-10 16:00",
+    "exit": 0
+  },
+  {
+    "run": [
+      "recover"
+    ],
+    "now": "2026-10-10 16:10",
+    "exit": 0
+  },
+  {
+    "chmod": "Runs",
+    "mode": "555"
+  },
+  {
+    "run": [
+      "abandon"
+    ],
+    "now": "2026-10-10 16:20",
+    "exit": 0,
+    "stdout": [
+      "Abandoned run, for run-2026-10-10-1600-research.",
+      "This run was closed without its last checks. Below is what was never checked.",
+      "## Never checked",
+      "Markup wasn't checked after the run's last edit.",
+      "## Other notes",
+      ".runs/run-2026-10-10-1600-research/snapshot/"
+    ]
+  }
+]

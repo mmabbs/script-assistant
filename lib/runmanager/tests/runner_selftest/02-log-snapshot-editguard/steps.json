@@ -1,0 +1,5 @@
+[
+  {"delete": ".runs/run-old/snapshot"},
+  {"editguard": true},
+  {"run": ["status"]}
+]

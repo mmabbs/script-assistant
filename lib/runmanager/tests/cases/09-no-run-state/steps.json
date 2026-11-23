@@ -1,0 +1,14 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "research",
+      "--run-number",
+      "2"
+    ],
+    "now": "2026-10-10 16:00",
+    "exit": 1,
+    "stderr": "init"
+  }
+]

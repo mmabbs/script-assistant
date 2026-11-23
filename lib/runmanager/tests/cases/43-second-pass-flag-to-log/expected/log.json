@@ -1,0 +1,34 @@
+{
+  "file": "Runs/run-2026-10-10-1600-research.md",
+  "first_line": "Research run 2, started 2026-10-10 16:00.",
+  "sections": [
+    {
+      "heading": "Notes changed outside the run",
+      "contains": [
+        "area-mara",
+        "Mara has not left the headland overnight in eleven years."
+      ]
+    },
+    {
+      "heading": "Done",
+      "contains": [
+        "Could a lone keeper legally refuse a relief posting?",
+        "research-light-relief-postings"
+      ]
+    },
+    {
+      "heading": "Still flagged after the second check",
+      "contains": [
+        "unexplained-change",
+        "area-mara",
+        "Keepers were paid quarterly, in arrears."
+      ]
+    }
+  ],
+  "absent": [
+    "Requests still open",
+    "Closes undone"
+  ],
+  "contains": [],
+  "nothing_needs_you": false
+}

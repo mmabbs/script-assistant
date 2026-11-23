@@ -1,0 +1,19 @@
+{
+  "flags": [
+    {
+      "flag": "f1",
+      "verdict": "not-asked",
+      "asked_by": null
+    },
+    {
+      "flag": "f2",
+      "verdict": "asked",
+      "asked_by": {
+        "kind": "request",
+        "note": "",
+        "line": null,
+        "text": "Fix the typo 'keper' wherever you see it."
+      }
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "about": "Added: spec 04 item 15 skips any topic whose prerequisite has no findings file, and names failed as well as none; case 10 covers only none and one level. Topic 1 answers failed three times. Topic 2 waits on topic 1, so it is skipped. Topic 3 waits on topic 2, which has no file because it was skipped, so it is skipped too. Topic 4 waits on nothing and finds something. The note passes on topic 4, with topics 1, 2, and 3 in failed_topics.",
+  "spec": [
+    "spec-research-workflow.md 04 item 15",
+    "spec-research-workflow.md 04 item 11",
+    "spec-research-workflow.md 11 Decisions Log item 88",
+    "spec-run-manager.md 11 Decisions Log item 64"
+  ],
+  "args": {
+    "project": "/Users/writer/Projects/Copper Coast",
+    "run_id": "run-2026-10-08-1400-research",
+    "requests": [
+      {
+        "id": "r1",
+        "note": "Ideas/idea-harrow-point.md",
+        "line": 15,
+        "text": "- [r] How did printed tide tables reach small villages in the 1950s? #research/run-2",
+        "comment": "%% Look for printed almanacs. %%"
+      }
+    ]
+  },
+  "answers": {
+    "plan r1": [
+      {
+        "research_topic": "tide-tables",
+        "topics": [
+          {
+            "n": 1,
+            "waits_on": []
+          },
+          {
+            "n": 2,
+            "waits_on": [
+              1
+            ]
+          },
+          {
+            "n": 3,
+            "waits_on": [
+              2
+            ]
+          },
+          {
+            "n": 4,
+            "waits_on": []
+          }
+        ]
+      }
+    ],
+    "topic r1 1": [
+      {
+        "result": "failed"
+      },
+      {
+        "result": "failed"
+      },
+      {
+        "result": "failed"
+      }
+    ],
+    "topic r1 4": [
+      {
+        "result": "found"
+      }
+    ],
+    "write r1": [
+      {
+        "note": "Research/research-tide-tables.md"
+      }
+    ],
+    "check r1": [
+      {
+        "verdict": "pass",
+        "problems": []
+      }
+    ]
+  },
+  "expect": {
+    "result": [
+      {
+        "request": "r1",
+        "outcome": "passed",
+        "note": "Research/research-tide-tables.md",
+        "reason": null,
+        "failed_topics": [
+          "topic 1 (failed after retries)",
+          "topic 2 (skipped: a topic it waits on found nothing)",
+          "topic 3 (skipped: a topic it waits on found nothing)"
+        ]
+      }
+    ],
+    "calls": {
+      "topic r1 1": {
+        "count": 3
+      },
+      "topic r1 4": {
+        "count": 1
+      },
+      "write r1": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-4.md"
+        ],
+        "prompt_excludes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-1.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-2.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-3.md"
+        ]
+      }
+    },
+    "not_called": [
+      "topic r1 2",
+      "topic r1 3"
+    ]
+  }
+}

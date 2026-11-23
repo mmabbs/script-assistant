@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "Three status tags in an Area Note that area-note-status-tag must not flag. (1) The graduated copy dropped its tag (migrator-rules.md 03.7). (2) #status/rejected on the line a reject unit moved into the Rejected section passes (spec-edit-guard.md 04 item 3). (3) #status/provisional is a tag the writer typed; an edits entry the writer's comment asked for changed a word on that line but kept the tag. A tag the writer typed is never flagged (04 item 3), so fixture worker's reading: on a changed line, only a tag the before text lacked counts as one the run added. The edit is still writer-line-edited on b1-u2 (04 item 1)."
+}

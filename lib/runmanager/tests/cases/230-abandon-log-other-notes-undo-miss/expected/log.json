@@ -1,0 +1,19 @@
+{
+  "file": "Runs/run-2026-10-14-1655-abandon.md",
+  "first_line": "Abandoned run, for run-2026-10-14-1530-migration.",
+  "second_line": "This run was closed without its last checks. Below is what was never checked.",
+  "sections": [
+    {
+      "heading": "Other notes",
+      "contains": [
+        "- Tobias worked the ferry every summer. #status/tentative",
+        "idea-tobias",
+        ".runs/run-2026-10-14-1530-migration/snapshot/"
+      ]
+    }
+  ],
+  "absent": [
+    "Copies still in your notes",
+    "Your request"
+  ]
+}

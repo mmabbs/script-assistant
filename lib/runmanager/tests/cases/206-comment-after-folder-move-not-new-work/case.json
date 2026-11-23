@@ -1,0 +1,12 @@
+{
+  "about": "The writer moved the project folder from Lighthouse to Lighthouse-Isle after the last run. Obsidian rewrote the prefix in the pointer and in the comment under the count line, whose link names Ideas/idea-mara. The comment's link still names the same path inside the project, whatever the project folder is called, so it counts as unchanged and is not new work. The pointer line matches by text with targets left out. Nothing is new: `start` exits 1 with 'No new work since the last migration run.' and the run state is unchanged.",
+  "spec": [
+    "spec-run-manager.md 07.1 item 11 ('names the same path inside the project, whatever the project folder is called')",
+    "spec-run-manager.md 11 Decisions Log item 103",
+    "CONTRACT.md 5.1 item 5",
+    "plan-run-manager.md Milestone 17, first checkbox, item 2 ('a comment after the project folder moves is not new work')"
+  ],
+  "readings": [
+    "The old code skipped the pointer line here (one candidate), so the comment alone makes this case fail on the old code."
+  ]
+}

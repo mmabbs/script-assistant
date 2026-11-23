@@ -1,0 +1,10 @@
+{
+  "about": "A comment on its own line under 2026-09-03, after a blank line, scopes six untagged bullets. The comment is new work (its text isn't on the handled list); the untagged bullets aren't trigger lines, so the piece's lines hold only the comment. Because the piece holds a new comment, its size is every bullet in it: 6. 2026-09-01 comes first with 15 new tagged bullets and fills b1 to 15. Adding 6 would make 21, so 2026-09-03 starts b2. (If the comment piece counted as 0 or 1, it would wrongly join b1.)",
+  "spec": [
+    "spec-run-manager.md 04 items 4, 21",
+    "spec-run-manager.md 07.2 item 1",
+    "spec-run-manager.md 11 Decisions Log item 73",
+    "CONTRACT.md 5.2 items 3, 11, 12",
+    "plan-run-manager.md 04 Milestone 8: a comment on its own under a date heading"
+  ]
+}

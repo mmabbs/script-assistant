@@ -1,0 +1,12 @@
+{
+  "about": "The writer renamed Ideas/idea-mara.md to Ideas/mara-keeper.md. The meeting line is a copy in both idea-tobias and the renamed note, with one handled entry for each: the one under the old path comes first in the handled list. idea-tobias scans before mara-keeper (path order). Each story note's lines are matched against their own entries first, so idea-tobias's meeting line takes idea-tobias's entry and leaves the old-path entry alone. Only then are mara-keeper's unmatched lines compared with the old-path entries, and both its tagged lines match. Nothing in either Idea Note is new work, and the one rename is idea-mara to mara-keeper. A scan that let idea-tobias take the old-path entry would hand mara-keeper's meeting line back as new work and save a wrong rename to idea-tobias.",
+  "spec": [
+    "spec-run-manager.md 07.1 item 12 ('Each story note's lines are first matched against the handled entries that name that story note. Lines still unmatched are then compared ...')",
+    "spec-run-manager.md 11 Decisions Log item 104",
+    "plan-run-manager.md Milestone 17, first checkbox, item 3 ('each story note's lines are matched against its own entries first, so a line that also sits in another story note isn't taken from it')"
+  ],
+  "readings": [
+    "The own-entries pass runs over every story note before any line is compared with the entries whose note no longer exists (item 12's 'first ... then').",
+    "The renamed note's name, mara-keeper, is picked so it scans after idea-tobias; otherwise a one-pass scan would pass by luck."
+  ]
+}

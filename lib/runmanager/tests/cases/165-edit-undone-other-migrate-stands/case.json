@@ -1,0 +1,10 @@
+{
+  "about": "As case 166's batch, with a third unit: u6 tags the storm line and u8 rewords the tagged line, both started by the comment under it; u7 migrates the line; u9 migrates another line of the same piece, the writer's own provisional line about the supply boat captain, to idea-mara-lighthouse. Since u6 and u8 edited the storm line in turn, all three of its flags go to the flags call although a comment started both units. u6's two flags are judged not asked for and u8's asked. `act` undoes u6, u8 first because it built on u6's edit, and u7 with them, since u7's source is the line u6's edit changed. u9's source is a line no undone edit changed, so it stands: its copy and its pointer stay, and it is still pointer-written (CONTRACT.md 5.3 item 13). The second check raises nothing. At `close`, u9's source line goes on the handled list as migrated and its copy as written. The comment's piece holds the undone units' source line, so every comment in it stays off (5.6 item 3), and the next run hands the piece back.",
+  "spec": [
+    "CONTRACT.md 5.3 item 13; 5.5 items 5, 6; 5.6 items 3, 6",
+    "spec-migration-verifier.md 06 item 7 (third exception: a line two or more of the run's units edited in turn)"
+  ],
+  "readings": [
+    "Revised 2026-10-23 for Run manager Milestone 16 (plan-run-manager.md 06 item 14, reading 5): u8, a second edit on the storm line, is added so the line is edited in turn and u6's flags still reach the flags call; with u6 alone, a comment-started approved unit, its flags would stand and nothing would be undone. f3 (u8) is judged asked; u8 is undone anyway because it built on u6, as in case 166, and an asked flag on a unit undone anyway stays out of Other edits you asked for (CONTRACT.md 5.6 item 6). flags-1.json, verify-flags.json, the unit index (b1-u8 added, undone), and the log's Units undone are updated; the notes, the handled list, flags-2.json, and undo-misses.json are unchanged."
+  ]
+}

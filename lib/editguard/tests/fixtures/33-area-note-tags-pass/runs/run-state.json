@@ -1,0 +1,31 @@
+{
+  "open_run": {
+    "run": "run-2026-10-10-1530-migration",
+    "kind": "migration",
+    "step": "edit-guard"
+  },
+  "history": [],
+  "handled": [],
+  "unit_index": [
+    {
+      "run": "run-2026-10-10-1530-migration",
+      "unit": "b1-u1",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Mara repaints the lamp room every spring. #status/committed [migrated-to:: [[Projects/Lighthouse/Areas/area-mara|area-mara]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-10-1530-migration",
+      "unit": "b1-u2",
+      "state": "approved",
+      "pointed_lines": []
+    },
+    {
+      "run": "run-2026-10-10-1530-migration",
+      "unit": "b1-u3",
+      "state": "approved",
+      "pointed_lines": []
+    }
+  ]
+}

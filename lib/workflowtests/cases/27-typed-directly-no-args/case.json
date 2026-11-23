@@ -1,0 +1,10 @@
+{
+  "about": "The workflow is run with empty args. With no project, run id, or requests, the workflow stops before any agent and returns an empty list.",
+  "spec": ["task note: Research workflow slash command (2026-10-25); the guard in lib/research.js"],
+  "args": {},
+  "answers": {},
+  "expect": {
+    "result": [],
+    "not_called": ["plan r1"]
+  }
+}

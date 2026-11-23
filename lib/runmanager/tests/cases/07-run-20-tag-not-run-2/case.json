@@ -1,0 +1,7 @@
+{
+  "about": "Run 2's tag must match exactly. One Idea Note holds a request tagged #research/run-20 and one tagged #research/run-2; another holds only a #research/run-20 request. start for run 2 picks up only the #research/run-2 line, copies only its note, and fingerprints the note with only run-20 requests.",
+  "spec": [
+    "CONTRACT.md 4 item 8",
+    "spec-run-manager.md 02 items 3 and 5"
+  ]
+}

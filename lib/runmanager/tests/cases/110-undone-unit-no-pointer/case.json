@@ -1,0 +1,9 @@
+{
+  "about": "The migrator failed partway: u1's copy is in idea-tobias, u2 wrote nothing. `record --failed` sends u1 on and undoes u2, which joins the unit index first, as undone. u1 is approved and the run reaches batches-done. `pointers` writes u1's pointer only; u2's source line stays as it was, and b1-u2 stays undone with pointed_lines []. The real Edit guard gives [] (it skips undone units).",
+  "spec": [
+    "CONTRACT.md 5.4 items 1, 7, 8, 11; 5.3 items 6, 10",
+    "spec-run-manager.md 05 item 1 ('A unit that never passes is undone and gets no pointer'); 09.1 item 6",
+    "spec-edit-guard.md 02 item 4",
+    "plan-run-manager.md 04 Milestone 10"
+  ]
+}

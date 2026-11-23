@@ -1,0 +1,59 @@
+{
+  "about": "Must fail: this case runs script-forbidden.js, which calls Date.now().",
+  "spec": [
+    "CONTRACT.md 02, 03, 05"
+  ],
+  "script": "../../script-forbidden.js",
+  "expect_harness_fail": true,
+  "expect_fail_includes": "Date.now()",
+  "args": {
+    "project": "/abs/Selftest",
+    "topics": [
+      1,
+      2
+    ],
+    "requests": [
+      {
+        "id": "r2"
+      },
+      {
+        "id": "r1"
+      }
+    ]
+  },
+  "answers": {
+    "topic r1 1": [
+      {
+        "result": "found"
+      }
+    ],
+    "topic r1 2": [
+      null,
+      {
+        "result": "found"
+      }
+    ],
+    "write r1": [
+      {
+        "note": "Research/research-x.md"
+      }
+    ],
+    "topic r2 1": [
+      {
+        "$throw": "boom"
+      }
+    ],
+    "topic r2 2": [
+      {
+        "result": "none"
+      }
+    ]
+  },
+  "delay_ms": {
+    "topic r1 1": 30,
+    "topic r1 2": 30,
+    "topic r2 1": 30,
+    "topic r2 2": 30
+  },
+  "expect": {}
+}

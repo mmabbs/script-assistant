@@ -1,0 +1,9 @@
+{
+  "about": "Four requests in one Idea Note. r1 passed with a failed topic (Done, with the topic). r2 passed, but a stray write moved its link line below its comment, so act undoes the close (Closes undone, with its reason). r3 failed and left a note (Requests still open, naming the failed note; the history entry's failed list holds it). r4 had no findings (Requests still open). A stray write also changed a line in the same request note; act puts it back, and the log quotes the removed text under Notes changed outside the run. The second check finds nothing, so 'Still flagged after the second check' is absent. The four sections appear in the spec's order. Reading: 'its note link' for an open request is a link to the note holding the request, here idea-harrow-point.",
+  "spec": [
+    "plan-run-manager.md 03 Milestone 5 item 1",
+    "spec-run-manager.md 06.1 items 2 and 3",
+    "spec-run-manager.md 04 item 17",
+    "spec-edit-guard.md 06 items 2 and 3"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "file": "Runs/run-2026-10-23-1530-migration.md",
+  "first_line": "Migration run, started 2026-10-23 15:30.",
+  "sections": [
+    {
+      "heading": "Migrated",
+      "contains": [
+        "`- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional"
+      ]
+    },
+    {
+      "heading": "Units undone",
+      "contains": [
+        "`- Tobias worked summers on the ferry to the mainland.`",
+        "`- The ferry stops running when the swell comes from the east. #status/tentative`",
+        "The run wrote your request as a comment under this line: `- Tobias worked summers on the ferry to the mainland.`. Keep it until this migrates.",
+        "The run wrote your request as a comment under this line: `- The ferry stops running when the swell comes from the east. #status/tentative`. Keep it until this migrates.",
+        "Keep it until this migrates.\n    - The next migration run tries this again."
+      ]
+    }
+  ],
+  "absent": [
+    "Questions for you",
+    "Rejected",
+    "Other edits you asked for",
+    "Left in place, and why",
+    "Could not do",
+    "Lines the checker says were missed",
+    "Changes put back",
+    "Other notes"
+  ],
+  "contains": [
+    "Your request: \"put the ferry lines in idea-tobias\"",
+    "Nothing needs you."
+  ],
+  "nothing_needs_you": false
+}

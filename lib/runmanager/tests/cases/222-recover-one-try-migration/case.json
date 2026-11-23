@@ -1,0 +1,14 @@
+{
+  "about": "A migration run at 'verifying': u1 copied the Mara line to idea-mara, u2 the Tobias line to idea-tobias, and `record` passed. `Ideas/` is made read-only, so recover's undo fails on its first note (b1-u2, newest first). recover exits 1. The open run holds `recover_tried: true`, saved before the undo; no unit was undone, so the unit index is still empty and both copies are still in their notes. With `Ideas/` writable again, a second recover exits 1 with \"Recover already ran once on run-2026-10-14-1530-migration. Type /script-asst:run abandon.\" and changes nothing.",
+  "spec": [
+    "spec-run-manager.md 09.2 items 3 and 6",
+    "spec-run-manager.md 04 item 16",
+    "spec-run-manager.md 11 item 108",
+    "plan-run-manager.md Milestone 18, second checkbox, item 1"
+  ],
+  "readings": [
+    "`write_note_whole` swaps a temp file in beside the note (test_skeleton.py, test_write_note_whole_*), so a read-only note alone can't stop the write; the case makes the note's folder read-only (mode 555) with the runner's `chmod` step, and gives it back (755) before the next command.",
+    "The crashed recover is expected to exit 1: the spec doesn't name a code for a recover that fails partway; an uncaught error and a refusal both give 1 (CONTRACT.md 1 item 2).",
+    "After a recover that failed before its work was done, the open run is the crashed run's, unchanged, plus `recover_tried: true` and nothing else: no `recovering` key and the step it had. 09.2 item 6 says only the mark is saved first; CONTRACT.md 4 item 4's `recovering` is saved after the work (spec 11 item 108)."
+  ]
+}

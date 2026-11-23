@@ -1,0 +1,22 @@
+{
+  "batch": "b1",
+  "round": 0,
+  "units": [
+    {
+      "unit": "u1",
+      "verdict": "approve",
+      "problems": []
+    },
+    {
+      "unit": "u2",
+      "verdict": "approve",
+      "problems": []
+    },
+    {
+      "unit": "u3",
+      "verdict": "approve",
+      "problems": []
+    }
+  ],
+  "missed": []
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "request": "r1",
+    "outcome": "passed",
+    "note": "Research/research-light-keeper-wages-2026-10-12.md",
+    "reason": null,
+    "failed_topics": []
+  },
+  {
+    "request": "r2",
+    "outcome": "failed",
+    "note": null,
+    "reason": "Every researcher failed after retries.",
+    "failed_topics": []
+  }
+]

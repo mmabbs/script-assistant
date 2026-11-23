@@ -1,0 +1,65 @@
+{
+  "open_run": {
+    "id": "run-2026-10-14-1530-migration",
+    "kind": "migration",
+    "run_number": null,
+    "request": null,
+    "step": "migrating",
+    "next_check": null,
+    "started": "2026-10-14 15:30",
+    "batch": 1,
+    "round": 0
+  },
+  "history": [
+    {
+      "id": "run-2026-10-07-1000-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-07 10:00",
+      "ended": "2026-10-07 10:50",
+      "how": "closed"
+    }
+  ],
+  "handled": [
+    {
+      "note": "brain-dump.md",
+      "text": "- Mara counts the steps to the lamp room every night. #status/committed [migrated-to:: [[Projects/Lighthouse/Areas/area-mara|area-mara]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-07-1000-migration",
+      "pointer": [
+        "Areas/area-mara.md"
+      ]
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- The fog signal sounds every thirty seconds. #status/committed [migrated-to:: [[Projects/Lighthouse/Ideas/idea-fog-signal|idea-fog-signal]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-07-1000-migration",
+      "pointer": [
+        "Ideas/idea-fog-signal.md"
+      ]
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- Tobias keeps a rowing boat tied up under the pier. #status/provisional",
+      "outcome": "left in place",
+      "run": "run-2026-10-07-1000-migration",
+      "pointer": null
+    },
+    {
+      "note": "Areas/area-mara.md",
+      "text": "- Mara counts the steps to the lamp room every night. #status/committed",
+      "outcome": "written",
+      "run": "run-2026-10-07-1000-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-fog-signal.md",
+      "text": "- The fog signal sounds every thirty seconds. #status/committed",
+      "outcome": "written",
+      "run": "run-2026-10-07-1000-migration",
+      "pointer": null
+    }
+  ],
+  "unit_index": []
+}

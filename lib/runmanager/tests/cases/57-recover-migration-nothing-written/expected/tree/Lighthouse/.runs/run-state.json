@@ -1,0 +1,40 @@
+{
+  "open_run": null,
+  "history": [
+    {
+      "id": "run-2026-10-02-2015-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-02 20:15",
+      "ended": "2026-10-02 20:40",
+      "how": "closed"
+    },
+    {
+      "id": "run-2026-10-10-1530-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-10 15:30",
+      "ended": "2026-10-10 15:45",
+      "how": "recovered"
+    }
+  ],
+  "handled": [
+    {
+      "note": "brain-dump.md",
+      "text": "- Mara keeps a logbook and has never let anyone read it. #status/committed [migrated-to:: [[Projects/Lighthouse/Areas/area-mara|area-mara]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": [
+        "Areas/area-mara.md"
+      ]
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "%% Agent, area-mara. %%",
+      "outcome": "comment",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    }
+  ],
+  "unit_index": []
+}

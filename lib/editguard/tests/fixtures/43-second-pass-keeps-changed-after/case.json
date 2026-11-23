@@ -1,0 +1,6 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "pass": 2,
+  "about": "Second pass. The first pass's unexplained-change on the village line (two hundred to three hundred) was judged asked. The line now reads 'three hundred and fifty': same rule, note, and before, but a different after, so it doesn't match and is kept (spec-edit-guard.md 07 item 2). The clean migrate unit raises nothing."
+}

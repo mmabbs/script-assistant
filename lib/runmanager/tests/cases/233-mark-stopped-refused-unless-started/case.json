@@ -1,0 +1,11 @@
+{
+  "about": "`mark --stopped` with no open run exits 1. Then a research run starts, its outcomes file is saved, and `mark` closes both requests: the run is at 'marked'. `mark --stopped` now exits 1 too, and changes nothing: the open run has no `stopped` key and the notes keep their link lines and closes.",
+  "spec": [
+    "spec-run-manager.md 04 item 18 (mark --stopped needs 'started')",
+    "spec-run-manager.md 09.4 items 2 and 5",
+    "plan-run-manager.md Milestone 18, second checkbox, item 6"
+  ],
+  "readings": [
+    "The refusals' words aren't in the spec, so only exit codes are checked."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, idea-harrow-point."
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 10,
+          "text": "- The harbour office keeps the tide tables in a tin trunk."
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-harrow-point.md",
+          "under": "# Idea - Harrow Point",
+          "lines": [
+            "- The harbour office keeps the tide tables in a tin trunk."
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "tentative",
+      "status_from": "default",
+      "why": "See the comment."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

@@ -1,0 +1,8 @@
+{
+  "about": "`pointers` needs batches-done. It exits 1 at migrating (right after start) and at verifying (after record), and changes nothing: no pointer appears early. After findings brings the run to batches-done it runs. A second `pointers` at pointed exits 1 and doesn't add the destination again. The end state is one pointer and the run at pointed with next_check 1.",
+  "spec": [
+    "CONTRACT.md 5.4 item 1",
+    "spec-run-manager.md 01 item 3; 04 item 22 (pointers row); 11 Decisions Log item 51",
+    "plan-run-manager.md 04 Milestone 10"
+  ]
+}

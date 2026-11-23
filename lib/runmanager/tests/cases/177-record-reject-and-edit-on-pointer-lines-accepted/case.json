@@ -1,0 +1,14 @@
+{
+  "about": "Two units on lines that already carry a pointer from an earlier run, each with copies in a note that is checked against no pointer. In the Brain Dump, the Tobias rowing line points to idea-tobias and is handled; the writer has added a comment under it asking for a line in idea-tobias. u1 is an `edit` unit whose source is that pointer line and whose copy adds the line to idea-tobias, the very note the pointer names. In idea-mara, a line that graduated to area-mara now carries #status/rejected in place of #status/committed, so it is new work; u2 is a `reject` unit that moves it to idea-mara's Rejected section. `record` accepts both: only `migrate` units' copies are checked against the source line's pointer. Exit 0, verifying, fixing [u1, u2].",
+  "spec": [
+    "spec-run-manager.md 11 Decisions Log item 95 (Claude's reading: only `migrate` units' copies are checked)",
+    "spec-run-manager.md 08.2 item 1",
+    "plan-run-manager.md Milestone 15, first checkbox, group 2"
+  ],
+  "readings": [
+    "An `edit` unit may carry `copies` (CONTRACT.md 5.6 item 3 counts 'each trigger line in a counted migrate or edit unit's copies'). That is the only way an edit unit can put a line in the note its source's pointer names, so it is the part of this case that can catch a check run on every action.",
+    "A reject unit's copy stays in its own note (spec-migrator.md 05.4 item 5), and a line never points to its own note, so the reject half can't be refused by a check of the right note; it is here because the plan names it.",
+    "The reject copy keeps the line's pointer: the record copies the line as it reads, tag and pointer included.",
+    "This case may pass before the Milestone 15 code: it guards against a refusal that is too wide."
+  ]
+}

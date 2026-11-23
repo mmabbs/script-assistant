@@ -1,0 +1,14 @@
+{
+  "flags": [
+    {
+      "flag": "f2",
+      "verdict": "not-asked",
+      "asked_by": {
+        "kind": "comment",
+        "note": "Ideas/idea-mara.md",
+        "line": 11,
+        "text": "%% Agent, it's one hundred and twelve steps, not a hundred. %%"
+      }
+    }
+  ]
+}

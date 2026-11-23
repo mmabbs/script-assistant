@@ -1,0 +1,15 @@
+{
+  "about": "A research run at 'started' with its outcomes file saved: both requests passed. `Ideas/` is made read-only, so recover's `mark` closes r1 in Areas/area-mara.md and then fails writing r2's note. recover exits 1. The open run still holds the crashed run, now with `recover_tried: true`, saved before any note was edited. With `Ideas/` writable again, a second recover exits 1 with \"Recover already ran once on run-2026-10-10-1600-research. Type /script-asst:run abandon.\" and changes nothing: r2 stays open, with no link line.",
+  "spec": [
+    "spec-run-manager.md 09.2 item 6",
+    "spec-run-manager.md 04 item 16",
+    "spec-run-manager.md 11 item 108",
+    "plan-run-manager.md Milestone 18, second checkbox, item 1"
+  ],
+  "readings": [
+    "`write_note_whole` swaps a temp file in beside the note (test_skeleton.py, test_write_note_whole_*), so a read-only note alone can't stop the write; the case makes the note's folder read-only (mode 555) with the runner's `chmod` step, and gives it back (755) before the next command.",
+    "The crashed recover is expected to exit 1: the spec doesn't name a code for a recover that fails partway; an uncaught error and a refusal both give 1 (CONTRACT.md 1 item 2).",
+    "After a recover that failed before its work was done, the open run is the crashed run's, unchanged, plus `recover_tried: true` and nothing else: no `recovering` key and the step it had. 09.2 item 6 says only the mark is saved first; CONTRACT.md 4 item 4's `recovering` is saved after the work (spec 11 item 108).",
+    "mark takes requests in the requests file's order (r1 in Areas/ before r2 in Ideas/), so r1 is closed before the failure. If it wrote r2 first, area-mara.md would be unchanged here."
+  ]
+}

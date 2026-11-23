@@ -1,0 +1,5 @@
+{
+  "kind": "research",
+  "run_id": "run-2026-10-10-1600-research",
+  "about": "r1 passed cleanly. r2 failed and stays open, and its outcome names the note that was written and failed its check, research-light-keeper-wages. A failed outcome carries the note's path when a note was written (spec-run-manager.md 11 item 59), so the note is named and passes unexpected-research-note (spec-edit-guard.md 04 item 7). No flags."
+}

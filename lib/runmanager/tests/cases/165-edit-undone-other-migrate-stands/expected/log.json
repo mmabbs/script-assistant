@@ -1,0 +1,32 @@
+{
+  "file": "Runs/run-2026-10-14-1322-migration.md",
+  "first_line": "Migration run, started 2026-10-14 13:22.",
+  "sections": [
+    {
+      "heading": "Migrated",
+      "contains": [
+        "`- The supply boat captain calls her \"Miss Quill\" and nobody else does. #status/provisional` in [[Projects/Lighthouse/brain-dump|brain-dump]] went to [[Projects/Lighthouse/Ideas/idea-mara-lighthouse|idea-mara-lighthouse]]"
+      ]
+    },
+    {
+      "heading": "Units undone",
+      "contains": [
+        "It was undone because a change it made wasn't asked for:",
+        "It was undone because it changed a line the run had already edited, and that earlier edit was undone.",
+        "It was undone because the run's edit to this line was undone, so the copy made from the edited line came out too."
+      ]
+    }
+  ],
+  "absent": [
+    "Questions for you",
+    "Other edits you asked for",
+    "Lines the checker says were missed",
+    "Changes put back",
+    "Rejected",
+    "Left in place, and why",
+    "Could not do",
+    "Other notes"
+  ],
+  "contains": [],
+  "nothing_needs_you": true
+}

@@ -1,0 +1,9 @@
+{
+  "about": "The writer renamed Areas/area-mara.md to Areas/area-mara-quill.md. Its two committed copies are on the handled list under the old path, which no longer exists. Area-mara-quill's lines match no entry for its own path, so they are compared with the entries whose story note no longer exists, and both match: they are not new work, and the match is saved as a rename. The only new work is the supply boat line in the Brain Dump. batches.json holds that one piece and `renamed` [{from Areas/area-mara.md, to Areas/area-mara-quill.md}]. The handled list is unchanged until close.",
+  "spec": [
+    "spec-run-manager.md 07.1 item 12",
+    "spec-run-manager.md 04 item 21",
+    "spec-run-manager.md 11 Decisions Log item 104",
+    "plan-run-manager.md Milestone 17, first checkbox, item 3 ('the same for a renamed Area Note')"
+  ]
+}

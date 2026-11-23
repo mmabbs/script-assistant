@@ -1,0 +1,12 @@
+{
+  "about": "Round 0 approves u1 and sends u2 to round 1. On round 1 the migrator fails before touching any note and leaves a broken record file. `record` refuses; then `record --failed` on the fix round puts the last valid copy (round 0's) back as the record file and undoes u2, the unit in fixing, from it: u2's round 0 copy leaves idea-mara. u1 stays approved. No unit is left to fix, so the run moves on as after a findings step: one batch, so batches-done. The record file ends as the round 0 record.",
+  "spec": [
+    "CONTRACT.md 5.3 items 6 (third bullet), 8 (last bullet), 10",
+    "spec-migrator.md 09 item 3",
+    "plan-run-manager.md 04 Milestone 9"
+  ],
+  "readings": [
+    "After `record --failed` on a fix round undoes the fixing units, the run moves on as in CONTRACT.md 5.3 item 8's last bullet (the contract doesn't say; it isn't batch-failed, since the batch had units).",
+    "After batches-done, round is 0."
+  ]
+}

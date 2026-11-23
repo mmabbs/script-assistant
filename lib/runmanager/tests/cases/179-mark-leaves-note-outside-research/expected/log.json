@@ -1,0 +1,26 @@
+{
+  "file": "Runs/run-2026-10-23-1600-research.md",
+  "first_line": "Research run 2, started 2026-10-23 16:00.",
+  "sections": [
+    {
+      "heading": "Closes undone",
+      "contains": [
+        "How often did the relief boat reach a rock light in winter?",
+        "The request is open again."
+      ]
+    },
+    {
+      "heading": "Notes changed outside the run",
+      "contains": [
+        "research-light-relief-boat"
+      ]
+    }
+  ],
+  "absent": [
+    "Requests still open",
+    "Done",
+    "Still flagged after the second check"
+  ],
+  "contains": [],
+  "nothing_needs_you": false
+}

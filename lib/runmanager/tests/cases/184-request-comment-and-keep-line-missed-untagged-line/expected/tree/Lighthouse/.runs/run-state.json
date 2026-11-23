@@ -1,0 +1,42 @@
+{
+  "open_run": null,
+  "history": [
+    {
+      "id": "run-2026-10-23-1530-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-23 15:30",
+      "ended": "2026-10-23 16:10",
+      "how": "closed",
+      "renamed": []
+    }
+  ],
+  "handled": [
+    {
+      "note": "Ideas/idea-tobias.md",
+      "text": "- Tobias can't swim, so the ferry job scares him. #status/provisional",
+      "outcome": "written",
+      "run": "run-2026-10-23-1530-migration",
+      "pointer": null
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- Tobias can't swim, which is why the ferry job scares him. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-23-1530-migration",
+      "pointer": [
+        "Ideas/idea-tobias.md"
+      ]
+    }
+  ],
+  "unit_index": [
+    {
+      "run": "run-2026-10-23-1530-migration",
+      "unit": "b1-u1",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Tobias can't swim, which is why the ferry job scares him. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]"
+      ]
+    }
+  ]
+}

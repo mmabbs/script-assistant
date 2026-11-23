@@ -1,0 +1,56 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, idea-tobias."
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 10,
+          "text": "- Tobias wanted to be a lighthouse keeper too, before the accident."
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- Tobias wanted to be a lighthouse keeper too, before the accident."
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "tentative",
+      "status_from": "default",
+      "why": "See the comment."
+    },
+    {
+      "id": "u2",
+      "action": "edit",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, idea-tobias."
+      },
+      "sources": [],
+      "copies": [],
+      "edits": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "line": 9,
+          "before": "- He kept a rowing boat tied up under the pier.",
+          "after": "- He kept a red rowing boat tied up under the pier."
+        }
+      ],
+      "status": "tentative",
+      "status_from": "default",
+      "why": "See the comment."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

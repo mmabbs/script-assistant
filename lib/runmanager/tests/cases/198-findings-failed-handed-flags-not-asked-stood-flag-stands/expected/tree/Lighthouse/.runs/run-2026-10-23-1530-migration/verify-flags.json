@@ -1,0 +1,54 @@
+{
+  "flags": [
+    {
+      "id": "f2",
+      "rule": "unexplained-change",
+      "note": "Ideas/idea-mara.md",
+      "before": "",
+      "after": "- Mara keeps a cat called Lamp.",
+      "unit": ""
+    },
+    {
+      "id": "f3",
+      "rule": "agent-line-added",
+      "note": "Ideas/idea-tobias.md",
+      "before": "",
+      "after": "- [AGENT] Tobias's father forbade him the water after his brother drowned.",
+      "unit": "b1-u2"
+    },
+    {
+      "id": "f4",
+      "rule": "agent-line-added",
+      "note": "Ideas/idea-tobias.md",
+      "before": "",
+      "after": "- [AGENT] He takes the ferry job to prove his father wrong.",
+      "unit": "b1-u2"
+    }
+  ],
+  "units": {
+    "b1-u2": {
+      "id": "u2",
+      "action": "migrate",
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Tobias can't swim, which is why the ferry job scares him. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- Tobias can't swim, so the ferry job scares him. #status/provisional",
+            "- [AGENT] Tobias's father forbade him the water after his brother drowned.",
+            "- [AGENT] He takes the ferry job to prove his father wrong."
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional"
+    }
+  }
+}

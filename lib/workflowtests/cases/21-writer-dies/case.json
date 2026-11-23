@@ -1,0 +1,78 @@
+{
+  "about": "Both topics find something. The research-writer returns nothing on the first draft's 3 tries. No note was written, so the research-evaluator is never called. The outcome is failed, with no note and a reason.",
+  "spec": [
+    "the writer's ruling of 2026-10-12 on gap 23: a research-writer that still dies after its retries gives failed, with the note's path only when a writer answer gave one",
+    "spec-research-workflow.md 04 item 13"
+  ],
+  "args": {
+    "project": "/Users/writer/Projects/Copper Coast",
+    "run_id": "run-2026-10-08-1400-research",
+    "requests": [
+      {
+        "id": "r1",
+        "note": "Ideas/idea-harrow-point.md",
+        "line": 15,
+        "text": "- [r] How did printed tide tables reach small villages in the 1950s? #research/run-2",
+        "comment": "%% Look for printed almanacs. %%"
+      }
+    ]
+  },
+  "answers": {
+    "plan r1": [
+      {
+        "research_topic": "tide-tables",
+        "topics": [
+          {
+            "n": 1,
+            "waits_on": []
+          },
+          {
+            "n": 2,
+            "waits_on": []
+          }
+        ]
+      }
+    ],
+    "topic r1 1": [
+      {
+        "result": "found"
+      }
+    ],
+    "topic r1 2": [
+      {
+        "result": "found"
+      }
+    ],
+    "write r1": [
+      null,
+      null,
+      null
+    ]
+  },
+  "expect": {
+    "result": [
+      {
+        "request": "r1",
+        "outcome": "failed",
+        "note": null,
+        "reason": "set",
+        "failed_topics": []
+      }
+    ],
+    "calls": {
+      "write r1": {
+        "count": 3,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-tide-tables.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-1.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-2.md"
+        ]
+      }
+    },
+    "not_called": [
+      "check r1",
+      "fix r1",
+      "recheck r1"
+    ]
+  }
+}

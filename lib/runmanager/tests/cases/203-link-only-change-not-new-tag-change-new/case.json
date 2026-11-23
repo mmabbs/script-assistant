@@ -1,0 +1,13 @@
+{
+  "about": "Two tagged copies in idea-mara each hold a link to Tobias. Since the last run the writer pointed both links from Ideas/idea-tobias to Areas/area-tobias (both notes exist, so this is no rename), keeping the shown text 'Tobias'. The letters line changed only in its link target: with targets left out it matches its handled entry, so it is not new work. The winter line also had its status tag changed from provisional to committed: that is new work, whatever its link does. batches.json holds one piece, idea-mara with heading null, holding only the winter line, `skipped` [] and `renamed` [].",
+  "spec": [
+    "spec-run-manager.md 07.1 item 10 ('changing only a link in a tagged line no longer makes new work. Changing its status tag ... still does')",
+    "spec-run-manager.md 04 item 21 (`renamed`, or [])",
+    "spec-run-manager.md 11 Decisions Log item 102",
+    "plan-run-manager.md Milestone 17, first checkbox, item 1 ('a tagged line whose only change is a link is not new work; the same line with its status tag changed is new work')"
+  ],
+  "readings": [
+    "'Targets left out' means the part of a wikilink before `|` is ignored and the shown text after it still counts. The case keeps the shown text the same, so the prototype's reading (the whole `[[…]]` read as `[[]]`) gives the same result.",
+    "A changed link in a tagged line that isn't a pointer is read the same way as a pointer's link (07.1 item 10 says 'the targets of its wikilinks', every wikilink in the line)."
+  ]
+}

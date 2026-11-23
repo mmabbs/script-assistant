@@ -1,0 +1,18 @@
+[
+  {
+    "id": "f1",
+    "rule": "fingerprint-changed",
+    "note": "Plot/plot-outline.md",
+    "before": "",
+    "after": "",
+    "unit": ""
+  },
+  {
+    "id": "f2",
+    "rule": "fingerprint-changed",
+    "note": "Research/research-light-old.md",
+    "before": "",
+    "after": "",
+    "unit": ""
+  }
+]

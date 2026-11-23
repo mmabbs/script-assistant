@@ -1,0 +1,37 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, start a new idea note for the log."
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 10,
+          "text": "- Mara writes the weather in the keeper's log every night."
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-keepers-log.md",
+          "under": "",
+          "lines": [
+            "# Idea - Keeper's Log",
+            "- Mara writes the weather in the keeper's log every night."
+          ],
+          "creates_note": true
+        }
+      ],
+      "edits": [],
+      "status": "tentative",
+      "status_from": "default",
+      "why": "See the comment."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "As case 15, but Plot/plot-outline.md changed and Research/research-light-old.md is gone. Each is a fingerprinted note whose fingerprint changed or that is gone, so each is fingerprint-changed on a migration run (spec-edit-guard.md 04 table; 11 Decisions Log item 27). A fingerprinted note is not compared line by line (03.1 item 8), so the changed plot line raises no unexplained-change. before and after are empty and unit is empty: spec-edit-guard.md 05 doesn't say what they hold for a fingerprint flag (orchestrator's choice)."
+}

@@ -1,0 +1,50 @@
+{
+  "units": [
+    {
+      "id": "u6",
+      "action": "edit",
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Mara has never once left the light during a storm."
+        }
+      ],
+      "copies": [],
+      "edits": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "before": "- Mara has never once left the light during a storm.",
+          "after": "- Mara has never once left the light during a storm. #status/provisional"
+        }
+      ],
+      "status": "provisional"
+    },
+    {
+      "id": "u7",
+      "action": "migrate",
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Mara has never once left the light during a storm."
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-mara-lighthouse.md",
+          "under": "## Routine",
+          "lines": [
+            "- Mara has never once left the light during a storm. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional"
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

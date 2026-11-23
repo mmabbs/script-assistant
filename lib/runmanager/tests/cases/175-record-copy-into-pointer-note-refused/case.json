@@ -1,0 +1,14 @@
+{
+  "about": "An earlier run (run-2026-10-20-1000-migration) handled the comment under the Tobias rowing line, '%% Agent, the rowing line goes in idea-tobias and idea-mara. %%', with two units, both with trigger kind `comment` and text the comment holds: b1-u1 sent the line to idea-tobias and was kept, which gave the line its pointer; b1-u2 sent it to idea-mara and was undone. Its record is kept in .runs/units/. The line and the comment stayed off the handled list (spec-run-manager.md 11 Decisions Log items 81 and 83), so this run's scan hands both to the migrator again. This run's migrator gives u1 the same trigger, kind `comment` with text the same comment holds, and copies the line to idea-mara, the undone work, and also to idea-tobias a second time, the note the pointer names and the earlier b1-u1 already sent it to for that comment. Both copies are in their notes, so the copy check passes. `record` refuses: exit 1, with one line naming the unit (u1), the note (Ideas/idea-tobias.md), and the source line (run three times, so stderr is checked for each). Nothing changes: the notes stay as the migrator left them, the record file stays, and the run stays at migrating, so the session sends the migrator back to take the copy out of its note and its record.",
+  "spec": [
+    "spec-run-manager.md 11 Decisions Log item 99 (narrows item 95: refused only when an earlier run sent that line to that note for the same trigger)",
+    "spec-run-manager.md 11 Decisions Log item 95; 04 item 22 (the record row); 07.1 item 9",
+    "plan-run-manager.md Milestone 15, first checkbox, group 2"
+  ],
+  "readings": [
+    "The earlier record's source text is the line as it read when that run started, before its pointer (spec-migrator.md 05.2). This run's source text carries the pointer. They are the same line.",
+    "The two trigger texts differ ('Agent, ' leads only this run's) but one comment in the piece holds both, so they are the same trigger (item 99's reading, by item 97's matching).",
+    "The source line is checked in stderr by its words before the tag, which no copy line shares, so a refusal naming only the copy line doesn't pass.",
+    "Neither the unit's form ('u1' or 'b1-u1') nor the refusal's other words are checked."
+  ]
+}

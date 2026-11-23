@@ -1,0 +1,44 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/provisional"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 12,
+          "text": "- Tobias can't swim, which is why the ferry job scares him. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- Tobias can't swim, so the ferry job scares him. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "Tobias's fear of the water."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": [
+    {
+      "source": {
+        "note": "brain-dump.md",
+        "line": 13,
+        "text": "- The cottage roof leaks over the bed. #status/provisional"
+      },
+      "what": "Couldn't tell which note the roof belongs in."
+    }
+  ]
+}

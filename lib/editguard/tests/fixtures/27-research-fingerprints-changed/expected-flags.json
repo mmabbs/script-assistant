@@ -1,0 +1,26 @@
+[
+  {
+    "id": "f1",
+    "rule": "fingerprint-changed",
+    "note": "Ideas/idea-tobias.md",
+    "before": "",
+    "after": "",
+    "unit": ""
+  },
+  {
+    "id": "f2",
+    "rule": "fingerprint-changed",
+    "note": "Research/research-light-harrow-ferry.md",
+    "before": "",
+    "after": "",
+    "unit": ""
+  },
+  {
+    "id": "f3",
+    "rule": "fingerprint-changed",
+    "note": "Ideas/idea-keepers-log.md",
+    "before": "",
+    "after": "",
+    "unit": ""
+  }
+]

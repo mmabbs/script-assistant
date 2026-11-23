@@ -1,0 +1,63 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/provisional"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Mara and Tobias both refuse to eat fish from the bay. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "under": "# Idea - Mara",
+          "lines": [
+            "- Mara won't eat fish. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "Mara's half of the line."
+    },
+    {
+      "id": "u2",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/provisional"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Mara and Tobias both refuse to eat fish from the bay. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- Tobias refuses to eat fish from the bay. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "Tobias's half of the line."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

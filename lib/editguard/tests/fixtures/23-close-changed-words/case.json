@@ -1,0 +1,5 @@
+{
+  "kind": "research",
+  "run_id": "run-2026-10-10-1600-research",
+  "about": "Plan Milestone 4 lead. The request was closed with a valid link line under it, but 'in the 1950s' also became 'during the 1950s'. spec-edit-guard.md 04 table defines close-invalid as a close 'with anything else on the request line changed', and 04 item 6 says the close passes only with 'nothing else on the line changed'. Fixture worker's reading: the specific rule wins over 05 item 3, so this is one close-invalid flag with both texts, not unexplained-change; otherwise close-invalid could never fire on this case. The link line itself is valid, so no link-line-invalid."
+}

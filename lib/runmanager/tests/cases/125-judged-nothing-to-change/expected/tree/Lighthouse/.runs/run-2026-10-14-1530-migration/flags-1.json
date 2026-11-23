@@ -1,0 +1,18 @@
+[
+  {
+    "id": "f1",
+    "rule": "fingerprint-changed",
+    "note": "Characters/cast.md",
+    "before": "",
+    "after": "",
+    "unit": ""
+  },
+  {
+    "id": "f2",
+    "rule": "unexplained-change",
+    "note": "brain-dump.md",
+    "before": "- The last keper left the rock in 1971.",
+    "after": "- The last keeper left the rock in 1971.",
+    "unit": ""
+  }
+]

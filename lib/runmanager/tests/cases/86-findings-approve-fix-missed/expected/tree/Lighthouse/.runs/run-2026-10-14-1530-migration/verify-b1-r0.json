@@ -1,0 +1,67 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Tobias can't swim, which is why the ferry job scares him. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- Tobias can't swim, so the ferry job scares him. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional"
+    },
+    {
+      "id": "u2",
+      "action": "migrate",
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 12,
+          "text": "- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "under": "# Idea - Mara",
+          "lines": [
+            "- Mara counts the tower's one hundred and twelve steps. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional"
+    }
+  ],
+  "left_in_place": [
+    {
+      "source": {
+        "note": "brain-dump.md",
+        "line": 13,
+        "text": "- The lamp burned paraffin until the 1958 refit. #status/provisional"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "source": {
+        "note": "brain-dump.md",
+        "line": 14,
+        "text": "- Maybe the supply boat captain is Mara's uncle, or maybe that's too neat. #status/tentative"
+      }
+    }
+  ],
+  "could_not": []
+}

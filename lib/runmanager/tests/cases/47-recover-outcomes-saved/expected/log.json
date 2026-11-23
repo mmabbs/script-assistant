@@ -1,0 +1,25 @@
+{
+  "file": "Runs/run-2026-10-10-1705-recover.md",
+  "first_line": "Recover run, for run-2026-10-10-1600-research.",
+  "sections": [
+    {
+      "heading": "Done",
+      "contains": [
+        "What did a relief keeper's contract look like in the 1950s?",
+        "research-light-relief-keeper-contracts",
+        "How did printed tide tables reach small villages in the 1950s?",
+        "research-light-tide-tables",
+        "How often did the causeway flood in the 1950s?",
+        "research-light-causeway-floods"
+      ]
+    }
+  ],
+  "absent": [
+    "Requests still open",
+    "Closes undone",
+    "Notes changed outside the run",
+    "Still flagged after the second check"
+  ],
+  "contains": [],
+  "nothing_needs_you": true
+}

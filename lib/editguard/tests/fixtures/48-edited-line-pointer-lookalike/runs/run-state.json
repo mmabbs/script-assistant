@@ -1,0 +1,17 @@
+{
+  "open_run": {
+    "run": "run-2026-10-14-1322-migration",
+    "kind": "migration",
+    "step": "pointed"
+  },
+  "history": [],
+  "handled": [],
+  "unit_index": [
+    {
+      "run": "run-2026-10-14-1322-migration",
+      "unit": "b1-u6",
+      "state": "approved",
+      "pointed_lines": []
+    }
+  ]
+}

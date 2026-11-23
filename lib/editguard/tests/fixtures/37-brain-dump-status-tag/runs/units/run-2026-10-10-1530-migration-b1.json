@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "edit",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, tag this committed."
+      },
+      "sources": [],
+      "copies": [],
+      "edits": [
+        {
+          "note": "brain-dump.md",
+          "line": 14,
+          "before": "- Mara rows to the mainland only when the light is serviced.",
+          "after": "- Mara rows to the mainland only when the light is serviced. #status/committed"
+        }
+      ],
+      "status": "committed",
+      "status_from": "comment",
+      "why": "See the comment."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

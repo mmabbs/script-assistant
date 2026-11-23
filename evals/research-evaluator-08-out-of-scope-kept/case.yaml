@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: research-evaluator-08-out-of-scope-kept
+context:
+  scaffold_script: fixture.sh

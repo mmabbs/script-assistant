@@ -1,0 +1,124 @@
+{
+  "batches": [
+    {
+      "batch": "b1",
+      "pieces": [
+        {
+          "note": "brain-dump.md",
+          "heading": "### 2026-09-01",
+          "lines": [
+            {
+              "line": 64,
+              "text": "- Rich people collecting other people's childhood memories feels promising. #status/rejected"
+            },
+            {
+              "line": 65,
+              "text": "- Lena might have sold memories to pay for university. #status/rejected"
+            },
+            {
+              "line": 68,
+              "text": "%% migrate all the bullets between \"- Maybe memories can be bought\" to \"Does selling a memory remove it\" %%"
+            }
+          ]
+        },
+        {
+          "note": "brain-dump.md",
+          "heading": "### 2026-09-03",
+          "lines": [
+            {
+              "line": 59,
+              "text": "%% migrate all the bullets between \"- Corporations buying employee memories\" to \"I prefer the childhood-sale version\" %%"
+            }
+          ]
+        },
+        {
+          "note": "brain-dump.md",
+          "heading": "### 2026-09-04",
+          "lines": [
+            {
+              "line": 50,
+              "text": "%% migrate all the bullets between \"- Her mother selling memories\" to \"This replaces yesterday's version\" %%"
+            }
+          ]
+        },
+        {
+          "note": "brain-dump.md",
+          "heading": "### 2026-09-06",
+          "lines": [
+            {
+              "line": 43,
+              "text": "%% migrate all the bullets between \"- New thought\" to \"New thought\" %%"
+            }
+          ]
+        },
+        {
+          "note": "brain-dump.md",
+          "heading": "### 2026-09-09",
+          "lines": [
+            {
+              "line": 35,
+              "text": "- Lena's mother definitely sold memories when Lena was young. Lena therefore grew up despising the trade. But Lena eventually selling one herself would be a strong contradiction in her behaviour; I think that happens later in the story. Not sure what forces her to cross that line yet. #status/committed"
+            },
+            {
+              "line": 37,
+              "text": "%% Agent, the material about Lena's attitude toward memory trading belongs in [[Projects/Lighthouse/char-lena|char-lena]]. %%"
+            }
+          ]
+        },
+        {
+          "note": "brain-dump.md",
+          "heading": "### 2026-09-17",
+          "lines": [
+            {
+              "line": 26,
+              "text": "- Memory collectors are out. They're pulling focus from the parts I actually care about. #status/rejected"
+            },
+            {
+              "line": 27,
+              "text": "- The university version can probably go. Actually, save it somewhere. It could belong to another character. #status/rejected"
+            },
+            {
+              "line": 29,
+              "text": "%% migrate all the bullets between \"- Someone could sell memories\" to \"The university version can probably go\" %%"
+            },
+            {
+              "line": 31,
+              "text": "%% Agent, if the university-memory idea comes out of Lena's material, don't discard it. Keep it available for reassignment. %%"
+            }
+          ]
+        },
+        {
+          "note": "brain-dump.md",
+          "heading": "### 2026-09-19",
+          "lines": [
+            {
+              "line": 16,
+              "text": "- Let's use that as the working rule: isolated sales are usually manageable, repeated extraction increases the risk of cognitive and emotional impairment. #status/provisional"
+            },
+            {
+              "line": 21,
+              "text": "%% migrate all the bullets between \"- The more I think about it\" to \"If heavy selling damages cognition\" %%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "batch": "b2",
+      "pieces": [
+        {
+          "note": "Ideas/idea-tradable-memory.md",
+          "heading": null,
+          "lines": [
+            {
+              "line": 10,
+              "text": "- A memory sold twice is worth less the second time. #status/provisional"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": [],
+  "renamed": []
+}

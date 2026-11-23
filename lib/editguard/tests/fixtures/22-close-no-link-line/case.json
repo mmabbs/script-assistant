@@ -1,0 +1,5 @@
+{
+  "kind": "research",
+  "run_id": "run-2026-10-10-1600-research",
+  "about": "The request was closed to - [x] but no link line was written under it. A close passes only with a valid link line under it (spec-edit-guard.md 04 item 6), so it is close-invalid, with the request line's before and after. The research note exists and is named, so no other flag."
+}

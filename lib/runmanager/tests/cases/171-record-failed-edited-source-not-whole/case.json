@@ -1,0 +1,10 @@
+{
+  "about": "u6 tags the line and u7 migrates it, but the record gives u7's source text as the tagged line, the line as u6's edit left it, and the migrator then failed for good. `record --failed` sorts u7 as not whole, like any unit a failed migrator didn't finish, and undoes it: its copy leaves idea-mara-lighthouse, and nothing is missed. u6 is whole and goes on to the check alone; once approved, the run reaches batches-done, `pointers` writes nothing, and the real Edit guard raises u6's own flags, writer-line-edited and brain-dump-status-tag. The next run retries u7's line.",
+  "spec": [
+    "CONTRACT.md 5.3 items 6, 14",
+    "spec-run-manager.md 11 item 81"
+  ],
+  "readings": [
+    "u7's reason is migrator-stopped, as for any unit `record --failed` sorts as not whole."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "about": "Two approved migrate units. u1 is a split from the count line (copies in idea-mara and idea-tobias); u2 copies the swim line to idea-tobias. After `pointers`, a copy step stands in for u1's idea-tobias copy going missing. The real Edit guard raises one copy-mismatch on b1-u1. `act` at pointed undoes b1-u1, pointer included: its idea-mara copy is removed, the pointer comes off the count line with the space before it, and the missing copy line is saved in undo-misses.json. u2's copy and pointer stay. No flag goes to the migration-verifier, so the step is acted, edited true, next_check 2. The second check comes back [].",
+  "spec": [
+    "CONTRACT.md 5.5 items 1, 2 (copy-mismatch bullet, edited, next_check), 6",
+    "CONTRACT.md 5.3 item 10 (undo, undo-misses.json)",
+    "spec-run-manager.md 05 item 6; 09.1 items 2, 5",
+    "spec-migration-verifier.md 06 item 6",
+    "spec-edit-guard.md 04 (copy-mismatch), 05 item 4, 07",
+    "plan-run-manager.md 04 Milestone 11, test case 1"
+  ],
+  "readings": [
+    "The copy line copy-mismatch says is missing is an undo miss: the unit wrote it (it was approved) and undo can't find it (CONTRACT.md 5.3 item 10, 'a line the unit wrote that undo can't find').",
+    "With no flag left for the migration-verifier, `act` writes no verify-flags.json.",
+    "first_check stays 1 at acted; the open run's other keys are as at pointed."
+  ]
+}

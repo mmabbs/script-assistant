@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-14-1322-migration",
+  "about": "As 49-edit-chain-pointer-pass without the pointer and the migrate unit, but u8's `before` is not u6's `after` (it names a committed tag), so no chain of recorded edits runs from the snapshot text to the line now. The line is one unexplained-change, and the markup rules raise nothing on it (spec-edit-guard.md 05 item 3)."
+}

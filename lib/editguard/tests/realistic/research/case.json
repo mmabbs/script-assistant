@@ -1,0 +1,5 @@
+{
+  "kind": "research",
+  "run_id": "run-2026-10-10-1600-research",
+  "about": "A realistic research run (run 2) on the Lighthouse project: three requests in three different notes (the Brain Dump doc, an Idea Note, an Area Note). Two passed and were marked; one failed and stays open. The snapshot holds only the request notes; every other note is fingerprinted, Runs/ and llm-files/ are never covered. No expected flags; the answer key is planted.md."
+}

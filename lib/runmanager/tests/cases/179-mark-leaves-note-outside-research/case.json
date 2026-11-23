@@ -1,0 +1,15 @@
+{
+  "about": "The research run's one request, in Ideas/idea-mara-lighthouse.md, passes, but its note was saved at Ideas/research-light-relief-boat.md, outside Research/ (a save the permission hook now refuses, let through here as if another rule allowed it). `mark` no longer moves the note: it checks the outcomes file, writes the link line to the note where it sits and closes the request. The real Edit guard flags the close (close-invalid), the link line (link-line-invalid), and the new note outside Research/ (fingerprint-changed, naming Ideas/research-light-relief-boat.md). `act` undoes the close, so the request line reads `- [r]` again with no link line, and the second check flags only the note again, which the log doesn't repeat. The note stays in Ideas/, bytes unchanged; nothing is written in Research/. The log lists the request under Closes undone and the note under Notes changed outside the run; nothing is Done.",
+  "spec": [
+    "spec-run-manager.md 11 Decisions Log item 94 (supersedes item 62; Claude's reading from the built Edit guard)",
+    "spec-run-manager.md 08.4 items 1 to 4 (item 4 dropped)",
+    "CONTRACT.md 4 items 5, 13 (act on close-invalid and link-line-invalid; a second-check fingerprint-changed already named is dropped)",
+    "plan-run-manager.md Milestone 15, first checkbox, group 3; replaces retired cases 38 and 39"
+  ],
+  "readings": [
+    "The link line `mark` writes names the note at the path the outcomes file gives, Ideas/research-light-relief-boat (CONTRACT.md 1 item 5's form). flags-1.json pins it, since it holds the link line as the Edit guard read it.",
+    "flags-1.json and flags-2.json are the real Edit guard's output on the state this case expects `mark` and `act` to leave, taken by running bin/editguard on that state by hand on 2026-10-23.",
+    "'No outcomes-original.json is written' is not checked: the runner compares only named files in the run folder and can't check that a file is absent there.",
+    "The reason the close was undone isn't checked: item 94 doesn't fix which sentence of the fixed list it gets."
+  ]
+}

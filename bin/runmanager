@@ -1,0 +1,7 @@
+#!/bin/sh
+# Launcher for the Run manager: puts lib/ on the Python path and runs the package.
+here=$(cd "$(dirname "$0")" && pwd -P) || exit 1
+root=$(dirname "$here")
+PYTHONPATH="$root/lib${PYTHONPATH:+:$PYTHONPATH}"
+export PYTHONPATH
+exec python3 -m runmanager "$@"

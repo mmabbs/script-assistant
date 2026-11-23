@@ -1,0 +1,19 @@
+{
+  "batch": "b1",
+  "round": 1,
+  "units": [
+    {
+      "unit": "u1",
+      "verdict": "fix",
+      "problems": [
+        {
+          "check": "lost-detail",
+          "note": "Ideas/idea-tobias.md",
+          "line": 16,
+          "what": "The copy no longer says where he kept the tin: under his bed."
+        }
+      ]
+    }
+  ],
+  "missed": []
+}

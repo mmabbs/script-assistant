@@ -1,0 +1,21 @@
+{
+  "batches": [
+    {
+      "batch": "b1",
+      "pieces": [
+        {
+          "note": "Ideas/idea-harrow-point.md",
+          "heading": null,
+          "lines": [
+            {
+              "line": 14,
+              "text": "- The ferry stops running in November. #status/provisional"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": [],
+  "renamed": []
+}

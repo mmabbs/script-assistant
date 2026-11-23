@@ -1,0 +1,9 @@
+{
+  "about": "Plan Milestone 4 items 4 and 6; spec-edit-guard.md 06 item 3; spec-run-manager.md 05 item 4; CONTRACT.md 4 item 5. Both requests passed and mark closed them. Then a stray write changes two words in Ideas/idea-tobias.md, a fingerprinted note. The real Edit guard raises fingerprint-changed. A fingerprinted note has no snapshot copy, so act edits nothing: the changed note stays as it is (the run log names it, Milestone 5). act changed nothing, so next_check is null and no second check runs.",
+  "spec": [
+    "spec-edit-guard.md 06 item 3",
+    "spec-run-manager.md 05 item 4",
+    "CONTRACT.md 4 item 5",
+    "plan-run-manager.md 03 Milestone 4 test cases 4, 6"
+  ]
+}

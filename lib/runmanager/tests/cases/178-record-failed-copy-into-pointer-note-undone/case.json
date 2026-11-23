@@ -1,0 +1,15 @@
+{
+  "about": "An earlier run (run-2026-10-20-1000-migration) handled the comment under the Tobias rowing line, '%% Agent, the rowing line goes in idea-tobias and idea-mara. %%', with two units, both with trigger kind `comment` and text the comment holds: b1-u1 sent the line to idea-tobias and was kept, which gave the line its pointer; b1-u2 sent it to idea-mara and was undone. Its record is kept in .runs/units/. The line and the comment stayed off the handled list (spec-run-manager.md 11 Decisions Log items 81 and 83), so this run's scan hands both to the migrator again. The Brain Dump piece also holds a new tagged logbook line. This run's migrator writes u1, with the same trigger (kind `comment`, text the same comment holds), which copies the rowing line to idea-mara and a second time to idea-tobias, where the earlier b1-u1 already sent it for that comment; and u2, which copies the logbook line to idea-mara; then it fails for good. `record --failed` runs no refusals, so it sorts u1 as not whole, though every line it recorded is in its notes, and undoes it: its idea-mara copy goes, and one of the two identical lines in idea-tobias goes, so idea-tobias ends as it started. u2 is whole and is sorted as before: it goes on to the check, is approved, and gets its pointer. The Edit guard gives [] and the run closes. The log lists u1 under Units undone as 'the migrator stopped before writing it whole', with the keep line for the comment (u1 is comment-triggered), and u2 under Migrated. The rowing line and the comment stay off the handled list, so the next run retries them.",
+  "spec": [
+    "spec-run-manager.md 11 Decisions Log item 99 ('`record --failed` sorts the same units as item 95 says')",
+    "spec-run-manager.md 11 Decisions Log item 95 (Claude's reading on `record --failed`, approved by the writer); item 90",
+    "spec-run-manager.md 11 Decisions Log items 93, 97 (the keep line)",
+    "CONTRACT.md 5.3 items 6, 10, 14",
+    "plan-run-manager.md Milestone 15, first checkbox, group 2"
+  ],
+  "readings": [
+    "The undone unit joins the unit index at `record --failed`, before the approved unit joins at `findings`, as in case 171.",
+    "The earlier record and the trigger match as in case 175.",
+    "Keep line form as in case 172."
+  ]
+}

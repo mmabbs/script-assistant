@@ -1,0 +1,13 @@
+{
+  "about": "As case 211, but the earlier run's two units were started by the line's status tag, not by a comment; the writer added the comment after that run, asking for the line in both notes. This run's u1, for that comment, copies the line into idea-mara and into idea-tobias-rowing, the renamed note the earlier unit sent it to (under its old path). The earlier send was for another trigger, so the copy is the writer's new ask and passes: `record` exits 0, the run moves to verifying with fixing [u1]. Following the rename must not turn a different trigger's copy into a refusal.",
+  "spec": [
+    "spec-run-manager.md 07.1 item 13 ('an earlier unit's copy into Ideas/idea-almond.md counts as a copy into Ideas/idea-almond-renamed.md')",
+    "spec-run-manager.md 11 Decisions Log items 95, 99, 104",
+    "CONTRACT.md 5.3 item 15",
+    "spec-run-manager.md 11 Decisions Log item 100 (the same trigger means the same kind)",
+    "plan-run-manager.md Milestone 17, first checkbox, item 4 ('it accepts the copy for a different trigger')"
+  ],
+  "readings": [
+    "On the old code `record` accepts this copy too, since its guard never followed renames; the case fails there only on batches.json (the renamed copy handed back, no `renamed`). It guards the new code against over-refusing."
+  ]
+}

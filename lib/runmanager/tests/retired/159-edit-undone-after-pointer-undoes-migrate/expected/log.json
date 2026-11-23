@@ -1,0 +1,29 @@
+{
+  "file": "Runs/run-2026-10-14-1322-migration.md",
+  "first_line": "Migration run, started 2026-10-14 13:22.",
+  "sections": [
+    {
+      "heading": "Units undone",
+      "contains": [
+        "It was undone because a change it made wasn't asked for:",
+        "`writer-line-edited`: `- Mara has never once left the light during a storm. #status/provisional`",
+        "Its copies went to [[Projects/Lighthouse/Ideas/idea-mara-lighthouse|idea-mara-lighthouse]].",
+        "It was undone because the run's edit to this line was undone, so the copy made from the edited line came out too.",
+        "The next migration run tries this again."
+      ]
+    }
+  ],
+  "absent": [
+    "Questions for you",
+    "Migrated",
+    "Other edits you asked for",
+    "Lines the checker says were missed",
+    "Changes put back",
+    "Rejected",
+    "Left in place, and why",
+    "Could not do",
+    "Other notes"
+  ],
+  "contains": [],
+  "nothing_needs_you": true
+}

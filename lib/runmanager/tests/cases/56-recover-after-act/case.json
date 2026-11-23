@@ -1,0 +1,8 @@
+{
+  "about": "act undid r2's close (a stray write had removed its link line), so the run waits for flags-2; then the session stopped before the second check. recover redoes nothing; the second check and close follow. The recover log carries the crashed run's results: r2 under Closes undone with 'it had no link line under it', r1 under Done. The history entry is how 'recovered'. Notes changed outside the run is left unchecked: whether 'Markup wasn't checked on the first try.' belongs here, where the missing file was the second check's, is open.",
+  "spec": [
+    "spec-run-manager.md 09.2 item 4",
+    "spec-run-manager.md 06.1 items 2 and 3",
+    "CONTRACT.md 4 item 4"
+  ]
+}

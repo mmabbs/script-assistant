@@ -1,0 +1,36 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "comment",
+        "text": "[AGENT] Your request from the migration run of 2026-10-20, for this line: \"put the ferry lines in idea-tobias\""
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Tobias worked summers on the ferry to the mainland."
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- Tobias worked the ferry every summer. #status/tentative",
+            "- [AGENT] His father skippered the ferry before him."
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "tentative",
+      "status_from": "default",
+      "why": "The ferry line belongs with Tobias."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

@@ -1,0 +1,22 @@
+{
+  "open_run": null,
+  "history": [
+    {
+      "id": "run-2026-10-14-1530-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-14 15:30",
+      "ended": "2026-10-14 16:50",
+      "how": "recovered"
+    }
+  ],
+  "handled": [],
+  "unit_index": [
+    {
+      "run": "run-2026-10-14-1530-migration",
+      "unit": "b1-u1",
+      "state": "undone",
+      "pointed_lines": []
+    }
+  ]
+}

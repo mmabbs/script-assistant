@@ -1,0 +1,7 @@
+---
+type: regex
+pattern: "war memorial"
+flags: i
+match: not_contains
+target: { source: file, path: project/Ideas/idea-harrow-point.md }
+---

@@ -1,0 +1,9 @@
+[
+  {
+    "request": "r1",
+    "outcome": "failed",
+    "note": null,
+    "reason": "No source covered whether a lone keeper could refuse a posting.",
+    "failed_topics": []
+  }
+]

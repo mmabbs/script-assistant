@@ -1,0 +1,26 @@
+{
+  "batches": [
+    {
+      "batch": "b1",
+      "pieces": [
+        {
+          "note": "brain-dump.md",
+          "heading": "### 2026-09-27",
+          "lines": [
+            {
+              "line": 17,
+              "text": "%% put the rowing line in [[Projects/Lighthouse/Ideas/idea-tobias|the rowing note]] as well %%"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": [],
+  "renamed": [
+    {
+      "from": "Ideas/idea-mara.md",
+      "to": "Ideas/idea-mara-keeper.md"
+    }
+  ]
+}

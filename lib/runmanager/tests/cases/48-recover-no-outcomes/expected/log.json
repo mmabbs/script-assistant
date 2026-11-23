@@ -1,0 +1,22 @@
+{
+  "file": "Runs/run-2026-10-10-1705-recover.md",
+  "first_line": "Recover run, for run-2026-10-10-1600-research.",
+  "sections": [
+    {
+      "heading": "Requests still open",
+      "contains": [
+        "Could a lone keeper legally refuse a relief posting?",
+        "What did a keeper earn in 1950?",
+        "area-mara"
+      ]
+    }
+  ],
+  "absent": [
+    "Closes undone",
+    "Notes changed outside the run",
+    "Done",
+    "Still flagged after the second check"
+  ],
+  "contains": [],
+  "nothing_needs_you": false
+}

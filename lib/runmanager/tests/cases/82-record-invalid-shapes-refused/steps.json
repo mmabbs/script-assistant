@@ -1,0 +1,213 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "migration"
+    ],
+    "now": "2026-10-14 15:30",
+    "exit": 0
+  },
+  {
+    "copy": "files/notes-r0",
+    "to": "."
+  },
+  {
+    "copy": "files/record-not-json.txt",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "run-2026-10-14-1530-migration-b1.json"
+  },
+  {
+    "copy": "files/record-not-object.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "run-2026-10-14-1530-migration-b1.json"
+  },
+  {
+    "copy": "files/record-missing-could-not.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "run-2026-10-14-1530-migration-b1.json"
+  },
+  {
+    "copy": "files/record-duplicate-id.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "run-2026-10-14-1530-migration-b1.json"
+  },
+  {
+    "copy": "files/record-id-not-u-number.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "run-2026-10-14-1530-migration-b1.json"
+  },
+  {
+    "copy": "files/record-unknown-action.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "run-2026-10-14-1530-migration-b1.json"
+  },
+  {
+    "copy": "files/record-no-sources.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "run-2026-10-14-1530-migration-b1.json"
+  },
+  {
+    "copy": "files/record-line-zero.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "run-2026-10-14-1530-migration-b1.json"
+  },
+  {
+    "copy": "files/record-path-escapes.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "run-2026-10-14-1530-migration-b1.json"
+  },
+  {
+    "copy": "files/record-note-not-md.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "run-2026-10-14-1530-migration-b1.json"
+  },
+  {
+    "copy": "files/record-copy-no-lines.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "run-2026-10-14-1530-migration-b1.json"
+  },
+  {
+    "copy": "files/record-edit-missing-before.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "run-2026-10-14-1530-migration-b1.json"
+  },
+  {
+    "copy": "files/record-unknown-status.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "run-2026-10-14-1530-migration-b1.json"
+  },
+  {
+    "copy": "files/record-unknown-status-from.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "run-2026-10-14-1530-migration-b1.json"
+  },
+  {
+    "copy": "files/record-unknown-trigger-kind.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "run-2026-10-14-1530-migration-b1.json"
+  },
+  {
+    "copy": "files/record-left-in-place-no-why.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "run-2026-10-14-1530-migration-b1.json"
+  },
+  {
+    "copy": "files/record-question-no-ask.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "run-2026-10-14-1530-migration-b1.json"
+  },
+  {
+    "copy": "files/record-creates-note-not-bool.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "run-2026-10-14-1530-migration-b1.json"
+  }
+]

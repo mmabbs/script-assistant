@@ -1,0 +1,18 @@
+[
+  {
+    "id": "f1",
+    "rule": "copy-mismatch",
+    "note": "Ideas/idea-mara.md",
+    "before": "",
+    "after": "- Mara counts the tower's one hundred and twelve steps every night. #status/provisional",
+    "unit": "b1-u1"
+  },
+  {
+    "id": "f2",
+    "rule": "agent-line-added",
+    "note": "Ideas/idea-tobias.md",
+    "before": "",
+    "after": "- [AGENT] Tobias lies awake hearing Mara count the steps. #status/provisional",
+    "unit": "b1-u1"
+  }
+]

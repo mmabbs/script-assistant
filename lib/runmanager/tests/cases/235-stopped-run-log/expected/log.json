@@ -1,0 +1,34 @@
+{
+  "file": "Runs/run-2026-10-10-1600-research.md",
+  "first_line": "Research run 2, started 2026-10-10 16:00.",
+  "sections": [
+    {
+      "heading": "Requests still open",
+      "ordered": true,
+      "contains": [
+        "You stopped this run. Every request stays open.",
+        "What did a relief keeper's contract look like in the 1950s?",
+        "You stopped this run.",
+        "How often did the causeway flood in the 1950s?",
+        "You stopped this run.",
+        "Written before you stopped the run:",
+        "research-light-relief-keeper-contracts"
+      ]
+    },
+    {
+      "heading": "Notes changed outside the run",
+      "contains": [
+        "note-stray"
+      ],
+      "lacks": [
+        "research-light-relief-keeper-contracts"
+      ]
+    }
+  ],
+  "absent": [
+    "Closes undone",
+    "Done",
+    "Still flagged after the second check"
+  ],
+  "nothing_needs_you": false
+}

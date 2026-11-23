@@ -1,0 +1,18 @@
+[
+  {
+    "id": "f1",
+    "rule": "unexplained-change",
+    "note": "Ideas/idea-lamp.md",
+    "before": "",
+    "after": "- Mara keeps a spare wick in her coat pocket.",
+    "unit": ""
+  },
+  {
+    "id": "f2",
+    "rule": "fingerprint-changed",
+    "note": "Plot/plot-outline.md",
+    "before": "",
+    "after": "",
+    "unit": ""
+  }
+]

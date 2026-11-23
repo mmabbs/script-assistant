@@ -1,0 +1,31 @@
+{
+  "batches": [
+    {
+      "batch": "b1",
+      "pieces": [
+        {
+          "note": "brain-dump.md",
+          "heading": "### 2026-10-12",
+          "lines": [
+            {
+              "line": 12,
+              "text": "- The relief keeper is younger than Mara expected. #status/provisional"
+            }
+          ]
+        },
+        {
+          "note": "Ideas/idea-tobias.md",
+          "heading": null,
+          "lines": [
+            {
+              "line": 10,
+              "text": "- Tobias keeps a rowing boat tied up under the pier. #status/provisional"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": [],
+  "renamed": []
+}

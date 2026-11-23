@@ -1,0 +1,35 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/committed"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 10,
+          "text": "- Mara won't leave the light, even after the automation letter. #status/committed [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara-lighthouse|idea-mara-lighthouse]]]"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Areas/area-mara.md",
+          "under": "# Mara",
+          "lines": [
+            "- Mara refuses to leave the light, even after the automation letter."
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "committed",
+      "status_from": "tag",
+      "why": "See the tag."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

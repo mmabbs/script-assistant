@@ -1,0 +1,12 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "migration"
+    ],
+    "now": "2026-10-14 17:00",
+    "exit": 1,
+    "stderr": "recover"
+  }
+]

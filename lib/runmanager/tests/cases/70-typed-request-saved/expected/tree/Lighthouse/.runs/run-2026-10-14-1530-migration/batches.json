@@ -1,0 +1,31 @@
+{
+  "batches": [
+    {
+      "batch": "b1",
+      "pieces": [
+        {
+          "note": "brain-dump.md",
+          "heading": "### 2026-09-19",
+          "lines": [
+            {
+              "line": 15,
+              "text": "- Mara rewires the radio with parts from the fog signal. #status/provisional"
+            }
+          ]
+        },
+        {
+          "note": "brain-dump.md",
+          "heading": "### 2026-09-20",
+          "lines": [
+            {
+              "line": 11,
+              "text": "- Tobias sees the light go out from the pier. #status/provisional"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": [],
+  "renamed": []
+}

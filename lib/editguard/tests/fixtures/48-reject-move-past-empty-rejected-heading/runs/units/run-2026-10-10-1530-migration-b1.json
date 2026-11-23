@@ -1,0 +1,35 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "reject",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/rejected"
+      },
+      "sources": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "line": 9,
+          "text": "- Tobias was a strong swimmer as a boy. #status/rejected"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "## Rejected",
+          "lines": [
+            "- Tobias was a strong swimmer as a boy. #status/rejected"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "rejected",
+      "status_from": "tag",
+      "why": "The writer tagged it rejected, so it moves to the Rejected section."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

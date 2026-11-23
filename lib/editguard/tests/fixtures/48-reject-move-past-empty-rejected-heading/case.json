@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "A reject unit moves the last line of idea-tobias's live part, a line the writer tagged #status/rejected, into the empty Rejected section right below it (spec-migrator.md 05.4 item 5). With blank lines skipped (spec-edit-guard.md 03.1 item 1), the note's lines read either as the bullet moving down past '## Rejected' or as '## Rejected' moving up past the bullet. Only the first is a change the record explains: 'A rejection moves a line inside an Idea Note or Area Note, and the record explains that move' (03.1 item 3). The removed bullet is the unit's source (03.2 item 3) and the added bullet is its copy (03.2 item 1); the heading did not move. The moved line equals its source, which already carries #status/rejected, so no rejected-move-changed (04 item 4). No edits entry, so no writer-line-edited. A reject unit gets no pointer, so it stays approved with no pointed lines. Found by runmanager case 108-reject-and-edit-no-pointer, where the guard flagged '## Rejected' twice as unexplained-change. No flags."
+}

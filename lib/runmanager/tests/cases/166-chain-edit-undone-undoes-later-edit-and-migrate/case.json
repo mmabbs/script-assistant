@@ -1,0 +1,10 @@
+{
+  "about": "As 161-chain-of-edits-pointer-found: u6 tags the line, u8 rewords the tagged line, u7 migrates it, and its pointer sits at the end. The migration-verifier says u6's two flags weren't asked for and u8's was. `act` at judged undoes u6. u8's edit built on u6's, so u8 is undone first, newest first: the line goes from u8's `after` back to u6's `after`, pointer kept; then u6's edit goes back to the run-start text, pointer kept. u7's source line is the line both undone edits changed, so u7 is undone too and its pointer and copy come off. Undo misses nothing, both notes read as at run start, and the second check gives []. At `close` nothing goes on the handled list; the log lists all three under Units undone, u8 because it changed a line the run had already edited and that earlier edit was undone.",
+  "spec": [
+    "CONTRACT.md 5.3 items 10, 13; 5.4 item 11; 5.5 items 5, 6; 5.6 items 3, 6",
+    "spec-run-manager.md 09.1 items 2, 5; 11 item 81"
+  ],
+  "readings": [
+    "u8's flag was judged asked; it is undone anyway, because it built on u6's undone edit. Its reason is saved as {\"why\": \"chain-undone\", \"unit\": \"b1-u6\"}."
+  ]
+}

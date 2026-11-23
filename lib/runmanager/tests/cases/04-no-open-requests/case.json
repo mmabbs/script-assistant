@@ -1,0 +1,8 @@
+{
+  "about": "Run 2 already ran and its only request is closed (- [x] with its link line). The one open request is tagged #research/run-3. start for run 2 finds no open request, exits 1 with \"No open requests tagged #research/run-2.\", and claims nothing: run-state.json is unchanged, no snapshot is saved, and no note changes.",
+  "spec": [
+    "CONTRACT.md 4 item 7",
+    "spec-run-manager.md 06 item 1",
+    "plan-run-manager.md 03 Milestone 3 test case 4"
+  ]
+}

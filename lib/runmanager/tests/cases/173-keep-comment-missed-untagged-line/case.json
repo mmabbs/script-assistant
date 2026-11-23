@@ -1,0 +1,13 @@
+{
+  "about": "One piece under 2026-09-20: the tagged Mara line with comment A under it, then the untagged post line with comment B under it. No typed request. u1 (tag-triggered) moves the Mara line to idea-mara and is approved; the findings list the post line as missed. The Edit guard gives [] and the run closes. The missed post line carries no status tag, so only a comment could have asked for it: its entry under Lines the checker says were missed gets one keep line for each comment in its piece, A then B, right above 'The next migration run tries this again.' No request was typed, so no request comment is written under the post line: the Brain Dump ends with only u1's pointer added. Both comments and the post line stay off the handled list.",
+  "spec": [
+    "spec-run-manager.md 11 Decisions Log items 93 and 97 (a missed line with no status tag gets one keep line per comment in its piece)",
+    "spec-run-manager.md 11 Decisions Log item 96 (only a run with a typed request writes the request comment under a missed line)",
+    "spec-run-manager.md 07.3 item 2, entry 8",
+    "plan-run-manager.md Milestone 15, first checkbox, groups 1 and 4 ('a missed line in a run with no request gets none')"
+  ],
+  "readings": [
+    "Keep lines are sub-bullets directly above 'The next migration run tries this again.', in the comments' note order, as in case 172.",
+    "The missed line's piece is found as in case 152."
+  ]
+}

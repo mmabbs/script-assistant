@@ -1,0 +1,59 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "migration"
+    ],
+    "now": "2026-10-23 15:30",
+    "exit": 0
+  },
+  {
+    "copy": "files/notes-b1",
+    "to": "."
+  },
+  {
+    "copy": "files/record-b1.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record",
+      "--failed"
+    ],
+    "exit": 0
+  },
+  {
+    "copy": "files/findings-b1-r0.json",
+    "to": ".runs/{run_id}/findings-b1-r0.json"
+  },
+  {
+    "run": [
+      "findings"
+    ],
+    "exit": 0
+  },
+  {
+    "run": [
+      "pointers"
+    ],
+    "exit": 0
+  },
+  {
+    "editguard": true,
+    "exit": 0
+  },
+  {
+    "run": [
+      "act"
+    ],
+    "exit": 0
+  },
+  {
+    "run": [
+      "close"
+    ],
+    "now": "2026-10-23 16:10",
+    "exit": 0
+  }
+]

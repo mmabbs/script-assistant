@@ -1,0 +1,17 @@
+{
+  "about": "Run 1 is started with the typed request 'put the ferry lines in idea-tobias'. One piece under 2026-09-20: the tagged Mara line, the untagged summers line, and the tagged ferry line. u1 (trigger `tag`) moves the Mara line to idea-mara. u2 (trigger `request`) merges the summers and ferry lines into one copy in idea-tobias. The migrator fails before writing u2: `record --failed` undoes u2 and sends u1 on; u1 is approved and gets its pointer, the Edit guard gives [], and run 1 closes. At close, the request is written as a comment on the line under each of u2's two source lines, indented one level: `%% [AGENT] Your request from the migration run of 2026-10-23, for this line: \"put the ferry lines in idea-tobias\" %%`. The comments stay off the handled list, and so do u2's source lines. The log's Units undone entry says 'The run wrote your request as a comment under this line: `…`. Keep it until this migrates.' for each source line, above 'The next migration run tries this again.' Then run 2 starts the next day with no request: its scan finds both comments as new trigger lines, with the still-unhandled tagged ferry line, in one batch.",
+  "spec": [
+    "spec-run-manager.md 11 Decisions Log item 96 (the comment, its form and place; off the handled list; the log line)",
+    "spec-run-manager.md 07.1 items 1, 3, 6; 07.3 item 2, entry 7",
+    "CONTRACT.md 5.2 items 3, 5, 9, 11 (the scan; a comment is a trigger line wherever it sits)",
+    "plan-run-manager.md Milestone 15, first checkbox, group 4"
+  ],
+  "readings": [
+    "'Indented one level' is four spaces more than the source line's indent, as a research link line is (CONTRACT.md 1 item 5).",
+    "{date} is the run's start date, YYYY-MM-DD, as in item 96's example. Run 1 starts and closes on the same day, so the case doesn't tell start from close.",
+    "The `…` in 'under this line: `…`' is the source line the comment sits under, quoted as the log quotes source lines. A unit with two source lines gets the sentence once per line.",
+    "The request sentences replace item 93's keep line for the entry, so they sit where it would: directly above 'The next migration run tries this again.' log.json checks the last one against it as one block.",
+    "The run-2 comment `text` in batches.json keeps its four-space indent (CONTRACT.md 5.2 item 3).",
+    "The summers line is untagged, so on run 2 it is not a trigger line itself; the piece counts every bullet because it holds a new comment."
+  ]
+}

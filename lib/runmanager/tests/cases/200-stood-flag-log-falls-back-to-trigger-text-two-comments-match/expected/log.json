@@ -1,0 +1,20 @@
+{
+  "file": "Runs/run-2026-10-23-1530-migration.md",
+  "first_line": "Migration run, started 2026-10-23 15:30.",
+  "sections": [
+    {
+      "heading": "Other edits you asked for",
+      "contains": [
+        "- In [[Projects/Lighthouse/Ideas/idea-mara|idea-mara]], `- Mara counts a hundred steps every night.` now reads `- Mara counts one hundred and twelve steps every night.`, as your comment `Agent, fix the count.` asked."
+      ]
+    }
+  ],
+  "absent": [
+    "Questions for you",
+    "Units undone",
+    "Changes put back",
+    "Other notes"
+  ],
+  "contains": [],
+  "nothing_needs_you": true
+}

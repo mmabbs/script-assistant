@@ -1,0 +1,168 @@
+{
+  "about": "Two requests whose research topics are close. r1's planner picks tide-tables. r2's planner runs after it, is handed tide-tables as taken, but answers tide-tables anyway. The script rejects the answer as a failed try and calls r2's planner again; that call is also handed the taken name, and it answers printed-almanacs. r2's planner is called twice in all, out of its 3 tries. Each request then researches and writes under its own name, and both pass.",
+  "spec": [
+    "the writer's ruling of 2026-10-12: planners run one after another, each handed the names already taken",
+    "spec-research-workflow.md 08 item 7: findings sit under {research-topic}, so two requests with one name would share a findings folder",
+    "spec-research-workflow.md 04 item 13"
+  ],
+  "args": {
+    "project": "/Users/writer/Projects/Copper Coast",
+    "run_id": "run-2026-10-08-1400-research",
+    "requests": [
+      {
+        "id": "r1",
+        "note": "Ideas/idea-harrow-point.md",
+        "line": 15,
+        "text": "- [r] How did printed tide tables reach small villages in the 1950s? #research/run-2",
+        "comment": "%% Look for printed almanacs. %%"
+      },
+      {
+        "id": "r2",
+        "note": "Ideas/idea-harrow-point.md",
+        "line": 18,
+        "text": "- [r] Which almanacs were printed for Maritime fishermen before 1960? #research/run-2",
+        "comment": null
+      }
+    ]
+  },
+  "answers": {
+    "plan r1": [
+      {
+        "research_topic": "tide-tables",
+        "topics": [
+          {
+            "n": 1,
+            "waits_on": []
+          }
+        ]
+      }
+    ],
+    "plan r2": [
+      {
+        "research_topic": "tide-tables",
+        "topics": [
+          {
+            "n": 1,
+            "waits_on": []
+          }
+        ]
+      },
+      {
+        "research_topic": "printed-almanacs",
+        "topics": [
+          {
+            "n": 1,
+            "waits_on": []
+          }
+        ]
+      }
+    ],
+    "topic r1 1": [
+      {
+        "result": "found"
+      }
+    ],
+    "topic r2 1": [
+      {
+        "result": "found"
+      }
+    ],
+    "write r1": [
+      {
+        "note": "Research/research-tide-tables.md"
+      }
+    ],
+    "write r2": [
+      {
+        "note": "Research/research-printed-almanacs.md"
+      }
+    ],
+    "check r1": [
+      {
+        "verdict": "pass",
+        "problems": []
+      }
+    ],
+    "check r2": [
+      {
+        "verdict": "pass",
+        "problems": []
+      }
+    ]
+  },
+  "expect": {
+    "result": [
+      {
+        "request": "r1",
+        "outcome": "passed",
+        "note": "Research/research-tide-tables.md",
+        "reason": null,
+        "failed_topics": []
+      },
+      {
+        "request": "r2",
+        "outcome": "passed",
+        "note": "Research/research-printed-almanacs.md",
+        "reason": null,
+        "failed_topics": []
+      }
+    ],
+    "calls": {
+      "plan r1": {
+        "count": 1
+      },
+      "plan r2": {
+        "count": 2,
+        "prompt_includes": [
+          "- [r] Which almanacs were printed for Maritime fishermen before 1960? #research/run-2",
+          "tide-tables"
+        ]
+      },
+      "topic r1 1": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-tide-tables.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-1.md"
+        ]
+      },
+      "topic r2 1": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-printed-almanacs.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/printed-almanacs/topic-1.md"
+        ],
+        "prompt_excludes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-tide-tables.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-1.md"
+        ]
+      },
+      "write r2": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-printed-almanacs.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/printed-almanacs/topic-1.md"
+        ],
+        "prompt_excludes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-1.md"
+        ]
+      },
+      "check r2": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-printed-almanacs.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/printed-almanacs/topic-1.md",
+          "Research/research-printed-almanacs.md"
+        ],
+        "prompt_excludes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-1.md"
+        ]
+      }
+    },
+    "after": [
+      [
+        "plan r2",
+        "plan r1"
+      ]
+    ]
+  }
+}

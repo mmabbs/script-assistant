@@ -1,0 +1,111 @@
+{
+  "about": "A good run: retry on a null answer, a thrown answer, two requests out of order, every check satisfied.",
+  "spec": [
+    "CONTRACT.md 02, 03, 05"
+  ],
+  "args": {
+    "project": "/abs/Selftest",
+    "topics": [
+      1,
+      2
+    ],
+    "requests": [
+      {
+        "id": "r2"
+      },
+      {
+        "id": "r1"
+      }
+    ]
+  },
+  "answers": {
+    "topic r1 1": [
+      {
+        "result": "found"
+      }
+    ],
+    "topic r1 2": [
+      null,
+      {
+        "result": "found"
+      }
+    ],
+    "write r1": [
+      {
+        "note": "Research/research-x.md"
+      }
+    ],
+    "topic r2 1": [
+      {
+        "$throw": "boom"
+      }
+    ],
+    "topic r2 2": [
+      {
+        "result": "none"
+      }
+    ]
+  },
+  "delay_ms": {
+    "topic r1 1": 30,
+    "topic r1 2": 30,
+    "topic r2 1": 30,
+    "topic r2 2": 30
+  },
+  "expect": {
+    "result": [
+      {
+        "request": "r1",
+        "outcome": "passed",
+        "note": "Research/research-x.md",
+        "reason": null
+      },
+      {
+        "request": "r2",
+        "outcome": "failed",
+        "note": null,
+        "reason": "x",
+        "reason_includes": [
+          "no topic"
+        ]
+      }
+    ],
+    "calls": {
+      "topic r1 2": {
+        "count": 2,
+        "prompt_includes": [
+          "/abs/Selftest/llm-files/research-plans/research-plan-x.md"
+        ],
+        "prompt_excludes": [
+          "topic-1.md"
+        ]
+      },
+      "write r1": {
+        "count": 1
+      }
+    },
+    "not_called": [
+      "write r2"
+    ],
+    "after": [
+      [
+        "write r1",
+        "topic r1 1"
+      ],
+      [
+        "write r1",
+        "topic r1 2"
+      ]
+    ],
+    "together": [
+      [
+        "topic r1 1",
+        "topic r1 2"
+      ],
+      [
+        "topic r1 1",
+        "topic r2 1"
+      ]
+    ]
+  }
+}

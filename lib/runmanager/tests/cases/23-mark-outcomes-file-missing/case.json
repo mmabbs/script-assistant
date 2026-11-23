@@ -1,0 +1,8 @@
+{
+  "about": "CONTRACT.md 4 item 1; spec-run-manager.md 04 item 19 and 06 item 8. The workflow call failed, so the session saved no outcomes file, but the workflow left one stray note in Research/. mark finds no outcomes file, edits no note, saves why, and exits 0; the run reaches 'marked', waiting for flags-1. It writes outcomes.json as [] (CONTRACT.md 4 item 1), which is what lets the real Edit guard run here: without the file it exits 1. The stray note is unexpected-research-note, act edits nothing, next_check null. This is the 'stray write by a failed workflow is still caught' of 04 item 19. Reading (see Gaps): exit 0, and CONTRACT 4 item 1's '[]' applies to a missing file as well as an invalid one.",
+  "spec": [
+    "spec-run-manager.md 04 item 19",
+    "spec-run-manager.md 06 item 8",
+    "CONTRACT.md 4 item 1"
+  ]
+}

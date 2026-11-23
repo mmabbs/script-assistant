@@ -1,0 +1,18 @@
+[
+  {
+    "id": "f1",
+    "rule": "unexplained-change",
+    "note": "Ideas/idea-harrow-point.md",
+    "before": "",
+    "after": "    - [AGENT] [[Projects/Lighthouse/Research/research-light-causeway-floods|research-light-causeway-floods]]",
+    "unit": ""
+  },
+  {
+    "id": "f2",
+    "rule": "unexplained-change",
+    "note": "Ideas/idea-harrow-point.md",
+    "before": "- The harbour is too shallow now for anything bigger than a creel boat.",
+    "after": "- The harbour is too shallow for anything bigger than a creel boat.",
+    "unit": ""
+  }
+]

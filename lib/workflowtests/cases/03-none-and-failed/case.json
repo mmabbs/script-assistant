@@ -1,0 +1,137 @@
+{
+  "about": "Three topics in round 1. Topic 1 finds something. Topic 2 answers none: it isn't a failed topic and isn't retried. Topic 3 answers failed on its first try and both retries, so it is called 3 times and lands in failed_topics. The note covers topic 1 only: the research-writer and research-evaluator get topic 1's path and never topic 2's or 3's.",
+  "spec": [
+    "spec-research-workflow.md 04 item 11",
+    "spec-research-workflow.md 04 item 13",
+    "spec-research-workflow.md 04 item 4",
+    "spec-research-workflow.md 11 Decisions Log item 61",
+    "spec-run-manager.md 06 item 5"
+  ],
+  "args": {
+    "project": "/Users/writer/Projects/Copper Coast",
+    "run_id": "run-2026-10-08-1400-research",
+    "requests": [
+      {
+        "id": "r1",
+        "note": "Ideas/idea-harrow-point.md",
+        "line": 15,
+        "text": "- [r] How did printed tide tables reach small villages in the 1950s? #research/run-2",
+        "comment": "%% Look for printed almanacs. %%"
+      }
+    ]
+  },
+  "answers": {
+    "plan r1": [
+      {
+        "research_topic": "tide-tables",
+        "topics": [
+          {
+            "n": 1,
+            "waits_on": []
+          },
+          {
+            "n": 2,
+            "waits_on": []
+          },
+          {
+            "n": 3,
+            "waits_on": []
+          }
+        ]
+      }
+    ],
+    "topic r1 1": [
+      {
+        "result": "found"
+      }
+    ],
+    "topic r1 2": [
+      {
+        "result": "none"
+      }
+    ],
+    "topic r1 3": [
+      {
+        "result": "failed"
+      },
+      {
+        "result": "failed"
+      },
+      {
+        "result": "failed"
+      }
+    ],
+    "write r1": [
+      {
+        "note": "Research/research-tide-tables.md"
+      }
+    ],
+    "check r1": [
+      {
+        "verdict": "pass",
+        "problems": []
+      }
+    ]
+  },
+  "expect": {
+    "result": [
+      {
+        "request": "r1",
+        "outcome": "passed",
+        "note": "Research/research-tide-tables.md",
+        "reason": null,
+        "failed_topics": [
+          "topic 3 (failed after retries)"
+        ]
+      }
+    ],
+    "calls": {
+      "topic r1 1": {
+        "count": 1
+      },
+      "topic r1 2": {
+        "count": 1
+      },
+      "topic r1 3": {
+        "count": 3,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-tide-tables.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-3.md"
+        ]
+      },
+      "write r1": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-tide-tables.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-1.md"
+        ],
+        "prompt_excludes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-2.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-3.md"
+        ]
+      },
+      "check r1": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-tide-tables.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-1.md",
+          "Research/research-tide-tables.md"
+        ],
+        "prompt_excludes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-2.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-3.md"
+        ]
+      }
+    },
+    "not_called": [
+      "fix r1",
+      "recheck r1"
+    ],
+    "after": [
+      [
+        "write r1",
+        "topic r1 3"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "file": "Runs/run-2026-10-23-1530-migration.md",
+  "first_line": "Migration run, started 2026-10-23 15:30.",
+  "sections": [
+    {
+      "heading": "Other edits you asked for",
+      "contains": [
+        "`- Mara counts a hundred steps every night.` now reads `- Mara counts one hundred and twelve steps every night.`",
+        "as your comment `%% Agent, it's one hundred and twelve steps, not a hundred. %%` in [[Projects/Lighthouse/Ideas/idea-mara|idea-mara]] asked."
+      ]
+    },
+    {
+      "heading": "Units undone",
+      "contains": [
+        "`- Tobias can't swim, which is why the ferry job scares him. #status/provisional`",
+        "The next migration run tries this again."
+      ]
+    },
+    {
+      "heading": "Changes put back",
+      "contains": [
+        "- Mara keeps a cat called Lamp."
+      ]
+    }
+  ],
+  "absent": [
+    "Questions for you",
+    "Migrated"
+  ],
+  "contains": [],
+  "nothing_needs_you": true
+}

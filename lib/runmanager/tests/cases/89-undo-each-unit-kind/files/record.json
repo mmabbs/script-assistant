@@ -1,0 +1,120 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/provisional"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "under": "# Idea - Mara",
+          "lines": [
+            "- Mara counts the tower's one hundred and twelve steps every night. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "Mara's habit goes in her note."
+    },
+    {
+      "id": "u2",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/provisional"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 12,
+          "text": "- The first keeper's name was Ezra Hale. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-ezra-hale.md",
+          "under": "",
+          "creates_note": true,
+          "lines": [
+            "# Idea - Ezra Hale",
+            "- The first keeper was Ezra Hale. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "No note covers the first keeper."
+    },
+    {
+      "id": "u3",
+      "action": "reject",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/rejected"
+      },
+      "sources": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "line": 10,
+          "text": "- Tobias was a strong swimmer as a boy. #status/rejected"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "## Rejected",
+          "lines": [
+            "- Tobias was a strong swimmer as a boy. #status/rejected"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "rejected",
+      "status_from": "tag",
+      "why": "The writer tagged it rejected, so it moves to the Rejected section."
+    },
+    {
+      "id": "u4",
+      "action": "edit",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, the paraffin line is settled, mark it committed."
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 13,
+          "text": "- The lamp burned paraffin until the 1958 refit. #status/provisional"
+        }
+      ],
+      "copies": [],
+      "edits": [
+        {
+          "note": "brain-dump.md",
+          "line": 13,
+          "before": "- The lamp burned paraffin until the 1958 refit. #status/provisional",
+          "after": "- The lamp burned paraffin until the 1958 refit. #status/committed"
+        }
+      ],
+      "status": "committed",
+      "status_from": "comment",
+      "why": "The comment asks for the tag."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

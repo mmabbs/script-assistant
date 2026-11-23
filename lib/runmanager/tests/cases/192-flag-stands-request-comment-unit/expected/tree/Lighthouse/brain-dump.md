@@ -1,0 +1,12 @@
+---
+title: Brain Dump
+type: [brain-dump]
+created: 2026-09-01
+---
+
+# Brain Dump
+
+### 2026-09-20
+
+- Tobias worked summers on the ferry to the mainland. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]
+    %% [AGENT] Your request from the migration run of 2026-10-20, for this line: "put the ferry lines in idea-tobias" %%

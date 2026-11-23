@@ -1,0 +1,129 @@
+{
+  "about": "Every path is absolute, built from the project folder, which has a space in it. The research-planner gets the request's note joined to the project folder (a subfolder with a space). Findings paths sit under the run id. The research-writer gets the run date read from the run id (2026-11-03), the plan, the findings, and the template copy under its literal name. The research-writer returns a note name with the date appended, as after a name clash; the research-evaluator gets that path and the outcome reports it.",
+  "spec": [
+    "spec-research-workflow.md 11 Decisions Log item 86",
+    "spec-research-workflow.md 08 item 7",
+    "spec-research-workflow.md 11 Decisions Log item 62",
+    "spec-research-workflow.md 03 item 1",
+    "spec-research-workflow.md 07 item 1",
+    "spec-research-workflow.md 07 item 2",
+    "spec-research-workflow.md 07 item 9",
+    "spec-research-workflow.md 11 Decisions Log item 85",
+    "CONTRACT.md 6 items 1 and 2"
+  ],
+  "args": {
+    "project": "/Users/writer/Projects/Copper Coast",
+    "run_id": "run-2026-11-03-0915-research",
+    "requests": [
+      {
+        "id": "r1",
+        "note": "Concepts/Harbour Town/concept-harbour-town.md",
+        "line": 22,
+        "text": "- [r] How were fishing quotas enforced in Nova Scotia in 1962? #research/run-7",
+        "comment": "%% Nova Scotia only. %%"
+      }
+    ]
+  },
+  "answers": {
+    "plan r1": [
+      {
+        "research_topic": "fishing-quotas",
+        "topics": [
+          {
+            "n": 1,
+            "waits_on": []
+          },
+          {
+            "n": 2,
+            "waits_on": [
+              1
+            ]
+          }
+        ]
+      }
+    ],
+    "topic r1 1": [
+      {
+        "result": "found"
+      }
+    ],
+    "topic r1 2": [
+      {
+        "result": "found"
+      }
+    ],
+    "write r1": [
+      {
+        "note": "Research/research-fishing-quotas-2026-11-03.md"
+      }
+    ],
+    "check r1": [
+      {
+        "verdict": "pass",
+        "problems": []
+      }
+    ]
+  },
+  "expect": {
+    "result": [
+      {
+        "request": "r1",
+        "outcome": "passed",
+        "note": "Research/research-fishing-quotas-2026-11-03.md",
+        "reason": null,
+        "failed_topics": []
+      }
+    ],
+    "calls": {
+      "plan r1": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/Concepts/Harbour Town/concept-harbour-town.md",
+          "- [r] How were fishing quotas enforced in Nova Scotia in 1962? #research/run-7",
+          "Nova Scotia only."
+        ]
+      },
+      "topic r1 1": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-fishing-quotas.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-11-03-0915-research/fishing-quotas/topic-1.md"
+        ]
+      },
+      "topic r1 2": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-fishing-quotas.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-11-03-0915-research/fishing-quotas/topic-2.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-11-03-0915-research/fishing-quotas/topic-1.md"
+        ]
+      },
+      "write r1": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-fishing-quotas.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-11-03-0915-research/fishing-quotas/topic-1.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-11-03-0915-research/fishing-quotas/topic-2.md",
+          "/Users/writer/Projects/Copper Coast/Research/research-{research-topic}.md",
+          "2026-11-03"
+        ],
+        "prompt_excludes": [
+          "2026-10-08"
+        ]
+      },
+      "check r1": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-fishing-quotas.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-11-03-0915-research/fishing-quotas/topic-1.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-11-03-0915-research/fishing-quotas/topic-2.md",
+          "Research/research-fishing-quotas-2026-11-03.md"
+        ]
+      }
+    },
+    "not_called": [
+      "fix r1",
+      "recheck r1"
+    ]
+  }
+}

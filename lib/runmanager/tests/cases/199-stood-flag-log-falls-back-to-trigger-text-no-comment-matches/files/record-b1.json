@@ -1,0 +1,34 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "edit",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, it's 112 steps, not 100."
+      },
+      "sources": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "line": 10,
+          "text": "- Mara counts a hundred steps every night."
+        }
+      ],
+      "copies": [],
+      "edits": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "line": 10,
+          "before": "- Mara counts a hundred steps every night.",
+          "after": "- Mara counts one hundred and twelve steps every night."
+        }
+      ],
+      "status": "tentative",
+      "status_from": "default",
+      "why": "The comment corrects the count."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

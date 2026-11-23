@@ -1,0 +1,60 @@
+{
+  "open_run": null,
+  "history": [
+    {
+      "id": "run-2026-10-14-1322-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-14 13:22",
+      "ended": "2026-10-14 13:40",
+      "how": "closed",
+      "renamed": []
+    }
+  ],
+  "handled": [
+    {
+      "note": "Ideas/idea-mara-lighthouse.md",
+      "text": "- The supply boat captain calls her \"Miss Quill\" and nobody else does. #status/provisional",
+      "outcome": "written",
+      "run": "run-2026-10-14-1322-migration",
+      "pointer": null
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- The supply boat captain calls her \"Miss Quill\" and nobody else does. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara-lighthouse|idea-mara-lighthouse]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-14-1322-migration",
+      "pointer": [
+        "Ideas/idea-mara-lighthouse.md"
+      ]
+    }
+  ],
+  "unit_index": [
+    {
+      "run": "run-2026-10-14-1322-migration",
+      "unit": "b1-u6",
+      "state": "undone",
+      "pointed_lines": []
+    },
+    {
+      "run": "run-2026-10-14-1322-migration",
+      "unit": "b1-u8",
+      "state": "undone",
+      "pointed_lines": []
+    },
+    {
+      "run": "run-2026-10-14-1322-migration",
+      "unit": "b1-u7",
+      "state": "undone",
+      "pointed_lines": []
+    },
+    {
+      "run": "run-2026-10-14-1322-migration",
+      "unit": "b1-u9",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- The supply boat captain calls her \"Miss Quill\" and nobody else does. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara-lighthouse|idea-mara-lighthouse]]]"
+      ]
+    }
+  ]
+}

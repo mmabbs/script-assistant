@@ -1,0 +1,29 @@
+{
+  "file": "Runs/run-2026-10-10-1600-research.md",
+  "first_line": "Research run 2, started 2026-10-10 16:00.",
+  "sections": [
+    {
+      "heading": "Notes changed outside the run",
+      "contains": [
+        "idea-tobias",
+        "research-light-lamp-oil",
+        "idea-keeper-refusal",
+        "research-light-fog-signals"
+      ]
+    },
+    {
+      "heading": "Done",
+      "contains": [
+        "What did a relief keeper's contract look like in the 1950s?",
+        "research-light-relief-keeper-contracts"
+      ]
+    }
+  ],
+  "absent": [
+    "Requests still open",
+    "Closes undone",
+    "Still flagged after the second check"
+  ],
+  "contains": [],
+  "nothing_needs_you": false
+}

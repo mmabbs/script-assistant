@@ -1,0 +1,18 @@
+[
+  {
+    "id": "f1",
+    "rule": "unexplained-change",
+    "note": "brain-dump.md",
+    "before": "- Tobias kept a tin of sea glass under his bed.",
+    "after": "- Tobias kept a tin of sea glass under his bed. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]",
+    "unit": ""
+  },
+  {
+    "id": "f2",
+    "rule": "unexplained-change",
+    "note": "Ideas/idea-mara-lighthouse.md",
+    "before": "- [?] Why did her father leave the light?",
+    "after": "- Why did her father leave the light?",
+    "unit": ""
+  }
+]

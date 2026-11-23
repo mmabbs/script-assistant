@@ -1,0 +1,11 @@
+{
+  "about": "As case 214, plus the gallery rail line, a tagged line in the same piece that nothing in the record or findings names. The could_not entry no longer hides every line of its story note from the lines the run did nothing with: the rail line is listed under Other notes, and stays off the handled list with the roof line. The swim line and its copy go on.",
+  "spec": [
+    "spec-run-manager.md 07.1 items 6, 8, 14",
+    "spec-run-manager.md 11 Decisions Log item 105",
+    "plan-run-manager.md Milestone 17, first checkbox, item 5 ('but another tagged line of the same story note that nothing names now is')"
+  ],
+  "readings": [
+    "log.json can't check that a string is missing from a section, so this case doesn't check that the roof line is left out of Other notes; case 214 checks that."
+  ]
+}

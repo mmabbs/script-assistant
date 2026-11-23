@@ -1,0 +1,71 @@
+{
+  "open_run": {
+    "id": "run-2026-10-14-1530-migration",
+    "kind": "migration",
+    "run_number": null,
+    "request": null,
+    "step": "migrating",
+    "next_check": null,
+    "started": "2026-10-14 15:30",
+    "batch": 1,
+    "round": 0
+  },
+  "history": [
+    {
+      "id": "run-2026-10-07-1000-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-07 10:00",
+      "ended": "2026-10-07 10:50",
+      "how": "closed"
+    }
+  ],
+  "handled": [
+    {
+      "note": "brain-dump.md",
+      "text": "- Mara never leaves the island. #status/committed [migrated-to:: [[Projects/Lighthouse/Areas/area-mara|area-mara]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-07-1000-migration",
+      "pointer": [
+        "Areas/area-mara.md"
+      ]
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- Mara keeps a logbook and has never let anyone read it. #status/committed [migrated-to:: [[Projects/Lighthouse/Areas/area-mara|area-mara]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-07-1000-migration",
+      "pointer": [
+        "Areas/area-mara.md"
+      ]
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- The relief keeper arrives by boat every second Tuesday. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-relief-keeper|idea-relief-keeper]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-07-1000-migration",
+      "pointer": [
+        "Ideas/idea-relief-keeper.md"
+      ]
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- The fog signal is a diaphone. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-fog-signal|idea-fog-signal]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-07-1000-migration",
+      "pointer": [
+        "Ideas/idea-fog-signal.md"
+      ]
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- The fog signal carries across the bay. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-fog-signal|idea-fog-signal]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-07-1000-migration",
+      "pointer": [
+        "Ideas/idea-fog-signal.md"
+      ]
+    }
+  ],
+  "unit_index": []
+}

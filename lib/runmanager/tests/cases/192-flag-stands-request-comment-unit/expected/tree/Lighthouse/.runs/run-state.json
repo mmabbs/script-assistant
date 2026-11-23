@@ -1,0 +1,49 @@
+{
+  "open_run": null,
+  "history": [
+    {
+      "id": "run-2026-10-23-1530-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-23 15:30",
+      "ended": "2026-10-23 15:50",
+      "how": "closed",
+      "renamed": []
+    }
+  ],
+  "handled": [
+    {
+      "note": "Ideas/idea-tobias.md",
+      "text": "- Tobias worked the ferry every summer. #status/tentative",
+      "outcome": "written",
+      "run": "run-2026-10-23-1530-migration",
+      "pointer": null
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- Tobias worked summers on the ferry to the mainland. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-23-1530-migration",
+      "pointer": [
+        "Ideas/idea-tobias.md"
+      ]
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "    %% [AGENT] Your request from the migration run of 2026-10-20, for this line: \"put the ferry lines in idea-tobias\" %%",
+      "outcome": "comment",
+      "run": "run-2026-10-23-1530-migration",
+      "pointer": null
+    }
+  ],
+  "unit_index": [
+    {
+      "run": "run-2026-10-23-1530-migration",
+      "unit": "b1-u1",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Tobias worked summers on the ferry to the mainland. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]"
+      ]
+    }
+  ]
+}

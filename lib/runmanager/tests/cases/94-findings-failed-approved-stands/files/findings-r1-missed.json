@@ -1,0 +1,21 @@
+{
+  "batch": "b1",
+  "round": 1,
+  "units": [
+    {
+      "unit": "u2",
+      "verdict": "approve",
+      "problems": []
+    }
+  ],
+  "missed": [
+    {
+      "source": {
+        "note": "brain-dump.md",
+        "line": 15,
+        "text": "- The cottage roof leaks over the bed. #status/provisional"
+      },
+      "what": "Nothing moved this line."
+    }
+  ]
+}

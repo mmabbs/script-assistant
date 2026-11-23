@@ -1,0 +1,10 @@
+{
+  "about": "Two approved edit units change u7's source line one after the other: u6 tags it, u8 rewords the tagged line. `pointers` follows the chain from u7's source text through u6's `after` to u8's `after`, finds the line, and writes u7's pointer at its end; nothing is undone. The real Edit guard explains the line by the chain (CONTRACT.md 5.4 item 11): writer-line-edited and brain-dump-status-tag on b1-u6, each with u6's own before and after, and writer-line-edited on b1-u8 with u8's; no unexplained-change or pointer-mismatch. The migration-verifier judges all three asked for, so `act` changes nothing and `close` needs no second check. The handled list gets the line once, as migrated, with its text at close and u7's destination; the copy as written; the comment as comment. The log lists the line under Migrated and both edits under Other edits you asked for.",
+  "spec": [
+    "CONTRACT.md 5.4 items 8, 9, 11; 5.5 items 2, 4, 5; 5.6 items 3, 6",
+    "spec-edit-guard.md 03.2 item 2; 04 items 1, 2"
+  ],
+  "readings": [
+    "Each edits entry in the chain is its own change for the markup rules, named by its own unit, so a flag judged not asked for undoes the unit it names (5.5 item 5)."
+  ]
+}

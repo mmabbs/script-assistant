@@ -1,0 +1,11 @@
+{
+  "about": "A migration run at 'verifying' crashes; recover runs once and works: it undoes both units and waits for flags-1. The Edit guard never writes flags-1, so the writer types abandon. `abandon` at 16:55: Never checked says \"Markup wasn't checked after the run's last edit.\" Every unit is undone, so Copies still in your notes is left out; there's no typed request, so Your request is left out. Other notes names the snapshot folder. The notes stay as recover left them.",
+  "spec": [
+    "spec-run-manager.md 09.3 items 1 and 4 (section 3, first kind)",
+    "spec-run-manager.md 11 item 109",
+    "plan-run-manager.md Milestone 18, second checkbox, item 4"
+  ],
+  "readings": [
+    "Abandon runs after any recover, not only a failed one: it needs only `recover_tried` (09.3 item 1). A recover that worked, followed by an Edit guard that never writes its flags file, is the stuck run 09.2 item 6 names."
+  ]
+}

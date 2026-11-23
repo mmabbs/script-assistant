@@ -1,0 +1,14 @@
+{
+  "about": "One piece: the untagged ferry line with the writer's comment under it, and the tagged Mara line. u1 (trigger `comment`) copies the ferry line to idea-tobias with an [AGENT] line; u2 (trigger `tag`) moves the Mara line to idea-mara with an [AGENT] line of its own. Both are approved and pointed. The real Edit guard raises agent-line-added on b1-u2 in idea-mara (f1) and on b1-u1 in idea-tobias (f2). f2 stands. f1 is on a unit only a status tag started, so it still goes to the flags call: verify-flags.json holds f1 and the cut-down b1-u2, and neither f2 nor b1-u1. The step is judging; no note changed.",
+  "spec": [
+    "spec-migration-verifier.md 06 item 7 (second exception: a unit only a status tag started); 03.2 items 1 and 2; 10 item 35",
+    "spec-run-manager.md 05 item 8; 04 item 22 (the `act` row at pointed); 11 item 101",
+    "CONTRACT.md 5.5 item 3 (verify-flags.json: one cut-down unit for each unit a flag in it names)",
+    "plan-run-manager.md Milestone 16, test case 2 (a flag on a unit whose trigger kind is `tag`)"
+  ],
+  "readings": [
+    "flags-1.json is the real Edit guard's output on this case's state, taken by running the steps on 2026-10-23.",
+    "verify-flags.json is the file the current `act` writes on this case's state with f2 and b1-u1 taken out; each flag keeps its id as the Edit guard wrote it (case 135's reading).",
+    "The case stops at judging: the rest of the path is case 193's and case 123's."
+  ]
+}

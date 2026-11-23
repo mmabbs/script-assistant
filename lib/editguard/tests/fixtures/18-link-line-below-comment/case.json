@@ -1,0 +1,5 @@
+{
+  "kind": "research",
+  "run_id": "run-2026-10-10-1600-research",
+  "about": "The link line is in the settled form but sits below the request's comment instead of right under the request (spec-edit-guard.md 04 item 6; 11 Decisions Log item 6). It is link-line-invalid. The close then has no valid link line under it, so it is also close-invalid (04 table; 04 item 6). Fixture worker's reading: a settled-form link line inside its request's block (the request line and the comment under it) is judged as that request's link line, not as an unexplained lookalike; and both rules fire. Research runs have no units, so unit is empty."
+}

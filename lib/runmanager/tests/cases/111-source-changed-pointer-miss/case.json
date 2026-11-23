@@ -1,0 +1,16 @@
+{
+  "about": "Both units are approved. Then a copy step stands in for the writer rewording u2's source line in the Brain Dump doc after the run started. `pointers` writes u1's pointer. It can't find u2's source line, so it writes no pointer for u2, undoes u2 as Milestone 9's undo does (its copy leaves idea-mara, which is back to its start), marks b1-u2 undone, and saves the line in .runs/{run-id}/pointer-misses.json. The undo itself missed nothing, so undo-misses.json is []. The writer's reworded line stays. The real Edit guard flags the writer's change as unexplained-change (no unit explains it) and nothing else.",
+  "spec": [
+    "CONTRACT.md 5.4 items 9, 11; 5.3 item 10",
+    "spec-run-manager.md 08.1 item 1; 09.1 items 2, 5",
+    "spec-edit-guard.md 03.2, 04 (unexplained-change), 05 item 2",
+    "plan-run-manager.md 04 Milestone 10"
+  ],
+  "readings": [
+    "pointer-misses.json's text is the source line's record text, the line `pointers` looked for.",
+    "A unit undone by `pointers` keeps its place in the unit index and becomes undone with pointed_lines [].",
+    "The undo `pointers` runs writes undo-misses.json, [] when it missed nothing (CONTRACT.md 5.3 item 10).",
+    "An Edit guard flag with no unit has unit \"\" (spec-edit-guard.md 05 item 2: 'or is empty').",
+    "CONTRACT.md section 2 'Comparing' item 3 and test_cases.py don't list pointer-misses.json, so the runner doesn't compare the expected file here until the runner adds it."
+  ]
+}

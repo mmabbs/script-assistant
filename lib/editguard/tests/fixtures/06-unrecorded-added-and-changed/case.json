@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "Next to a clean unit, idea-harrow-point has a changed line and an added line that no record entry or Run manager edit explains (spec-edit-guard.md 03.2, last sentence before the list). The changed line is one flag with both texts (05 item 2); the added line has before empty. Neither has a unit."
+}

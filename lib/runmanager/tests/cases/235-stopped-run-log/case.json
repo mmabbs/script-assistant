@@ -1,0 +1,13 @@
+{
+  "about": "A stopped research run, checked and closed as usual. Before the stop, the workflow wrote one light research note into Research/, and a note the run didn't write appeared outside Research/ (Notes/note-stray.md). `mark --stopped`; the real Edit guard flags the research note `unexpected-research-note` and the stray note `fingerprint-changed`; `act` edits nothing; `close`. Both requests stay `- [r]`. The log's Requests still open opens with \"You stopped this run. Every request stays open.\", lists each request with \"You stopped this run.\" as why, and ends with \"Written before you stopped the run:\" and the research note. Notes changed outside the run names the stray note and not the research note. The history entry is closed with `failed: []`.",
+  "spec": [
+    "spec-run-manager.md 09.4 items 2 to 4",
+    "spec-run-manager.md 06.1 item 2",
+    "spec-run-manager.md 11 items 114 and 115",
+    "plan-run-manager.md Milestone 18, second checkbox, item 6"
+  ],
+  "readings": [
+    "A stopped request isn't a failed request that left a note, so `failed` is `[]`.",
+    "Requests are checked by their words without the checkbox; notes by their file names."
+  ]
+}

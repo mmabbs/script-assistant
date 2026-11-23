@@ -1,0 +1,109 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/tentative"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- [?] Does Mara keep the old keeper's logbook? #status/tentative"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "under": "# Idea - Mara",
+          "lines": [
+            "- Mara may keep the old keeper's logbook. #status/tentative"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "tentative",
+      "status_from": "tag",
+      "why": "An open question about Mara's past."
+    },
+    {
+      "id": "u2",
+      "action": "edit",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, it's one hundred and twelve steps, not a hundred."
+      },
+      "sources": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "line": 10,
+          "text": "- Mara counts a hundred steps every night."
+        }
+      ],
+      "copies": [],
+      "edits": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "line": 10,
+          "before": "- Mara counts a hundred steps every night.",
+          "after": "- Mara counts one hundred and twelve steps every night."
+        }
+      ],
+      "status": "tentative",
+      "status_from": "default",
+      "why": "The comment corrects the count."
+    },
+    {
+      "id": "u3",
+      "action": "reject",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/rejected"
+      },
+      "sources": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "line": 10,
+          "text": "- Tobias was a strong swimmer as a boy. #status/rejected"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "## Rejected",
+          "lines": [
+            "- Tobias was a strong swimmer as a boy. #status/rejected",
+            "%% He has to be afraid of the water. %%"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "rejected",
+      "status_from": "tag",
+      "why": "The writer tagged it rejected and gave a reason."
+    }
+  ],
+  "left_in_place": [
+    {
+      "source": {
+        "note": "brain-dump.md",
+        "line": 12,
+        "text": "- The lens came from a works in Birmingham. #status/provisional"
+      },
+      "why": "It's about the light itself, and no note covers the light yet."
+    }
+  ],
+  "questions": [],
+  "could_not": [
+    {
+      "source": {
+        "note": "Ideas/idea-lamp.md",
+        "line": 9,
+        "text": "- The lamp burned paraffin until the 1958 refit. #status/provisional"
+      },
+      "what": "The comment asks me to check the refit date in the plot outline, and I couldn't find one there."
+    }
+  ]
+}

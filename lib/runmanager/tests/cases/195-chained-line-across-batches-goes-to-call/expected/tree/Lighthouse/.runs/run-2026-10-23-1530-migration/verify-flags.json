@@ -1,0 +1,64 @@
+{
+  "flags": [
+    {
+      "id": "f2",
+      "rule": "writer-line-edited",
+      "note": "brain-dump.md",
+      "before": "- The lamp burned paraffin until the 1958 refit. #status/provisional",
+      "after": "- The lamp burned paraffin until the 1958 refit, then diesel. #status/provisional",
+      "unit": "b1-u1"
+    },
+    {
+      "id": "f3",
+      "rule": "writer-line-edited",
+      "note": "brain-dump.md",
+      "before": "- The lamp burned paraffin until the 1958 refit, then diesel. #status/provisional",
+      "after": "- The lamp burned paraffin until the 1962 refit, then diesel. #status/provisional",
+      "unit": "b2-u1"
+    }
+  ],
+  "units": {
+    "b1-u1": {
+      "id": "u1",
+      "action": "edit",
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 18,
+          "text": "- The lamp burned paraffin until the 1958 refit. #status/provisional"
+        }
+      ],
+      "copies": [],
+      "edits": [
+        {
+          "note": "brain-dump.md",
+          "line": 18,
+          "before": "- The lamp burned paraffin until the 1958 refit. #status/provisional",
+          "after": "- The lamp burned paraffin until the 1958 refit, then diesel. #status/provisional"
+        }
+      ],
+      "status": "provisional"
+    },
+    "b2-u1": {
+      "id": "u1",
+      "action": "edit",
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 18,
+          "text": "- The lamp burned paraffin until the 1958 refit. #status/provisional"
+        }
+      ],
+      "copies": [],
+      "edits": [
+        {
+          "note": "brain-dump.md",
+          "line": 18,
+          "before": "- The lamp burned paraffin until the 1958 refit, then diesel. #status/provisional",
+          "after": "- The lamp burned paraffin until the 1962 refit, then diesel. #status/provisional"
+        }
+      ],
+      "status": "provisional"
+    }
+  }
+}

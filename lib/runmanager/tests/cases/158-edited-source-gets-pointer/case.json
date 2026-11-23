@@ -1,0 +1,18 @@
+{
+  "about": "From the live run of 2026-10-14 (run-3, batch 1, units u6 and u7). u6 is an edit unit that tags the Brain Dump line provisional, as the comment under it asks; u7 migrates the same line to idea-mara-lighthouse, its source text the line before the tag. Both are approved. `pointers` doesn't find u7's source line by its text, since u6 changed it; it finds it by u6's `after` and writes u7's pointer at the very end, after the tag, so u7 becomes pointer-written with that line in pointed_lines, and nothing is undone. The real Edit guard raises only u6's own flags, writer-line-edited and brain-dump-status-tag, each with the edit's `after` (no unexplained-change, pointer-mismatch, or copy-mismatch). u6 is approved and the comment started it, so both flags stand without the migration-verifier: `act` writes no verify-flags.json and goes straight to acted with next_check null, and `close` needs no second check. The handled list gets the edited line once, as migrated, with its text at close and u7's destination; the copy as written; the comment as comment. The log lists the line under Migrated and u6's edit under Other edits you asked for, and has no Units undone.",
+  "spec": [
+    "CONTRACT.md 5.4 items 2, 4, 8, 9 (run's own edit), 11",
+    "CONTRACT.md 5.5 items 2, 4, 5 (asked)",
+    "CONTRACT.md 5.6 items 3, 6",
+    "spec-run-manager.md 08.1 item 1; 08.2 item 2",
+    "spec-edit-guard.md 03.1 item 2; 03.2 items 2, 4; 03.3 item 2; 04 items 1, 2",
+    "spec-migration-verifier.md 06 item 7; 10 item 35",
+    "spec-run-manager.md 05 item 8; 11 item 101"
+  ],
+  "readings": [
+    "The edit flags' `after` is the edit's own `after`, without the pointer: the pointer is stripped as a Run manager edit before the edit is matched (spec-edit-guard.md 03.1 item 2).",
+    "A line counted twice (u7's migrated source, u6's edited source) gets one entry; `migrated` is taken first, as close already orders it (CONTRACT.md 5.6 item 3).",
+    "Revised 2026-10-23 for Run manager Milestone 16 (spec-migration-verifier.md 06 item 7; spec-run-manager.md 05 item 8 and 11 item 101): u6's flags now stand instead of being judged asked for. u7 migrates the line but edits nothing, so the line wasn't edited by two units in turn. The steps that saved flag findings, ran `findings`, and ran `act` at judged are gone; verify-flags.json is gone from expected/ and the unused findings file from files/ (both kept with the suffix .retired-m16).",
+    "Log wording (plan-run-manager.md 06 item 14, reading 1): exactly one comment in the unit's piece holds the trigger's text, so the entry quotes that comment whole, %% marks included, with its note, as a judged flag's line does. Tightened 2026-10-23."
+  ]
+}

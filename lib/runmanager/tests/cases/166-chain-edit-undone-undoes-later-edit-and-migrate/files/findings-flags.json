@@ -1,0 +1,24 @@
+{
+  "flags": [
+    {
+      "flag": "f1",
+      "verdict": "not-asked",
+      "asked_by": null
+    },
+    {
+      "flag": "f2",
+      "verdict": "not-asked",
+      "asked_by": null
+    },
+    {
+      "flag": "f3",
+      "verdict": "asked",
+      "asked_by": {
+        "kind": "comment",
+        "note": "brain-dump.md",
+        "line": 12,
+        "text": "%% Agent, tag this provisional. %%"
+      }
+    }
+  ]
+}

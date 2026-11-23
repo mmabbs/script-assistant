@@ -1,0 +1,10 @@
+{
+  "about": "Plan Milestone 4 item 2; spec-run-manager.md 08.4 items 1 and 2; CONTRACT.md 1 item 5. Two passed requests in Ideas/idea-mara-lighthouse.md, marked one at a time. r1 sits at the top level with a two-line comment under it: its link line goes on the line right under the request, above the comment. r2 is indented four spaces under another bullet and has no comment: its link line is its indent plus four spaces. Each - [r] becomes - [x] and nothing else on the line changes; r2 is found by its text even though r1's link line pushed it down a line (08.1 item 1). The open requests in idea-harrow-point.md are tagged #research/run-3 and stay untouched. The Edit guard finds nothing, so act edits nothing: 'acted', next_check null (spec-edit-guard.md 01 item 6).",
+  "spec": [
+    "spec-run-manager.md 08.4 items 1, 2",
+    "spec-run-manager.md 08.1 item 1",
+    "CONTRACT.md 1 item 5",
+    "spec-edit-guard.md 01 item 6",
+    "plan-run-manager.md 03 Milestone 4 test case 2"
+  ]
+}

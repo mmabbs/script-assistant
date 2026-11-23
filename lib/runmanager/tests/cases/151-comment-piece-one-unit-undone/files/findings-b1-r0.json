@@ -1,0 +1,24 @@
+{
+  "batch": "b1",
+  "round": 0,
+  "units": [
+    {
+      "unit": "u1",
+      "verdict": "approve",
+      "problems": []
+    },
+    {
+      "unit": "u2",
+      "verdict": "fix",
+      "problems": [
+        {
+          "check": "lost-detail",
+          "note": "Ideas/idea-tobias.md",
+          "line": 10,
+          "what": "The copy drops why: he can't swim."
+        }
+      ]
+    }
+  ],
+  "missed": []
+}

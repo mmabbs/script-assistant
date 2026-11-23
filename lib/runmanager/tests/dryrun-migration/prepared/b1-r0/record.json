@@ -1,0 +1,168 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/provisional"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 37,
+          "text": "- Tobias kept a tin of sea glass under his bed. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- Tobias kept sea glass under his bed."
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "tentative",
+      "status_from": "default",
+      "why": "The line is about Tobias, so it goes to his Idea Note."
+    },
+    {
+      "id": "u2",
+      "action": "migrate",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, the flooding goes in idea-harrow-point, the supply runs in idea-mara-lighthouse."
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 39,
+          "text": "- The causeway floods twice a month, and Mara times her supply runs around the tide table. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-harrow-point.md",
+          "under": "# Idea - Harrow Point",
+          "lines": [
+            "## The causeway",
+            "- The causeway to Harrow Point floods twice a month. #status/provisional"
+          ]
+        },
+        {
+          "note": "Ideas/idea-mara-lighthouse.md",
+          "under": "# Idea - Mara Lighthouse",
+          "lines": [
+            "- Mara times her supply runs around the tide table, because the causeway floods twice a month. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "The comment names both notes. The harrow-point copy opens a new heading for the causeway."
+    },
+    {
+      "id": "u3",
+      "action": "migrate",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, these two are the same idea. Merge them into idea-relief-keeper."
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 48,
+          "text": "- The new keeper could be someone from the mainland who's never seen the sea."
+        },
+        {
+          "note": "brain-dump.md",
+          "line": 49,
+          "text": "- What if the relief keeper is scared of the water?"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-relief-keeper.md",
+          "under": "# Idea - Relief Keeper",
+          "lines": [
+            "- The relief keeper could be someone from the mainland who has never seen the sea and is scared of the water."
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "tentative",
+      "status_from": "default",
+      "why": "Both lines say the relief keeper is a stranger to the sea, so they merge into one."
+    },
+    {
+      "id": "u4",
+      "action": "migrate",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, area-mara."
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 54,
+          "text": "- Mara keeps a logbook and has never let anyone read it. #status/committed"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Areas/area-mara.md",
+          "under": "# Mara",
+          "lines": [
+            "- Mara keeps a logbook and has never let anyone read it."
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "committed",
+      "status_from": "tag",
+      "why": "The line is committed, so it graduates to the Area Note with its tag dropped."
+    },
+    {
+      "id": "u5",
+      "action": "edit",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, tag this provisional."
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 57,
+          "text": "- Mara has never once left the light during a storm."
+        }
+      ],
+      "copies": [],
+      "edits": [
+        {
+          "note": "brain-dump.md",
+          "line": 57,
+          "before": "- Mara has never once left the light during a storm.",
+          "after": "- Mara has never once left the light during a storm. #status/provisional"
+        }
+      ],
+      "status": "provisional",
+      "status_from": "comment",
+      "why": "The comment asks for the tag on this line."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [
+    {
+      "source": {
+        "note": "brain-dump.md",
+        "line": 60,
+        "text": "- The ferry horn and the fog signal sit a half-step apart, so on foggy mornings nobody can tell which is which."
+      },
+      "ask": "Which note should the horn and fog signal line go in: idea-fog-signal or idea-harrow-point?"
+    }
+  ],
+  "could_not": []
+}

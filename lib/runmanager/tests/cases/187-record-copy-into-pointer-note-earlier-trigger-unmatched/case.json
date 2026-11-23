@@ -1,0 +1,11 @@
+{
+  "about": "As case 175, except the earlier run's units give a trigger text, 'Agent, Tobias's line goes in his note and hers.', that no comment in the piece holds (that run's migrator paraphrased). This run's u1 has trigger kind `comment` with text the piece's comment holds, and copies the line to idea-mara and a second time to idea-tobias, the note the pointer names. The code can't match the earlier unit to a trigger, so the copy is let through: `record` exits 0, the cut-down record holds u1, and the run moves to verifying with fixing [u1].",
+  "spec": [
+    "spec-run-manager.md 11 Decisions Log item 99 (Claude's reading: when the code can't match the earlier unit to a trigger, the copy is let through)",
+    "CONTRACT.md 5.3 items 1, 4, 5",
+    "plan-run-manager.md Milestone 15, first checkbox, group 2"
+  ],
+  "readings": [
+    "The earlier unit is unmatched because its trigger text is in no comment of the piece, by item 97's matching."
+  ]
+}

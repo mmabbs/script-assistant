@@ -1,0 +1,12 @@
+{
+  "about": "The writer moved the project folder from Lighthouse to Lighthouse-Isle after the last migration run, and Obsidian rewrote every link's `Projects/Lighthouse/` prefix to `Projects/Lighthouse-Isle/`, the Run manager's pointers included. The handled list still holds the three Brain Dump pointer lines with the old prefix. Two of them point to the same note (idea-mara), so under the old pointer match each has two candidate entries and came back as new work; the third has two destinations. With link targets left out, every pointer line matches its own entry by text, and the tagged copies in the Idea Notes hold no links and match as before. Nothing is new, so `start` exits 1 with 'No new work since the last migration run.' and claims nothing: the run state is unchanged and no run folder is written.",
+  "spec": [
+    "spec-run-manager.md 07.1 item 10; 04 item 5",
+    "spec-run-manager.md 11 Decisions Log item 102",
+    "CONTRACT.md 5.1 item 5",
+    "plan-run-manager.md Milestone 17, first checkbox, item 1 ('after the project folder moves, no pointer line is new work')"
+  ],
+  "readings": [
+    "A folder move changes no path inside the project, so the scan finds no rename; with no new work there is no batches file to hold `renamed` anyway."
+  ]
+}

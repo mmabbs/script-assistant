@@ -1,0 +1,19 @@
+{
+  "batch": "b1",
+  "round": 2,
+  "units": [
+    {
+      "unit": "u2",
+      "verdict": "fix",
+      "problems": [
+        {
+          "check": "lost-detail",
+          "note": "Ideas/idea-mara.md",
+          "line": 10,
+          "what": "'Whenever she climbs' still loses that she does it every night."
+        }
+      ]
+    }
+  ],
+  "missed": []
+}

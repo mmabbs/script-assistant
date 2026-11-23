@@ -1,0 +1,9 @@
+{
+  "about": "Plan Milestone 4 item 1. r1's outcome is passed and names Research/research-light-causeway-floods.md, which doesn't exist; r2's passed note does (spec-run-manager.md 06 item 7: every passed note must exist). The whole file is refused, so r2 stays open too. So mark edits no note: both requests stay - [r] and no link line is written. The run carries on (spec-run-manager.md 04 item 19): mark exits 0 and the run reaches 'marked', waiting for flags-1. Per CONTRACT.md 4 item 1, mark moves the bad file to outcomes-refused.json and writes outcomes.json as [], so the real Edit guard runs (exit 0) and flags each research note the workflow wrote as unexpected-research-note. act edits nothing for that rule (CONTRACT.md 4 item 5), so the run reaches 'acted' with next_check null. Reading (see Gaps): mark exits 0, not 1, because the step ran and the run state moved on; 'refuses' in spec 06 item 7 means refusing the file, as 04 item 19 says.",
+  "spec": [
+    "spec-run-manager.md 06 item 7",
+    "spec-run-manager.md 04 items 18, 19",
+    "CONTRACT.md 4 items 1, 5",
+    "plan-run-manager.md 03 Milestone 4 test case 1"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "about": "A clean run: two Brain Dump lines migrate, one to idea-mara and one to idea-tobias, both approved. The Edit guard gives [], `act` goes straight to acted with no second check, and `close` runs at 16:10. The run log opens 'Migration run, started 2026-10-14 15:30.' then 'Nothing needs you.', holds only Migrated (each source line quoted in code marks, its destination link, status, and why). The handled list holds each source line as it reads at close, pointer on, as `migrated` with its pointer's paths, and each tagged copy as `written` with pointer null. The open run is cleared; one history entry with how 'closed' and no failed key.",
+  "spec": [
+    "CONTRACT.md 5.6 items 1, 3 (migrated, written), 5, 6",
+    "spec-run-manager.md 04 items 17, 20; 07.1 items 2, 3; 07.3 items 1, 2",
+    "plan-run-manager.md 04 Milestone 11 test cases 3, 4"
+  ],
+  "readings": [
+    "New handled entries follow the ones already there, sorted by note path (as Python sorts strings, so 'Ideas/…' comes before 'brain-dump.md'), then by their place in the note at close. Neither spec nor contract fixes the order, and run-state.json is compared as parsed JSON, so list order counts.",
+    "A handled entry's `pointer` lists every destination on the line at close, as paths inside the project.",
+    "The history entry's `ended` is the time `close` runs."
+  ]
+}

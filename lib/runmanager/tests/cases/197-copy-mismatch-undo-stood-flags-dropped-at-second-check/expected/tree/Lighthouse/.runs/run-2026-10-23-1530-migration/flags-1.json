@@ -1,0 +1,26 @@
+[
+  {
+    "id": "f1",
+    "rule": "copy-mismatch",
+    "note": "Ideas/idea-mara.md",
+    "before": "",
+    "after": "- Mara counts the tower's one hundred and twelve steps every night. #status/provisional",
+    "unit": "b1-u2"
+  },
+  {
+    "id": "f2",
+    "rule": "writer-line-edited",
+    "note": "brain-dump.md",
+    "before": "- Mara has never once left the light during a storm.",
+    "after": "- Mara has never once left the light during a storm. #status/provisional",
+    "unit": "b1-u1"
+  },
+  {
+    "id": "f3",
+    "rule": "brain-dump-status-tag",
+    "note": "brain-dump.md",
+    "before": "- Mara has never once left the light during a storm.",
+    "after": "- Mara has never once left the light during a storm. #status/provisional",
+    "unit": "b1-u1"
+  }
+]

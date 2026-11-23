@@ -1,0 +1,36 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "migration"
+    ],
+    "now": "2026-10-14 13:22",
+    "exit": 0
+  },
+  {
+    "copy": "files/notes-b1",
+    "to": "."
+  },
+  {
+    "copy": "files/record-b1-edited-source.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "unit u7's source in brain-dump.md is the line as an edit left it; its text must be the line as it read when the run started"
+  },
+  {
+    "copy": "files/record-b1.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 0
+  }
+]

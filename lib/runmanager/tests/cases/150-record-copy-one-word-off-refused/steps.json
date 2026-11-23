@@ -1,0 +1,43 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "migration"
+    ],
+    "now": "2026-10-14 15:30",
+    "exit": 0
+  },
+  {
+    "copy": "files/notes-b1",
+    "to": "."
+  },
+  {
+    "copy": "files/record-slip.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "Ideas/idea-tobias.md"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "so the ferry job leaves him scared."
+  },
+  {
+    "copy": "files/record-matches-note.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 0
+  }
+]

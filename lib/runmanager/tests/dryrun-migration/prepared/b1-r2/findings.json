@@ -1,0 +1,19 @@
+{
+  "batch": "b1",
+  "round": 2,
+  "units": [
+    {
+      "unit": "u1",
+      "verdict": "fix",
+      "problems": [
+        {
+          "check": "lost-detail",
+          "note": "Ideas/idea-tobias.md",
+          "line": 16,
+          "what": "The copy adds a \"maybe\" your line doesn't have. You wrote that the tin was under his bed, as a fact."
+        }
+      ]
+    }
+  ],
+  "missed": []
+}

@@ -1,0 +1,14 @@
+{
+  "about": "A reject unit (idea-tobias: a #status/rejected line moves to its Rejected section) and an edit unit (idea-mara: a comment corrects the step count), both approved. Neither gets a pointer, so `pointers` changes no note, both stay approved in the unit index with pointed_lines [], and the run still moves to pointed with next_check 1. The real Edit guard raises one flag, writer-line-edited on the edit, as it does for every recorded edit (spec-edit-guard.md 04 item 1); no pointer-mismatch.",
+  "spec": [
+    "CONTRACT.md 5.4 items 1, 2, 8, 11",
+    "spec-run-manager.md 08.2 item 1",
+    "spec-edit-guard.md 04 (writer-line-edited, rule 1), 05 items 2, 3",
+    "spec-migrator.md 05.4 items 5, 6",
+    "plan-run-manager.md 04 Milestone 10"
+  ],
+  "readings": [
+    "A unit that gets no pointer (reject, edit) stays 'approved' after `pointers`; only units that got their pointers become pointer-written (CONTRACT.md 5.4 item 8).",
+    "The flag's unit is the run's unit key, 'b1-u2' (spec-edit-guard.md 05 item 2)."
+  ]
+}

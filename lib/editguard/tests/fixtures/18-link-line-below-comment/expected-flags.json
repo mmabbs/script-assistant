@@ -1,0 +1,18 @@
+[
+  {
+    "id": "f1",
+    "rule": "link-line-invalid",
+    "note": "Ideas/idea-harrow-point.md",
+    "before": "",
+    "after": "    - [AGENT] [[Projects/Lighthouse/Research/research-light-causeway-floods|research-light-causeway-floods]]",
+    "unit": ""
+  },
+  {
+    "id": "f2",
+    "rule": "close-invalid",
+    "note": "Ideas/idea-harrow-point.md",
+    "before": "- [r] How often did the causeway flood in the 1950s? #research/run-1",
+    "after": "- [x] How often did the causeway flood in the 1950s? #research/run-1",
+    "unit": ""
+  }
+]

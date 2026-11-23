@@ -1,0 +1,90 @@
+{
+  "_about": "The four research agents' answer shapes, fixed in Milestone 1 of plan-research-workflow.md. research.js copies each schema inline into its agent() calls, because a workflow script can't read files. The fake-agent harness checks every set answer against these. Source sections are in spec-research-workflow.md.",
+
+  "research-planner": {
+    "_source": "spec-research-workflow.md 05 item 7",
+    "type": "object",
+    "properties": {
+      "research_topic": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+        "description": "The {research-topic} slug. The plan file and the note use the same one."
+      },
+      "topics": {
+        "type": "array",
+        "minItems": 1,
+        "description": "One entry per topic, in plan order. No maximum here: the script enforces the cap of 15.",
+        "items": {
+          "type": "object",
+          "properties": {
+            "n": { "type": "integer", "minimum": 1 },
+            "waits_on": {
+              "type": "array",
+              "items": { "type": "integer", "minimum": 1 },
+              "description": "Topic numbers this topic waits on. Empty when it waits on nothing."
+            }
+          },
+          "required": ["n", "waits_on"],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": ["research_topic", "topics"],
+    "additionalProperties": false
+  },
+
+  "researcher": {
+    "_source": "spec-research-workflow.md 08 item 8",
+    "type": "object",
+    "properties": {
+      "result": {
+        "type": "string",
+        "enum": ["found", "none", "failed"],
+        "description": "found: the findings file is written. none or failed: no file was written."
+      }
+    },
+    "required": ["result"],
+    "additionalProperties": false
+  },
+
+  "research-writer": {
+    "_source": "spec-research-workflow.md 04 item 11, and 11 Decisions Log item 105",
+    "type": "object",
+    "properties": {
+      "note": {
+        "type": "string",
+        "description": "The note's path inside the project folder, such as Research/research-memory-extraction.md."
+      }
+    },
+    "required": ["note"],
+    "additionalProperties": false
+  },
+
+  "research-evaluator": {
+    "_source": "spec-research-workflow.md 03 item 4",
+    "type": "object",
+    "properties": {
+      "verdict": { "type": "string", "enum": ["pass", "fail"] },
+      "problems": {
+        "type": "array",
+        "description": "Empty on a pass.",
+        "items": {
+          "type": "object",
+          "properties": {
+            "check": {
+              "type": "string",
+              "enum": ["matches findings", "coverage", "nothing dropped"],
+              "description": "matches findings: a claim or footnote doesn't match the findings. coverage: a plan question is neither answered nor listed under Open Research Questions. nothing dropped: a finding that answers a plan question is missing from the note."
+            },
+            "where": { "type": "string" },
+            "detail": { "type": "string" }
+          },
+          "required": ["check", "where", "detail"],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": ["verdict", "problems"],
+    "additionalProperties": false
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "f1",
+    "rule": "rejected-move-changed",
+    "note": "Ideas/idea-mara-lighthouse.md",
+    "before": "",
+    "after": "- Mara keeps a scruffy dog called Skipper. #status/rejected",
+    "unit": "b1-u1"
+  }
+]

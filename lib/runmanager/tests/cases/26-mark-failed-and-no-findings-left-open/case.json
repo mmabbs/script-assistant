@@ -1,0 +1,7 @@
+{
+  "about": "Plan Milestone 4 item 3; spec-run-manager.md 06 item 5. r1 failed with no note written (note null); r2 had no findings. The outcomes file is valid, so mark uses it, but neither request is passed: both stay - [r], with no link line. The run reaches 'marked'. Nothing changed, the Edit guard finds nothing, and act edits nothing: 'acted', next_check null.",
+  "spec": [
+    "spec-run-manager.md 06 item 5",
+    "plan-run-manager.md 03 Milestone 4 test case 3"
+  ]
+}

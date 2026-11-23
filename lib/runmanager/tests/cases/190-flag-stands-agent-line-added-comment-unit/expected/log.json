@@ -1,0 +1,28 @@
+{
+  "file": "Runs/run-2026-10-23-1530-migration.md",
+  "first_line": "Migration run, started 2026-10-23 15:30.",
+  "sections": [
+    {
+      "heading": "Migrated",
+      "contains": [
+        "`- Tobias worked summers on the ferry to the mainland.`",
+        "[[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]"
+      ]
+    },
+    {
+      "heading": "Other edits you asked for",
+      "contains": [
+        "`- [AGENT] His father skippered the ferry before him.` stands",
+        "as your comment `%% Agent, put this in idea-tobias, and note that his father skippered the ferry before him. %%` in [[Projects/Lighthouse/brain-dump|brain-dump]] asked."
+      ]
+    }
+  ],
+  "absent": [
+    "Questions for you",
+    "Units undone",
+    "Changes put back",
+    "Other notes"
+  ],
+  "contains": [],
+  "nothing_needs_you": true
+}

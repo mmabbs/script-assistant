@@ -1,0 +1,26 @@
+{
+  "batches": [
+    {
+      "batch": "b1",
+      "pieces": [
+        {
+          "note": "brain-dump.md",
+          "heading": "### 2026-10-24",
+          "lines": [
+            {
+              "line": 15,
+              "text": "- Tobias can't swim, which is why the ferry job scares him. #status/provisional"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": [],
+  "renamed": [
+    {
+      "from": "Ideas/idea-mara.md",
+      "to": "Ideas/idea-mara-keeper.md"
+    }
+  ]
+}

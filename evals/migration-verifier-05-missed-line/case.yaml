@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: migration-verifier-05-missed-line
+context:
+  scaffold_script: fixture.sh

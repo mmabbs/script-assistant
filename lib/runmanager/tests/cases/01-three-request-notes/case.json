@@ -1,0 +1,9 @@
+{
+  "about": "Run 2 has open requests in three notes: an Area Note (no comment), an Idea Note (with a comment directly under the request), and a second Idea Note (no comment). A fourth note holds a - [r] line tagged #research/run-3, which is left out, so that note is fingerprinted, not copied. start writes one requests entry per request with its path, line (counting from 1, frontmatter included), exact text, and comment or null; copies the three request notes into the snapshot; fingerprints the other two notes; and claims the run at step started with next_check null. Requests are numbered r1, r2, ... in the order of their note's path inside the project folder, then by line (reading: the spec doesn't fix the order; see the Gaps in the M3 report).",
+  "spec": [
+    "spec-run-manager.md 02 item 5",
+    "spec-run-manager.md 04 items 9, 12, 13, 14, 16, 18",
+    "spec-run-manager.md 06 item 4",
+    "plan-run-manager.md 03 Milestone 3 test case 1"
+  ]
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "research",
+      "--run-number",
+      "2"
+    ],
+    "now": "2026-10-10 16:00",
+    "exit": 0
+  },
+  {
+    "run": [
+      "mark"
+    ],
+    "exit": 0
+  },
+  {
+    "editguard": true,
+    "exit": 0
+  },
+  {
+    "run": [
+      "act"
+    ],
+    "exit": 0
+  },
+  {
+    "run": [
+      "recover"
+    ],
+    "now": "2026-10-10 16:30",
+    "exit": 0
+  },
+  {
+    "run": [
+      "abandon"
+    ],
+    "now": "2026-10-10 16:40",
+    "exit": 0
+  }
+]

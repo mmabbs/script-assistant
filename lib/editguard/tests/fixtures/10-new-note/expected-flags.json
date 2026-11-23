@@ -1,0 +1,10 @@
+[
+  {
+    "id": "f1",
+    "rule": "unexplained-change",
+    "note": "Ideas/idea-keepers-log.md",
+    "before": "",
+    "after": "- The log goes back to 1890.",
+    "unit": ""
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "about": "The writer renamed Ideas/idea-mara.md to Ideas/idea-mara-keeper.md. The renamed note holds no tagged copies (an earlier run's copy was untagged, or the writer untagged it), so no handled entry names the old path. The Brain Dump count line's entry has pointer [Ideas/idea-mara.md], a story note that no longer exists, and the line's pointer now names Ideas/idea-mara-keeper.md, which does. The line matches its entry with link targets left out, so it is not new work, and the change in its pointer gives the rename. The only new work is the supply boat line. batches.json `renamed` holds the rename.",
+  "spec": [
+    "spec-run-manager.md 07.1 item 12 ('A Brain Dump line also gives a rename when its handled entry's pointer names a story note that no longer exists, and its pointer now names one that does')",
+    "spec-run-manager.md 04 item 21",
+    "spec-run-manager.md 11 Decisions Log item 104",
+    "plan-run-manager.md Milestone 17, first checkbox, item 3 ('a rename is found from a Brain Dump pointer alone, when the renamed Idea Note holds no tagged copies')"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "about": "u1 migrates the count line to idea-mara; u2 is an edit a comment asked for in idea-tobias. After `pointers`, a copy step stands in for u1's copy going missing. The real Edit guard raises copy-mismatch on b1-u1 and writer-line-edited on b1-u2. `act` at pointed undoes b1-u1 (a note changed: edited true). b1-u2 is approved and a comment started it, so f2 stands: nothing goes to the migration-verifier, no verify-flags.json is written, and the step is acted with next_check 2, because `act` changed a note. The second check drops f2, which stood, the way it drops a flag judged asked for, and skips the undone unit: [].",
+  "spec": [
+    "CONTRACT.md 5.5 items 2 (edited), 3, 5 (last bullet: 'this act or the one at pointed')",
+    "spec-run-manager.md 04 item 22 (act row at judged)",
+    "spec-migration-verifier.md 03.2 item 1 (copy-mismatch isn't handed on)",
+    "spec-edit-guard.md 07 item 2",
+    "plan-run-manager.md 04 Milestone 11, test cases 1 and 2",
+    "spec-migration-verifier.md 06 item 7; 10 item 35",
+    "spec-run-manager.md 05 item 8; 11 item 101",
+    "plan-run-manager.md 06 item 13"
+  ],
+  "readings": [
+    "verify-flags.json keeps each flag's id as the Edit guard wrote it ('f2'), and findings-flags.json names that id.",
+    "Revised 2026-10-23 for Run manager Milestone 16 (spec-migration-verifier.md 06 item 7; spec-run-manager.md 05 item 8 and 11 item 101): f2 now stands instead of going to the call. The steps that saved flag findings, ran `findings`, and ran `act` at judged are gone; verify-flags.json is gone from expected/ and the unused findings file from files/ (both kept with the suffix .retired-m16). The open run and flags-2.json are unchanged."
+  ]
+}

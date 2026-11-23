@@ -1,0 +1,12 @@
+{
+  "about": "Case 110 carried on to close. The migrator failed partway: u1's copy is in idea-tobias, u2 wrote nothing. `record --failed` sends u1 on and undoes u2; u1 is approved, `pointers` writes its pointer, the Edit guard gives [], `act` goes straight to acted, and `close` runs at 16:10. The record holds no questions, so the log opens with 'Nothing needs you.' even though a unit was undone. Units undone comes after Migrated and names the Mara line, idea-mara, 'the migrator stopped before writing it whole', and ends 'The next migration run tries this again.', not the answer line. The handled list: u1's source line as `migrated` with its pointer, its copy as `written`; the Mara line stays off.",
+  "spec": [
+    "CONTRACT.md 5.6 items 3, 6",
+    "spec-run-manager.md 07.3 item 2; 11 Decisions Log item 81 (last bullet)",
+    "CONTRACT.md 5.3 items 6, 10"
+  ],
+  "readings": [
+    "New handled entries follow the ones already there, sorted by note path (as Python sorts strings, so 'Ideas/…' comes before 'brain-dump.md'), then by their place in the note at close.",
+    "Units undone names where the unit's copies would have gone (the record's copies note), even though a not-started unit never wrote them (spec-run-manager.md 07.3 item 2, 'where its copies went')."
+  ]
+}

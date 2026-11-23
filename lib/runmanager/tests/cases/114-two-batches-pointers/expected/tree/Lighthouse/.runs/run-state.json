@@ -1,0 +1,35 @@
+{
+  "open_run": {
+    "id": "run-2026-10-14-1530-migration",
+    "kind": "migration",
+    "run_number": null,
+    "request": null,
+    "step": "pointed",
+    "next_check": 1,
+    "started": "2026-10-14 15:30",
+    "batch": 2,
+    "round": 0,
+    "fixing": null,
+    "first_check": 1
+  },
+  "history": [],
+  "handled": [],
+  "unit_index": [
+    {
+      "run": "run-2026-10-14-1530-migration",
+      "unit": "b1-u1",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara|idea-mara]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-14-1530-migration",
+      "unit": "b2-u1",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- The harbour master keeps a ledger of every debt in the village. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]"
+      ]
+    }
+  ]
+}

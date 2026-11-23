@@ -1,0 +1,10 @@
+{
+  "about": "One request in an Area Note passes. A stray write changes another line in that request note; act puts it back, so a second check is due. Before the second check, a further stray write adds a line to the same note (simulated with a copy step between act and the second check). The second check flags it as unexplained-change. close lists it under 'Still flagged after the second check', with its rule, its note, and the added line, and edits nothing: the added line is still in the note after close, because act never runs on second-check flags.",
+  "spec": [
+    "plan-run-manager.md 03 Milestone 5 item 3",
+    "spec-edit-guard.md 07 items 1 and 3",
+    "spec-edit-guard.md 11 Decisions Log item 12",
+    "spec-run-manager.md 06.1 item 2",
+    "CONTRACT.md 4 item 6"
+  ]
+}

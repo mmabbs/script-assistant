@@ -1,0 +1,25 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "research",
+      "--run-number",
+      "2"
+    ],
+    "now": "2026-10-10 16:00",
+    "exit": 0
+  },
+  {
+    "copy": "files/Research/research-light-relief-keeper-contracts.md",
+    "to": "Research/research-light-relief-keeper-contracts.md"
+  },
+  {
+    "run": [
+      "mark",
+      "--stopped"
+    ],
+    "now": "2026-10-10 16:20",
+    "exit": 0
+  }
+]

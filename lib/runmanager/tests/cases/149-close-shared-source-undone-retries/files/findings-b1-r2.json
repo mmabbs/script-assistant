@@ -1,0 +1,19 @@
+{
+  "batch": "b1",
+  "round": 2,
+  "units": [
+    {
+      "unit": "u2",
+      "verdict": "fix",
+      "problems": [
+        {
+          "check": "lost-detail",
+          "note": "Ideas/idea-tobias.md",
+          "line": 10,
+          "what": "The source doesn't say Mara is his sister. The copy adds it."
+        }
+      ]
+    }
+  ],
+  "missed": []
+}

@@ -1,0 +1,19 @@
+{
+  "batch": "b1",
+  "round": 2,
+  "units": [
+    {
+      "unit": "u6",
+      "verdict": "fix",
+      "problems": [
+        {
+          "check": "status",
+          "note": "brain-dump.md",
+          "line": 11,
+          "what": "Stands in for a problem the migrator doesn't fix."
+        }
+      ]
+    }
+  ],
+  "missed": []
+}

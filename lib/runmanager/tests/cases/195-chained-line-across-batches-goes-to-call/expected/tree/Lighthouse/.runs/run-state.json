@@ -1,0 +1,38 @@
+{
+  "open_run": {
+    "id": "run-2026-10-23-1530-migration",
+    "kind": "migration",
+    "run_number": null,
+    "request": null,
+    "step": "judging",
+    "next_check": 1,
+    "started": "2026-10-23 15:30",
+    "batch": 2,
+    "round": 0,
+    "fixing": null,
+    "first_check": 1,
+    "edited": false
+  },
+  "history": [],
+  "handled": [],
+  "unit_index": [
+    {
+      "run": "run-2026-10-23-1530-migration",
+      "unit": "b1-u1",
+      "state": "approved",
+      "pointed_lines": []
+    },
+    {
+      "run": "run-2026-10-23-1530-migration",
+      "unit": "b2-u1",
+      "state": "approved",
+      "pointed_lines": []
+    },
+    {
+      "run": "run-2026-10-23-1530-migration",
+      "unit": "b2-u2",
+      "state": "approved",
+      "pointed_lines": []
+    }
+  ]
+}

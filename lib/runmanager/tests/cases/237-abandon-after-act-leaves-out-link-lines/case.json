@@ -1,0 +1,12 @@
+{
+  "about": "A research run: `mark` closes r1 and r2 with their link lines, the Edit guard finds nothing in flags-1, and `act` runs on it: 'acted', nothing awaited. The session stops before `close`. recover runs once (nothing to redo). `abandon` at 17:00: `act` ran on the check of mark's link lines and closes, so Never checked doesn't list them; with nothing else unchecked, the section is left out. Other notes names the snapshot folder. The requests stay closed and linked.",
+  "spec": [
+    "spec-run-manager.md 11 item 120",
+    "spec-run-manager.md 09.3 item 4 (section 3, third kind)",
+    "plan-run-manager.md Milestone 18, second checkbox, item 4"
+  ],
+  "readings": [
+    "Never checked is empty here, so the case checks it is absent; that also proves no link line or close is listed in it.",
+    "The stuck state is reached by stopping before `close` after a recover, as in case 231; Runs/ read-only on `close` was not used."
+  ]
+}

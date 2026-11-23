@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "idea-harrow-point already holds two [AGENT] lines from earlier runs, a research link line and an agent Question; both are unchanged, so neither is a line this run added (spec-edit-guard.md 04 table: 'an [AGENT] line a migration run added'). The migrated copy carries no label (04 item 5). The research note is fingerprinted and unchanged. No flags."
+}

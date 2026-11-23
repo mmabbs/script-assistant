@@ -1,0 +1,64 @@
+{
+  "open_run": null,
+  "history": [
+    {
+      "id": "run-2026-10-07-1000-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-07 10:00",
+      "ended": "2026-10-07 10:50",
+      "how": "closed"
+    }
+  ],
+  "handled": [
+    {
+      "note": "brain-dump.md",
+      "text": "- Tobias rows out to the light the night of the storm. #status/committed [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-07-1000-migration",
+      "pointer": [
+        "Ideas/idea-tobias.md"
+      ]
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "%% Agent, Tobias belongs in idea-tobias. %%",
+      "outcome": "comment",
+      "run": "run-2026-10-07-1000-migration",
+      "pointer": null
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- Mara won't let the relief keeper touch the lamp. #status/committed [migrated-to:: [[Projects/Lighthouse/Areas/area-mara|area-mara]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-07-1000-migration",
+      "pointer": [
+        "Areas/area-mara.md"
+      ]
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "%% Agent, this one is about Mara, so area-mara. %%",
+      "outcome": "comment",
+      "run": "run-2026-10-07-1000-migration",
+      "pointer": null
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- The light was built in 1871. #status/committed [migrated-to:: [[Projects/Lighthouse/Ideas/idea-harrow-point|idea-harrow-point]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-07-1000-migration",
+      "pointer": [
+        "Ideas/idea-harrow-point.md"
+      ]
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "%% Agent, the light's history goes in idea-harrow-point. %%",
+      "outcome": "comment",
+      "run": "run-2026-10-07-1000-migration",
+      "pointer": null
+    }
+  ],
+  "unit_index": []
+}

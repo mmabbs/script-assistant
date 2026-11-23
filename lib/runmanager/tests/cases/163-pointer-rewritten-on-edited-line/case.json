@@ -1,0 +1,14 @@
+{
+  "about": "As 158-edited-source-gets-pointer through `pointers`. Then a copy step stands in for a wrong pointer on the edited line: it names idea-harrow-point, not idea-mara-lighthouse. The real Edit guard still explains the line by u6's edit and raises pointer-mismatch on b1-u7, with the line's snapshot text and its text now, beside u6's two edit flags. `act` at pointed finds the line through u6's `after` and rewrites its pointer from the records: the tag stays and the pointer names idea-mara-lighthouse. u7's pointed_lines gets the new text. u6 is approved and a comment started it, so its flags stand and nothing goes to the migration-verifier: no verify-flags.json, and the step is acted with next_check 2, since rewriting the pointer changed a note.",
+  "spec": [
+    "CONTRACT.md 5.4 items 9, 11; 5.5 items 2, 3, 7",
+    "spec-edit-guard.md 03.3 item 2; 05 item 6",
+    "spec-migration-verifier.md 06 item 7; 10 item 35",
+    "spec-run-manager.md 05 item 8; 11 item 101",
+    "spec-run-manager.md 04 item 22 (the `act` row at pointed)"
+  ],
+  "readings": [
+    "The wrong pointer is planted by a copy step; `pointers` itself never writes one.",
+    "Revised 2026-10-23 for Run manager Milestone 16 (spec-migration-verifier.md 06 item 7; spec-run-manager.md 05 item 8 and 11 item 101): u6's two flags now stand. verify-flags.json is gone from expected/ (kept with the suffix .retired-m16), and the open run is at acted with next_check 2 instead of judging with next_check 1; edited stays true."
+  ]
+}

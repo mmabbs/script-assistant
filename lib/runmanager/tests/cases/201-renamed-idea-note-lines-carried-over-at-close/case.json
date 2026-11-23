@@ -1,0 +1,16 @@
+{
+  "about": "The writer renamed Ideas/idea-mara.md to Ideas/idea-mara-keeper.md after the last run, and Obsidian rewrote the two Brain Dump pointers that name it, keeping their shown text 'idea-mara'. The handled list holds the two Brain Dump lines with the old link, and three copies under the old path: two still sit in the renamed note, and the gannets line the writer has since deleted. The scan: the two Brain Dump lines match their entries with link targets left out, and the two copies in idea-mara-keeper match the old-path entries, so none of them is new work, and the rename is saved in batches.json. The only new work is the swim line, which u1 migrates to idea-tobias. At close: the four matched entries are rewritten in place, the two copies with note Ideas/idea-mara-keeper.md, the two Brain Dump lines with their text as it now reads and pointer [Ideas/idea-mara-keeper.md], each keeping its outcome and run. The gannets entry, which the scan didn't match, is left as it is, under the old path. The history entry holds `renamed`. The run log's Other notes says '`Ideas/idea-mara.md` looks renamed to `Ideas/idea-mara-keeper.md`. Its 2 handled lines carried over.'",
+  "spec": [
+    "spec-run-manager.md 07.1 items 10, 12, 13",
+    "spec-run-manager.md 04 items 17, 20 (last bullet), 21",
+    "spec-run-manager.md 07.3 item 2 entry 10",
+    "spec-run-manager.md 11 Decisions Log items 102 and 104",
+    "plan-run-manager.md Milestone 17, first checkbox, items 1 and 3"
+  ],
+  "readings": [
+    "'Its N handled lines carried over' counts the entries moved from the old path to the new one (the two copies), not the Brain Dump lines matched with link targets left out, whose note didn't change. The Almond rerun's expected '5 handled lines carried over' (plan-run-manager.md Milestone 17, fourth checkbox) counts the same way: the 5 tagged copies in the renamed note.",
+    "A rewritten entry keeps its place in the handled list, its `outcome`, and its `run`; only `text`, `note`, and `pointer` change (04 item 20, last bullet).",
+    "The history entry's `renamed` is the batches file's list, copied as it is.",
+    "The rename line sits under Other notes as its own bullet; log.json checks the sentence word for word, with the two paths in code marks as the spec's example has them."
+  ]
+}

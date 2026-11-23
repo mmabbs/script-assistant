@@ -1,0 +1,50 @@
+[
+  {
+    "id": "f1",
+    "rule": "unexplained-change",
+    "note": "Areas/area-mara.md",
+    "before": "- Mara is scared of deep water, though she has lived beside it all her life.",
+    "after": "- Mara is afraid of deep water, though she has lived beside it all her life.",
+    "unit": ""
+  },
+  {
+    "id": "f2",
+    "rule": "copy-mismatch",
+    "note": "Ideas/idea-relief-keeper.md",
+    "before": "",
+    "after": "- The relief keeper could be someone from the mainland who has never seen the sea and is scared of the water.",
+    "unit": "b1-u4"
+  },
+  {
+    "id": "f3",
+    "rule": "unexplained-change",
+    "note": "Ideas/idea-relief-keeper.md",
+    "before": "",
+    "after": "- The relief keeper could be someone from the mainland who has never seen the sea and is frightened of the water.",
+    "unit": ""
+  },
+  {
+    "id": "f4",
+    "rule": "pointer-mismatch",
+    "note": "brain-dump.md",
+    "before": "- The causeway floods twice a month, and Mara times her supply runs around the tide table. #status/provisional",
+    "after": "- The causeway floods twice a month, and Mara times her supply runs around the tide table. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-harrow-point|idea-harrow-point]]]",
+    "unit": "b1-u2"
+  },
+  {
+    "id": "f5",
+    "rule": "writer-line-edited",
+    "note": "brain-dump.md",
+    "before": "- Mara has never once left the light during a storm.",
+    "after": "- Mara has never once left the light during a storm. #status/provisional",
+    "unit": "b2-u2"
+  },
+  {
+    "id": "f6",
+    "rule": "brain-dump-status-tag",
+    "note": "brain-dump.md",
+    "before": "- Mara has never once left the light during a storm.",
+    "after": "- Mara has never once left the light during a storm. #status/provisional",
+    "unit": "b2-u2"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "request": "r1",
+    "outcome": "failed",
+    "note": null,
+    "reason": "No source gave flood dates for the causeway before 1960.",
+    "failed_topics": []
+  },
+  {
+    "request": "r2",
+    "outcome": "no findings",
+    "note": null,
+    "reason": null,
+    "failed_topics": []
+  }
+]

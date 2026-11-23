@@ -1,0 +1,11 @@
+{
+  "about": "An earlier run the same morning (run-2026-10-23-1000-migration), with the typed request 'put the ferry lines in idea-tobias', undid a request unit on the summers line, so its close wrote the request comment under that line. The writer has since added the untagged ferry line below. This run is started at 15:30 with the same request. The comment is a new trigger line, so the piece is in the batch. u1 (trigger `request`) merges the summers and ferry lines into idea-tobias; the migrator fails before writing it, and `record --failed` undoes it, leaving no whole unit. `pointers` writes nothing, the Edit guard gives [], and the run closes. `close` writes the request comment under the ferry line; under the summers line the same comment already sits, so it isn't written again. The comments stay off the handled list.",
+  "spec": [
+    "spec-run-manager.md 11 Decisions Log item 96 ('No duplicates')",
+    "plan-run-manager.md Milestone 15, first checkbox, group 4"
+  ],
+  "readings": [
+    "'The same comment' is the identical line, indent included. It needs the same request and the same run date, so the earlier run is on the same day.",
+    "Only the ferry line's log sentence is checked. Whether the log says 'The run wrote your request…' for the summers line, where the comment was already there, is left open: the spec doesn't say."
+  ]
+}

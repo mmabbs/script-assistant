@@ -1,0 +1,35 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/provisional"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- The harbour master keeps a ledger of every debt in the village. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- The harbour master keeps a ledger of every debt, Tobias's included. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "Tobias owes the harbour master, so the ledger goes in his note."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

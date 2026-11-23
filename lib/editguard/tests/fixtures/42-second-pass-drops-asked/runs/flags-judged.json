@@ -1,0 +1,18 @@
+[
+  {
+    "id": "f1",
+    "rule": "unexplained-change",
+    "note": "Ideas/idea-harrow-point.md",
+    "before": "- Harrow Point is a fishing village of about two hundred people.",
+    "after": "- Harrow Point is a fishing village of about three hundred people.",
+    "unit": ""
+  },
+  {
+    "id": "f2",
+    "rule": "writer-line-edited",
+    "note": "Ideas/idea-tobias.md",
+    "before": "- Tobias worked summers on the ferry to the mainland.",
+    "after": "- Tobias worked winters on the ferry to the mainland.",
+    "unit": "b1-u1"
+  }
+]

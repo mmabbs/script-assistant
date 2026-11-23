@@ -1,0 +1,8 @@
+{
+  "about": "As 158-edited-source-gets-pointer through the first Edit guard check; then the run crashes and `recover` undoes every unit, newest first: u7, then u6. u7's pointer comes off the edited line, found by u6's `after` while u6 still stands; then u6's edit is put back. Undo misses nothing, and both notes read as they did at run start. The recover check raises nothing; `act` at recovered changes nothing; `close` writes the recover log and adds nothing to the handled list.",
+  "spec": [
+    "CONTRACT.md 5.4 item 9; 5.5 item 6; 5.6 items 7, 8",
+    "spec-run-manager.md 09.2 item 3"
+  ],
+  "readings": []
+}

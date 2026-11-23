@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "A copy graduated into the live part of area-mara kept its #status/committed tag. The record holds the same text, so the copy is explained and there is no copy-mismatch, but a status tag on a line the run added in the live part of an Area Note is area-note-status-tag (spec-edit-guard.md 04 table; 04 item 3; migrator-rules.md 03.7). The note's kind is read from its type list (migrator-rules.md 01.8)."
+}

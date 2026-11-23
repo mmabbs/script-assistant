@@ -1,0 +1,11 @@
+{
+  "about": "The demo Brain Dump doc's \"Before a run\" part, on the first migration run after init (handled list empty). 2026-10-05 holds only a - [r] request, which is skipped, so that piece isn't batched. Every other date heading holds a new comment, so each piece's size is every bullet in it, the - [?] line included: oldest first, 2026-09-01 (4), 2026-09-03 (4), 2026-09-04 (2), 2026-09-06 (1), 2026-09-09 (1), 2026-09-17 (3), 2026-09-19 (5) = 20, exactly the limit, so all seven go in b1. Each piece's lines are its tagged bullets and its comments, in note order; untagged bullets aren't listed. The Idea Note's one new tagged bullet would make 21, so it starts b2. char-lena (type character) is fingerprinted, not scanned.",
+  "spec": [
+    "spec-run-manager.md 04 items 4, 5, 9, 14, 21",
+    "spec-run-manager.md 07.1 items 1, 5",
+    "spec-run-manager.md 07.2 items 1 to 3",
+    "spec-run-manager.md 11 Decisions Log items 57, 73",
+    "CONTRACT.md 5.2 items 9 to 12",
+    "plan-run-manager.md 04 Milestone 8"
+  ]
+}

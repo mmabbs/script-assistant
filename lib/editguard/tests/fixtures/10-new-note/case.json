@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "idea-keepers-log is new since the snapshot, so it is compared with an empty note (spec-edit-guard.md 03.1 item 1). The heading and the copy are the unit's copies, with the heading first and under empty (spec-migrator.md 05.5 item 6), so they are explained. The extra line about 1890 is in no record, so it is unexplained-change with no unit. The new note has no frontmatter, so no frontmatter lines need explaining."
+}

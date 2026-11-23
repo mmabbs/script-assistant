@@ -1,0 +1,5 @@
+{
+  "kind": "research",
+  "run_id": "run-2026-10-10-1600-research",
+  "about": "The request's link line and close are valid. Two other changes in the request note: a settled-form link line added under the village line, which is not at a request in the requests file, and the harbour line reworded. A Run manager edit counts only where the Run manager makes it, so the lookalike is unexplained-change (spec-edit-guard.md 03.2 item 4); the reworded line is one unexplained-change with both texts (05 item 2; plan-edit-guard.md Milestone 4; 11 Decisions Log item 11). Neither is a link-line or close rule flag, since markup rules run only on explained changes (05 item 3)."
+}

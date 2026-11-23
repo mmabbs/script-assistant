@@ -1,0 +1,28 @@
+{
+  "file": "Runs/run-2026-10-23-1530-migration.md",
+  "first_line": "Migration run, started 2026-10-23 15:30.",
+  "sections": [
+    {
+      "heading": "Units undone",
+      "contains": [
+        "The run wrote your request as a comment under this line: `- The ferry stops running when the swell comes from the east.`. Keep it until this migrates."
+      ]
+    }
+  ],
+  "absent": [
+    "Questions for you",
+    "Migrated",
+    "Rejected",
+    "Other edits you asked for",
+    "Left in place, and why",
+    "Could not do",
+    "Lines the checker says were missed",
+    "Changes put back",
+    "Other notes"
+  ],
+  "contains": [
+    "Your request: \"put the ferry lines in idea-tobias\"",
+    "Nothing needs you."
+  ],
+  "nothing_needs_you": false
+}

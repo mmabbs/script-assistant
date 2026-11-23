@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-14-1322-migration",
+  "about": "As 45-edited-source-pointer-pass, but the pointer on the edited line names idea-harrow-point, not the note u7's copy went to. The edit still explains the line; pointer-mismatch fires on b1-u7 with the source line's snapshot text and its text now (spec-edit-guard.md 03.3 item 2, 05 item 6)."
+}

@@ -1,0 +1,125 @@
+{
+  "about": "The first draft names topic 2 as cut short. The research-evaluator fails the note. In the fix round the research-writer names topics 2 and 3 as cut short. The second check passes. failed_topics lists topic 2 once and topic 3 once, in topic order.",
+  "spec": [
+    "the writer's ruling of 2026-10-12 on gap 24: a cut-short topic the fix-round writer reports also goes in failed_topics, once, with no duplicates",
+    "spec-research-workflow.md 04 item 11",
+    "spec-research-workflow.md 04 item 5"
+  ],
+  "args": {
+    "project": "/Users/writer/Projects/Copper Coast",
+    "run_id": "run-2026-10-08-1400-research",
+    "requests": [
+      {
+        "id": "r1",
+        "note": "Ideas/idea-harrow-point.md",
+        "line": 15,
+        "text": "- [r] How did printed tide tables reach small villages in the 1950s? #research/run-2",
+        "comment": "%% Look for printed almanacs. %%"
+      }
+    ]
+  },
+  "answers": {
+    "plan r1": [
+      {
+        "research_topic": "tide-tables",
+        "topics": [
+          {
+            "n": 1,
+            "waits_on": []
+          },
+          {
+            "n": 2,
+            "waits_on": []
+          },
+          {
+            "n": 3,
+            "waits_on": []
+          }
+        ]
+      }
+    ],
+    "topic r1 1": [
+      {
+        "result": "found"
+      }
+    ],
+    "topic r1 2": [
+      {
+        "result": "found"
+      }
+    ],
+    "topic r1 3": [
+      {
+        "result": "found"
+      }
+    ],
+    "write r1": [
+      {
+        "note": "Research/research-tide-tables.md",
+        "cut_short_topics": [
+          2
+        ]
+      }
+    ],
+    "check r1": [
+      {
+        "verdict": "fail",
+        "problems": [
+          {
+            "check": "matches findings",
+            "where": "Topic 2, paragraph 3",
+            "detail": "Note says about 1,200 copies; topic-1.md says about 800."
+          },
+          {
+            "check": "coverage",
+            "where": "Open Research Questions",
+            "detail": "Plan question 3 is neither answered nor listed."
+          }
+        ]
+      }
+    ],
+    "fix r1": [
+      {
+        "note": "Research/research-tide-tables.md",
+        "cut_short_topics": [
+          2,
+          3
+        ]
+      }
+    ],
+    "recheck r1": [
+      {
+        "verdict": "pass",
+        "problems": []
+      }
+    ]
+  },
+  "expect": {
+    "result": [
+      {
+        "request": "r1",
+        "outcome": "passed",
+        "note": "Research/research-tide-tables.md",
+        "reason": null,
+        "failed_topics": [
+          "topic 2 (findings cut short)",
+          "topic 3 (findings cut short)"
+        ]
+      }
+    ],
+    "calls": {
+      "write r1": {
+        "count": 1
+      },
+      "check r1": {
+        "count": 1
+      },
+      "fix r1": {
+        "count": 1
+      },
+      "recheck r1": {
+        "count": 1
+      }
+    }
+  }
+}

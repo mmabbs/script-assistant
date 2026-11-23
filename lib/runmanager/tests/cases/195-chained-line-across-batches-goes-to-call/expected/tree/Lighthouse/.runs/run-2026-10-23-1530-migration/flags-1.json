@@ -1,0 +1,26 @@
+[
+  {
+    "id": "f1",
+    "rule": "writer-line-edited",
+    "note": "brain-dump.md",
+    "before": "- The harbour master keeps a ledger of every debt in the village. #status/provisional",
+    "after": "- The harbour master keeps a ledger of every debt and favour in the village. #status/provisional",
+    "unit": "b2-u2"
+  },
+  {
+    "id": "f2",
+    "rule": "writer-line-edited",
+    "note": "brain-dump.md",
+    "before": "- The lamp burned paraffin until the 1958 refit. #status/provisional",
+    "after": "- The lamp burned paraffin until the 1958 refit, then diesel. #status/provisional",
+    "unit": "b1-u1"
+  },
+  {
+    "id": "f3",
+    "rule": "writer-line-edited",
+    "note": "brain-dump.md",
+    "before": "- The lamp burned paraffin until the 1958 refit, then diesel. #status/provisional",
+    "after": "- The lamp burned paraffin until the 1962 refit, then diesel. #status/provisional",
+    "unit": "b2-u1"
+  }
+]

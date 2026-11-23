@@ -1,0 +1,11 @@
+{
+  "about": "Plan Milestone 4 items 4 and 6, on the realistic Lighthouse project (lib/editguard/tests/realistic/research/, set back to before the run). Run 2 has two requests: r1 in Areas/area-mara.md, which failed, and r2 in Ideas/idea-harrow-point.md, which passed (the Brain Dump's request is tagged run 3 here, so request ids don't hang on the order notes are scanned in, which no spec item fixes). mark closes r2 and leaves r1 open. Then the realistic case's three planted strays are copied in: r2's link line moved below its comment, 'for a night' changed to 'overnight' in area-mara.md, and a stray Ideas/idea-keeper-refusal.md. The real Edit guard raises unexplained-change, close-invalid, link-line-invalid, and fingerprint-changed. act undoes r2's close and its link line, puts the area-mara line back to its 'before' text, and leaves the stray note alone. It edited something, so next_check is 2; the second check raises only fingerprint-changed on the stray note, which act can only name.",
+  "spec": [
+    "spec-edit-guard.md 06 item 3",
+    "spec-edit-guard.md 01 item 6",
+    "spec-run-manager.md 08.4 item 3",
+    "spec-run-manager.md 08.5 item 1",
+    "CONTRACT.md 4 item 5",
+    "plan-run-manager.md 03 Milestone 4 test cases 4, 6"
+  ]
+}

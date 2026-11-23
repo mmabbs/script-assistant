@@ -1,0 +1,9 @@
+{
+  "about": "Two batches: the 2026-09-20 piece (20 tagged lines) is b1 and the 2026-09-21 piece is b2. In b1, u1 is an edit that rewords the lamp line; the migration-verifier fails before checking, and `findings --failed` undoes it, so the lamp line reads as at run start again. In b2, the migrator's u1 migrates the lamp line from b1's piece, its copy carrying the words b1's undone edit added. When b2-u1 is approved and joins the unit index, the same `findings` finds that its source line is the line b1-u1's undone edit changed, and undoes it (CONTRACT.md 5.3 item 13): its copy leaves idea-mara-lighthouse. Both notes read as at run start; the run reaches batches-done; `pointers` writes nothing; the Edit guard raises nothing.",
+  "spec": [
+    "CONTRACT.md 5.3 items 9, 13; 5.2 items 9, 10, 12"
+  ],
+  "readings": [
+    "A b2 unit sourcing a line of b1's piece stands in for the migrator crossing a batch's edge; the scan never puts one line in two batches."
+  ]
+}

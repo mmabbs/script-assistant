@@ -1,0 +1,42 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/provisional"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Mara counts the tower's steps every night, and Tobias hears her from the cottage. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- Tobias hears Mara counting the tower's steps from the cottage at night. #status/provisional"
+          ]
+        },
+        {
+          "note": "Ideas/idea-mara.md",
+          "under": "# Idea - Mara",
+          "lines": [
+            "- Mara counts the tower's steps every night. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "A split: Tobias hearing her goes in his note, the habit in hers."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

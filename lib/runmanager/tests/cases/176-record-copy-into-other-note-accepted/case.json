@@ -1,0 +1,11 @@
+{
+  "about": "An earlier run (run-2026-10-20-1000-migration) moved the Tobias rowing line to idea-tobias, which gave it its pointer, but a second unit on the same line was undone, so the line stayed off the handled list and this run's scan hands it to the migrator again (spec-run-manager.md 11 Decisions Log item 83). idea-tobias's copy from that run is on the handled list as `written`. This run's migrator copies the line only to idea-mara, which the pointer doesn't name. `record` accepts it: exit 0, the cut-down record holds u1, and the run moves to verifying with fixing [u1].",
+  "spec": [
+    "spec-run-manager.md 11 Decisions Log item 95 (only a note the pointer names is refused)",
+    "CONTRACT.md 5.3 items 1, 4, 5",
+    "plan-run-manager.md Milestone 15, first checkbox, group 2"
+  ],
+  "readings": [
+    "This case may pass before the Milestone 15 code: it guards against a refusal that is too wide."
+  ]
+}

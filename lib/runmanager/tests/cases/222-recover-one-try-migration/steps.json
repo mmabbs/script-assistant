@@ -1,0 +1,48 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "migration"
+    ],
+    "now": "2026-10-14 15:30",
+    "exit": 0
+  },
+  {
+    "copy": "files/notes-b1",
+    "to": "."
+  },
+  {
+    "copy": "files/record-b1.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 0
+  },
+  {
+    "chmod": "Ideas",
+    "mode": "555"
+  },
+  {
+    "run": [
+      "recover"
+    ],
+    "now": "2026-10-14 16:50",
+    "exit": 1
+  },
+  {
+    "chmod": "Ideas",
+    "mode": "755"
+  },
+  {
+    "run": [
+      "recover"
+    ],
+    "now": "2026-10-14 16:52",
+    "exit": 1,
+    "stderr": "Recover already ran once on run-2026-10-14-1530-migration. Type /script-asst:run abandon."
+  }
+]

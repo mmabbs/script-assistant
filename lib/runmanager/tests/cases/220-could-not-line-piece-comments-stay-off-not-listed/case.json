@@ -1,0 +1,10 @@
+{
+  "about": "One Brain Dump piece: a comment on its own under the date heading, the swim line, the roof line, and a comment directly under the roof line. u1 migrates the swim line; the record's could_not entry names the roof line. A could_not entry names a line in the piece, so both comments stay off the handled list, as they would in a piece with a missed line, and the next run hands the roof line back with the comments. Both comments are accounted for (the standalone one by the swim line the record names in its piece, the other by the could_not entry naming the line above it), so neither is listed under Other notes, and the roof line itself isn't either: the log has no Other notes section. The swim line goes on as migrated and its copy as written.",
+  "spec": [
+    "spec-run-manager.md 07.1 items 9, 14, 15",
+    "spec-run-manager.md 11 Decisions Log items 81, 105, 106, 107"
+  ],
+  "readings": [
+    "Could not do quotes the entry's `what`; whether it also quotes the source line isn't checked."
+  ]
+}

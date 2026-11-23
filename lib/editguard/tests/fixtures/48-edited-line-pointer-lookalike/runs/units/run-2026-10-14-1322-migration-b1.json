@@ -1,0 +1,34 @@
+{
+  "units": [
+    {
+      "id": "u6",
+      "action": "edit",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, tag this provisional."
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Mara has never once left the light during a storm."
+        }
+      ],
+      "copies": [],
+      "edits": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "before": "- Mara has never once left the light during a storm.",
+          "after": "- Mara has never once left the light during a storm. #status/provisional"
+        }
+      ],
+      "status": "provisional",
+      "status_from": "comment",
+      "why": "The writer's comment asks for a provisional tag on the line above it in the Brain Dump doc."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

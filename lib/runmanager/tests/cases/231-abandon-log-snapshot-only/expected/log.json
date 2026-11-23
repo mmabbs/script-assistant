@@ -1,0 +1,18 @@
+{
+  "file": "Runs/run-2026-10-10-1640-abandon.md",
+  "first_line": "Abandoned run, for run-2026-10-10-1600-research.",
+  "second_line": "This run was closed without its last checks. Below is what was never checked.",
+  "sections": [
+    {
+      "heading": "Other notes",
+      "contains": [
+        ".runs/run-2026-10-10-1600-research/snapshot/"
+      ]
+    }
+  ],
+  "absent": [
+    "Copies still in your notes",
+    "Your request",
+    "Never checked"
+  ]
+}

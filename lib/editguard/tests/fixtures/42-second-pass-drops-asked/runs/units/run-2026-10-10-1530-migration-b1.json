@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "edit",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, winters, not summers."
+      },
+      "sources": [],
+      "copies": [],
+      "edits": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "line": 8,
+          "before": "- Tobias worked summers on the ferry to the mainland.",
+          "after": "- Tobias worked winters on the ferry to the mainland."
+        }
+      ],
+      "status": "tentative",
+      "status_from": "default",
+      "why": "See the comment."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "An edits entry whose before matches the snapshot and whose after matches the note explains the changed line (spec-edit-guard.md 03.2 item 2), so there is no unexplained-change. It is a recorded edit to one of the writer's existing lines, so writer-line-edited fires on unit b1-u1 even though a comment asked for it (spec-edit-guard.md 04 item 1; 01 item 4)."
+}

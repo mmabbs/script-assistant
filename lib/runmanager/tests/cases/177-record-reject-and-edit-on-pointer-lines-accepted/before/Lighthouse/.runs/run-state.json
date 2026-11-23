@@ -1,0 +1,65 @@
+{
+  "open_run": null,
+  "history": [
+    {
+      "id": "run-2026-10-20-1000-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-20 10:00",
+      "ended": "2026-10-20 10:40",
+      "how": "closed"
+    }
+  ],
+  "handled": [
+    {
+      "note": "Areas/area-mara.md",
+      "text": "- Mara keeps a logbook and has never let anyone read it. #status/committed",
+      "outcome": "written",
+      "run": "run-2026-10-20-1000-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-mara.md",
+      "text": "- Mara keeps a logbook and has never let anyone read it. #status/committed [migrated-to:: [[Projects/Lighthouse/Areas/area-mara|area-mara]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-20-1000-migration",
+      "pointer": [
+        "Areas/area-mara.md"
+      ]
+    },
+    {
+      "note": "Ideas/idea-tobias.md",
+      "text": "- Tobias rows the post out to the rock every Thursday. #status/provisional",
+      "outcome": "written",
+      "run": "run-2026-10-20-1000-migration",
+      "pointer": null
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- Tobias rows the post out to Mara every Thursday. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-20-1000-migration",
+      "pointer": [
+        "Ideas/idea-tobias.md"
+      ]
+    }
+  ],
+  "unit_index": [
+    {
+      "run": "run-2026-10-20-1000-migration",
+      "unit": "b1-u1",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Tobias rows the post out to Mara every Thursday. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-20-1000-migration",
+      "unit": "b1-u2",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Mara keeps a logbook and has never let anyone read it. #status/committed [migrated-to:: [[Projects/Lighthouse/Areas/area-mara|area-mara]]]"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "about": "Case 83's batch: the record is invalid and the migrator's retries failed after it wrote a copy into idea-mara and one into idea-tobias; it also changed Characters/cast.md, a fingerprinted note. `record --failed` moves the invalid record to .runs/{run-id}/record-b1-invalid.json and gives batch-failed, next_check 1. The real Edit guard, handed no record files, raises fingerprint-changed on the cast note and unexplained-change on both copies. `act` at batch-failed removes the two copies and ignores the fingerprint flag. It was the only batch, so the run moves to batches-done with next_check null. The run carries on to show the ignored flag comes back: `pointers` (no approved units, nothing written) moves to pointed with next_check and first_check 2, one past flags-1. The real check after pointers raises fingerprint-changed again. It goes to the migration-verifier, is judged not asked for, and can't be restored. The run ends at acted, edited false, next_check null.",
+  "spec": [
+    "CONTRACT.md 5.5 item 8; items 1, 2, 5",
+    "CONTRACT.md 5.3 item 6, second bullet (the invalid record moved aside); 5.4 item 1 (next_check one past the highest flags file)",
+    "spec-run-manager.md 04 item 22 (When a part fails, second bullet); 07.2 item 4",
+    "spec-migration-verifier.md 07 item 4",
+    "plan-run-manager.md 04 Milestone 11; plan-run-manager.md 04 Milestone 9 (case 83)"
+  ],
+  "readings": [
+    "`act` at batch-failed doesn't set edited: the check after `pointers` sees its restores, so they don't call for a second check later. edited and the second check count only the `act` steps after `pointers`.",
+    "first_check is null at batches-done here, since `pointers` hasn't run (CONTRACT.md 5.5 item 1); the case compares the run state only at the end.",
+    "The case doesn't compare record-b1-invalid.json (CONTRACT.md section 2 'Comparing' item 3 doesn't list it). The real Edit guard steps show the invalid record is gone from .runs/units/: the Edit guard exits 1 on it."
+  ]
+}

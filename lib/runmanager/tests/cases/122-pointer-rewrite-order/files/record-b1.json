@@ -1,0 +1,63 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, Tobias hears her counting from the cottage, and she counts by the lamp's light."
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara|idea-mara]]]"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- Tobias hears Mara counting the tower's steps from the cottage. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "The comment's first half."
+    },
+    {
+      "id": "u2",
+      "action": "migrate",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, Tobias hears her counting from the cottage, and she counts by the lamp's light."
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara|idea-mara]]]"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-lamp.md",
+          "under": "# Idea - Lamp",
+          "lines": [
+            "- Mara counts the tower's steps by the lamp's light. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "The comment's second half."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

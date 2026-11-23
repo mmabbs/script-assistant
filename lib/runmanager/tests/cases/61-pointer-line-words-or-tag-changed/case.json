@@ -1,0 +1,10 @@
+{
+  "about": "Tagged lines with a pointer that no longer match their handled text. (1) The writer reworded the Mara line but kept #status/committed: its pointer names Areas/area-mara.md, and exactly one handled entry in brain-dump.md with that pointer has text no longer in the note (the logbook entry shares the pointer but its text is still there, so it isn't a candidate). Same status tag: skipped, listed in skipped with was = the old text, and not in any batch. (2) The relief keeper line's tag changed from provisional to committed: new work. (3) Two fog signal lines were both reworded, and both point to idea-fog-signal: each finds two candidate entries, so both are new work. Batch b1 holds only the 2026-10-01 piece; the 2026-10-05 piece has no new lines. The destination notes aren't in the project; the scan doesn't open pointers.",
+  "spec": [
+    "spec-run-manager.md 04 items 20, 21",
+    "spec-run-manager.md 07.1 item 4",
+    "spec-run-manager.md 11 Decisions Log items 70, 71",
+    "CONTRACT.md 5.2 items 7, 8",
+    "plan-run-manager.md 04 Milestone 8: a line with a pointer whose words changed, and one whose status tag changed"
+  ]
+}

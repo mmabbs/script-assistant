@@ -1,0 +1,100 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/provisional"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Tobias can't swim, which is why the ferry job scares him. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- Tobias can't swim, so the ferry job scares him. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "The line is about Tobias, and idea-tobias is his note."
+    },
+    {
+      "id": "u2",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/provisional"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 12,
+          "text": "- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "under": "# Idea - Mara",
+          "lines": [
+            "- Mara counts the tower's one hundred and twelve steps. #status/provisional"
+          ]
+        },
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- Tobias has heard Mara counting the steps at night. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "A split: Mara's habit goes in her note, and Tobias hearing it goes in his."
+    },
+    {
+      "id": "u3",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/provisional"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 13,
+          "text": "- The lamp burned paraffin until the 1958 refit. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-lamp.md",
+          "under": "",
+          "creates_note": true,
+          "lines": [
+            "# Idea - Lamp",
+            "- The lamp burned paraffin until the 1958 refit. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "No note covers the lamp, so it gets its own."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

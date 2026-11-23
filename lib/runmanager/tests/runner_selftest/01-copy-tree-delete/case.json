@@ -1,0 +1,1 @@
+{"what": "Runner self-test: status runs, a file copies in, a file is deleted, a repeated init refuses with its stderr text, and the tree compare passes.", "spec": "CONTRACT.md 2"}

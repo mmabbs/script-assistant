@@ -1,0 +1,12 @@
+{
+  "about": "A research run with no outcomes file; recover runs once (`mark` edits nothing; the run waits for flags-1). Then `Runs/` is made read-only, so the abandon log can't be written. `abandon` at 16:20 still closes the run and exits 0, and prints the log's full text on stdout: both first lines, Never checked with the missing-markup sentence, and Other notes with the snapshot folder. The history gains the abandoned entry.",
+  "spec": [
+    "spec-run-manager.md 09.3 item 3",
+    "spec-run-manager.md 11 item 110",
+    "plan-run-manager.md Milestone 18, second checkbox, item 5"
+  ],
+  "readings": [
+    "The printed text is checked for the log body's lines and headings, not its frontmatter.",
+    "`Runs/` is made read-only (mode 555) with the runner's `chmod` step and given back by the runner's cleanup."
+  ]
+}

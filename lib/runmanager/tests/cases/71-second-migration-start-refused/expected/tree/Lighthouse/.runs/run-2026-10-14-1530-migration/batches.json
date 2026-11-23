@@ -1,0 +1,20 @@
+{
+  "batches": [
+    {
+      "batch": "b1",
+      "pieces": [
+        {
+          "note": "brain-dump.md",
+          "heading": "### 2026-09-19",
+          "lines": [
+            {
+              "line": 11,
+              "text": "- Mara rewires the radio with parts from the fog signal. #status/provisional"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": []
+}

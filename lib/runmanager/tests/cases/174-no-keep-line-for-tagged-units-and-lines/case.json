@@ -1,0 +1,12 @@
+{
+  "about": "One piece under 2026-09-20 holds a comment, so the piece has a comment for a keep line to name. u1 moves the tagged Mara line (trigger kind `tag`); u2 moves the untagged boat line the comment asks for (trigger kind `comment`). The migrator fails after writing only u2: `record --failed` undoes u1 (not started) and sends u2 on; u2 is approved, and the findings list the tagged post line as missed. The Edit guard gives [] and the run closes. u1's entry under Units undone and the post line's entry under Lines the checker says were missed get no keep line: each line's own tag brings it back, so the line above 'The next migration run tries this again.' is still the reason (the unit's) or the migration-verifier's words (the line's). The comment stays off the handled list, since its piece holds an undone unit and a missed line.",
+  "spec": [
+    "spec-run-manager.md 11 Decisions Log item 93 ('A unit or line its own tag triggered gets no such line') and item 97",
+    "spec-run-manager.md 07.3 item 2, entries 7 and 8",
+    "plan-run-manager.md Milestone 15, first checkbox, group 1"
+  ],
+  "readings": [
+    "log.json can't check that text is absent, so the absence of a keep line is checked by matching the line above 'The next migration run tries this again.' as one block.",
+    "This case may pass before the Milestone 15 code: it guards against a keep line written for tag-triggered work."
+  ]
+}

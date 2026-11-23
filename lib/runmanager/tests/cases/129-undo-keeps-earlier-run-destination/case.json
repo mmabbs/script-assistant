@@ -1,0 +1,13 @@
+{
+  "about": "An earlier run's pointer on the count line names idea-mara. The writer's comment under it asks a question. This run's u1, started by the line's own tag (trigger kind `tag`), writes an [AGENT] line in idea-tobias, and `pointers` adds idea-tobias after idea-mara. The real Edit guard raises agent-line-added on b1-u1. A tag started the unit, so the flag still goes to the flags call, which judges it not asked for. `act` undoes b1-u1: its line leaves idea-tobias, and idea-tobias comes off the pointer. idea-mara stays, since the snapshot line already named it, so the line reads exactly as it did at the start. The earlier run's b1-u1 entry is untouched; this run's becomes undone. The second check comes back [].",
+  "spec": [
+    "CONTRACT.md 5.5 items 5, 6",
+    "spec-run-manager.md 09.1 item 2; 08.2 item 3",
+    "spec-edit-guard.md 03.1 item 5",
+    "plan-run-manager.md 04 Milestone 11, added item (undo of a unit with a pointer)",
+    "spec-migration-verifier.md 06 item 7"
+  ],
+  "readings": [
+    "Revised 2026-10-23 for Run manager Milestone 16 (plan-run-manager.md 06 item 14, reading 5): u1's trigger is now `tag`, not `comment`, so its flag still reaches the flags call (spec-migration-verifier.md 06 item 7, second exception). A comment-started unit's flag would stand, and the undo this case tests would never run. Nothing else changes: the cut-down unit in verify-flags.json carries no trigger."
+  ]
+}

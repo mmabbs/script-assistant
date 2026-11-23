@@ -1,0 +1,9 @@
+{
+  "about": "The saved outcomes file leaves out r2, so mark refuses to use it, edits no note, and the run carries on: the Edit guard, act and close all run. The failed workflow also left a research note the outcomes file can't name; the Edit guard raises unexpected-research-note, so the stray write is still caught and the log names it. Both requests stay open and are quoted under Requests still open. Reading: mark exits 0 here, because the step ran and the run moved on (spec 04 item 19: the file doesn't stop the run; CONTRACT 1 item 2: 0 when the step ran).",
+  "spec": [
+    "spec-run-manager.md 04 item 19",
+    "spec-run-manager.md 06 item 7",
+    "spec-run-manager.md 06.1 item 2",
+    "CONTRACT.md 4 item 1"
+  ]
+}

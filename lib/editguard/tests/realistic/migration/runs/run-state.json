@@ -1,0 +1,149 @@
+{
+  "open_run": {
+    "run": "run-2026-10-10-1530-migration",
+    "kind": "migration",
+    "step": "edit-guard"
+  },
+  "history": [
+    {
+      "run": "run-2026-10-02-2015-migration",
+      "kind": "migration",
+      "finished": "2026-10-02T20:41"
+    }
+  ],
+  "handled": [
+    {
+      "note": "brain-dump.md",
+      "text": "- Harrow Point is a fishing village of about two hundred people. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-harrow-point|idea-harrow-point]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-02-2015-migration"
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- Mara lives alone in the keeper's cottage at the foot of the tower. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara-lighthouse|idea-mara-lighthouse]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-02-2015-migration"
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- Tobias worked summers on the ferry to the mainland. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-02-2015-migration"
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- He kept a rowing boat tied up under the pier. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-02-2015-migration"
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- The harbour is too shallow now for anything bigger than a creel boat. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-harrow-point|idea-harrow-point]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-02-2015-migration"
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- Mara repaints the lamp room every spring. #status/committed [migrated-to:: [[Projects/Lighthouse/Areas/area-mara|area-mara]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-02-2015-migration"
+    }
+  ],
+  "unit_index": [
+    {
+      "run": "run-2026-10-02-2015-migration",
+      "unit": "b1-u1",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Harrow Point is a fishing village of about two hundred people. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-harrow-point|idea-harrow-point]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-02-2015-migration",
+      "unit": "b1-u2",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Mara lives alone in the keeper's cottage at the foot of the tower. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara-lighthouse|idea-mara-lighthouse]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-02-2015-migration",
+      "unit": "b1-u3",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Tobias worked summers on the ferry to the mainland. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]",
+        "- He kept a rowing boat tied up under the pier. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-02-2015-migration",
+      "unit": "b1-u4",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- The harbour is too shallow now for anything bigger than a creel boat. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-harrow-point|idea-harrow-point]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-02-2015-migration",
+      "unit": "b2-u1",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Mara repaints the lamp room every spring. #status/committed [migrated-to:: [[Projects/Lighthouse/Areas/area-mara|area-mara]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-10-1530-migration",
+      "unit": "b1-u1",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Tobias kept a tin of sea glass under his bed. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-10-1530-migration",
+      "unit": "b1-u2",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- The causeway floods twice a month, and Mara times her supply runs around the tide table. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-harrow-point|idea-harrow-point]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-10-1530-migration",
+      "unit": "b1-u3",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- The relief keeper has never worked a hand-wound lamp. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-relief-keeper|idea-relief-keeper]]]",
+        "    - Who teaches him, Mara or the logbook? [migrated-to:: [[Projects/Lighthouse/Ideas/idea-relief-keeper|idea-relief-keeper]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-10-1530-migration",
+      "unit": "b1-u4",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- The new keeper could be someone from the mainland who's never seen the sea. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-relief-keeper|idea-relief-keeper]]]",
+        "- What if the relief keeper is scared of the water? [migrated-to:: [[Projects/Lighthouse/Ideas/idea-relief-keeper|idea-relief-keeper]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-10-1530-migration",
+      "unit": "b2-u1",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Mara keeps a logbook and has never let anyone read it. #status/committed [migrated-to:: [[Projects/Lighthouse/Areas/area-mara|area-mara]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-10-1530-migration",
+      "unit": "b2-u2",
+      "state": "approved",
+      "pointed_lines": []
+    },
+    {
+      "run": "run-2026-10-10-1530-migration",
+      "unit": "b2-u3",
+      "state": "approved",
+      "pointed_lines": []
+    }
+  ]
+}

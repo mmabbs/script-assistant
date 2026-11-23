@@ -1,0 +1,35 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/tentative"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 12,
+          "text": "    - [?] Maybe he drowned instead of leaving. #status/tentative"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "under": "# Idea - Mara",
+          "lines": [
+            "- The keeper before Mara may have drowned rather than left the rock. #status/tentative"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "tentative",
+      "status_from": "tag",
+      "why": "The open question about her predecessor belongs in Mara's note."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

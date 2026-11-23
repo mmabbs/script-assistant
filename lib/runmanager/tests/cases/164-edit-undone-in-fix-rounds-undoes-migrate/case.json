@@ -1,0 +1,10 @@
+{
+  "about": "u6 tags the Brain Dump line and u7 migrates it, as in 158-edited-source-gets-pointer. The migration-verifier approves u7 on round 0 and asks for a fix to u6; the migrator changes nothing, and u6 is still `fix` on round 2, so `findings` undoes it (fix-rounds). u7's source line is the line u6's edit changed, so the same `findings` undoes u7 too (CONTRACT.md 5.3 item 13): its copy leaves idea-mara-lighthouse, and the tag is already gone with u6. No pointer exists yet. The run reaches batches-done; `pointers` has nothing to write; the Edit guard raises nothing; `close` puts nothing on the handled list, and the log lists both units under Units undone.",
+  "spec": [
+    "CONTRACT.md 5.3 items 8 (fix on round 2), 13; 5.6 items 3, 6",
+    "spec-run-manager.md 09.1 item 1; 11 item 81"
+  ],
+  "readings": [
+    "The migrator's fix rounds are stood in for by leaving the record and notes as they were; `record` accepts them, since no other unit changed."
+  ]
+}

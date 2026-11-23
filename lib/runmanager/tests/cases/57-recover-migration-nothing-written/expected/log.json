@@ -1,0 +1,22 @@
+{
+  "file": "Runs/run-2026-10-10-1545-recover.md",
+  "first_line": "Recover run, for run-2026-10-10-1530-migration.",
+  "sections": [],
+  "absent": [
+    "Changes put back",
+    "Other notes",
+    "Questions for you",
+    "Units undone",
+    "Lines the checker says were missed",
+    "Migrated",
+    "Rejected",
+    "Other edits you asked for",
+    "Left in place, and why",
+    "Could not do"
+  ],
+  "contains": [
+    "Every unit of the crashed run was undone. The next migration run does that work again.",
+    "Nothing needs you."
+  ],
+  "nothing_needs_you": false
+}

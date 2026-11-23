@@ -1,0 +1,10 @@
+[
+  {
+    "id": "f1",
+    "rule": "unexplained-change",
+    "note": "Ideas/idea-harrow-point.md",
+    "before": "%% Is two hundred too many for a village this remote? %%",
+    "after": "%% Is two hundred too many for a village this remote? Agent: no, it fits. %%",
+    "unit": ""
+  }
+]

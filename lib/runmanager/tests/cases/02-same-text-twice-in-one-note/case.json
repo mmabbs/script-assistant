@@ -1,0 +1,8 @@
+{
+  "about": "One Idea Note holds the same request line twice, in two sections. Each gets its own requests entry, told apart by line number; only the second has a comment under it, so r1's comment is null and r2's is the comment. The note is copied into the snapshot once.",
+  "spec": [
+    "spec-run-manager.md 04 item 13",
+    "spec-run-manager.md 08.1 item 1",
+    "plan-run-manager.md 03 Milestone 3 test case 2"
+  ]
+}

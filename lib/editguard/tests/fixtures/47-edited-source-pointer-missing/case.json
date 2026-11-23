@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-14-1322-migration",
+  "about": "As 45-edited-source-pointer-pass, but the edited line carries no pointer though u7 is pointer-written. The edits entry explains the line; pointer-mismatch fires on b1-u7, since its source line names none of its copies' notes (spec-edit-guard.md 03.3 item 2). Before this fix the edited source line was skipped by pointer-mismatch."
+}

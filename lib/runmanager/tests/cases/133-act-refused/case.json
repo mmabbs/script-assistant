@@ -1,0 +1,8 @@
+{
+  "about": "Case 131 with `act` tried too early and too late. It exits 1 at migrating, at verifying, at batches-done, and at pointed before flags-1.json exists; each time nothing changes, so `pointers` and the Edit guard step still run in turn. After the Edit guard writes flags-1.json, `act` runs. A second `act` at acted exits 1. The end state is case 131's.",
+  "spec": [
+    "CONTRACT.md 5.5 item 2 ('the awaited flags file exists')",
+    "spec-run-manager.md 01 item 3; 03 (editguard row); 04 item 22 (act row)",
+    "plan-run-manager.md 04 Milestone 11"
+  ]
+}

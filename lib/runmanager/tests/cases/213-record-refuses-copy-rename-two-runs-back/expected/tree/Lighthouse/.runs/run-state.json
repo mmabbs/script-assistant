@@ -1,0 +1,62 @@
+{
+  "open_run": {
+    "id": "run-2026-10-25-1530-migration",
+    "kind": "migration",
+    "run_number": null,
+    "request": null,
+    "step": "migrating",
+    "next_check": null,
+    "started": "2026-10-25 15:30",
+    "batch": 1,
+    "round": 0
+  },
+  "history": [
+    {
+      "id": "run-2026-10-18-1000-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-18 10:00",
+      "ended": "2026-10-18 10:40",
+      "how": "closed"
+    },
+    {
+      "id": "run-2026-10-20-1000-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-20 10:00",
+      "ended": "2026-10-20 10:40",
+      "how": "closed",
+      "renamed": [
+        {
+          "from": "Ideas/idea-tobias.md",
+          "to": "Ideas/idea-tobias-rowing.md"
+        }
+      ]
+    }
+  ],
+  "handled": [
+    {
+      "note": "Ideas/idea-tobias-rowing.md",
+      "text": "- Tobias rows the post out to the rock every Thursday. #status/provisional",
+      "outcome": "written",
+      "run": "run-2026-10-18-1000-migration",
+      "pointer": null
+    }
+  ],
+  "unit_index": [
+    {
+      "run": "run-2026-10-18-1000-migration",
+      "unit": "b1-u1",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Tobias rows the post out to Mara every Thursday. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-18-1000-migration",
+      "unit": "b1-u2",
+      "state": "undone",
+      "pointed_lines": []
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "A reject unit moves a line the writer tagged #status/provisional into the Rejected section with its tag set to #status/rejected, and the writer's reason on the comment line below. The moved line differs from its source only by its status tag, so rejected-move-changed does not fire (spec-edit-guard.md 04 item 4); 'set to' is read as replacing the old tag. The move is covered by sources and copies, with no edits entry, so writer-line-edited does not fire (04 item 1; spec-migrator.md 05.4 item 5). #status/rejected is in an Idea Note's Rejected section, so no tag rule fires. No flags."
+}

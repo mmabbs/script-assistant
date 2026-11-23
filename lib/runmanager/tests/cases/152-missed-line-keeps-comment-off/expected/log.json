@@ -1,0 +1,35 @@
+{
+  "file": "Runs/run-2026-10-14-1530-migration.md",
+  "first_line": "Migration run, started 2026-10-14 15:30.",
+  "sections": [
+    {
+      "heading": "Migrated",
+      "contains": [
+        "`- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional",
+        "[[Projects/Lighthouse/Ideas/idea-mara|idea-mara]]",
+        "`- Tobias can't swim, which is why the ferry job scares him. #status/provisional",
+        "[[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]"
+      ]
+    },
+    {
+      "heading": "Lines the checker says were missed",
+      "contains": [
+        "`- The supply boat brings the post once a month.",
+        "The comment asks to put the post line in idea-mara; nothing did.",
+        "The next migration run tries this again."
+      ]
+    }
+  ],
+  "absent": [
+    "Questions for you",
+    "Rejected",
+    "Other edits you asked for",
+    "Left in place, and why",
+    "Could not do",
+    "Units undone",
+    "Changes put back",
+    "Other notes"
+  ],
+  "contains": [],
+  "nothing_needs_you": true
+}

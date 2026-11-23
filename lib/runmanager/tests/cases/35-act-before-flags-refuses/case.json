@@ -1,0 +1,8 @@
+{
+  "about": "spec-run-manager.md 04 item 18 and 03 (the next runmanager command refuses until the check's flags file exists); CONTRACT.md 1 item 2. mark runs and closes both requests, then act runs before any Edit guard check, so flags-1.json doesn't exist. act exits 1 and changes nothing: the notes stay as mark left them, and the run stays at 'marked', waiting for flags-1.",
+  "spec": [
+    "spec-run-manager.md 04 item 18",
+    "spec-run-manager.md 03",
+    "CONTRACT.md 1 item 2"
+  ]
+}

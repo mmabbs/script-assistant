@@ -1,0 +1,34 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "edit",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, the lamp went over to diesel after the refit; say so."
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 18,
+          "text": "- The lamp burned paraffin until the 1958 refit. #status/provisional"
+        }
+      ],
+      "copies": [],
+      "edits": [
+        {
+          "note": "brain-dump.md",
+          "line": 18,
+          "before": "- The lamp burned paraffin until the 1958 refit. #status/provisional",
+          "after": "- The lamp burned paraffin until the 1958 refit, then diesel. #status/provisional"
+        }
+      ],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "The comment asks for the change."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

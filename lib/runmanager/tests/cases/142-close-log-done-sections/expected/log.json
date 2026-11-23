@@ -1,0 +1,50 @@
+{
+  "file": "Runs/run-2026-10-14-1530-migration.md",
+  "first_line": "Migration run, started 2026-10-14 15:30.",
+  "sections": [
+    {
+      "heading": "Migrated",
+      "contains": [
+        "Does Mara keep the old keeper's logbook?",
+        "[[Projects/Lighthouse/Ideas/idea-mara|idea-mara]]",
+        "tentative"
+      ]
+    },
+    {
+      "heading": "Rejected",
+      "contains": [
+        "Tobias was a strong swimmer as a boy."
+      ]
+    },
+    {
+      "heading": "Other edits you asked for",
+      "contains": [
+        "Mara counts one hundred and twelve steps every night.",
+        "as your comment `%% Agent, it's one hundred and twelve steps, not a hundred. %%` in [[Projects/Lighthouse/Ideas/idea-mara|idea-mara]] asked."
+      ]
+    },
+    {
+      "heading": "Left in place, and why",
+      "contains": [
+        "`- The lens came from a works in Birmingham. #status/provisional",
+        "It's about the light itself, and no note covers the light yet."
+      ]
+    },
+    {
+      "heading": "Could not do",
+      "contains": [
+        "The lamp burned paraffin until the 1958 refit.",
+        "The comment asks me to check the refit date in the plot outline, and I couldn't find one there."
+      ]
+    }
+  ],
+  "absent": [
+    "Questions for you",
+    "Units undone",
+    "Lines the checker says were missed",
+    "Changes put back",
+    "Other notes"
+  ],
+  "contains": [],
+  "nothing_needs_you": true
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "research",
+      "--run-number",
+      "3"
+    ],
+    "now": "2026-10-10 16:00",
+    "exit": 0
+  },
+  {
+    "copy": "files/Research/research-light-fog-signal-engines.md",
+    "to": "Research/research-light-fog-signal-engines.md"
+  },
+  {
+    "copy": "files/outcomes.json",
+    "to": ".runs/{run_id}/outcomes.json"
+  },
+  {
+    "run": [
+      "mark"
+    ],
+    "exit": 0
+  },
+  {
+    "editguard": true,
+    "exit": 0
+  },
+  {
+    "run": [
+      "act"
+    ],
+    "exit": 0
+  },
+  {
+    "run": [
+      "close"
+    ],
+    "exit": 0,
+    "now": "2026-10-10 16:30"
+  }
+]

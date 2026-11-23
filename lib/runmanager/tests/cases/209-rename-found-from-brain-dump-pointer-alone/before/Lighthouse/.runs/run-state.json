@@ -1,0 +1,25 @@
+{
+  "open_run": null,
+  "history": [
+    {
+      "id": "run-2026-10-20-1000-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-20 10:00",
+      "ended": "2026-10-20 10:40",
+      "how": "closed"
+    }
+  ],
+  "handled": [
+    {
+      "note": "brain-dump.md",
+      "text": "- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara|idea-mara]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-20-1000-migration",
+      "pointer": [
+        "Ideas/idea-mara.md"
+      ]
+    }
+  ],
+  "unit_index": []
+}

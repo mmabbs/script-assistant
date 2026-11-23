@@ -1,0 +1,61 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "edit",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, the refit was in 1962, not 1958. Fix the paraffin line under 2026-09-20."
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 18,
+          "text": "- The lamp burned paraffin until the 1958 refit. #status/provisional"
+        }
+      ],
+      "copies": [],
+      "edits": [
+        {
+          "note": "brain-dump.md",
+          "line": 18,
+          "before": "- The lamp burned paraffin until the 1958 refit, then diesel. #status/provisional",
+          "after": "- The lamp burned paraffin until the 1962 refit, then diesel. #status/provisional"
+        }
+      ],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "The comment asks for the change."
+    },
+    {
+      "id": "u2",
+      "action": "edit",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, add that he keeps favours in it too."
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- The harbour master keeps a ledger of every debt in the village. #status/provisional"
+        }
+      ],
+      "copies": [],
+      "edits": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "before": "- The harbour master keeps a ledger of every debt in the village. #status/provisional",
+          "after": "- The harbour master keeps a ledger of every debt and favour in the village. #status/provisional"
+        }
+      ],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "The comment asks for the change."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

@@ -1,0 +1,29 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "edit",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, add a question here about who kept the harbour log."
+      },
+      "sources": [],
+      "copies": [
+        {
+          "note": "Ideas/idea-harrow-point.md",
+          "under": "# Idea - Harrow Point",
+          "lines": [
+            "- [?] [AGENT] Who kept the harbour log before the war?"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "tentative",
+      "status_from": "default",
+      "why": "See the comment."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

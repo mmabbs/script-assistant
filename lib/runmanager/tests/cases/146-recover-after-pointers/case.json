@@ -1,0 +1,15 @@
+{
+  "about": "An earlier run migrated the count line to idea-mara. This run: u1 adds idea-tobias to that line's pointer (a writer's comment asked), u2 migrates a '- [?]' line to idea-mara. Both are approved, `pointers` writes both, and the first Edit guard check gives []. Then the session crashes before `act`. `recover` at 16:50 undoes u2 then u1: each copy leaves its note, idea-tobias comes off the count line's pointer while idea-mara (named in the snapshot line) stays, and the [?] line loses its pointer and gets its [?] back. Both units become undone with pointed_lines []. next_check is 2, one past flags-1. The second check gives []; `act` at recovered changes nothing; `close` ends the run with how 'recovered'. Every note ends as it started, and the handled list holds only the earlier run's entries. The recover log has no sections.",
+  "spec": [
+    "CONTRACT.md 5.6 items 7, 8, 9",
+    "CONTRACT.md 5.5 item 6 (undoing a unit with a pointer)",
+    "spec-run-manager.md 09.1 item 2 (last bullet), 3; 09.2 item 3",
+    "plan-run-manager.md 04 Milestone 11 test case 5"
+  ],
+  "readings": [
+    "The history entry's `ended` is the time `close` runs; `recover` and `close` share the same `now` here, so the case doesn't depend on which.",
+    "'Nothing needs you.' on a recover log comes after the every-unit-undone sentence (CONTRACT.md 5.6 item 8), so it is the third line. The runner's nothing_needs_you check reads only the second line, so it is set false (the second line is that sentence) and 'Nothing needs you.' is checked with `contains` when Changes put back is empty. log.json can't check that it is absent when Changes put back is there.",
+    "The crashed run's flags-1 exists, so the question of 'Markup wasn't checked on the first try.' doesn't arise here (see the report's gaps).",
+    "Undone units keep their place in the unit index."
+  ]
+}

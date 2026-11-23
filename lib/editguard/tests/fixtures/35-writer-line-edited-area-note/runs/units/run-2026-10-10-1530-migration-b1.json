@@ -1,0 +1,42 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, area-mara."
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 10,
+          "text": "- Mara repaints the lamp room every spring. #status/committed"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Areas/area-mara.md",
+          "under": "# Mara",
+          "lines": [
+            "- Mara repaints the lamp room every spring."
+          ]
+        }
+      ],
+      "edits": [
+        {
+          "note": "Areas/area-mara.md",
+          "line": 9,
+          "before": "- She took the post after her father left.",
+          "after": "- Mara took the post after her father left."
+        }
+      ],
+      "status": "committed",
+      "status_from": "tag",
+      "why": "See the comment."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

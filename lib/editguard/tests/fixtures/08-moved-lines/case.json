@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "A moved line is a removed line and an added line, each needing its own explanation (spec-edit-guard.md 03.1 item 3). In idea-mara-lighthouse a rejection moves the dog line to Rejected, explained by the reject unit's sources and copies (03.2 items 1 and 3). In idea-tobias the ferry line moved from the top of the list to the bottom with no record, so it gives two unexplained-change flags, one removed and one added, each with no unit. They are separate diff blocks, so they don't pair into one changed line."
+}

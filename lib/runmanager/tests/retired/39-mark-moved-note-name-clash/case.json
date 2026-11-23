@@ -1,0 +1,10 @@
+{
+  "about": "CONTRACT.md 4 item 17; spec-run-manager.md 11 Decisions Log item 62 and 06 item 2. Same as case 38, but Research/research-light-relief-boat.md already exists before the run: an earlier note for a different run-1 request, linked from Ideas/idea-harrow-point.md and fingerprinted at start. The moved note takes the run's start date: Research/research-light-relief-boat-2026-10-10.md (date from the start step's now, YYYY-MM-DD). The earlier note and its link are untouched. The link line and the log's Done entry point to the dated name. No flags. Readings: the date comes from the start time, not the time of mark (both are 2026-10-10 here, so the case doesn't tell them apart); the moved note's bytes are unchanged, so its title doesn't carry the date; this is not a retry, so the Done entry names no earlier failed note.",
+  "spec": [
+    "CONTRACT.md 4 item 17",
+    "spec-run-manager.md 11 Decisions Log item 62",
+    "spec-run-manager.md 06 item 2",
+    "spec-run-manager.md 08.4 items 1, 2",
+    "spec-run-manager.md 06.1 items 1, 2"
+  ]
+}

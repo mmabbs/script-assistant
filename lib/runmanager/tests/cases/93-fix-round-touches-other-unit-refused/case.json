@@ -1,0 +1,11 @@
+{
+  "about": "Round 0 approves u1 and sends u2 to round 1. The migrator fixes u2 but also touches u1 in the record: first it rewrites u1's why, then it leaves u1 out. `record` refuses both (exit 1, one line naming the record file), as for an invalid record, because u1 isn't exactly as it was in the last valid copy. Nothing changes: the run stays at migrating, round 1, fixing [u2].",
+  "spec": [
+    "CONTRACT.md 5.3 item 3",
+    "spec-migrator.md 09 item 1",
+    "plan-run-manager.md 04 Milestone 9"
+  ],
+  "readings": [
+    "A unit left out of a fix round's record counts as touched: 'exactly as it was' fails."
+  ]
+}

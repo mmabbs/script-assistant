@@ -1,0 +1,7 @@
+{
+  "about": "spec-edit-guard.md 06 item 3; CONTRACT.md 4 item 5 ('a removed line goes back under the line that sat above it in the snapshot'). Both requests passed and mark closed them. Then a stray write removes the harbour line from the request note. The real Edit guard raises unexplained-change with an empty 'after'. act puts the line back under the line that sat above it in the snapshot, '- Harrow Point is a fishing village...'. next_check 2; the second check finds nothing.",
+  "spec": [
+    "spec-edit-guard.md 06 item 3",
+    "CONTRACT.md 4 item 5"
+  ]
+}

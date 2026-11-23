@@ -1,0 +1,35 @@
+{
+  "file": "Runs/run-2026-10-14-1530-migration.md",
+  "first_line": "Migration run, started 2026-10-14 15:30.",
+  "sections": [
+    {
+      "heading": "Migrated",
+      "contains": [
+        "`- Mara counts the tower's steps every night, one hundred and twelve.",
+        "[[Projects/Lighthouse/Ideas/idea-mara|idea-mara]]"
+      ]
+    },
+    {
+      "heading": "Units undone",
+      "contains": [
+        "`- Tobias can't swim, which is why the ferry job scares him.",
+        "[[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]",
+        "the migration-verifier still found problems after 2 fix rounds:",
+        "lost-detail: The source says the ferry job scares him, not the sea.",
+        "The next migration run tries this again."
+      ]
+    }
+  ],
+  "absent": [
+    "Questions for you",
+    "Rejected",
+    "Other edits you asked for",
+    "Left in place, and why",
+    "Could not do",
+    "Lines the checker says were missed",
+    "Changes put back",
+    "Other notes"
+  ],
+  "contains": [],
+  "nothing_needs_you": true
+}

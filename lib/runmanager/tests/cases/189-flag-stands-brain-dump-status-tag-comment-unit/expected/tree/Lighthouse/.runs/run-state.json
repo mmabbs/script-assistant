@@ -1,0 +1,38 @@
+{
+  "open_run": null,
+  "history": [
+    {
+      "id": "run-2026-10-23-1530-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-23 15:30",
+      "ended": "2026-10-23 15:50",
+      "how": "closed",
+      "renamed": []
+    }
+  ],
+  "handled": [
+    {
+      "note": "brain-dump.md",
+      "text": "- Mara has never once left the light during a storm. #status/provisional",
+      "outcome": "edited",
+      "run": "run-2026-10-23-1530-migration",
+      "pointer": null
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "%% Agent, tag this provisional. %%",
+      "outcome": "comment",
+      "run": "run-2026-10-23-1530-migration",
+      "pointer": null
+    }
+  ],
+  "unit_index": [
+    {
+      "run": "run-2026-10-23-1530-migration",
+      "unit": "b1-u1",
+      "state": "approved",
+      "pointed_lines": []
+    }
+  ]
+}

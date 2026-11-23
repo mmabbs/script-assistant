@@ -1,0 +1,14 @@
+{
+  "flags": [
+    {
+      "flag": "f2",
+      "verdict": "not-asked",
+      "asked_by": null
+    },
+    {
+      "flag": "f2",
+      "verdict": "not-asked",
+      "asked_by": null
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "file": "Runs/run-2026-10-25-1530-migration.md",
+  "first_line": "Migration run, started 2026-10-25 15:30.",
+  "sections": [
+    {
+      "heading": "Questions for you",
+      "contains": [
+        "`- Mara's sister writes from Halifax every spring.",
+        "Should the sister's letters go in idea-mara, or in a new Idea Note?",
+        "Answer with a comment on the source line, then start another migration run."
+      ]
+    },
+    {
+      "heading": "Migrated",
+      "contains": [
+        "`- Tobias keeps a jar of sea glass on the sill."
+      ]
+    },
+    {
+      "heading": "Left in place, and why",
+      "contains": [
+        "`- Mara hums hymns she doesn't believe in."
+      ]
+    }
+  ],
+  "absent": [
+    "Rejected",
+    "Other edits you asked for",
+    "Could not do",
+    "Units undone",
+    "Lines the checker says were missed",
+    "Changes put back",
+    "Other notes"
+  ],
+  "contains": [],
+  "nothing_needs_you": false
+}

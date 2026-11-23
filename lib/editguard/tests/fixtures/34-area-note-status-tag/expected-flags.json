@@ -1,0 +1,10 @@
+[
+  {
+    "id": "f1",
+    "rule": "area-note-status-tag",
+    "note": "Areas/area-mara.md",
+    "before": "",
+    "after": "- Mara repaints the lamp room every spring. #status/committed",
+    "unit": "b1-u1"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "about": "Case 91, carried on through b2: `record` reads b2's record file (.runs/units/{run-id}-b2.json) and writes verify-b2-r0.json; b2's unit is approved, and after the last batch the step is batches-done with batch staying at 2. The unit index has b1-u1 and b2-u1, both approved.",
+  "spec": [
+    "CONTRACT.md 5.3 items 1, 8 (first and last bullets)",
+    "spec-run-manager.md 04 items 15, 22 (findings row)",
+    "spec-run-manager.md 07.2 items 4, 6",
+    "plan-run-manager.md 04 Milestone 9"
+  ],
+  "readings": [
+    "After batches-done, round is 0."
+  ]
+}

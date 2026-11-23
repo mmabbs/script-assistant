@@ -1,0 +1,103 @@
+{
+  "about": "The first draft is written and the first check fails. The fix-round research-writer returns nothing on all 3 tries, so there is no second check. The outcome is failed, with the first draft's note path, from the first research-writer answer, and a reason.",
+  "spec": [
+    "the writer's ruling of 2026-10-12 on gap 23: a research-writer that still dies after its retries gives failed, with the note's path when a note was written",
+    "spec-research-workflow.md 04 item 13",
+    "spec-research-workflow.md 11 Decisions Log item 82"
+  ],
+  "args": {
+    "project": "/Users/writer/Projects/Copper Coast",
+    "run_id": "run-2026-10-08-1400-research",
+    "requests": [
+      {
+        "id": "r1",
+        "note": "Ideas/idea-harrow-point.md",
+        "line": 15,
+        "text": "- [r] How did printed tide tables reach small villages in the 1950s? #research/run-2",
+        "comment": "%% Look for printed almanacs. %%"
+      }
+    ]
+  },
+  "answers": {
+    "plan r1": [
+      {
+        "research_topic": "tide-tables",
+        "topics": [
+          {
+            "n": 1,
+            "waits_on": []
+          },
+          {
+            "n": 2,
+            "waits_on": []
+          }
+        ]
+      }
+    ],
+    "topic r1 1": [
+      {
+        "result": "found"
+      }
+    ],
+    "topic r1 2": [
+      {
+        "result": "found"
+      }
+    ],
+    "write r1": [
+      {
+        "note": "Research/research-tide-tables.md"
+      }
+    ],
+    "check r1": [
+      {
+        "verdict": "fail",
+        "problems": [
+          {
+            "check": "matches findings",
+            "where": "Topic 2, paragraph 3",
+            "detail": "Note says about 1,200 copies; topic-1.md says about 800."
+          },
+          {
+            "check": "coverage",
+            "where": "Open Research Questions",
+            "detail": "Plan question 3 is neither answered nor listed."
+          }
+        ]
+      }
+    ],
+    "fix r1": [
+      null,
+      null,
+      null
+    ]
+  },
+  "expect": {
+    "result": [
+      {
+        "request": "r1",
+        "outcome": "failed",
+        "note": "Research/research-tide-tables.md",
+        "reason": "set",
+        "failed_topics": []
+      }
+    ],
+    "calls": {
+      "write r1": {
+        "count": 1
+      },
+      "check r1": {
+        "count": 1
+      },
+      "fix r1": {
+        "count": 3,
+        "prompt_includes": [
+          "Research/research-tide-tables.md"
+        ]
+      }
+    },
+    "not_called": [
+      "recheck r1"
+    ]
+  }
+}

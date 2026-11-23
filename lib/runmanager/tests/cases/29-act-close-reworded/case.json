@@ -1,0 +1,9 @@
+{
+  "about": "Plan Milestone 4 items 4 and 5; spec-run-manager.md 08.4 item 3 and 11 Decisions Log item 58. Both requests passed and mark closed them. Then a stray write changes 'in the 1950s' to 'during the 1950s' on r2's closed request line; its link line is untouched and valid. The real Edit guard raises close-invalid only, with r2's snapshot text as 'before'. act puts that 'before' text back, so the writer's words and - [r] return together, and removes the link line right under the request. r1 stays closed. next_check 2; the second check finds nothing.",
+  "spec": [
+    "spec-run-manager.md 08.4 item 3",
+    "spec-run-manager.md 11 Decisions Log item 58",
+    "CONTRACT.md 4 item 5",
+    "plan-run-manager.md 03 Milestone 4 test cases 4, 5, 6"
+  ]
+}

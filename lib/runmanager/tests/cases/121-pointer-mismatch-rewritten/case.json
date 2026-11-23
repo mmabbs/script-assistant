@@ -1,0 +1,13 @@
+{
+  "about": "One approved migrate unit, count line to idea-mara. After `pointers`, a copy step stands in for a pointer bug: the line's pointer names idea-tobias instead of idea-mara. The real Edit guard raises pointer-mismatch on b1-u1. `act` at pointed rewrites the pointer from the records: the snapshot line named nothing, and b1-u1 points to idea-mara, so the line reads as `pointers` first wrote it. The migration stays: the copy stays, b1-u1 stays pointer-written, its pointed_lines the rewritten line. The step is acted, edited true, next_check 2. The second check comes back [].",
+  "spec": [
+    "CONTRACT.md 5.5 items 2 (pointer-mismatch bullet), 7",
+    "spec-run-manager.md 05 item 6; 08.2",
+    "spec-migration-verifier.md 06 item 6 (pointer-mismatch); 10 Decisions Log item 22",
+    "spec-edit-guard.md 04 (pointer-mismatch), 05 item 6",
+    "plan-run-manager.md 04 Milestone 11, test case 1"
+  ],
+  "readings": [
+    "Rewriting a pointer counts as changing a note, so edited is true and a second check follows."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "about": "Case 188's edit unit, but the migrator recorded the comment's words differently: its trigger text is 'Agent, it's 112 steps, not 100.', which the one comment in idea-mara doesn't hold. b1-u1 is approved and its trigger kind is `comment`, so its writer-line-edited flag stands and `act` at pointed goes straight to acted. The log's Other edits you asked for line can't name a comment, so it quotes the trigger's text and names no note.",
+  "spec": [
+    "CONTRACT.md 5.6 item 6 ('When no single comment holds it, the trigger's `text` is quoted, with no note')",
+    "plan-run-manager.md 06 item 14, reading 1",
+    "spec-run-manager.md 05 item 8; 07.3 item 2 entry 4; 11 item 101",
+    "spec-migration-verifier.md 06 item 7"
+  ],
+  "readings": [
+    "The fallback for no matching comment: the whole Other edits line is pinned, quoting the trigger's text with no note link.",
+    "flags-1.json is the real Edit guard's output on this case's state, taken by running the steps on 2026-10-23. The log line is written from CONTRACT.md 5.6 item 6, not taken from the run."
+  ]
+}

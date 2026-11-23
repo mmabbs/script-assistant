@@ -1,0 +1,9 @@
+{
+  "about": "Matching counts repeats, note by note. idea-harrow-point holds the ferry line twice and the handled list holds it once for that note: the first occurrence (by line order) is handled, the second, under Work, is new work. A handled entry with the same text for brain-dump.md doesn't count toward idea-harrow-point. The pub line appears twice and is handled twice for the note: neither is new. The Brain Dump doc's own ferry line is handled. b1 holds one whole-note piece with the second ferry line.",
+  "spec": [
+    "spec-run-manager.md 04 item 20",
+    "spec-run-manager.md 08.1 item 1",
+    "CONTRACT.md 5.2 item 6",
+    "plan-run-manager.md 04 Milestone 8"
+  ]
+}

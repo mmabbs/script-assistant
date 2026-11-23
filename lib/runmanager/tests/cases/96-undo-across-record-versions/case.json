@@ -1,0 +1,15 @@
+{
+  "about": "Round 0 approves u1 and sends u2 to round 1. On round 1 the migrator rewrites the record validly (u2's copy changed) and fails before rewriting idea-mara, so the note still holds u2's round 0 copy. The session runs `record --failed`. Only u2, the unit in fixing, is sorted: against the round 1 record its copy isn't in the note, so it is not started and is undone. Undo works from the round 1 record (nothing to remove), then goes back through record-b1-r0.json and removes u2's round 0 copy, which the snapshot can't account for, so idea-mara ends as it started. The round 1 line was never written, so it isn't a miss: undo-misses.json is written as []. u1 stays approved and isn't sorted. With no whole units left, the run (one batch) ends at batches-done.",
+  "spec": [
+    "CONTRACT.md 5.3 items 6 (first bullet), 10 (the 'across its record versions' and undo-misses bullets)",
+    "spec-run-manager.md 09.1 item 3",
+    "spec-migration-verifier.md 07 item 3",
+    "plan-run-manager.md 04 Milestone 9"
+  ],
+  "readings": [
+    "On a fix round, `record --failed` with a valid record sorts only the units in fixing; approved units are neither sorted nor undone (CONTRACT.md 5.3 item 6, first bullet, doesn't say).",
+    "undo-misses.json is written as [] when an undo ran and missed nothing, as fingerprints.json is written as {} when empty (CONTRACT.md 5.2 item 13).",
+    "A not-started unit's never-written lines in the last valid copy aren't misses, though the new bullet says 'only the last valid copy's misses go in undo-misses.json'.",
+    "After batches-done, round is 0."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "open_run": null,
+  "history": [
+    {
+      "id": "run-2026-10-23-1530-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-23 15:30",
+      "ended": "2026-10-23 16:10",
+      "how": "closed",
+      "renamed": []
+    }
+  ],
+  "handled": [],
+  "unit_index": [
+    {
+      "run": "run-2026-10-23-1530-migration",
+      "unit": "b1-u1",
+      "state": "undone",
+      "pointed_lines": []
+    },
+    {
+      "run": "run-2026-10-23-1530-migration",
+      "unit": "b1-u2",
+      "state": "undone",
+      "pointed_lines": []
+    }
+  ]
+}

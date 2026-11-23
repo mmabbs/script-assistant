@@ -1,0 +1,26 @@
+[
+  {
+    "id": "f1",
+    "rule": "fingerprint-changed",
+    "note": "Characters/cast.md",
+    "before": "",
+    "after": "",
+    "unit": ""
+  },
+  {
+    "id": "f2",
+    "rule": "unexplained-change",
+    "note": "Ideas/idea-mara.md",
+    "before": "",
+    "after": "- Mara counts the tower's one hundred and twelve steps. #status/provisional",
+    "unit": ""
+  },
+  {
+    "id": "f3",
+    "rule": "unexplained-change",
+    "note": "Ideas/idea-tobias.md",
+    "before": "",
+    "after": "- Tobias can't swim, so the ferry job scares him. #status/provisional",
+    "unit": ""
+  }
+]

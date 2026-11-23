@@ -1,0 +1,63 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/provisional"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "under": "# Idea - Mara",
+          "lines": [
+            "- Mara counts the tower's one hundred and twelve steps every night. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "Mara's habit."
+    },
+    {
+      "id": "u2",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/tentative"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 12,
+          "text": "- Tobias worked summers on the ferry to the mainland. #status/tentative"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- Tobias worked the ferry every summer. #status/tentative"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "tentative",
+      "status_from": "tag",
+      "why": "Tobias's summers on the ferry."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

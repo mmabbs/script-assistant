@@ -1,0 +1,21 @@
+{
+  "open_run": null,
+  "history": [
+    {
+      "id": "run-2026-10-10-1600-research",
+      "kind": "research",
+      "run_number": 2,
+      "started": "2026-10-10 16:00",
+      "ended": "2026-10-10 16:45",
+      "how": "closed",
+      "failed": [
+        {
+          "text": "- [r] What did a keeper earn in 1950? #research/run-2",
+          "note": "Research/research-light-keeper-wages.md"
+        }
+      ]
+    }
+  ],
+  "handled": [],
+  "unit_index": []
+}

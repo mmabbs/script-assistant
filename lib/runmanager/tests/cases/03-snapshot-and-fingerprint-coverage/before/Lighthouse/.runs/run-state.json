@@ -1,0 +1,16 @@
+{
+  "open_run": null,
+  "history": [
+    {
+      "id": "run-2026-10-03-1000-research",
+      "kind": "research",
+      "run_number": 1,
+      "started": "2026-10-03 10:00",
+      "ended": "2026-10-03 10:35",
+      "how": "closed",
+      "failed": []
+    }
+  ],
+  "handled": [],
+  "unit_index": []
+}

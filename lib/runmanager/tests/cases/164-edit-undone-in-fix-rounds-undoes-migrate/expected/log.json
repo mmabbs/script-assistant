@@ -1,0 +1,29 @@
+{
+  "file": "Runs/run-2026-10-14-1322-migration.md",
+  "first_line": "Migration run, started 2026-10-14 13:22.",
+  "sections": [
+    {
+      "heading": "Units undone",
+      "contains": [
+        "Its copies went to [[Projects/Lighthouse/Ideas/idea-mara-lighthouse|idea-mara-lighthouse]].",
+        "It was undone because the run's edit to this line was undone, so the copy made from the edited line came out too.",
+        "It was undone because the migration-verifier still found problems after 2 fix rounds:",
+        "status: Stands in for a problem the migrator doesn't fix.",
+        "The next migration run tries this again."
+      ]
+    }
+  ],
+  "absent": [
+    "Migrated",
+    "Questions for you",
+    "Other edits you asked for",
+    "Lines the checker says were missed",
+    "Changes put back",
+    "Rejected",
+    "Left in place, and why",
+    "Could not do",
+    "Other notes"
+  ],
+  "contains": [],
+  "nothing_needs_you": true
+}

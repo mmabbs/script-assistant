@@ -1,0 +1,31 @@
+{
+  "file": "Runs/run-2026-10-14-1322-migration.md",
+  "first_line": "Migration run, started 2026-10-14 13:22.",
+  "sections": [
+    {
+      "heading": "Migrated",
+      "contains": [
+        "`- Mara has never once left the light during a storm.` in [[Projects/Lighthouse/brain-dump|brain-dump]] went to [[Projects/Lighthouse/Ideas/idea-mara-lighthouse|idea-mara-lighthouse]]"
+      ]
+    },
+    {
+      "heading": "Other edits you asked for",
+      "contains": [
+        "`- Mara has never once left the light during a storm.` now reads `- Mara has never once left the light during a storm. #status/provisional`",
+        "`- Mara has never once left the light during a storm. #status/provisional` now reads `- Mara has never once left the light during a storm, in eleven years. #status/provisional`"
+      ]
+    }
+  ],
+  "absent": [
+    "Units undone",
+    "Questions for you",
+    "Lines the checker says were missed",
+    "Changes put back",
+    "Rejected",
+    "Left in place, and why",
+    "Could not do",
+    "Other notes"
+  ],
+  "contains": [],
+  "nothing_needs_you": true
+}

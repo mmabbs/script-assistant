@@ -1,0 +1,43 @@
+{
+  "open_run": null,
+  "history": [
+    {
+      "id": "run-2026-10-01-0900-research",
+      "kind": "research",
+      "run_number": 1,
+      "started": "2026-10-01 09:00",
+      "ended": "2026-10-01 09:40",
+      "how": "closed",
+      "failed": []
+    },
+    {
+      "id": "run-2026-10-03-1400-research",
+      "kind": "research",
+      "run_number": 1,
+      "started": "2026-10-03 14:00",
+      "ended": "2026-10-03 14:30",
+      "how": "closed",
+      "failed": []
+    },
+    {
+      "id": "run-2026-10-06-1100-research",
+      "kind": "research",
+      "run_number": 2,
+      "started": "2026-10-06 11:00",
+      "ended": "2026-10-06 11:25",
+      "how": "closed",
+      "failed": []
+    },
+    {
+      "id": "run-2026-10-10-1600-research",
+      "kind": "research",
+      "run_number": 3,
+      "started": "2026-10-10 16:00",
+      "ended": "2026-10-10 16:30",
+      "how": "closed",
+      "failed": []
+    }
+  ],
+  "handled": [],
+  "unit_index": []
+}

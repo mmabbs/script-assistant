@@ -1,0 +1,15 @@
+{
+  "about": "The run is started with the typed request 'put the ferry lines in idea-tobias'. u2 (trigger `tag`) moves the tagged Mara line to idea-mara, with no flag. u1, started by the request (trigger kind `request`), copies the untagged ferry line to idea-tobias with an [AGENT] line. The batch check approves it and `pointers` writes its pointer. The real Edit guard raises agent-line-added on b1-u1. b1-u1 is approved and its trigger kind is `request`, so the flag skips the flags call and the [AGENT] line stands: `act` at pointed writes no verify-flags.json and goes straight to acted, next_check null. `close` needs no second check. Nothing is undone, so `close` writes no request comment under the ferry line, and the line goes on the handled list as `migrated`. The log lists the [AGENT] line under Other edits you asked for with 'as your typed request asked.', the words a flag judged asked for by the request gets.",
+  "spec": [
+    "spec-migration-verifier.md 06 item 7; 10 item 35",
+    "spec-run-manager.md 05 item 8; 04 item 22 (the `act` row at pointed); 07.3 item 2 entry 4; 11 item 101",
+    "spec-edit-guard.md 06 item 1 ('On an approved unit, skipped')",
+    "CONTRACT.md 5.6 item 10 (the request comment is written only for undone units and missed lines)",
+    "plan-run-manager.md Milestone 16, test case 1 (request)"
+  ],
+  "readings": [
+    "No verify-flags.json is written. The runner can't check a file's absence, so the open run's step is the check: `act` at pointed reaching `acted` means nothing went to the call.",
+    "flags-1.json is the real Edit guard's output on this case's state, taken by running the steps on 2026-10-23.",
+    "For a request, the judged wording names no note and quotes nothing, so the whole entry is pinned: it is the line a flag judged asked for by the request gets, taken by running the same steps with that verdict on 2026-10-23."
+  ]
+}

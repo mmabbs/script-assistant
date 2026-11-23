@@ -1,0 +1,16 @@
+[
+  {
+    "request": "r1",
+    "outcome": "passed",
+    "note": "Research/research-light-relief-keeper-contracts.md",
+    "reason": null,
+    "failed_topics": []
+  },
+  {
+    "request": "r2",
+    "outcome": "passed",
+    "note": "Research/research-light-tide-tables.md",
+    "reason": null,
+    "failed_topics": []
+  }
+]

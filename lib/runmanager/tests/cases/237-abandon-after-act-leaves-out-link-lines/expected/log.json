@@ -1,0 +1,24 @@
+{
+  "file": "Runs/run-2026-10-10-1700-abandon.md",
+  "first_line": "Abandoned run, for run-2026-10-10-1600-research.",
+  "second_line": "This run was closed without its last checks. Below is what was never checked.",
+  "sections": [
+    {
+      "heading": "Other notes",
+      "contains": [
+        ".runs/run-2026-10-10-1600-research/snapshot/"
+      ],
+      "lacks": [
+        "What did a relief keeper's contract look like in the 1950s?",
+        "How often did the causeway flood in the 1950s?",
+        "research-light-relief-keeper-contracts",
+        "research-light-causeway-floods"
+      ]
+    }
+  ],
+  "absent": [
+    "Copies still in your notes",
+    "Your request",
+    "Never checked"
+  ]
+}

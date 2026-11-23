@@ -1,0 +1,18 @@
+[
+  {
+    "id": "f1",
+    "rule": "pointer-mismatch",
+    "note": "brain-dump.md",
+    "before": "- Tobias kept a tin of sea glass under his bed.",
+    "after": "- Tobias kept a tin of sea glass under his bed. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]], [[Projects/Lighthouse/Ideas/idea-mara-lighthouse|idea-mara-lighthouse]]]",
+    "unit": "b1-u1"
+  },
+  {
+    "id": "f2",
+    "rule": "pointer-mismatch",
+    "note": "brain-dump.md",
+    "before": "- The causeway floods twice a month, and Mara times her supply runs around the tide table. #status/provisional",
+    "after": "- The causeway floods twice a month, and Mara times her supply runs around the tide table. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-harrow-point|idea-harrow-point]]]",
+    "unit": "b1-u2"
+  }
+]

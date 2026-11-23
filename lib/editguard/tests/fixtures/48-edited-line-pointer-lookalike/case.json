@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-14-1322-migration",
+  "about": "u6's edit tagged the line, and a pointer sits on it, but no migrate unit has that source line. A pointer counts only on a source line of a migrate unit that isn't undone; anywhere else it is a lookalike (spec-edit-guard.md 03.2 item 4), so the edit can't explain the line either: one unexplained-change with the snapshot line and the line now, and no unit. The markup rules run only on explained changes (05 item 3), so u6 gets no flag."
+}

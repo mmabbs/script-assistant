@@ -1,0 +1,10 @@
+{
+  "about": "r2 was closed, but a stray write moved its link line below the writer's comment. The Edit guard raises link-line-invalid and close-invalid. The log gives the reason 'its link line sat below your comment', then 'The request is open again.' act puts the request line back to its snapshot text and removes the link line, so the note matches its snapshot except r1's close; the second check is clean. r1 passed cleanly and goes under Done. Reading: an undone close is listed under Closes undone only, not also under Requests still open, whose reasons are failed, no findings, or the outcomes file refused.",
+  "spec": [
+    "spec-run-manager.md 06.1 items 2 and 3",
+    "spec-run-manager.md 08.4 item 3",
+    "spec-edit-guard.md 06 item 3",
+    "CONTRACT.md 4 item 5",
+    "spec-run-manager.md 08.4 item 1"
+  ]
+}

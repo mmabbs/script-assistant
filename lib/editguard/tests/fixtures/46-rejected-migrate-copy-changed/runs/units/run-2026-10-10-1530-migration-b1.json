@@ -1,0 +1,35 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/rejected"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 10,
+          "text": "- Mara has a sister on the mainland who writes every week. #status/rejected"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-mara-lighthouse.md",
+          "under": "## Rejected",
+          "lines": [
+            "- Mara has a sister on the mainland who writes every month. #status/rejected"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "rejected",
+      "status_from": "tag",
+      "why": "See the tag."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

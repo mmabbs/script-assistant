@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "b1-u1's record says 'sea glass' but the note holds 'sea-glass'; b1-u2's copy was never written. Each copies line missing from its note, or different from the record, is copy-mismatch naming the record's note, with before empty and the record's copy text as after (spec-edit-guard.md 03.3 item 1; 05 item 4). The hyphenated line in the note matches no copies line, so it is unexplained-change with no unit. Both pointers name idea-tobias, as each record does, so no pointer-mismatch."
+}

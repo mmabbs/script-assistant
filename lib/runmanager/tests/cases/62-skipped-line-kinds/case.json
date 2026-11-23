@@ -1,0 +1,10 @@
+{
+  "about": "Each kind of line migration never handles is skipped, even when it carries a status tag, and so is a comment starting on the line directly below one: a - [r] request (with the comment under it), a - [b] line (with its comment), a closed - [x] request carrying #research/run-1 (with its indented [AGENT] link line, and the comment directly below that link line), a second closed research request with a comment directly below it, and an [AGENT] bullet (with its comment). New work, all under 2026-10-06, in note order: a - [x] bullet with a status tag but no research tag, a plain tagged bullet, a bullet holding an inline %% comment (a trigger line), and a comment on its own line after a blank line below a - [r] request (not directly below it, so not skipped). The research note is fingerprinted.",
+  "spec": [
+    "spec-run-manager.md 04 item 4",
+    "spec-run-manager.md 07.1 item 5",
+    "spec-run-manager.md 11 Decisions Log item 73",
+    "CONTRACT.md 5.2 items 2, 3, 5",
+    "plan-run-manager.md 04 Milestone 8: each kind of line the scan skips, and a comment directly under one"
+  ]
+}

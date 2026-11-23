@@ -1,0 +1,19 @@
+{
+  "batch": "b1",
+  "round": 1,
+  "units": [
+    {
+      "unit": "u2",
+      "verdict": "fix",
+      "problems": [
+        {
+          "check": "lost-detail",
+          "note": "Ideas/idea-tobias.md",
+          "line": 10,
+          "what": "The copy drops the ferry job."
+        }
+      ]
+    }
+  ],
+  "missed": []
+}

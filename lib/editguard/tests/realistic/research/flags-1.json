@@ -1,0 +1,34 @@
+[
+  {
+    "id": "f1",
+    "rule": "unexplained-change",
+    "note": "Areas/area-mara.md",
+    "before": "- Mara has not left the headland for a night in eleven years.",
+    "after": "- Mara has not left the headland overnight in eleven years.",
+    "unit": ""
+  },
+  {
+    "id": "f2",
+    "rule": "close-invalid",
+    "note": "Ideas/idea-harrow-point.md",
+    "before": "- [r] How did printed tide tables reach small villages in the 1950s? #research/run-2",
+    "after": "- [x] How did printed tide tables reach small villages in the 1950s? #research/run-2",
+    "unit": ""
+  },
+  {
+    "id": "f3",
+    "rule": "link-line-invalid",
+    "note": "Ideas/idea-harrow-point.md",
+    "before": "",
+    "after": "    - [AGENT] [[Projects/Lighthouse/Research/research-light-tide-tables|research-light-tide-tables]]",
+    "unit": ""
+  },
+  {
+    "id": "f4",
+    "rule": "fingerprint-changed",
+    "note": "Ideas/idea-keeper-refusal.md",
+    "before": "",
+    "after": "",
+    "unit": ""
+  }
+]

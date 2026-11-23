@@ -1,0 +1,12 @@
+{
+  "about": "Case 105's run: u2 (idea-tobias) is approved on round 0 and u1 (idea-mara) after a fix round, so the unit index lists b1-u2 first. `pointers` writes idea-tobias, then u1 adds idea-mara: b1-u2's pointed_lines names idea-tobias only, b1-u1's names both. A copy step then stands in for u2's copy going missing from idea-tobias. The real Edit guard raises copy-mismatch on b1-u2. `act` at pointed undoes b1-u2: idea-tobias comes off the pointer and idea-mara stays, since u1 still points there. b1-u1's pointed_lines held the line's old text (both destinations), so it gets the new text (idea-mara only). The missing copy is an undo miss. acted, next_check 2; the second check comes back [].",
+  "spec": [
+    "CONTRACT.md 5.5 items 2 (copy-mismatch bullet), 6 (other units' pointed_lines get the line's new text)",
+    "spec-run-manager.md 04 item 15; 09.1 item 2",
+    "CONTRACT.md 5.4 items 7, 8 (case 105)",
+    "plan-run-manager.md 04 Milestone 11, added item (a pointer that keeps another unit's destination)"
+  ],
+  "readings": [
+    "As in case 120, the copy line copy-mismatch names as missing is an undo miss."
+  ]
+}

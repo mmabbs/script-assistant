@@ -1,0 +1,9 @@
+{
+  "about": "Plan Milestone 4 items 4 and 6; spec-edit-guard.md 04 item 7 and 06 item 3; CONTRACT.md 4 item 5. Both requests passed and mark closed them. Then a stray write adds Research/research-light-keeper-wages.md, which the outcomes file doesn't name. The real Edit guard raises unexpected-research-note. act edits nothing and deletes nothing: the note stays (the run log names it, Milestone 5). next_check null; no second check.",
+  "spec": [
+    "spec-edit-guard.md 04 item 7",
+    "spec-edit-guard.md 06 item 3",
+    "CONTRACT.md 4 item 5",
+    "plan-run-manager.md 03 Milestone 4 test cases 4, 6"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "about": "Two batches. Batch 1 (20 Brain Dump lines) has two units, both approved: u1 copies to idea-mara, u2 creates Ideas/idea-lamp.md. Batch 2 (two lines) is recorded (u1 and u2 copy to idea-tobias, and the migrator also wrote an unrecorded line there), then the session crashes at verifying. `recover` at 16:50 undoes every unit newest first: b2-u2, b2-u1, b1-u2, b1-u1. idea-lamp is left with only frontmatter and moves to removed/. The run is at recovered, waiting for flags-1. The real Edit guard flags the unrecorded line (unexplained-change); `act` at recovered removes it and goes to acted with no second check; `close` writes the recover log and the history entry with how 'recovered'. Every note ends as it started. Nothing goes on the handled list. The recover log opens 'Recover run, for run-2026-10-14-1530-migration.', says every unit was undone, and holds only Changes put back.",
+  "spec": [
+    "CONTRACT.md 5.6 items 7, 8",
+    "CONTRACT.md 5.3 item 10 (undo; removed/; undo-misses.json)",
+    "spec-run-manager.md 09.2 items 2, 3, 5; 04 item 17; 07.1 item 6",
+    "spec-edit-guard.md 08 item 2",
+    "plan-run-manager.md 04 Milestone 11 test case 5"
+  ],
+  "readings": [
+    "The history entry's `ended` is the time `close` runs; `recover` and `close` share the same `now` here, so the case doesn't depend on which.",
+    "'Nothing needs you.' on a recover log comes after the every-unit-undone sentence (CONTRACT.md 5.6 item 8), so it is the third line. The runner's nothing_needs_you check reads only the second line, so it is set false (the second line is that sentence) and 'Nothing needs you.' is checked with `contains` when Changes put back is empty. log.json can't check that it is absent when Changes put back is there.",
+    "Units already in the unit index (b1-u1, b1-u2, approved) become undone in place; units not yet in it (b2's, mid-check) join at the end in the order they were undone, newest first: b2-u2, then b2-u1.",
+    "With no flags file yet, the next flags number is 1."
+  ]
+}

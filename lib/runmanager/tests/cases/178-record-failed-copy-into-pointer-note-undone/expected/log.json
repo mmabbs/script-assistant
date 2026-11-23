@@ -1,0 +1,32 @@
+{
+  "file": "Runs/run-2026-10-23-1530-migration.md",
+  "first_line": "Migration run, started 2026-10-23 15:30.",
+  "sections": [
+    {
+      "heading": "Migrated",
+      "contains": [
+        "`- Mara keeps the logbook in a biscuit tin. #status/tentative",
+        "[[Projects/Lighthouse/Ideas/idea-mara|idea-mara]]"
+      ]
+    },
+    {
+      "heading": "Units undone",
+      "contains": [
+        "`- Tobias rows the post out to Mara every Thursday. #status/provisional",
+        "the migrator stopped before writing it whole.\n    - Keep your comment `%% Agent, the rowing line goes in idea-tobias and idea-mara. %%` until this migrates.\n    - The next migration run tries this again."
+      ]
+    }
+  ],
+  "absent": [
+    "Questions for you",
+    "Rejected",
+    "Other edits you asked for",
+    "Left in place, and why",
+    "Could not do",
+    "Lines the checker says were missed",
+    "Changes put back",
+    "Other notes"
+  ],
+  "contains": [],
+  "nothing_needs_you": true
+}

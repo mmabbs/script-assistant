@@ -1,0 +1,5 @@
+{
+  "kind": "research",
+  "run_id": "run-2026-10-10-1600-research",
+  "about": "Two passed requests in two notes. In idea-harrow-point the request has no comment and its link line sits right under it; in idea-mara-lighthouse the link line sits right under the request and above a two-line comment. Both link lines are in the settled form and point to research notes that exist (spec-edit-guard.md 04 item 6; spec-run-manager.md 08.4 item 1). Both closes have a valid link line and nothing else changed. Both new research notes are named in the outcomes file (04 item 7). No flags."
+}

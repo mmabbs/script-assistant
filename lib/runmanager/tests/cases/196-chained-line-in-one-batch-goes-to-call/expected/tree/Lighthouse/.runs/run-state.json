@@ -1,0 +1,46 @@
+{
+  "open_run": {
+    "id": "run-2026-10-23-1530-migration",
+    "kind": "migration",
+    "run_number": null,
+    "request": null,
+    "step": "judging",
+    "next_check": 1,
+    "started": "2026-10-23 15:30",
+    "batch": 1,
+    "round": 0,
+    "fixing": null,
+    "first_check": 1,
+    "edited": false
+  },
+  "history": [],
+  "handled": [],
+  "unit_index": [
+    {
+      "run": "run-2026-10-23-1530-migration",
+      "unit": "b1-u6",
+      "state": "approved",
+      "pointed_lines": []
+    },
+    {
+      "run": "run-2026-10-23-1530-migration",
+      "unit": "b1-u8",
+      "state": "approved",
+      "pointed_lines": []
+    },
+    {
+      "run": "run-2026-10-23-1530-migration",
+      "unit": "b1-u7",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Mara has never once left the light during a storm, in eleven years. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara-lighthouse|idea-mara-lighthouse]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-23-1530-migration",
+      "unit": "b1-u9",
+      "state": "approved",
+      "pointed_lines": []
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "about": "mark crashed partway: r1 is closed with its link line, r2 has its link line written but is still - [r] (the crash fell between the two writes), r3 is untouched (simulated by copying that note over after start). The run is still at 'started'. recover runs mark again: r1 is skipped, r2 is only closed, r3 is marked in full, so each request ends with exactly one link line. The Edit guard, act and close follow. The recover log opens 'Recover run, for run-2026-10-10-1600-research.', then 'Nothing needs you.', and holds only Done. Reading: 'Markup wasn't checked on the first try.' appears only when the crashed run was waiting for a flags file that never appeared; a run that crashed at 'started' was waiting for none, so Notes changed outside the run is absent.",
+  "spec": [
+    "plan-run-manager.md 03 Milestone 5 item 6",
+    "spec-run-manager.md 09.2 item 4",
+    "spec-run-manager.md 08.4 item 2",
+    "CONTRACT.md 4 items 3 and 4"
+  ]
+}

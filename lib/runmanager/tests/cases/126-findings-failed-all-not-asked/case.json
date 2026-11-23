@@ -1,0 +1,19 @@
+{
+  "about": "An edit unit a comment asked for (writer-line-edited on b1-u1) and an unexplained added line in idea-tobias. b1-u1 is approved and a comment started it, so its flag stands and skips the flags call. `act` at pointed sends only the unexplained-change (f2) to the migration-verifier: verify-flags.json holds f2 and no units. Its saved findings are refused (an unknown verdict), and after its retries the session runs `findings --failed`: the flag it was handed counts as not asked for; the flag that stood still stands. `findings --failed` keeps the refused file as findings-flags-refused.json and moves to judged. `act` removes the added line, and the step count stays 'one hundred and twelve'. The step is acted, next_check 2. The second check reads the findings file `findings --failed` wrote, drops f1, which stood, and comes back [].",
+  "spec": [
+    "CONTRACT.md 5.5 items 4 (findings --failed at judging), 5",
+    "spec-run-manager.md 04 item 22 (When a part fails, third bullet)",
+    "spec-migration-verifier.md 07 items 1, 2",
+    "spec-edit-guard.md 06 item 1 (not judged counts as not asked for), 02 item 6",
+    "plan-run-manager.md 04 Milestone 11, test case 2",
+    "spec-migration-verifier.md 06 item 7; 10 item 35",
+    "spec-run-manager.md 05 item 8; 11 item 101",
+    "spec-migration-verifier.md 07 item 2",
+    "plan-run-manager.md 06 item 13"
+  ],
+  "readings": [
+    "The findings-flags.json that `findings --failed` writes lists the flags in verify-flags.json order.",
+    "The runner compares findings-flags.json (the file findings --failed writes) but not findings-flags-refused.json; the expected copy of the refused file records what the case expects.",
+    "Revised 2026-10-23 for Run manager Milestone 16 (spec-migration-verifier.md 06 item 7; spec-run-manager.md 05 item 8 and 11 item 101): f1 now stands. verify-flags.json loses f1; the refused file holds f2 alone with its unknown verdict, so it is refused for that one fault; u1 is no longer undone, so idea-mara keeps the corrected count, b1-u1 stays approved, and no undo-misses.json is written. expected/ no longer holds findings-flags.json: `findings --failed` writes f2 as not asked for, and the `asked` entry for f1 has a shape the spec states only in part (verdict `asked`, asked_by with `kind` and `text` from the unit's trigger). Both files are kept beside their old names with the suffix .retired-m16. flags-2.json being [] checks that f1 reached the second check as asked."
+  ]
+}

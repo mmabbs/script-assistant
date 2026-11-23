@@ -1,0 +1,7 @@
+{ "file": "Runs/run-2026-10-10-1600-research.md",
+  "first_line": "Research run 2, started 2026-10-10 16:00.",
+  "sections": [ { "heading": "Requests still open", "contains": ["- [r] How are memory clinics licensed?", "workflow returned nothing"] },
+                { "heading": "Done", "contains": ["Nothing closed."] } ],
+  "absent": ["Closes undone"],
+  "contains": [],
+  "nothing_needs_you": false }

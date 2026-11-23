@@ -1,0 +1,7 @@
+{
+  "about": "u6 tags the line, u8 rewords the tagged line, u7 migrates it; the record lists u6 before u8. The migration-verifier fails before checking, so `findings --failed` undoes every unit being checked. u8 built on u6's edit, so undo takes u8 before u6 whatever the record order: the line goes back to u6's `after`, then to the run-start text, and undo misses nothing. u7's copy comes out. Both notes read as at run start. The run reaches batches-done; `pointers` writes nothing; the Edit guard raises nothing.",
+  "spec": [
+    "CONTRACT.md 5.3 items 9, 10, 13"
+  ],
+  "readings": []
+}

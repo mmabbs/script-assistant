@@ -1,0 +1,27 @@
+{
+  "open_run": {
+    "run": "run-2026-10-10-1530-migration",
+    "kind": "migration",
+    "step": "edit-guard"
+  },
+  "history": [],
+  "handled": [],
+  "unit_index": [
+    {
+      "run": "run-2026-10-10-1530-migration",
+      "unit": "b1-u1",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Tobias kept a tin of sea glass under his bed. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-10-1530-migration",
+      "unit": "b1-u2",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Tobias carved his initials into the lamp room door. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]"
+      ]
+    }
+  ]
+}

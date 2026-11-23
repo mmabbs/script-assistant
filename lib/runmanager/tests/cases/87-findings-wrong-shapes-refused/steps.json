@@ -1,0 +1,151 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "migration"
+    ],
+    "now": "2026-10-14 15:30",
+    "exit": 0
+  },
+  {
+    "copy": "files/notes-r0",
+    "to": "."
+  },
+  {
+    "copy": "files/record-r0.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 0
+  },
+  {
+    "run": [
+      "findings"
+    ],
+    "exit": 1
+  },
+  {
+    "copy": "files/findings-missing-unit.json",
+    "to": ".runs/{run_id}/findings-b1-r0.json"
+  },
+  {
+    "run": [
+      "findings"
+    ],
+    "exit": 1
+  },
+  {
+    "copy": "files/findings-extra-unit.json",
+    "to": ".runs/{run_id}/findings-b1-r0.json"
+  },
+  {
+    "run": [
+      "findings"
+    ],
+    "exit": 1
+  },
+  {
+    "copy": "files/findings-unit-twice.json",
+    "to": ".runs/{run_id}/findings-b1-r0.json"
+  },
+  {
+    "run": [
+      "findings"
+    ],
+    "exit": 1
+  },
+  {
+    "copy": "files/findings-fix-no-problems.json",
+    "to": ".runs/{run_id}/findings-b1-r0.json"
+  },
+  {
+    "run": [
+      "findings"
+    ],
+    "exit": 1
+  },
+  {
+    "copy": "files/findings-approve-with-problem.json",
+    "to": ".runs/{run_id}/findings-b1-r0.json"
+  },
+  {
+    "run": [
+      "findings"
+    ],
+    "exit": 1
+  },
+  {
+    "copy": "files/findings-unknown-verdict.json",
+    "to": ".runs/{run_id}/findings-b1-r0.json"
+  },
+  {
+    "run": [
+      "findings"
+    ],
+    "exit": 1
+  },
+  {
+    "copy": "files/findings-unknown-check.json",
+    "to": ".runs/{run_id}/findings-b1-r0.json"
+  },
+  {
+    "run": [
+      "findings"
+    ],
+    "exit": 1
+  },
+  {
+    "copy": "files/findings-problem-no-what.json",
+    "to": ".runs/{run_id}/findings-b1-r0.json"
+  },
+  {
+    "run": [
+      "findings"
+    ],
+    "exit": 1
+  },
+  {
+    "copy": "files/findings-wrong-round.json",
+    "to": ".runs/{run_id}/findings-b1-r0.json"
+  },
+  {
+    "run": [
+      "findings"
+    ],
+    "exit": 1
+  },
+  {
+    "copy": "files/findings-wrong-batch.json",
+    "to": ".runs/{run_id}/findings-b1-r0.json"
+  },
+  {
+    "run": [
+      "findings"
+    ],
+    "exit": 1
+  },
+  {
+    "copy": "files/findings-missed-not-list.json",
+    "to": ".runs/{run_id}/findings-b1-r0.json"
+  },
+  {
+    "run": [
+      "findings"
+    ],
+    "exit": 1
+  },
+  {
+    "copy": "files/findings-missed-no-source.json",
+    "to": ".runs/{run_id}/findings-b1-r0.json"
+  },
+  {
+    "run": [
+      "findings"
+    ],
+    "exit": 1
+  }
+]

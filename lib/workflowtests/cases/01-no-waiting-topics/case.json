@@ -1,0 +1,193 @@
+{
+  "about": "No topic waits on another, so all three researchers run together in round 1. Each gets the plan path and its own findings path, and nothing of the others'. The research-writer runs after all three and gets the plan, the three found paths, the template copy, and the run date. The research-evaluator gets the plan, the same three paths, and the note. It passes, so there is no fix round.",
+  "spec": [
+    "spec-research-workflow.md 05 Planning Topics, the line after the worked example",
+    "spec-research-workflow.md 04 item 2",
+    "spec-research-workflow.md 04 item 4",
+    "spec-research-workflow.md 04 item 5",
+    "spec-research-workflow.md 05 item 8",
+    "spec-research-workflow.md 07 item 1",
+    "spec-research-workflow.md 07 item 9",
+    "spec-run-manager.md 06 item 5"
+  ],
+  "args": {
+    "project": "/Users/writer/Projects/Copper Coast",
+    "run_id": "run-2026-10-08-1400-research",
+    "requests": [
+      {
+        "id": "r1",
+        "note": "Ideas/idea-harrow-point.md",
+        "line": 15,
+        "text": "- [r] How did printed tide tables reach small villages in the 1950s? #research/run-2",
+        "comment": "%% Look for printed almanacs. %%"
+      }
+    ]
+  },
+  "answers": {
+    "plan r1": [
+      {
+        "research_topic": "tide-tables",
+        "topics": [
+          {
+            "n": 1,
+            "waits_on": []
+          },
+          {
+            "n": 2,
+            "waits_on": []
+          },
+          {
+            "n": 3,
+            "waits_on": []
+          }
+        ]
+      }
+    ],
+    "topic r1 1": [
+      {
+        "result": "found"
+      }
+    ],
+    "topic r1 2": [
+      {
+        "result": "found"
+      }
+    ],
+    "topic r1 3": [
+      {
+        "result": "found"
+      }
+    ],
+    "write r1": [
+      {
+        "note": "Research/research-tide-tables.md"
+      }
+    ],
+    "check r1": [
+      {
+        "verdict": "pass",
+        "problems": []
+      }
+    ]
+  },
+  "delay_ms": {
+    "topic r1 1": 40,
+    "topic r1 2": 40,
+    "topic r1 3": 40
+  },
+  "expect": {
+    "result": [
+      {
+        "request": "r1",
+        "outcome": "passed",
+        "note": "Research/research-tide-tables.md",
+        "reason": null,
+        "failed_topics": []
+      }
+    ],
+    "calls": {
+      "plan r1": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/Ideas/idea-harrow-point.md",
+          "- [r] How did printed tide tables reach small villages in the 1950s? #research/run-2"
+        ]
+      },
+      "topic r1 1": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-tide-tables.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-1.md"
+        ],
+        "prompt_excludes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-2.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-3.md"
+        ]
+      },
+      "topic r1 2": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-tide-tables.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-2.md"
+        ],
+        "prompt_excludes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-1.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-3.md"
+        ]
+      },
+      "topic r1 3": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-tide-tables.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-3.md"
+        ],
+        "prompt_excludes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-1.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-2.md"
+        ]
+      },
+      "write r1": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-tide-tables.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-1.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-2.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-3.md",
+          "/Users/writer/Projects/Copper Coast/Research/research-{research-topic}.md",
+          "2026-10-08"
+        ]
+      },
+      "check r1": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-tide-tables.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-1.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-2.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-3.md",
+          "Research/research-tide-tables.md"
+        ]
+      }
+    },
+    "not_called": [
+      "fix r1",
+      "recheck r1"
+    ],
+    "after": [
+      [
+        "topic r1 1",
+        "plan r1"
+      ],
+      [
+        "topic r1 2",
+        "plan r1"
+      ],
+      [
+        "topic r1 3",
+        "plan r1"
+      ],
+      [
+        "write r1",
+        "topic r1 1"
+      ],
+      [
+        "write r1",
+        "topic r1 2"
+      ],
+      [
+        "write r1",
+        "topic r1 3"
+      ],
+      [
+        "check r1",
+        "write r1"
+      ]
+    ],
+    "together": [
+      [
+        "topic r1 1",
+        "topic r1 2",
+        "topic r1 3"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "about": "Case 175's setup, after a rename. An earlier run's b1-u1 (kept, pointer-written) sent the rowing line to Ideas/idea-tobias.md for the comment under it, and b1-u2 (undone) sent it to idea-mara; the line and the comment stayed off the handled list. Since then the writer renamed Ideas/idea-tobias.md to Ideas/idea-tobias-rowing.md, and Obsidian rewrote the line's pointer. This run's scan finds the rename from the copy inside the renamed note (its entry names the old path), so batches.json `renamed` holds it, and hands the rowing line and the comment back. This run's u1, for the same comment, copies the line to idea-mara and a second time into idea-tobias-rowing, the note its pointer now names. The earlier unit's copy into the old path counts as a copy into the new one, so `record` refuses: exit 1 naming u1, Ideas/idea-tobias-rowing.md, and the source line (run three times, one stderr check each). Nothing changes: the run stays at migrating.",
+  "spec": [
+    "spec-run-manager.md 07.1 item 13 ('an earlier unit's copy into Ideas/idea-almond.md counts as a copy into Ideas/idea-almond-renamed.md')",
+    "spec-run-manager.md 11 Decisions Log items 95, 99, 104",
+    "CONTRACT.md 5.3 item 15",
+    "plan-run-manager.md Milestone 17, first checkbox, item 4 ('record refuses a migrate copy into the renamed Idea Note when an earlier run's unit copied that line into the old path for the same trigger')"
+  ],
+  "readings": [
+    "A rename this run's scan found is followed from this run's batches.json `renamed`, since this run has no history entry yet (07.1 item 13 names only the history entries, which hold renames from closed runs).",
+    "The refusal names the copy's note by its path now, Ideas/idea-tobias-rowing.md."
+  ]
+}

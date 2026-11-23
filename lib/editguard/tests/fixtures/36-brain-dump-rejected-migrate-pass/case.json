@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "A line the writer tagged #status/rejected in the Brain Dump doc is a migrate unit with the status rejected; its copy goes to the Idea Note's Rejected section, and it gets a pointer (spec-edit-guard.md 04 item 8; 11 Decisions Log item 10). The tag is the writer's, already in the snapshot, so brain-dump-status-tag does not fire (04 item 2 covers only a tag the run added). The copy equals its source, so rejected-move-changed has nothing to flag. The pointer names exactly the copy's note. No flags."
+}

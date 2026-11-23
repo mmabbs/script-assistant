@@ -1,0 +1,14 @@
+{
+  "about": "One approved unit, plus a line in idea-mara the migrator changed without a record. `close` is refused (exit 1) at pointed, at judging, and at acted while flags-2, the second check `act` asked for, doesn't exist yet. Each refusal changes nothing: after the second check, `close` runs and the end state is an ordinary close.",
+  "spec": [
+    "CONTRACT.md 5.6 item 1; 1 item 2",
+    "spec-run-manager.md 01 item 3; 04 item 22 (close row)",
+    "plan-run-manager.md 04 Milestone 11"
+  ],
+  "readings": [
+    "New handled entries follow the ones already there, sorted by note path (as Python sorts strings, so 'Ideas/…' comes before 'brain-dump.md'), then by their place in the note at close. Neither spec nor contract fixes the order, and run-state.json is compared as parsed JSON, so list order counts.",
+    "A handled entry's `pointer` lists every destination on the line at close, as paths inside the project.",
+    "The refusals' stderr isn't checked: no wording is fixed for them.",
+    "The log opens with 'Nothing needs you.': there are no questions, and a change put back needs nothing from the writer (spec-run-manager.md 11 Decisions Log item 81). Changes put back comes after Migrated (CONTRACT.md 5.6 item 6)."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "about": "r2 was closed with a valid link line, but a stray write also changed 'in the 1950s' to 'during the 1950s' on the request line. The Edit guard raises close-invalid only, with the snapshot text as before. act puts the writer's words back. The log gives the reason 'the words on your request line had changed. Your words are put back.', then 'The request is open again.' act puts the request line back to its snapshot text and removes the link line, so the note matches its snapshot except r1's close; the second check is clean. r1 passed cleanly and goes under Done. Reading: an undone close is listed under Closes undone only, not also under Requests still open, whose reasons are failed, no findings, or the outcomes file refused.",
+  "spec": [
+    "spec-run-manager.md 06.1 items 2 and 3",
+    "spec-run-manager.md 08.4 item 3",
+    "spec-edit-guard.md 06 item 3",
+    "CONTRACT.md 4 item 5",
+    "spec-run-manager.md 08.4 items 2 and 3",
+    "spec-run-manager.md 11 Decisions Log item 58"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, Tobias hears her counting from the cottage. Put that in his note and hers."
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara|idea-mara]]]"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- Tobias hears Mara counting the tower's steps from the cottage. #status/provisional"
+          ]
+        },
+        {
+          "note": "Ideas/idea-mara.md",
+          "under": "# Idea - Mara",
+          "lines": [
+            "- Mara's counting carries down to the cottage, where Tobias hears it. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "The comment asks for it."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "research",
+      "--run-number",
+      "2"
+    ],
+    "now": "2026-10-10 16:00",
+    "exit": 0
+  },
+  {
+    "copy": "files/Research/research-light-relief-keeper-contracts.md",
+    "to": "Research/research-light-relief-keeper-contracts.md"
+  },
+  {
+    "copy": "files/stray/Ideas/idea-tobias.md",
+    "to": "Ideas/idea-tobias.md"
+  },
+  {
+    "delete": "Research/research-light-lamp-oil.md"
+  },
+  {
+    "copy": "files/stray/Ideas/idea-keeper-refusal.md",
+    "to": "Ideas/idea-keeper-refusal.md"
+  },
+  {
+    "copy": "files/stray/Research/research-light-fog-signals.md",
+    "to": "Research/research-light-fog-signals.md"
+  },
+  {
+    "copy": "files/outcomes.json",
+    "to": ".runs/{run_id}/outcomes.json"
+  },
+  {
+    "run": [
+      "mark"
+    ],
+    "exit": 0
+  },
+  {
+    "editguard": true,
+    "exit": 0
+  },
+  {
+    "run": [
+      "act"
+    ],
+    "exit": 0
+  },
+  {
+    "run": [
+      "close"
+    ],
+    "exit": 0,
+    "now": "2026-10-10 16:40"
+  }
+]

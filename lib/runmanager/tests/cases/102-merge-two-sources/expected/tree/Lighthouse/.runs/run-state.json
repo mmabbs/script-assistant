@@ -1,0 +1,28 @@
+{
+  "open_run": {
+    "id": "run-2026-10-14-1530-migration",
+    "kind": "migration",
+    "run_number": null,
+    "request": null,
+    "step": "pointed",
+    "next_check": 1,
+    "started": "2026-10-14 15:30",
+    "batch": 1,
+    "round": 0,
+    "fixing": null,
+    "first_check": 1
+  },
+  "history": [],
+  "handled": [],
+  "unit_index": [
+    {
+      "run": "run-2026-10-14-1530-migration",
+      "unit": "b1-u1",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- The lamp burned paraffin until the 1958 refit. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-lamp|idea-lamp]]]",
+        "- After the refit the lamp ran on mains power from the cable. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-lamp|idea-lamp]]]"
+      ]
+    }
+  ]
+}

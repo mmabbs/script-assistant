@@ -1,0 +1,13 @@
+{
+  "about": "The run is started with the typed request 'put the ferry lines in idea-tobias'. One piece under 2026-09-20: a writer comment at its top, the tagged swim line, and the untagged summers line. u1 (trigger `tag`) moves the swim line to idea-tobias and is approved; the findings list the summers line as missed. The Edit guard gives [] and the run closes. The missed line has no status tag, so it gets both: `close` writes the request comment under it, indented one level, and its entry under Lines the checker says were missed holds the keep line for the writer comment, then the request sentence, then 'The next migration run tries this again.' The writer comment, the request comment, and the missed line stay off the handled list.",
+  "spec": [
+    "spec-run-manager.md 11 Decisions Log items 93, 96, 97",
+    "spec-run-manager.md 07.3 item 2, entry 8 ('also' for both)",
+    "Coordinator's ruling, 2026-10-23: keep lines first, in note order, then the request sentence, then 'The next migration run tries this again.'",
+    "plan-run-manager.md Milestone 15, first checkbox, groups 1 and 4"
+  ],
+  "readings": [
+    "Form, indent, date, and the `…` as in case 180; keep line form as in case 172.",
+    "The writer comment sits at the top of the piece, not under the missed line, so the case doesn't decide where the request comment goes when a writer comment is already directly under the line."
+  ]
+}

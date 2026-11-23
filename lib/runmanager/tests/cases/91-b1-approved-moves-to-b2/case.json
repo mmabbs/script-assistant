@@ -1,0 +1,9 @@
+{
+  "about": "Two batches: 20 tagged bullets under 2026-09-20 fill b1, and the one under the newer 2026-09-21 is b2. b1's only unit is approved on round 0, so no unit is left to fix: the run moves to migrating, batch 2, round 0, fixing null. b1-u1 is in the unit index as approved. b2's migrator hasn't run yet.",
+  "spec": [
+    "CONTRACT.md 5.3 items 1, 8 (first and last bullets)",
+    "spec-run-manager.md 04 items 15, 22 (findings row)",
+    "spec-run-manager.md 07.2 items 4, 6",
+    "plan-run-manager.md 04 Milestone 9"
+  ]
+}

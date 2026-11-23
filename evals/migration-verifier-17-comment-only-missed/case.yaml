@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: migration-verifier-17-comment-only-missed
+context:
+  scaffold_script: fixture.sh

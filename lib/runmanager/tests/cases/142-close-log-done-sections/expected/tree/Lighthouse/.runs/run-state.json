@@ -1,0 +1,96 @@
+{
+  "open_run": null,
+  "history": [
+    {
+      "id": "run-2026-10-14-1530-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-14 15:30",
+      "ended": "2026-10-14 16:10",
+      "how": "closed",
+      "renamed": []
+    }
+  ],
+  "handled": [
+    {
+      "note": "Ideas/idea-mara.md",
+      "text": "- Mara counts one hundred and twelve steps every night.",
+      "outcome": "edited",
+      "run": "run-2026-10-14-1530-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-mara.md",
+      "text": "%% Agent, it's one hundred and twelve steps, not a hundred. %%",
+      "outcome": "comment",
+      "run": "run-2026-10-14-1530-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-mara.md",
+      "text": "- Mara may keep the old keeper's logbook. #status/tentative",
+      "outcome": "written",
+      "run": "run-2026-10-14-1530-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-tobias.md",
+      "text": "%% Reject: he has to be afraid of the water. %%",
+      "outcome": "comment",
+      "run": "run-2026-10-14-1530-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-tobias.md",
+      "text": "- Tobias was a strong swimmer as a boy. #status/rejected",
+      "outcome": "rejected",
+      "run": "run-2026-10-14-1530-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-tobias.md",
+      "text": "%% He has to be afraid of the water. %%",
+      "outcome": "written",
+      "run": "run-2026-10-14-1530-migration",
+      "pointer": null
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- Does Mara keep the old keeper's logbook? #status/tentative [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara|idea-mara]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-14-1530-migration",
+      "pointer": [
+        "Ideas/idea-mara.md"
+      ]
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- The lens came from a works in Birmingham. #status/provisional",
+      "outcome": "left in place",
+      "run": "run-2026-10-14-1530-migration",
+      "pointer": null
+    }
+  ],
+  "unit_index": [
+    {
+      "run": "run-2026-10-14-1530-migration",
+      "unit": "b1-u1",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Does Mara keep the old keeper's logbook? #status/tentative [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara|idea-mara]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-14-1530-migration",
+      "unit": "b1-u2",
+      "state": "approved",
+      "pointed_lines": []
+    },
+    {
+      "run": "run-2026-10-14-1530-migration",
+      "unit": "b1-u3",
+      "state": "approved",
+      "pointed_lines": []
+    }
+  ]
+}

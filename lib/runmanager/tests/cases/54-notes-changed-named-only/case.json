@@ -1,0 +1,10 @@
+{
+  "about": "While the workflow ran, stray writes changed a fingerprinted Idea Note (idea-tobias), deleted a fingerprinted research note (research-light-lamp-oil), added a note outside Research/ (idea-keeper-refusal), and added a research note the outcomes file doesn't name (research-light-fog-signals). The Edit guard raises three fingerprint-changed flags and one unexpected-research-note. act edits nothing, since a fingerprinted note has no snapshot copy, so no second check is due and close follows act. The log names each note under Notes changed outside the run, and every note stays as the stray writes left it.",
+  "spec": [
+    "spec-run-manager.md 06.1 item 2",
+    "spec-run-manager.md 05 item 4",
+    "spec-edit-guard.md 06 item 3",
+    "spec-edit-guard.md 01 item 6",
+    "CONTRACT.md 4 item 5"
+  ]
+}

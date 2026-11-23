@@ -1,0 +1,27 @@
+{
+  "open_run": {
+    "id": "run-2026-10-14-1530-migration",
+    "kind": "migration",
+    "run_number": null,
+    "request": null,
+    "step": "pointed",
+    "next_check": 1,
+    "started": "2026-10-14 15:30",
+    "batch": 1,
+    "round": 0,
+    "fixing": null,
+    "first_check": 1
+  },
+  "history": [],
+  "handled": [],
+  "unit_index": [
+    {
+      "run": "run-2026-10-14-1530-migration",
+      "unit": "b1-u1",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "    - Maybe he drowned instead of leaving. #status/tentative [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara|idea-mara]]]"
+      ]
+    }
+  ]
+}

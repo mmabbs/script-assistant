@@ -1,0 +1,24 @@
+{
+  "open_run": {
+    "id": "run-2026-10-14-1530-migration",
+    "kind": "migration",
+    "run_number": null,
+    "request": null,
+    "step": "batches-done",
+    "next_check": null,
+    "started": "2026-10-14 15:30",
+    "batch": 1,
+    "round": 0,
+    "fixing": null
+  },
+  "history": [],
+  "handled": [],
+  "unit_index": [
+    {
+      "run": "run-2026-10-14-1530-migration",
+      "unit": "b1-u1",
+      "state": "undone",
+      "pointed_lines": []
+    }
+  ]
+}

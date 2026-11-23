@@ -1,0 +1,10 @@
+{
+  "about": "A split: one source line, copies in idea-tobias and idea-mara, listed in that order in the record. The pointer names both, in record order (idea-tobias first, so not alphabetical), separated by ', ', inside one pair of brackets. pointed_lines holds the one source line. The real Edit guard gives [].",
+  "spec": [
+    "CONTRACT.md 5.4 items 3, 4, 8, 11",
+    "spec-run-manager.md 08.2 items 2, 3",
+    "spec-migrator.md 05.4 item 2",
+    "guide-metadata-and-markup.md 13 (one source unit, multiple notes)",
+    "plan-run-manager.md 04 Milestone 10"
+  ]
+}

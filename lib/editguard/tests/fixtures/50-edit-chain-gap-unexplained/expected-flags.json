@@ -1,0 +1,10 @@
+[
+  {
+    "id": "f1",
+    "rule": "unexplained-change",
+    "note": "brain-dump.md",
+    "before": "- Mara has never once left the light during a storm.",
+    "after": "- Mara has never once left the light during a storm, in eleven years. #status/provisional",
+    "unit": ""
+  }
+]

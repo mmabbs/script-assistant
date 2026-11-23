@@ -1,0 +1,15 @@
+{
+  "about": "The migrator failed partway after its retries, with a valid record of three units. u1 is whole (its copy is in idea-tobias). u2 is a split and partly written: its idea-mara copy is there, its idea-tobias copy isn't. u3 is not started: it would have created Ideas/idea-lamp.md, which doesn't exist. `record --failed` sends u1 on: verify-b1-r0.json holds u1 only, and the run is at verifying with fixing [u1]. u2's idea-mara copy is removed, so idea-mara is back to its start. u2 and u3 join the unit index as undone, in record order. u2's unwritten copy and u3's lines aren't undo misses: they were never written.",
+  "spec": [
+    "CONTRACT.md 5.3 items 4, 5, 6 (first bullet), 10",
+    "spec-run-manager.md 04 item 22 (When a part fails, first bullet)",
+    "spec-run-manager.md 07.2 item 4, first bullet",
+    "spec-migration-verifier.md 07 item 3",
+    "spec-run-manager.md 09.1 items 1, 2, 6",
+    "plan-run-manager.md 04 Milestone 9, test case 3"
+  ],
+  "readings": [
+    "A partly written or not-started unit's unwritten lines are not undo misses (CONTRACT.md 5.3 item 10 names misses only for lines the writer changed; spec-migration-verifier.md 07 item 3 says a not-started unit has nothing to remove).",
+    "Units undone in one step join the unit index in record order."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "batch": "b1",
+  "round": 0,
+  "units": [
+    {
+      "unit": "u1",
+      "verdict": "fix",
+      "problems": [
+        {
+          "check": "status",
+          "note": "Ideas/idea-tobias.md",
+          "line": 16,
+          "what": "You tagged this line provisional, but the copy has no status tag, so it reads as tentative."
+        },
+        {
+          "check": "lost-detail",
+          "note": "Ideas/idea-tobias.md",
+          "line": 16,
+          "what": "Your line says he kept the sea glass in a tin. The copy drops the tin."
+        }
+      ]
+    },
+    {
+      "unit": "u2",
+      "verdict": "approve",
+      "problems": []
+    },
+    {
+      "unit": "u3",
+      "verdict": "approve",
+      "problems": []
+    },
+    {
+      "unit": "u4",
+      "verdict": "approve",
+      "problems": []
+    },
+    {
+      "unit": "u5",
+      "verdict": "approve",
+      "problems": []
+    }
+  ],
+  "missed": [
+    {
+      "source": {
+        "note": "brain-dump.md",
+        "line": 44,
+        "text": "- The relief keeper has never worked a hand-wound lamp."
+      },
+      "what": "Your comment asks to move this line and the question under it to idea-relief-keeper. Nothing moved them."
+    }
+  ]
+}

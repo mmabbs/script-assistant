@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "The record names idea-tobias, but the copy landed in idea-mara-lighthouse. Changes are matched only against record entries for their own note (plan-edit-guard.md Milestone 3; spec-edit-guard.md 03.2 item 1), so the added line in idea-mara-lighthouse is unexplained-change with no unit. The copies line missing from idea-tobias is copy-mismatch on unit b1-u1 (spec-edit-guard.md 03.3 item 1; 04 table). The pointer names idea-tobias, which is what the record names, so no pointer-mismatch."
+}

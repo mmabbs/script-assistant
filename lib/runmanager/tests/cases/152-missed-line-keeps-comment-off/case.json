@@ -1,0 +1,12 @@
+{
+  "about": "Two pieces in one batch. Under 2026-09-20: the Mara line, the untagged post line, and a comment asking for the post line in idea-mara. Under 2026-09-21: the Tobias line with a comment under it naming idea-tobias. u1 (Mara) and u2 (Tobias) are both approved on round 0, and the findings list the post line as missed. The Edit guard gives [] and the run closes with no second check. The handled list: both source lines as `migrated` with their pointers, both copies as `written`, and the 2026-09-21 comment as `comment`. The missed post line stays off, and so does the 2026-09-20 comment, because its piece holds a missed line; the other piece's comment isn't held back. The log opens with 'Nothing needs you.', holds Migrated, then Lines the checker says were missed (the post line quoted, the migration-verifier's words, 'The next migration run tries this again.').",
+  "spec": [
+    "CONTRACT.md 5.6 items 3 (a missed line never goes on; comment and its exception), 6",
+    "spec-run-manager.md 05 item 7; 07.1 items 7, 9; 07.3 item 2; 11 Decisions Log item 81"
+  ],
+  "readings": [
+    "New handled entries follow the ones already there, sorted by note path (as Python sorts strings, so 'Ideas/…' comes before 'brain-dump.md'), then by their place in the note at close.",
+    "A piece is matched to a missed line by the missed entry's note and text against the piece's lines in batches.json and the note's lines under its heading: the post line is untagged, so it isn't a batch line itself, but it sits in the 2026-09-20 piece.",
+    "The log doesn't name the held-back comment: CONTRACT.md 5.6 item 6 lists nothing for it."
+  ]
+}

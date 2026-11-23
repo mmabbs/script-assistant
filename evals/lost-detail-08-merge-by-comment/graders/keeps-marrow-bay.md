@@ -1,0 +1,6 @@
+---
+type: regex
+pattern: "Marrow Bay"
+flags: i
+target: { source: file, path: project/Ideas/idea-mara-lighthouse.md }
+---

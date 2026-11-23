@@ -1,0 +1,10 @@
+{
+  "about": "Three handled lines with pointers, each with a handled comment. Under 2026-10-02 the writer edited the comment directly under the Tobias line, and it now runs over two lines: its text isn't on the handled list, so it is new work, and its text is the whole two-line block joined with \\n. The Tobias line itself is unchanged and handled. Under 2026-09-28 the writer removed the comment: its entry stays behind and nothing is new. Under 2026-09-20 nothing changed. Batch b1 holds one piece, 2026-10-02, with only the edited comment.",
+  "spec": [
+    "spec-run-manager.md 04 items 4, 20, 21",
+    "spec-run-manager.md 07.1 item 4",
+    "spec-run-manager.md 11 Decisions Log items 71, 73",
+    "CONTRACT.md 5.2 item 3",
+    "plan-run-manager.md 04 Milestone 8: an edited comment, which is new work; and a removed comment, which makes nothing new"
+  ]
+}

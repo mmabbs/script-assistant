@@ -1,0 +1,62 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "reject",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/rejected"
+      },
+      "sources": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "line": 10,
+          "text": "- Tobias was a strong swimmer as a boy. #status/rejected"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "## Rejected",
+          "lines": [
+            "- Tobias was a strong swimmer as a boy. #status/rejected"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "rejected",
+      "status_from": "tag",
+      "why": "The writer tagged it rejected, so it moves to the Rejected section."
+    },
+    {
+      "id": "u2",
+      "action": "edit",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, it's one hundred and twelve steps, not a hundred."
+      },
+      "sources": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "line": 10,
+          "text": "- Mara counts a hundred steps every night."
+        }
+      ],
+      "copies": [],
+      "edits": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "line": 10,
+          "before": "- Mara counts a hundred steps every night.",
+          "after": "- Mara counts one hundred and twelve steps every night."
+        }
+      ],
+      "status": "tentative",
+      "status_from": "default",
+      "why": "The comment corrects the count."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

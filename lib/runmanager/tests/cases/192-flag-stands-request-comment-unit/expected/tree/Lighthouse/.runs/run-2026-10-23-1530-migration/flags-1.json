@@ -1,0 +1,10 @@
+[
+  {
+    "id": "f1",
+    "rule": "agent-line-added",
+    "note": "Ideas/idea-tobias.md",
+    "before": "",
+    "after": "- [AGENT] His father skippered the ferry before him.",
+    "unit": "b1-u1"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/provisional"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara|idea-mara]]]"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- [AGENT] Tobias lies awake at night hearing Mara count the tower's steps. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "The line's tag sends it on again; the migrator copies it to Tobias as an [AGENT] line."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

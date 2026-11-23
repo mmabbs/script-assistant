@@ -1,0 +1,16 @@
+[
+  {
+    "request": "r1",
+    "outcome": "passed",
+    "note": "Research/research-light-light-automation.md",
+    "reason": null,
+    "failed_topics": []
+  },
+  {
+    "request": "r2",
+    "outcome": "no findings",
+    "note": null,
+    "reason": null,
+    "failed_topics": []
+  }
+]

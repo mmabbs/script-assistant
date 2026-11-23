@@ -1,0 +1,40 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "request",
+        "text": "put the ferry lines in idea-tobias"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Tobias worked summers on the ferry to the mainland."
+        },
+        {
+          "note": "brain-dump.md",
+          "line": 13,
+          "text": "- The ferry stops running when the swell comes from the east."
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- Tobias worked the summer ferry until the east swell stopped it. #status/tentative"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "tentative",
+      "status_from": "default",
+      "why": "The request asks for the ferry lines in idea-tobias."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

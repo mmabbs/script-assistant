@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "A migration run fingerprints every .md note outside the story notes (spec-run-manager.md 04 items 9 and 14; spec-edit-guard.md 11 Decisions Log item 27). Plot/plot-outline.md and Research/research-light-old.md are fingerprinted and unchanged, so they are neither compared nor flagged (spec-edit-guard.md 03.1 item 8). The one unit is clean. No flags."
+}

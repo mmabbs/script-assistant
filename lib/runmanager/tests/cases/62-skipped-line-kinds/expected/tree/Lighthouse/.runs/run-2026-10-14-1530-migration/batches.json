@@ -1,0 +1,33 @@
+{
+  "batches": [
+    {
+      "batch": "b1",
+      "pieces": [
+        {
+          "note": "brain-dump.md",
+          "heading": "### 2026-10-06",
+          "lines": [
+            {
+              "line": 22,
+              "text": "- [x] Decide how old Mara is. #status/committed"
+            },
+            {
+              "line": 23,
+              "text": "- Tobias rows out to the light the night of the storm. #status/provisional"
+            },
+            {
+              "line": 24,
+              "text": "- Mara keeps the logbook locked in the oil store. %% Agent, this belongs in area-mara. %%"
+            },
+            {
+              "line": 27,
+              "text": "%% Agent, if the pets question turns up a dog, Tobias should be the one who brings it. %%"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": [],
+  "renamed": []
+}

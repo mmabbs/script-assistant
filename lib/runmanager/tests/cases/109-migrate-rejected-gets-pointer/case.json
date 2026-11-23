@@ -1,0 +1,9 @@
+{
+  "about": "A line the writer tagged #status/rejected in the Brain Dump doc is a migrate unit with status rejected: its copy goes to idea-mara's Rejected section, the same text. It gets a pointer like any migrate unit, after the #status/rejected tag. The real Edit guard gives [] (the moved copy differs from its source by nothing).",
+  "spec": [
+    "CONTRACT.md 5.4 items 2, 4, 11",
+    "spec-run-manager.md 08.2 item 1",
+    "spec-edit-guard.md 04 rules 4 and 8; 11 Decisions Log item 10",
+    "plan-run-manager.md 04 Milestone 10"
+  ]
+}

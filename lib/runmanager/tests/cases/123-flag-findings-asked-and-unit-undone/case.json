@@ -1,0 +1,19 @@
+{
+  "about": "u1 is an edit a comment asked for (idea-mara's step count); u2 migrates the swim line to idea-tobias with two [AGENT] lines nobody asked for. The real Edit guard raises writer-line-edited on b1-u1 and agent-line-added twice on b1-u2. b1-u1 is approved and a comment started it, so f1 stands and skips the flags call. f2 and f3 are on a unit its tag started, so `act` at pointed sends them to the migration-verifier: verify-flags.json holds f2, f3, and the cut-down b1-u2, not f1 or b1-u1; the step is judging and no note changed. The saved flag findings say f2 and f3 were not asked for. `findings` moves to judged. `act` leaves u1's edit standing and undoes b1-u2 once: its three copy lines leave idea-tobias, and its pointer comes off the swim line. The step is acted, next_check 2. The second check (with --judged flags-1.json --findings findings-flags.json) drops f1, which stood, the way it drops a flag judged asked for, and comes back [].",
+  "spec": [
+    "CONTRACT.md 5.5 items 2 (other flags), 3, 4, 5 (asked; not-asked naming a unit, undone once), 6",
+    "spec-run-manager.md 04 item 22 (act, findings, act rows); 09.1 item 2",
+    "spec-migration-verifier.md 03.2; 04.3; 05.3; 06 item 5",
+    "spec-edit-guard.md 04 (writer-line-edited, agent-line-added), 06 item 1, 07 item 2",
+    "plan-run-manager.md 04 Milestone 11, test case 2",
+    "spec-migration-verifier.md 06 item 7; 10 item 35",
+    "spec-run-manager.md 05 item 8; 11 item 101"
+  ],
+  "readings": [
+    "The cut-down unit in verify-flags.json keeps its record id ('u1'); the batch shows only in its key ('b1-u1').",
+    "An edit unit judged asked for stays 'approved' in the unit index.",
+    "Undo at judged writes undo-misses.json, [] when it missed nothing, as Milestone 9's undo does.",
+    "edited is false at judging when `act` at pointed changed nothing, and becomes true at the second `act`.",
+    "Revised 2026-10-23 for Run manager Milestone 16 (spec-migration-verifier.md 06 item 7; spec-run-manager.md 05 item 8 and 11 item 101): f1 (writer-line-edited on b1-u1, trigger kind `comment`) now stands instead of going to the call. verify-flags.json and the saved findings lose f1; every other expected file is unchanged, since a flag that stood leaves the change as a flag judged asked for did. The reading 'An edit unit judged asked for stays approved' now applies to an edit unit whose flag stood."
+  ]
+}

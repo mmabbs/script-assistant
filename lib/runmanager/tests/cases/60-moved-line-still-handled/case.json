@@ -1,0 +1,10 @@
+{
+  "about": "Lines are matched by text, note by note, not by line number. In the Brain Dump doc, the migrated Mara line was moved from the 2026-10-03 heading up to 2026-10-12, and in the Area Note its copy now sits under a new Habits heading: both still match their handled entries, so neither is new work. The Tobias line, handled in brain-dump.md, was cut from the Brain Dump doc and pasted into idea-tobias: matching is note by note, so in its new note it is new work. The one new line in the Brain Dump doc (the relief keeper) is new work. Batch b1: the 2026-10-12 piece, then idea-tobias as a whole-note piece. The four story notes are copied into the snapshot; the plot outline (type plot-outline) is fingerprinted. The open run is at migrating, batch 1, round 0, with run_number and request null.",
+  "spec": [
+    "spec-run-manager.md 04 items 4, 5, 9, 14, 16, 20, 21, 22",
+    "spec-run-manager.md 07.1 item 1",
+    "CONTRACT.md 5.1 items 1 to 4",
+    "CONTRACT.md 5.2 item 6",
+    "plan-run-manager.md 04 Milestone 8: a moved line that is still matched"
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "request": "r1",
+    "outcome": "passed",
+    "note": "Research/research-light-causeway-floods.md",
+    "reason": null,
+    "failed_topics": []
+  },
+  {
+    "request": "r2",
+    "outcome": "passed",
+    "note": "Research/research-light-harrow-ferry-2026-10-10.md",
+    "reason": null,
+    "failed_topics": []
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "about": "As 158-edited-source-gets-pointer up to `findings`. Then a copy step stands in for the writer rewording the line u6 tagged, after the run's edit. The line matches neither u7's source text nor u6's `after`, so it is a change the run didn't make: `pointers` writes no pointer for u7, undoes it (its copy leaves idea-mara-lighthouse), and saves the line in pointer-misses.json, as before this fix. u6 stays approved. The real Edit guard flags the writer's line as unexplained-change, since u6's edit no longer matches it.",
+  "spec": [
+    "CONTRACT.md 5.4 items 9, 11; 5.3 item 10",
+    "spec-run-manager.md 09.1 items 1, 5"
+  ],
+  "readings": [
+    "pointer-misses.json's text is u7's record text, the line `pointers` looked for, as in 111-source-changed-pointer-miss."
+  ]
+}

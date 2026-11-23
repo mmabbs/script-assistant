@@ -1,0 +1,46 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "research",
+      "--run-number",
+      "2"
+    ],
+    "now": "2026-10-10 16:00",
+    "exit": 0
+  },
+  {
+    "copy": "files/Research/research-light-relief-keeper-contracts.md",
+    "to": "Research/research-light-relief-keeper-contracts.md"
+  },
+  {
+    "copy": "files/Notes/note-stray.md",
+    "to": "Notes/note-stray.md"
+  },
+  {
+    "run": [
+      "mark",
+      "--stopped"
+    ],
+    "now": "2026-10-10 16:20",
+    "exit": 0
+  },
+  {
+    "editguard": true,
+    "exit": 0
+  },
+  {
+    "run": [
+      "act"
+    ],
+    "exit": 0
+  },
+  {
+    "run": [
+      "close"
+    ],
+    "now": "2026-10-10 16:30",
+    "exit": 0
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "about": "An earlier run (run-2026-10-07-1000-migration) migrated the count line to idea-mara: the line carries its pointer, the handled list holds it with pointer [Ideas/idea-mara.md], and the unit index holds that run's b1-u1 as pointer-written. The writer adds a comment under the line asking for idea-tobias too. This run's unit has the pointer line as its source and one copy in idea-tobias. `pointers` adds idea-tobias inside the same brackets, after idea-mara, separated by ', '. The earlier run's unit index entry is untouched; this run's b1-u1 follows it as pointer-written. The real Edit guard gives [], checking only the destination added since the snapshot.",
+  "spec": [
+    "CONTRACT.md 5.4 items 2, 3, 5, 8, 11",
+    "spec-run-manager.md 08.2 item 3; 04 items 15, 20",
+    "spec-run-manager.md 07.1 item 4; 11 Decisions Log item 71 (a new comment under a pointer line)",
+    "spec-edit-guard.md 03.1 item 5, 03.3 item 2",
+    "guide-metadata-and-markup.md 13",
+    "plan-run-manager.md 04 Milestone 10"
+  ],
+  "readings": [
+    "The record's source text is the line as it read when the run started, pointer included.",
+    "An earlier run's unit index entry with the same unit key (b1-u1) is left alone: `pointers` takes only this run's approved units (CONTRACT.md 5.4 item 1)."
+  ]
+}

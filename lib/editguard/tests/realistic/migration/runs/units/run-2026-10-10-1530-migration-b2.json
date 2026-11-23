@@ -1,0 +1,94 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, area-mara."
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 54,
+          "text": "- Mara keeps a logbook and has never let anyone read it. #status/committed"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Areas/area-mara.md",
+          "under": "# Mara",
+          "lines": [
+            "- Mara keeps a logbook and has never let anyone read it."
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "committed",
+      "status_from": "tag",
+      "why": "The line is committed, so it graduates to the Area Note with its tag dropped."
+    },
+    {
+      "id": "u2",
+      "action": "edit",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, tag this provisional."
+      },
+      "sources": [],
+      "copies": [],
+      "edits": [
+        {
+          "note": "brain-dump.md",
+          "line": 57,
+          "before": "- Mara has never once left the light during a storm.",
+          "after": "- Mara has never once left the light during a storm. #status/provisional"
+        }
+      ],
+      "status": "provisional",
+      "status_from": "comment",
+      "why": "The comment asks for the tag on this line."
+    },
+    {
+      "id": "u3",
+      "action": "reject",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, reject the dog. It makes her too cosy."
+      },
+      "sources": [
+        {
+          "note": "Ideas/idea-mara-lighthouse.md",
+          "line": 12,
+          "text": "- Mara keeps a dog called Skipper."
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-mara-lighthouse.md",
+          "under": "## Rejected",
+          "lines": [
+            "- Mara keeps a dog called Skipper. #status/rejected",
+            "%% It makes her too cosy. %%"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "rejected",
+      "status_from": "comment",
+      "why": "The comment rejects the dog and gives the reason, which goes on the line below."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [
+    {
+      "source": {
+        "note": "brain-dump.md",
+        "line": 60,
+        "text": "- The ferry horn and the fog signal sit a half-step apart, so on foggy mornings nobody can tell which is which."
+      },
+      "ask": "Which note should the horn and fog signal line go in: idea-fog-signal or idea-harrow-point?"
+    }
+  ],
+  "could_not": []
+}

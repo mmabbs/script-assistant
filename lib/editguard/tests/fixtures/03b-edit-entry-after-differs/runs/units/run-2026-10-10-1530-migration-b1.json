@@ -1,0 +1,34 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "edit",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, make it three hundred."
+      },
+      "sources": [
+        {
+          "note": "Ideas/idea-harrow-point.md",
+          "line": 8,
+          "text": "- Harrow Point is a fishing village of about two hundred people."
+        }
+      ],
+      "copies": [],
+      "edits": [
+        {
+          "note": "Ideas/idea-harrow-point.md",
+          "line": 8,
+          "before": "- Harrow Point is a fishing village of about two hundred people.",
+          "after": "- Harrow Point is a fishing village of about three hundred people."
+        }
+      ],
+      "status": "tentative",
+      "status_from": "default",
+      "why": "See the comment."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

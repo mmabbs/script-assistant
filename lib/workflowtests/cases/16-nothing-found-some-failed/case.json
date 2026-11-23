@@ -1,0 +1,81 @@
+{
+  "about": "Nothing is found, and one topic failed. Topic 1 answers none. Topic 2 answers failed on all 3 tries. With no found topic there is no note, so the research-writer and research-evaluator are never called. Because a topic failed, the outcome is failed, not no findings, with no note, a reason, and topic 2 in failed_topics.",
+  "spec": [
+    "the writer's ruling of 2026-10-12 on gap 22: nothing found and at least one topic failed gives failed with a reason",
+    "spec-research-workflow.md 04 items 10 and 11",
+    "spec-run-manager.md 06 item 5"
+  ],
+  "args": {
+    "project": "/Users/writer/Projects/Copper Coast",
+    "run_id": "run-2026-10-08-1400-research",
+    "requests": [
+      {
+        "id": "r1",
+        "note": "Ideas/idea-harrow-point.md",
+        "line": 15,
+        "text": "- [r] How did printed tide tables reach small villages in the 1950s? #research/run-2",
+        "comment": "%% Look for printed almanacs. %%"
+      }
+    ]
+  },
+  "answers": {
+    "plan r1": [
+      {
+        "research_topic": "tide-tables",
+        "topics": [
+          {
+            "n": 1,
+            "waits_on": []
+          },
+          {
+            "n": 2,
+            "waits_on": []
+          }
+        ]
+      }
+    ],
+    "topic r1 1": [
+      {
+        "result": "none"
+      }
+    ],
+    "topic r1 2": [
+      {
+        "result": "failed"
+      },
+      {
+        "result": "failed"
+      },
+      {
+        "result": "failed"
+      }
+    ]
+  },
+  "expect": {
+    "result": [
+      {
+        "request": "r1",
+        "outcome": "failed",
+        "note": null,
+        "reason": "set",
+        "failed_topics": [
+          "topic 2 (failed after retries)"
+        ]
+      }
+    ],
+    "calls": {
+      "topic r1 1": {
+        "count": 1
+      },
+      "topic r1 2": {
+        "count": 3
+      }
+    },
+    "not_called": [
+      "write r1",
+      "check r1",
+      "fix r1",
+      "recheck r1"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "about": "A research run: `mark` closes r1 and r2 with their link lines; a note appears outside Research/ (Notes/note-stray.md), and the Edit guard writes flags-1 with a `fingerprint-changed` flag on it. The session stops before `act`. recover runs once (at 'marked', `mark` again skips both requests). Then `abandon` at 17:00: Never checked quotes the flag no `act` ran on, with its note and its rule, and each link line and close `mark` wrote, with its request quoted. The notes stay closed and linked; the stray note stays.",
+  "spec": [
+    "spec-run-manager.md 09.3 item 4 (section 3, second and third kinds)",
+    "spec-run-manager.md 11 item 109",
+    "plan-run-manager.md Milestone 18, second checkbox, item 4"
+  ],
+  "readings": [
+    "A request is checked by its words without the checkbox, since the request line read `- [r]` at start and `- [x]` after mark; a link line by its target's file name.",
+    "A flag is checked by its rule's name and its note's file name.",
+    "flags-1 exists, so the missing-flags sentence doesn't apply; log.json can't check that a sentence is absent, so this isn't checked."
+  ]
+}

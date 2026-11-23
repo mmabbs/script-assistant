@@ -1,0 +1,18 @@
+[
+  {
+    "id": "f1",
+    "rule": "writer-line-edited",
+    "note": "brain-dump.md",
+    "before": "- Mara has never once left the light during a storm.",
+    "after": "- Mara has never once left the light during a storm. #status/provisional",
+    "unit": "b1-u1"
+  },
+  {
+    "id": "f2",
+    "rule": "brain-dump-status-tag",
+    "note": "brain-dump.md",
+    "before": "- Mara has never once left the light during a storm.",
+    "after": "- Mara has never once left the light during a storm. #status/provisional",
+    "unit": "b1-u1"
+  }
+]

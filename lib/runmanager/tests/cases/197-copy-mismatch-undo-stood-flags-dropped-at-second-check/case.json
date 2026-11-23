@@ -1,0 +1,17 @@
+{
+  "about": "The storm line's edit unit from case 189 (u1, started by the comment under the line, tags it provisional), and u2, started by the Mara line's own tag, moving that line to idea-mara. Both are approved and u2 is pointed. Then a copy step stands in for u2's copy going missing from idea-mara. The real Edit guard raises copy-mismatch on b1-u2, and writer-line-edited and brain-dump-status-tag on b1-u1. `act` at pointed undoes b1-u2, its pointer included (a note changed). b1-u1's flags stand, so nothing goes to the flags call: no verify-flags.json, and the step is acted with next_check 2. The second Edit guard check drops b1-u1's two flags the way it drops flags judged asked for, and comes back []. At `close` the tag stays, the tagged line goes on the handled list as `edited`, and u2's line stays off. The log lists u2 under Units undone and u1's edit under Other edits you asked for. Nothing is still flagged.",
+  "spec": [
+    "spec-migration-verifier.md 06 items 6 and 7; 10 item 35",
+    "spec-run-manager.md 05 items 6 and 8; 04 item 22 (the `act` row at pointed: 'None: acted, waiting for a second check only if it changed something'); 07.3 item 2 entries 4 and 7; 11 item 101",
+    "spec-edit-guard.md 07 item 2",
+    "plan-run-manager.md 06 item 13 (a flag that stood reaches the second check as an `asked` entry in findings-flags.json)",
+    "plan-run-manager.md Milestone 16, test case 3 (`act` at pointed changes a note and every other flag stood)"
+  ],
+  "readings": [
+    "No verify-flags.json is written. The runner can't check a file's absence, so the open run's step is the check: `act` at pointed reaching `acted` with next_check 2 means nothing went to the call.",
+    "flags-1.json is the real Edit guard's output on this case's state, taken by running the steps on 2026-10-23. flags-2.json is [] by the spec: the undo landed, and the two flags that stood are dropped.",
+    "No session ever saves a findings-flags.json in this case: the Run manager writes it for the flags that stood, so the runner's second check passes it with --judged flags-1.json. Its contents aren't in expected/ (see case 193's reading).",
+    "The missing copy line is an undo miss (case 120's reading), so Other notes holds one line for it; 'nothing is still flagged' is checked by flags-2.json being [], since the log's still-flagged lines come from that file.",
+    "Log wording (plan-run-manager.md 06 item 14, reading 1): exactly one comment in the unit's piece holds the trigger's text, so the entry quotes that comment whole, %% marks included, with its note, as a judged flag's line does. Tightened 2026-10-23."
+  ]
+}

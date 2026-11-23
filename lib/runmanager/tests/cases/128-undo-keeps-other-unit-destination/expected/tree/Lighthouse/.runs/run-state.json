@@ -1,0 +1,34 @@
+{
+  "open_run": {
+    "id": "run-2026-10-14-1530-migration",
+    "kind": "migration",
+    "run_number": null,
+    "request": null,
+    "step": "acted",
+    "next_check": 2,
+    "started": "2026-10-14 15:30",
+    "batch": 1,
+    "round": 0,
+    "fixing": null,
+    "first_check": 1,
+    "edited": true
+  },
+  "history": [],
+  "handled": [],
+  "unit_index": [
+    {
+      "run": "run-2026-10-14-1530-migration",
+      "unit": "b1-u1",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Mara and Tobias both refuse to eat fish from the bay. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara|idea-mara]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-14-1530-migration",
+      "unit": "b1-u2",
+      "state": "undone",
+      "pointed_lines": []
+    }
+  ]
+}

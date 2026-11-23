@@ -1,0 +1,49 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "research",
+      "--run-number",
+      "2"
+    ],
+    "now": "2026-10-10 16:00",
+    "exit": 0
+  },
+  {
+    "copy": "files/workflow/Research/research-light-causeway-floods.md",
+    "to": "Research/research-light-causeway-floods.md"
+  },
+  {
+    "copy": "files/workflow/Research/research-light-tide-tables.md",
+    "to": "Research/research-light-tide-tables.md"
+  },
+  {
+    "copy": "files/outcomes.json",
+    "to": ".runs/{run_id}/outcomes.json"
+  },
+  {
+    "run": [
+      "mark"
+    ],
+    "exit": 0
+  },
+  {
+    "copy": "files/stray/Ideas/idea-harrow-point.md",
+    "to": "Ideas/idea-harrow-point.md"
+  },
+  {
+    "editguard": true,
+    "exit": 0
+  },
+  {
+    "run": [
+      "act"
+    ],
+    "exit": 0
+  },
+  {
+    "editguard": true,
+    "exit": 0
+  }
+]

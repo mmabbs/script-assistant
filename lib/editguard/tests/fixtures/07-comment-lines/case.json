@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "Comment lines are the writer's words and need explaining like any line (spec-edit-guard.md 03.1 item 4). The rejection's reason comment, on the line below the rejected line, is in the record's copies, so it is explained. The writer's question comment in idea-harrow-point was changed with no record entry, so it is one unexplained-change with both texts and no unit (05 item 2)."
+}

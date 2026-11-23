@@ -1,0 +1,9 @@
+{
+  "about": "Plan Milestone 4 item 4; spec-edit-guard.md 06 item 3; spec-run-manager.md 08.5; CONTRACT.md 4 item 5. Both requests passed and mark closed them. Then a stray write adds one line, nobody's request or link line, under 'Every kitchen window...' in the request note. The real Edit guard raises unexplained-change with an empty 'before'. act removes the added line; both closes stay. next_check 2; the second check finds nothing.",
+  "spec": [
+    "spec-edit-guard.md 06 item 3",
+    "spec-run-manager.md 08.5 item 1",
+    "CONTRACT.md 4 item 5",
+    "plan-run-manager.md 03 Milestone 4 test cases 4, 6"
+  ]
+}

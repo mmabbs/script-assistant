@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "Frontmatter is skipped: the block from a first line --- through the next --- line is neither compared nor explained, in existing notes and in notes the migrator creates (writer's ruling A, 2026-10-10, to be added to spec-edit-guard.md). idea-tobias's modified: date changed, and the new idea-keepers-log opens with a frontmatter block its record's copies don't hold. Every body change is a copies line in its named note (spec-edit-guard.md 03.2 item 1) or a pointer on a migrate unit's source line (03.2 item 4). No flags."
+}

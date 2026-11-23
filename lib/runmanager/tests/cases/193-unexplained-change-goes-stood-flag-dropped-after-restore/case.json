@@ -1,0 +1,15 @@
+{
+  "about": "Case 188's edit unit, plus a line no record explains, added at the end of idea-mara. The real Edit guard raises writer-line-edited on b1-u1 (f1) and unexplained-change (f2). f1 is on an approved unit a comment started, so it stands. f2 names no unit, so it still goes to the flags call: verify-flags.json holds f2 alone and no units. The saved flag findings judge f2 not asked for; `findings` checks them against verify-flags.json, which doesn't hold f1. `act` at judged removes the added line (a note changed), so the step is acted, next_check 2. The second Edit guard check drops f1 the way it drops a flag judged asked for, and comes back []. `close` puts the edited line on the handled list as `edited`. The log lists the removed line under Changes put back and the edit under Other edits you asked for, and has no Other notes: nothing is still flagged.",
+  "spec": [
+    "spec-migration-verifier.md 06 item 7 (first exception: a flag that names no unit); 10 item 35",
+    "spec-run-manager.md 05 item 8; 04 item 22 (the `act` rows); 07.3 item 2 entries 4 and 9; 11 item 101",
+    "spec-edit-guard.md 06 item 1; 07 item 2",
+    "plan-run-manager.md 06 item 13 (a flag that stood reaches the second check as an `asked` entry in findings-flags.json)",
+    "plan-run-manager.md Milestone 16, test cases 2 (a flag with no unit) and 3 (a not-asked verdict restores a line beside a flag that stood)"
+  ],
+  "readings": [
+    "flags-1.json is the real Edit guard's output on this case's state, taken by running the steps on 2026-10-23. flags-2.json is [] by the spec: the restore landed, and the flag that stood is dropped.",
+    "findings-flags.json isn't in expected/: the session's file holds only f2, and the shape of the `asked` entry the Run manager adds for f1 is pinned only as far as the spec states it (verdict `asked`, asked_by with `kind` and `text` from the unit's trigger), which the runner can't compare in part. flags-2.json being [] is the check that f1 reached the second check as asked.",
+    "Log wording (plan-run-manager.md 06 item 14, reading 1): exactly one comment in the unit's piece holds the trigger's text, so the entry quotes that comment whole, %% marks included, with its note, as a judged flag's line does. Tightened 2026-10-23."
+  ]
+}

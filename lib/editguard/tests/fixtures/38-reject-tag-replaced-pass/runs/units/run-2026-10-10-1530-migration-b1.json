@@ -1,0 +1,36 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "reject",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, reject this. The ferry stopped in 1962."
+      },
+      "sources": [
+        {
+          "note": "Ideas/idea-harrow-point.md",
+          "line": 9,
+          "text": "- A ferry still runs to Harrow Point twice a day. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-harrow-point.md",
+          "under": "## Rejected",
+          "lines": [
+            "- A ferry still runs to Harrow Point twice a day. #status/rejected",
+            "%% The ferry stopped in 1962. %%"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "rejected",
+      "status_from": "comment",
+      "why": "See the comment."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

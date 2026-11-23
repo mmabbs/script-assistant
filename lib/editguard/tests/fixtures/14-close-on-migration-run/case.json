@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "A - [r] to - [x] close is explained only on a research run, on a request line listed in the requests file (writer's ruling B, 2026-10-10, to be added to spec-edit-guard.md). On this migration run the research request in idea-harrow-point was closed, so it is one unexplained-change with both texts and no unit (spec-edit-guard.md 05 item 2)."
+}

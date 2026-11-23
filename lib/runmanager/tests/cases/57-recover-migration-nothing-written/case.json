@@ -1,0 +1,14 @@
+{
+  "about": "A migration run crashed at migrating, batch 1 round 0, before the migrator wrote anything: the real `start` claims the run, then `recover` runs at 15:45. It has no unit to undo and writes no note. The run is at recovered, waiting for flags-1. The real Edit guard, with no record files, gives []. `act` at recovered changes nothing and goes to acted; `close` writes Runs/run-2026-10-10-1545-recover.md (first line 'Recover run, for run-2026-10-10-1530-migration.', then the every-unit-undone sentence, no sections) and adds the crashed run's history entry with how 'recovered'. The handled list, which holds two entries from an earlier run, is unchanged; the unit index stays empty; every note is as it started. Replaces the old case 57, which expected the refusal 'Recover for migration runs isn't built yet.'",
+  "spec": [
+    "CONTRACT.md 5.6 items 7, 8, 9",
+    "spec-run-manager.md 09.2 items 2, 3; 04 item 17; 07.1 item 6",
+    "plan-run-manager.md 04 Milestone 11 test case 5"
+  ],
+  "readings": [
+    "The crashed run was waiting for no flags file (next_check null at migrating), so the recover log has no 'Markup wasn't checked on the first try.' and no Other notes (CONTRACT.md 5.6 item 8).",
+    "The history entry's ended is the time close runs; recover and close share the same now here.",
+    "No undo ran, so the case doesn't check undo-misses.json.",
+    "'Nothing needs you.' comes after the every-unit-undone sentence (CONTRACT.md 5.6 item 8), so it is the third line; nothing_needs_you is false because the runner reads only the second line, and `contains` checks the words."
+  ]
+}

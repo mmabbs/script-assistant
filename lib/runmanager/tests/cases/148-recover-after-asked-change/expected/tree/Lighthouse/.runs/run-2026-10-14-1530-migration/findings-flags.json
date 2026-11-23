@@ -1,0 +1,14 @@
+{
+  "flags": [
+    {
+      "flag": "f1",
+      "verdict": "asked",
+      "asked_by": {
+        "kind": "request",
+        "note": "",
+        "line": null,
+        "text": "call the old keeper Keeper Hale"
+      }
+    }
+  ]
+}

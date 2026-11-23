@@ -1,0 +1,51 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "edit",
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Tobias rows the post out to Mara every Thursday. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- Tobias has never missed a Thursday. #status/tentative"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "tentative"
+    },
+    {
+      "id": "u2",
+      "action": "reject",
+      "sources": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "line": 10,
+          "text": "- Mara keeps a logbook and has never let anyone read it. #status/rejected [migrated-to:: [[Projects/Lighthouse/Areas/area-mara|area-mara]]]"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "under": "## Rejected",
+          "lines": [
+            "- Mara keeps a logbook and has never let anyone read it. #status/rejected [migrated-to:: [[Projects/Lighthouse/Areas/area-mara|area-mara]]]"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "rejected"
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

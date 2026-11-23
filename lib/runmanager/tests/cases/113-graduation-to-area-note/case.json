@@ -1,0 +1,10 @@
+{
+  "about": "A Graduation: a #status/committed line in idea-mara goes to Areas/area-mara.md as two copies in the same note, the statement under Habits and the reason under Rationale, with no status tag. The source line in the Idea Note gets a pointer naming area-mara once (the distinct copies notes). The real Edit guard gives [].",
+  "spec": [
+    "CONTRACT.md 5.4 items 2, 3, 4, 11",
+    "spec-migrator.md 05.4 item 4",
+    "spec-run-manager.md 08.2 items 1, 2; 07.1 item 3",
+    "spec-edit-guard.md 04 rule 3",
+    "plan-run-manager.md 04 Milestone 10"
+  ]
+}

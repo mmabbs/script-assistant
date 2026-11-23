@@ -1,0 +1,68 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/provisional"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "under": "# Idea - Mara",
+          "lines": [
+            "- Mara counts the tower's one hundred and twelve steps every night. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "Mara's habit."
+    },
+    {
+      "id": "u2",
+      "action": "migrate",
+      "trigger": {
+        "kind": "request",
+        "text": "put the ferry lines in idea-tobias"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 12,
+          "text": "- Tobias worked summers on the ferry to the mainland."
+        },
+        {
+          "note": "brain-dump.md",
+          "line": 13,
+          "text": "- The ferry stops running when the swell comes from the east. #status/tentative"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- Tobias worked the summer ferry until the east swell stopped it. #status/tentative"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "tentative",
+      "status_from": "tag",
+      "why": "The request asks for the ferry lines in idea-tobias."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

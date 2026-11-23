@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "Every copy sits in its named note. b1-u1 copied only to idea-tobias, but its pointer also names idea-mara-lighthouse: one too many. b1-u2 split into idea-harrow-point and idea-mara-lighthouse, but its pointer names only idea-harrow-point: one too few. Each is pointer-mismatch on its unit (spec-edit-guard.md 03.3 item 2; 04 table). The pointer is still a Run manager edit on a migrate unit's source line, so it is explained and not unexplained-change (03.2 item 4). Fixture worker's choice: the flag's note is the source line's note, before is the source line from the snapshot, after is the line as it stands with its pointer (05 item 2; the spec doesn't say)."
+}

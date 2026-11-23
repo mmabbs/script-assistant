@@ -1,0 +1,11 @@
+{
+  "about": "One split unit: a copy in idea-mara and an [AGENT] line in idea-tobias. After `pointers`, a copy step stands in for the idea-mara copy going missing. The real Edit guard raises copy-mismatch and agent-line-added, both on b1-u1. `act` at pointed undoes b1-u1 for the copy-mismatch: the [AGENT] line leaves idea-tobias, the pointer comes off, and the missing copy is an undo miss. The agent-line-added flag names a unit already undone in this step, so it is skipped: nothing goes to the migration-verifier, and the step is acted, not judging, with next_check 2. The second check comes back [].",
+  "spec": [
+    "CONTRACT.md 5.5 item 2 ('A flag naming a unit already undone in this step is skipped'), 6",
+    "spec-migration-verifier.md 06 item 6",
+    "plan-run-manager.md 04 Milestone 11, test case 1"
+  ],
+  "readings": [
+    "`act` handles copy-mismatch and pointer-mismatch flags before it sorts out the rest, so a flag on a unit undone for copy-mismatch is skipped wherever it sits in the flags file."
+  ]
+}

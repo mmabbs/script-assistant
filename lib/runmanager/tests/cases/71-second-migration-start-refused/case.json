@@ -1,0 +1,8 @@
+{
+  "about": "A migration run started at 15:30 is still open at migrating, batch 1, round 0. The writer has since added a line, so there is new work. A second start --kind migration at 17:00 refuses: exit 1, and the stderr line points the writer to recover. Nothing changes: run-state.json still holds the 15:30 run, its folder is untouched, and no snapshot is saved for the 17:00 run. The stderr check is only the word \"recover\", as in case 06.",
+  "spec": [
+    "spec-run-manager.md 04 items 3, 22",
+    "spec-run-manager.md 09.2 items 1, 2",
+    "plan-run-manager.md 04 Milestone 8"
+  ]
+}

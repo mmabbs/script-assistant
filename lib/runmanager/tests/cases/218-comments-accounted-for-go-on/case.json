@@ -1,0 +1,13 @@
+{
+  "about": "Three pieces, each a comment under an untagged line. 2026-10-21: the comment sits under the jar line, which nothing names, but u1's `trigger` holds its words ('move the sea glass line to idea-tobias'), and u1 migrates the sea glass line. 2026-10-22: a `left_in_place` entry names the hymns line directly above its comment. 2026-10-23: a `questions` entry names the sister line directly above its comment. The record accounts for all three comments, so each goes on the handled list as `comment`, with the left-in-place and question lines as `left in place`; the jar line, which nothing names, gets no entry. No comment is listed with the lines the run did nothing with, so the log has no Other notes section.",
+  "spec": [
+    "spec-run-manager.md 07.1 items 9, 15",
+    "spec-run-manager.md 07.3 item 2 entry 10",
+    "spec-run-manager.md 11 Decisions Log item 106",
+    "plan-run-manager.md Milestone 17, first checkbox, item 6 ('a comment a unit's trigger holds goes on; a comment under a line a left_in_place, questions ... entry names goes on')"
+  ],
+  "readings": [
+    "The old code already put all three comments on, so on the old code this case fails only on the history entry's `renamed`. It keeps the new rule from holding back comments the record does account for.",
+    "The untagged sea glass line's copy gets the default status, tentative, as its tag (status_from `default`)."
+  ]
+}

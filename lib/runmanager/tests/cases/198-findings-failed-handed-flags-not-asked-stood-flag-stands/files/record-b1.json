@@ -1,0 +1,64 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "edit",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, it's one hundred and twelve steps, not a hundred."
+      },
+      "sources": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "line": 10,
+          "text": "- Mara counts a hundred steps every night."
+        }
+      ],
+      "copies": [],
+      "edits": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "line": 10,
+          "before": "- Mara counts a hundred steps every night.",
+          "after": "- Mara counts one hundred and twelve steps every night."
+        }
+      ],
+      "status": "tentative",
+      "status_from": "default",
+      "why": "The comment corrects the count."
+    },
+    {
+      "id": "u2",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/provisional"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Tobias can't swim, which is why the ferry job scares him. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- Tobias can't swim, so the ferry job scares him. #status/provisional",
+            "- [AGENT] Tobias's father forbade him the water after his brother drowned.",
+            "- [AGENT] He takes the ferry job to prove his father wrong."
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "Tobias's fear, and why."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

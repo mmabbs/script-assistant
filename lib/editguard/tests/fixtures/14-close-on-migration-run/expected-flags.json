@@ -1,0 +1,10 @@
+[
+  {
+    "id": "f1",
+    "rule": "unexplained-change",
+    "note": "Ideas/idea-harrow-point.md",
+    "before": "- [r] How often did the causeway flood in the 1950s? #research/run-1",
+    "after": "- [x] How often did the causeway flood in the 1950s? #research/run-1",
+    "unit": ""
+  }
+]

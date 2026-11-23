@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "The writer's comment asked for a Question, and the migrator added it opening with [AGENT] after the checkbox, recorded in the copies of an edit unit. It is explained, and an [AGENT] line a migration run added is always flagged: agent-line-added on b1-u1 (spec-edit-guard.md 04 table; 04 item 5). Fixture worker's choice: the added line sits in an edit unit's copies, since spec-migrator.md 05.4 names no kind of unit for new material a comment asked for."
+}

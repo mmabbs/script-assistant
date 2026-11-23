@@ -1,0 +1,48 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "research",
+      "--run-number",
+      "2"
+    ],
+    "now": "2026-10-10 16:00",
+    "exit": 0
+  },
+  {
+    "copy": "files/Research/research-light-relief-keeper-contracts.md",
+    "to": "Research/research-light-relief-keeper-contracts.md"
+  },
+  {
+    "copy": "files/Research/research-light-causeway-floods.md",
+    "to": "Research/research-light-causeway-floods.md"
+  },
+  {
+    "copy": "files/outcomes.json",
+    "to": ".runs/{run_id}/outcomes.json"
+  },
+  {
+    "chmod": "Ideas",
+    "mode": "555"
+  },
+  {
+    "run": [
+      "recover"
+    ],
+    "now": "2026-10-10 16:30",
+    "exit": 1
+  },
+  {
+    "chmod": "Ideas",
+    "mode": "755"
+  },
+  {
+    "run": [
+      "recover"
+    ],
+    "now": "2026-10-10 16:35",
+    "exit": 1,
+    "stderr": "Recover already ran once on run-2026-10-10-1600-research. Type /script-asst:run abandon."
+  }
+]

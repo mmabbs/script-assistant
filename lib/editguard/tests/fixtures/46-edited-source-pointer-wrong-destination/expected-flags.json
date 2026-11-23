@@ -1,0 +1,26 @@
+[
+  {
+    "id": "f1",
+    "rule": "writer-line-edited",
+    "note": "brain-dump.md",
+    "before": "- Mara has never once left the light during a storm.",
+    "after": "- Mara has never once left the light during a storm. #status/provisional",
+    "unit": "b1-u6"
+  },
+  {
+    "id": "f2",
+    "rule": "brain-dump-status-tag",
+    "note": "brain-dump.md",
+    "before": "- Mara has never once left the light during a storm.",
+    "after": "- Mara has never once left the light during a storm. #status/provisional",
+    "unit": "b1-u6"
+  },
+  {
+    "id": "f3",
+    "rule": "pointer-mismatch",
+    "note": "brain-dump.md",
+    "before": "- Mara has never once left the light during a storm.",
+    "after": "- Mara has never once left the light during a storm. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-harrow-point|idea-harrow-point]]]",
+    "unit": "b1-u7"
+  }
+]

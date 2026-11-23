@@ -1,0 +1,21 @@
+{
+  "about": "An earlier run migrated the count line to idea-mara. Before this run the writer reworded that line, keeping its tag and pointer, so `start` skips it (batches.json `skipped`). New work: u1 migrates the swim line to idea-tobias; u2 migrates the captain line to idea-mara, and its copy matches its record when `record` checks it. After `pointers`, a copy step stands in for a later change: the copy line now differs from its record by where the full stop sits. The rail line is a tagged batch line the record says nothing about. A stray write also changed Plot/plot-outline.md (a fingerprinted note). First check: copy-mismatch on b1-u2, unexplained-change for the wrong line, fingerprint-changed for the plot outline. `act` at pointed undoes b1-u2 (its pointer comes off; its record line isn't in the note, so undo-misses.json holds it) and sends the other two to the migration-verifier, which judges both not asked for; `act` at judged removes the wrong line. Then a copy step stands in for a stray write to idea-lamp before the second check, which flags it (unexplained-change) and the plot outline again. The log opens with 'Nothing needs you.' (no questions), then Migrated, Units undone (u2, 'its copy didn't match its record', then 'The next migration run tries this again.'), Changes put back, and Other notes. Other notes holds one bullet each: the skipped pointer line, the rail line (the next run tries it again), the undo miss, the plot outline changed outside the run, and idea-lamp still flagged after the second check, with its rule. The handled list's earlier entry for the skipped line now holds the reworded text, keeping its run and pointer; the rail line and u2's lines stay off.",
+  "spec": [
+    "CONTRACT.md 5.6 items 2, 3 (never: undone units, lines nothing names), 4, 6 (Other notes)",
+    "CONTRACT.md 5.5 items 2, 5, 6",
+    "spec-run-manager.md 07.1 items 4, 8; 07.3 item 2 (section 10); 11 Decisions Log item 72",
+    "spec-edit-guard.md 07 items 2, 3",
+    "spec-migration-verifier.md 06 item 6",
+    "plan-run-manager.md 04 Milestone 11 test cases 3, 4",
+    "CONTRACT.md 5.3 item 1; spec-run-manager.md 11 Decisions Log item 81 (a copy-mismatch is only a later change)"
+  ],
+  "readings": [
+    "New handled entries follow the ones already there, sorted by note path (as Python sorts strings, so 'Ideas/…' comes before 'brain-dump.md'), then by their place in the note at close. Neither spec nor contract fixes the order, and run-state.json is compared as parsed JSON, so list order counts.",
+    "A handled entry's `pointer` lists every destination on the line at close, as paths inside the project.",
+    "A skipped pointer line's handled entry keeps its `run` (the earlier run) and `pointer`; only `text` changes (CONTRACT.md 5.6 item 4 names only the text).",
+    "An earlier run's unit index entry keeps its pointed_lines when the writer rewords the line.",
+    "The plot outline's second-check fingerprint-changed flag is dropped because the first check named the same rule and note (CONTRACT.md 5.6 item 2); log.json can't count bullets, so this case only checks the note is named.",
+    "The undo-miss bullet quotes the record's copy text, which differs from the removed wrong line by where the full stop sits.",
+    "The captain line's piece holds no comment, so item 81's rule that a piece with an undone unit keeps its comments off changes nothing in this handled list."
+  ]
+}

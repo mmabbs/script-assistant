@@ -1,0 +1,18 @@
+[
+  {
+    "request": "r1",
+    "outcome": "passed",
+    "note": "Research/research-light-causeway-floods.md",
+    "reason": null,
+    "failed_topics": [
+      "Harbour office flood records"
+    ]
+  },
+  {
+    "request": "r2",
+    "outcome": "failed",
+    "note": "Research/research-light-tide-tables.md",
+    "reason": "The note failed its check: two findings had no source.",
+    "failed_topics": []
+  }
+]

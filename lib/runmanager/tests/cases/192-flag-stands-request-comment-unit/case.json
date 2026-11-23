@@ -1,0 +1,17 @@
+{
+  "about": "An earlier run left the request comment `%% [AGENT] Your request from the migration run of 2026-10-20, for this line: \"put the ferry lines in idea-tobias\" %%` under the untagged ferry line. This run has no typed request. The migrator acts on the comment: one migrate unit with trigger kind `comment` and the comment's words as its text copies the ferry line to idea-tobias with an [AGENT] line. The batch check approves it. The real Edit guard raises agent-line-added on b1-u1. A request comment the run wrote counts as a comment, so the flag skips the flags call and the [AGENT] line stands: `act` at pointed writes no verify-flags.json and goes straight to acted, next_check null. `close` needs no second check. The handled list gets the ferry line as `migrated` and the request comment as `comment`. The log names the request comment under Other edits you asked for.",
+  "spec": [
+    "spec-migration-verifier.md 06 item 7; 10 item 35",
+    "spec-run-manager.md 05 item 8; 04 item 22 (the `act` row at pointed); 07.3 item 2 entry 4; 11 item 101",
+    "spec-edit-guard.md 06 item 1 ('On an approved unit, skipped')",
+    "spec-migration-verifier.md 10 item 33 (a request comment counts as the writer's comment)",
+    "CONTRACT.md 5.6 item 3 (a request comment an earlier run wrote goes on as `comment`)",
+    "plan-run-manager.md Milestone 16, test case 1 (comment from a request comment the run wrote)"
+  ],
+  "readings": [
+    "No verify-flags.json is written. The runner can't check a file's absence, so the open run's step is the check: `act` at pointed reaching `acted` means nothing went to the call.",
+    "flags-1.json is the real Edit guard's output on this case's state, taken by running the steps on 2026-10-23.",
+    "The record's trigger text is the comment's words without its %% marks, as the migrator recorded it in migrator eval case 24 (evals/results/2026-10-23-migrator-case-24-request-comment.md).",
+    "Log wording (plan-run-manager.md 06 item 14, reading 1): exactly one comment in the unit's piece holds the trigger's text, so the entry quotes that comment whole, %% marks included, with its note, as a judged flag's line does. Tightened 2026-10-23."
+  ]
+}

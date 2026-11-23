@@ -1,0 +1,18 @@
+{
+  "about": "A migration run: u1 copies the Mara line to Ideas/idea-mara.md, u2 the Tobias line to Areas/area-tobias.md; both are approved, so both sit in the unit index. The writer rewords u2's copy. With `Ideas/` read-only, recover undoes b1-u2 first (newest first): it can't find the reworded copy, so it leaves it and saves an undo miss. Then it crashes on b1-u1's note and exits 1. The saved run state already marks b1-u2 `undone` and keeps b1-u1 `approved`, and `undo-misses.json` holds b1-u2's miss. With `Ideas/` writable again, `abandon` at 16:55: Copies still in your notes lists only u1 (the Mara line, idea-mara), not u2; Other notes names u2's missed line and the snapshot folder. Abandon leaves the unit index as recover saved it, so the final run state shows what recover saved.",
+  "spec": [
+    "spec-run-manager.md 11 item 119",
+    "spec-run-manager.md 09.3 item 4 (sections 1 and 4)",
+    "spec-run-manager.md 09.2 item 6",
+    "spec-run-manager.md 09.1 item 5",
+    "CONTRACT.md 5.3 item 10",
+    "plan-run-manager.md Milestone 18, second checkbox, item 4"
+  ],
+  "readings": [
+    "`write_note_whole` swaps a temp file in beside the note (test_skeleton.py, test_write_note_whole_*), so a read-only note alone can't stop the write; the case makes the note's folder read-only (mode 555) with the runner's `chmod` step, and gives it back (755) before the next command.",
+    "The crashed recover is expected to exit 1: the spec doesn't name a code for a recover that fails partway; an uncaught error and a refusal both give 1 (CONTRACT.md 1 item 2).",
+    "The saved state is checked after `abandon`, since the runner compares only at the end. This rests on abandon leaving the unit index and `undo-misses.json` as they are (09.3 item 2: it edits no note and carries nothing over).",
+    "`Ideas/` is made writable again before `abandon`, so the log's content, not a write failure, is what the case checks.",
+    "Units already in the unit index become `undone` in place (CONTRACT.md 5.6 item 8)."
+  ]
+}

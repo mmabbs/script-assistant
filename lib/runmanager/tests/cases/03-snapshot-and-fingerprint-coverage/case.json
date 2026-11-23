@@ -1,0 +1,8 @@
+{
+  "about": "One request note is copied into the snapshot and left out of the fingerprints. Every other .md note is fingerprinted: the Brain Dump doc at the project root, an Idea Note, the plot outline, and a note in the writer's Research/ folder. Never covered: the run log in Runs/, the findings note in llm-files/, the earlier run's snapshot copy in .runs/, and the image in Attachments/ (not .md). The earlier run's folder and the history entry are left as they were.",
+  "spec": [
+    "spec-run-manager.md 04 items 8, 9, 14",
+    "spec-run-manager.md 11 Decisions Log item 19",
+    "plan-run-manager.md 03 Milestone 3 test case 3"
+  ]
+}

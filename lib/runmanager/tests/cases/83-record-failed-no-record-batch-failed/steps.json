@@ -1,0 +1,33 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "migration"
+    ],
+    "now": "2026-10-14 15:30",
+    "exit": 0
+  },
+  {
+    "copy": "files/notes-r0",
+    "to": "."
+  },
+  {
+    "copy": "files/record-invalid.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 1,
+    "stderr": "run-2026-10-14-1530-migration-b1.json"
+  },
+  {
+    "run": [
+      "record",
+      "--failed"
+    ],
+    "exit": 0
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "about": "Each handled entry is used at most once. The handled list holds one Mara line for brain-dump.md, pointing to area-mara, whose text is no longer in the note. The writer now has two reworded versions of it, both #status/committed with the same pointer: one under 2026-09-25 and one under 2026-10-04. Both find that same single candidate. Lines are taken in scan order (oldest date first), so the 2026-09-25 line uses the entry: same tag, so it is skipped, with was = the entry's text. The 2026-10-04 line finds its only candidate already used, so it is new work, and b1 holds the 2026-10-04 piece. The note holds 2026-10-04 above 2026-09-25, so taking lines in note order would give the opposite result.",
+  "spec": [
+    "spec-run-manager.md 04 items 20, 21",
+    "spec-run-manager.md 07.1 item 4",
+    "CONTRACT.md 5.2 items 8, 10"
+  ]
+}

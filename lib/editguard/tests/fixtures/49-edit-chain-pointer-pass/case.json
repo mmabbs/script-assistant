@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-14-1322-migration",
+  "about": "Two of the run's edits changed one Brain Dump line in turn: u6 tagged it provisional, then u8 reworded the tagged line; u7 migrates the line (source text as at run start), and `pointers` wrote its pointer at the end. Stripping the pointer leaves u8's `after`, and the chain snapshot text, u6's `after`, u8's `after` is fully recorded, so the line is explained (runmanager CONTRACT.md 5.4 item 11). Each entry is its own step with its own unit: writer-line-edited on b1-u6 (snapshot text to the tagged line) and brain-dump-status-tag on b1-u6, since u6 added the tag; writer-line-edited on b1-u8 (tagged line to reworded line), and no status-tag flag on u8, which added no tag. No unexplained-change and no pointer-mismatch."
+}

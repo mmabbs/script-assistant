@@ -1,0 +1,11 @@
+{
+  "about": "The same tagged line sits twice in the Brain Dump doc, at lines 11 (2026-09-20, older date on top) and 16 (2026-09-21). Only the second is the unit's source; the first is left in place. The snapshot and the record's line number say the source is the second occurrence from the top, so only that one gets the pointer; the first stays as it was. The real Edit guard gives [].",
+  "spec": [
+    "CONTRACT.md 5.4 items 2, 11",
+    "spec-run-manager.md 08.1 item 1",
+    "plan-run-manager.md 04 Milestone 10 (two identical lines in one note, told apart by the snapshot)"
+  ],
+  "readings": [
+    "The occurrence is counted from the top among identical lines in the snapshot, at the source's record line number, then found at the same count in the note now (CONTRACT.md 5.4 item 2)."
+  ]
+}

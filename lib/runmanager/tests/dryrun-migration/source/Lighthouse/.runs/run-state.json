@@ -1,0 +1,280 @@
+{
+  "open_run": null,
+  "history": [
+    {
+      "id": "run-2026-10-02-2015-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-02 20:15",
+      "ended": "2026-10-02 20:41",
+      "how": "closed"
+    }
+  ],
+  "handled": [
+    {
+      "note": "brain-dump.md",
+      "text": "- Harrow Point is a fishing village of about two hundred people. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-harrow-point|idea-harrow-point]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": [
+        "Ideas/idea-harrow-point.md"
+      ]
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- Mara lives alone in the keeper's cottage at the foot of the tower. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara-lighthouse|idea-mara-lighthouse]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": [
+        "Ideas/idea-mara-lighthouse.md"
+      ]
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- Tobias worked summers on the ferry to the mainland. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": [
+        "Ideas/idea-tobias.md"
+      ]
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- He kept a rowing boat tied up under the pier. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": [
+        "Ideas/idea-tobias.md"
+      ]
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- The harbour is too shallow now for anything bigger than a creel boat. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-harrow-point|idea-harrow-point]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": [
+        "Ideas/idea-harrow-point.md"
+      ]
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- Mara repaints the lamp room every spring. #status/committed [migrated-to:: [[Projects/Lighthouse/Areas/area-mara|area-mara]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": [
+        "Areas/area-mara.md"
+      ]
+    },
+    {
+      "note": "Areas/area-harrow-point.md",
+      "text": "- Harrow Point has a railway halt. #status/rejected",
+      "outcome": "left in place",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "Areas/area-harrow-point.md",
+      "text": "%% No trains. Nothing arrives except by water. %%",
+      "outcome": "comment",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "Areas/area-mara.md",
+      "text": "- Mara is wary of the mainland doctor. #status/provisional",
+      "outcome": "left in place",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "Areas/area-mara.md",
+      "text": "- Mara is secretly writing a novel. #status/rejected",
+      "outcome": "left in place",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "Areas/area-mara.md",
+      "text": "%% Too writerly. %%",
+      "outcome": "comment",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-fog-signal.md",
+      "text": "- The fog signal is operated by a clockwork bell. #status/rejected",
+      "outcome": "left in place",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-fog-signal.md",
+      "text": "%% Wrong period for this coast. %%",
+      "outcome": "comment",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-harrow-point.md",
+      "text": "- The harbour is too shallow now for anything bigger than a creel boat. #status/provisional",
+      "outcome": "written",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-harrow-point.md",
+      "text": "- Harrow Point has a lifeboat station. #status/rejected",
+      "outcome": "left in place",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-harrow-point.md",
+      "text": "%% If there's a lifeboat, nobody needs Mara. %%",
+      "outcome": "comment",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-mara-lighthouse.md",
+      "text": "- The lamp is a fourth-order lens that has never been replaced. #status/provisional",
+      "outcome": "left in place",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-mara-lighthouse.md",
+      "text": "- Mara plays the fiddle in the evenings. #status/rejected",
+      "outcome": "left in place",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-mara-lighthouse.md",
+      "text": "%% She doesn't need a hobby. The silence is the point. %%",
+      "outcome": "comment",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-relief-keeper.md",
+      "text": "- The relief keeper is Tobias's old friend from the ferry. #status/rejected",
+      "outcome": "left in place",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-relief-keeper.md",
+      "text": "%% Too tidy. He should be a stranger. %%",
+      "outcome": "comment",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-tobias.md",
+      "text": "%% Everything about Mara's brother. Keep the accident vague for now. %%",
+      "outcome": "comment",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-tobias.md",
+      "text": "- Tobias was four years older than Mara, and she followed him everywhere. #status/provisional",
+      "outcome": "left in place",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-tobias.md",
+      "text": "%% Parking this. I don't think I want it, but I don't want to lose it either. %%",
+      "outcome": "comment",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-tobias.md",
+      "text": "- Tobias taught her to read the tide table. #status/rejected",
+      "outcome": "left in place",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-tobias.md",
+      "text": "%% Too neat. The tide table is hers alone. %%",
+      "outcome": "comment",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "%% Agent, idea-harrow-point. %%",
+      "outcome": "comment",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "%% Agent, idea-mara-lighthouse. %%",
+      "outcome": "comment",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "%% Agent, both of these go in idea-tobias. %%",
+      "outcome": "comment",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "%% Agent, area-mara. %%",
+      "outcome": "comment",
+      "run": "run-2026-10-02-2015-migration",
+      "pointer": null
+    }
+  ],
+  "unit_index": [
+    {
+      "run": "run-2026-10-02-2015-migration",
+      "unit": "b1-u1",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Harrow Point is a fishing village of about two hundred people. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-harrow-point|idea-harrow-point]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-02-2015-migration",
+      "unit": "b1-u2",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Mara lives alone in the keeper's cottage at the foot of the tower. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara-lighthouse|idea-mara-lighthouse]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-02-2015-migration",
+      "unit": "b1-u3",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Tobias worked summers on the ferry to the mainland. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]",
+        "- He kept a rowing boat tied up under the pier. [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-02-2015-migration",
+      "unit": "b1-u4",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- The harbour is too shallow now for anything bigger than a creel boat. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-harrow-point|idea-harrow-point]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-02-2015-migration",
+      "unit": "b2-u1",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Mara repaints the lamp room every spring. #status/committed [migrated-to:: [[Projects/Lighthouse/Areas/area-mara|area-mara]]]"
+      ]
+    }
+  ]
+}

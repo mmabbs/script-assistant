@@ -1,0 +1,8 @@
+{
+  "about": "A retry of run 2, whose one request got no findings last time. The open - [r] line tagged #research/run-2 also appears, word for word, in the earlier run log in Runs/, in a findings note in llm-files/, and in the earlier run's snapshot copy in .runs/. start picks up only the line in the Idea Note: one request, r1.",
+  "spec": [
+    "CONTRACT.md 4 item 9",
+    "spec-run-manager.md 04 item 9",
+    "spec-run-manager.md 02 item 5"
+  ]
+}

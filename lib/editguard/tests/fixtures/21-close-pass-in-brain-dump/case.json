@@ -1,0 +1,5 @@
+{
+  "kind": "research",
+  "run_id": "run-2026-10-10-1600-research",
+  "about": "Requests can sit anywhere in the project folder (spec-run-manager.md 02 item 5). Here both are in the Brain Dump doc, so it is the run's request note and gets a snapshot copy; the Idea Notes are fingerprinted (spec-run-manager.md 04 item 9). r1 passed: its - [r] became - [x] with a valid link line right under it and nothing else on the line changed (spec-edit-guard.md 04 item 6). r2 had no findings and stays open. No flags."
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "f1",
+    "rule": "writer-line-edited",
+    "note": "Ideas/idea-harrow-point.md",
+    "before": "- Harrow Point is a fishing village of about two hundred people.",
+    "after": "- Harrow Point is a fishing village of about three hundred people.",
+    "unit": "b1-u1"
+  }
+]

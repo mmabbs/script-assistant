@@ -1,0 +1,13 @@
+{
+  "flags": [
+    {
+      "id": "f2",
+      "rule": "unexplained-change",
+      "note": "Ideas/idea-mara.md",
+      "before": "",
+      "after": "- Mara keeps a cat called Lamp.",
+      "unit": ""
+    }
+  ],
+  "units": {}
+}

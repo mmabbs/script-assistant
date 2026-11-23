@@ -1,0 +1,47 @@
+[
+  {
+    "run": [
+      "mark",
+      "--stopped"
+    ],
+    "now": "2026-10-10 15:50",
+    "exit": 1
+  },
+  {
+    "run": [
+      "start",
+      "--kind",
+      "research",
+      "--run-number",
+      "2"
+    ],
+    "now": "2026-10-10 16:00",
+    "exit": 0
+  },
+  {
+    "copy": "files/Research/research-light-relief-keeper-contracts.md",
+    "to": "Research/research-light-relief-keeper-contracts.md"
+  },
+  {
+    "copy": "files/Research/research-light-causeway-floods.md",
+    "to": "Research/research-light-causeway-floods.md"
+  },
+  {
+    "copy": "files/outcomes.json",
+    "to": ".runs/{run_id}/outcomes.json"
+  },
+  {
+    "run": [
+      "mark"
+    ],
+    "exit": 0
+  },
+  {
+    "run": [
+      "mark",
+      "--stopped"
+    ],
+    "now": "2026-10-10 16:20",
+    "exit": 1
+  }
+]

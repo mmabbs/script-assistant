@@ -1,0 +1,124 @@
+{
+  "about": "The research-evaluator fails the first draft with two problems, and the fix round runs. The second check is handed the same plan, findings paths, and note as the first, plus the same draft-1.md path the fix round got, plus each first-check problem's where and detail. It passes, so the outcome is passed. The run id and research topic differ from the other cases, so the draft-1.md path must be built from this request's findings folder.",
+  "spec": [
+    "spec-research-workflow.md The Flow, the research-evaluator step: script ──same paths + draft-1 path + first problems──▶ research-evaluator",
+    "spec-research-workflow.md 04 item 5",
+    "spec-research-workflow.md 11 Decisions Log item 106",
+    "plan-research-workflow.md Milestone 5, the harness-cases bullet"
+  ],
+  "args": {
+    "project": "/Users/writer/Projects/Copper Coast",
+    "run_id": "run-2026-11-03-0915-research",
+    "requests": [
+      {
+        "id": "r1",
+        "note": "Concepts/Harbour Town/concept-harbour-town.md",
+        "line": 22,
+        "text": "- [r] How were fishing quotas enforced in Nova Scotia in 1962? #research/run-7",
+        "comment": "%% Nova Scotia only. %%"
+      }
+    ]
+  },
+  "answers": {
+    "plan r1": [
+      {
+        "research_topic": "fishing-quotas",
+        "topics": [
+          {
+            "n": 1,
+            "waits_on": []
+          },
+          {
+            "n": 2,
+            "waits_on": []
+          }
+        ]
+      }
+    ],
+    "topic r1 1": [
+      {
+        "result": "found"
+      }
+    ],
+    "topic r1 2": [
+      {
+        "result": "found"
+      }
+    ],
+    "write r1": [
+      {
+        "note": "Research/research-fishing-quotas.md"
+      }
+    ],
+    "check r1": [
+      {
+        "verdict": "fail",
+        "problems": [
+          {
+            "check": "matches findings",
+            "where": "Enforcement, paragraph 2",
+            "detail": "Note says fisheries officers boarded boats weekly; topic-2.md says monthly."
+          },
+          {
+            "check": "nothing dropped",
+            "where": "Licensing, opening paragraph",
+            "detail": "The finding on the 1961 licence registry answers plan question 1 and is missing."
+          }
+        ]
+      }
+    ],
+    "fix r1": [
+      {
+        "note": "Research/research-fishing-quotas.md"
+      }
+    ],
+    "recheck r1": [
+      {
+        "verdict": "pass",
+        "problems": []
+      }
+    ]
+  },
+  "expect": {
+    "result": [
+      {
+        "request": "r1",
+        "outcome": "passed",
+        "note": "Research/research-fishing-quotas.md",
+        "reason": null,
+        "failed_topics": []
+      }
+    ],
+    "calls": {
+      "check r1": {
+        "count": 1
+      },
+      "fix r1": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-11-03-0915-research/fishing-quotas/draft-1.md"
+        ]
+      },
+      "recheck r1": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-fishing-quotas.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-11-03-0915-research/fishing-quotas/topic-1.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-11-03-0915-research/fishing-quotas/topic-2.md",
+          "Research/research-fishing-quotas.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-11-03-0915-research/fishing-quotas/draft-1.md",
+          "Enforcement, paragraph 2",
+          "Note says fisheries officers boarded boats weekly; topic-2.md says monthly.",
+          "Licensing, opening paragraph",
+          "The finding on the 1961 licence registry answers plan question 1 and is missing."
+        ]
+      }
+    },
+    "after": [
+      [
+        "recheck r1",
+        "fix r1"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "file": "Runs/run-2026-10-10-1600-research.md",
+    "first_line": "Research run 2, started 2026-10-10 16:00.",
+    "sections": [
+      {
+        "heading": "Requests still open",
+        "contains": [
+          "What did a keeper earn in 1950?",
+          "research-light-keeper-wages",
+          "How did printed tide tables reach small villages in the 1950s?",
+          "research-light-tide-tables"
+        ]
+      }
+    ],
+    "absent": [
+      "Closes undone",
+      "Notes changed outside the run",
+      "Done",
+      "Still flagged after the second check"
+    ],
+    "contains": [],
+    "nothing_needs_you": false
+  },
+  {
+    "file": "Runs/run-2026-10-12-0930-research.md",
+    "first_line": "Research run 2, started 2026-10-12 09:30.",
+    "sections": [
+      {
+        "heading": "Requests still open",
+        "contains": [
+          "How did printed tide tables reach small villages in the 1950s?",
+          "research-light-tide-tables"
+        ]
+      },
+      {
+        "heading": "Done",
+        "contains": [
+          "What did a keeper earn in 1950?",
+          "research-light-keeper-wages-2026-10-12"
+        ]
+      }
+    ],
+    "absent": [
+      "Closes undone",
+      "Notes changed outside the run",
+      "Still flagged after the second check"
+    ],
+    "contains": [
+      "|research-light-keeper-wages]]"
+    ],
+    "nothing_needs_you": false
+  }
+]

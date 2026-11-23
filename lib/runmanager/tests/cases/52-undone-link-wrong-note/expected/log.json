@@ -1,0 +1,23 @@
+{
+  "file": "Runs/run-2026-10-10-1600-research.md",
+  "first_line": "Research run 2, started 2026-10-10 16:00.",
+  "sections": [
+    {
+      "heading": "Closes undone",
+      "contains": [
+        "What did a relief keeper's contract look like in the 1950s?",
+        "How did printed tide tables reach small villages in the 1950s?",
+        "its link line pointed to a note that doesn't exist, or to a different note than the one written for it",
+        "The request is open again."
+      ]
+    }
+  ],
+  "absent": [
+    "Requests still open",
+    "Notes changed outside the run",
+    "Done",
+    "Still flagged after the second check"
+  ],
+  "contains": [],
+  "nothing_needs_you": false
+}

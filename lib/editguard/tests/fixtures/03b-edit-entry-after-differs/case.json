@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "The edits entry's before matches the snapshot, but the note holds a different after, so the entry explains nothing (spec-edit-guard.md 03.2 item 2 needs both to match). Both halves of the changed line are unexplained, so they form one unexplained-change with both texts and no unit (05 item 2). The markup rules run only on explained changes (spec-edit-guard.md The Flow, step 2), so writer-line-edited does not fire."
+}

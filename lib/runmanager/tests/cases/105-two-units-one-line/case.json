@@ -1,0 +1,9 @@
+{
+  "about": "Two migrate units point from one Brain Dump line: u1 copies to idea-mara, u2 to idea-tobias. u2 is approved on round 0 and u1 only after a fix round, so the unit index lists b1-u2 before b1-u1. Units are taken in unit index order: u2 writes the pointer naming idea-tobias, then u1 adds idea-mara to the same brackets. b1-u2's pointed_lines keeps the line as it read right after its own pointer (idea-tobias only); b1-u1's has both. The real Edit guard gives [].",
+  "spec": [
+    "CONTRACT.md 5.4 items 5, 7, 8, 11",
+    "spec-run-manager.md 08.2 item 3; 04 item 15",
+    "spec-edit-guard.md 11 Decisions Log item 30 (units sharing a source line share one pointer)",
+    "plan-run-manager.md 04 Milestone 10"
+  ]
+}

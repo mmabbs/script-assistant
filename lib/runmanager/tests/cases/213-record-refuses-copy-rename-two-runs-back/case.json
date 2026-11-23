@@ -1,0 +1,13 @@
+{
+  "about": "As case 211, but the rename is two runs back. Run run-2026-10-18-1000-migration's b1-u1 sent the rowing line to Ideas/idea-tobias.md for the comment. The writer then renamed that note to Ideas/idea-tobias-rowing.md; the next run, run-2026-10-20-1000-migration, found the rename, carried the copy's handled entry over to the new path, and its history entry holds `renamed`. The rowing line and the comment are still off the handled list. This run's scan finds no rename (`renamed` []). This run's u1, for the same comment, copies the line again into idea-tobias-rowing. `record` follows the earlier unit's copy note through the history entries' renames and refuses: exit 1 naming u1, Ideas/idea-tobias-rowing.md, and the source line. The run stays at migrating.",
+  "spec": [
+    "spec-run-manager.md 07.1 item 13 ('an earlier unit's copy into Ideas/idea-almond.md counts as a copy into Ideas/idea-almond-renamed.md')",
+    "spec-run-manager.md 11 Decisions Log items 95, 99, 104",
+    "CONTRACT.md 5.3 item 15",
+    "spec-run-manager.md 04 item 17 ('so runmanager record can follow a story note through every rename since an earlier unit was written')",
+    "plan-run-manager.md Milestone 17, first checkbox, item 4 ('it still refuses when the rename happened two runs back, read through the history entries')"
+  ],
+  "readings": [
+    "Run run-2026-10-20-1000-migration's own units aren't part of this case; only its history entry and the carried-over handled entry are."
+  ]
+}

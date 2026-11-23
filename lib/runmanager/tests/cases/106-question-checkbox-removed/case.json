@@ -1,0 +1,9 @@
+{
+  "about": "The source line is an indented '    - [?] …' bullet under an untagged parent. Writing its pointer also turns '- [?] ' into '- ': the four-space indent, the words, and the tag stay, and the pointer goes at the end. The parent line is untouched. pointed_lines holds the line without [?]. The real Edit guard gives [], explaining the removed [?] together with the pointer.",
+  "spec": [
+    "CONTRACT.md 5.4 items 4, 6, 8, 11",
+    "spec-run-manager.md 08.2 item 4; 07.1 item 2",
+    "spec-edit-guard.md 03.1 item 2, 03.2 item 4",
+    "plan-run-manager.md 04 Milestone 10"
+  ]
+}

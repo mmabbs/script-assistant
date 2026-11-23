@@ -1,0 +1,66 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "migration"
+    ],
+    "now": "2026-10-14 15:30",
+    "exit": 0
+  },
+  {
+    "copy": "files/notes-r0",
+    "to": "."
+  },
+  {
+    "copy": "files/record-r0.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 0
+  },
+  {
+    "copy": "files/findings-r0.json",
+    "to": ".runs/{run_id}/findings-b1-r0.json"
+  },
+  {
+    "run": [
+      "findings"
+    ],
+    "exit": 0
+  },
+  {
+    "copy": "files/notes-r1",
+    "to": "."
+  },
+  {
+    "copy": "files/record-r1.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 0
+  },
+  {
+    "copy": "files/findings-r1-missed.json",
+    "to": ".runs/{run_id}/findings-b1-r1.json"
+  },
+  {
+    "run": [
+      "findings"
+    ],
+    "exit": 1
+  },
+  {
+    "run": [
+      "findings",
+      "--failed"
+    ],
+    "exit": 0
+  }
+]

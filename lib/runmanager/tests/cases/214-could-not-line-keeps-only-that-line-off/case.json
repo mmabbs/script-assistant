@@ -1,0 +1,11 @@
+{
+  "about": "One Brain Dump piece with two tagged lines. u1 migrates the swim line to idea-tobias; the record's `could_not` entry names the roof line. The could_not entry keeps only the roof line off the handled list: the swim line goes on as migrated and its copy as written, though they sit in the same story note. The roof line is under Could not do, and isn't listed under Other notes as a line the run did nothing with, so the log has no Other notes section.",
+  "spec": [
+    "spec-run-manager.md 07.1 items 6, 8, 14",
+    "spec-run-manager.md 11 Decisions Log item 105",
+    "plan-run-manager.md Milestone 17, first checkbox, item 5 ('a could_not entry naming one line keeps only that line off the handled list, and the story note's other lines go on it; that line is not listed with the lines the run did nothing with')"
+  ],
+  "readings": [
+    "Could not do quotes the entry's `what`; whether it also quotes the source line isn't checked."
+  ]
+}

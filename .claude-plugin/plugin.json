@@ -1,0 +1,8 @@
+{
+  "name": "script-asst",
+  "version": "0.1.0",
+  "description": "Screenwriting assistant for Claude Code and Obsidian. MVP: pre-writing migration and research runs, with a code-checked Edit guard and a verifier agent.",
+  "author": {
+    "name": "Moe Abbas"
+  }
+}

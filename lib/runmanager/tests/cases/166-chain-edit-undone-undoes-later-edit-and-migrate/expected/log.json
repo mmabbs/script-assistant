@@ -1,0 +1,28 @@
+{
+  "file": "Runs/run-2026-10-14-1322-migration.md",
+  "first_line": "Migration run, started 2026-10-14 13:22.",
+  "sections": [
+    {
+      "heading": "Units undone",
+      "contains": [
+        "It was undone because a change it made wasn't asked for:",
+        "It was undone because it changed a line the run had already edited, and that earlier edit was undone.",
+        "It was undone because the run's edit to this line was undone, so the copy made from the edited line came out too.",
+        "The next migration run tries this again."
+      ]
+    }
+  ],
+  "absent": [
+    "Migrated",
+    "Other edits you asked for",
+    "Questions for you",
+    "Lines the checker says were missed",
+    "Changes put back",
+    "Rejected",
+    "Left in place, and why",
+    "Could not do",
+    "Other notes"
+  ],
+  "contains": [],
+  "nothing_needs_you": true
+}

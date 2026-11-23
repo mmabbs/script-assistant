@@ -1,0 +1,35 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/provisional"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 15,
+          "text": "- The lamp burned paraffin until the 1958 refit. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-mara-lighthouse.md",
+          "under": "## Routine",
+          "lines": [
+            "- The lamp burned paraffin until the 1958 refit, then diesel. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "Stands in for a later batch's unit that moved the lamp line as batch 1's edit left it."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

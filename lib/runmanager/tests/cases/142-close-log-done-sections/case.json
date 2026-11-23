@@ -1,0 +1,24 @@
+{
+  "about": "One batch, nothing needing the writer. u1 migrates a '- [?]' Brain Dump line to idea-mara (its pointer takes the [?] off). u2 is an edit a comment in idea-mara asked for; the Edit guard flags it writer-line-edited; u2 is approved and that comment started it, so the flag stands without the migration-verifier, `act` goes straight to acted, and no second check runs. u3 rejects a line in idea-tobias: it moves to the Rejected section with a reason comment below it; the writer's own comment stays where it was. The record leaves the lens line in place and can't do the line in idea-lamp. The log opens with 'Nothing needs you.' and holds Migrated, Rejected, Other edits you asked for (naming the comment), Left in place, and why, and Could not do, in that order. The handled list: the source line as it reads at close (pointer on, [?] off) as `migrated`; the tagged copy and the reason comment as `written`; the moved line as `rejected`; the edit's after line as `edited`; the lens line as `left in place`; both writer comments as `comment`. Nothing from idea-lamp, the note the could_not entry names: neither its tagged line nor its comment.",
+  "spec": [
+    "CONTRACT.md 5.6 items 3 (every outcome; never: a could_not note's lines), 6",
+    "spec-run-manager.md 04 item 20; 07.1 items 2, 3, 6, 7, 9; 07.3 item 2 (sections 5 to 9); 08.2 item 4",
+    "spec-migrator.md 05.4 items 5, 6; 06.2",
+    "spec-edit-guard.md 04 rule 1; 06 item 1",
+    "plan-run-manager.md 04 Milestone 11 test cases 3, 4",
+    "spec-migration-verifier.md 06 item 7; 10 item 35",
+    "spec-run-manager.md 05 item 8; 11 item 101",
+    "spec-run-manager.md 11 Decisions Log items 105 and 107; 07.1 items 9, 14, 15"
+  ],
+  "readings": [
+    "New handled entries follow the ones already there, sorted by note path (as Python sorts strings, so 'Ideas/…' comes before 'brain-dump.md'), then by their place in the note at close. Neither spec nor contract fixes the order, and run-state.json is compared as parsed JSON, so list order counts.",
+    "A handled entry's `pointer` lists every destination on the line at close, as paths inside the project.",
+    "Revised 2026-10-25 for Milestone 17 (spec-run-manager.md 07.1 items 9, 14, 15; 11 Decisions Log items 105 and 107): the could_not entry keeps only the lamp line off, not every line of idea-lamp; idea-lamp's comment stays off because a could_not entry names a line in its piece, and is not listed under Other notes, since the could_not entry names the line directly above it. idea-lamp holds no other line, so the handled list and the log are unchanged. The history entry gains `renamed: []`. Earlier reading, for the record: 'Never: lines in a note a could_not entry names' wins over 'each comment line in batches.json: comment', so idea-lamp's comment stays off too.",
+    "A could_not line isn't listed under Other notes as a line the run did nothing with: the could_not entry names it.",
+    "An edit unit's source line that is no longer in its note gets no entry; its after line is `edited`.",
+    "The writer's comment under a rejected line stays in the live part of the note and is a `comment`; the reason line the migrator wrote in the Rejected section is `written`.",
+    "Other edits you asked for lists the edit unit with the comment the flag findings name.",
+    "Revised 2026-10-23 for Run manager Milestone 16 (spec-migration-verifier.md 06 item 7; spec-run-manager.md 05 item 8 and 11 item 101): u2's flag now stands instead of being judged asked for. The steps that saved flag findings, ran `findings`, and ran `act` at judged are gone (the unused findings file is kept with the suffix .retired-m16). The reading 'Other edits you asked for lists the edit unit with the comment the flag findings name' now means the comment the unit's trigger names.",
+    "Log wording (plan-run-manager.md 06 item 14, reading 1): exactly one comment in the unit's piece holds the trigger's text, so the entry quotes that comment whole, %% marks included, with its note, as a judged flag's line does. Tightened 2026-10-23."
+  ]
+}

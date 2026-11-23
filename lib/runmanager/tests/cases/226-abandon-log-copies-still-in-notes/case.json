@@ -1,0 +1,16 @@
+{
+  "about": "The migrator failed after writing u1's copy to idea-mara and before writing u2's: `record --failed` keeps u1 (whole) and undoes u2 (not started), which joins the unit index as undone. Then recover, with `Ideas/` read-only, fails undoing u1. `abandon` at 16:55 writes Runs/run-2026-10-14-1655-abandon.md, `run-log` first in its type. First line \"Abandoned run, for run-2026-10-14-1530-migration.\", then \"This run was closed without its last checks. Below is what was never checked.\" Copies still in your notes lists u1, which the unit index doesn't list as undone: its source line in code marks, idea-mara, and the warning. It doesn't list u2. Other notes names the snapshot folder. With no typed request and nothing awaited, Your request and Never checked are left out. idea-mara keeps its copy.",
+  "spec": [
+    "spec-run-manager.md 09.3 item 4 (name, type, first two lines, section 1, section 4)",
+    "spec-run-manager.md 11 items 109 and 111",
+    "plan-run-manager.md Milestone 18, second checkbox, item 4"
+  ],
+  "readings": [
+    "`write_note_whole` swaps a temp file in beside the note (test_skeleton.py, test_write_note_whole_*), so a read-only note alone can't stop the write; the case makes the note's folder read-only (mode 555) with the runner's `chmod` step, and gives it back (755) before the next command.",
+    "The crashed recover is expected to exit 1: the spec doesn't name a code for a recover that fails partway; an uncaught error and a refusal both give 1 (CONTRACT.md 1 item 2).",
+    "Section headings are `## ` headings named as 09.3 item 4 names them: `## Copies still in your notes`, `## Your request`, `## Never checked`, `## Other notes`.",
+    "A copy's note is checked by its file name, `idea-mara`, which a path or a link both hold.",
+    "The case avoids a unit that recover itself undid before failing: the spec doesn't say when recover saves the unit index during its undo, so u2 here was undone by `record --failed` before recover ran.",
+    "The snapshot folder is named as the spec writes it, `.runs/{run id}/snapshot/`."
+  ]
+}

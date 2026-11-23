@@ -1,0 +1,14 @@
+{
+  "about": "Case 161's batch: u6 tags the storm line, u8 rewords the tagged line, and u7 migrates it, all started by the comment under it. Added: u9, started by the writer's comment under the supply boat line, corrects the captain's name. All four are approved and u7 is pointed. The real Edit guard explains the storm line by the chain of u6's and u8's edits and raises writer-line-edited and brain-dump-status-tag on b1-u6 and writer-line-edited on b1-u8; it raises writer-line-edited on b1-u9. The three storm-line flags are on a line two of the run's units edited in turn, in one batch, so they go to the flags call although a comment started both units. u9's flag stands. verify-flags.json holds the three storm-line flags and the cut-down b1-u6 and b1-u8, and not u9's flag or b1-u9. The step is judging.",
+  "spec": [
+    "spec-migration-verifier.md 06 item 7 (third exception, in one batch); 10 item 35",
+    "spec-run-manager.md 05 item 8; 11 item 101",
+    "CONTRACT.md 5.4 item 11 (a line two or more of the run's edits changed in turn)",
+    "plan-run-manager.md Milestone 16, test case 2 (a line two units edited in turn, in one batch)"
+  ],
+  "readings": [
+    "flags-1.json is the real Edit guard's output on this case's state, taken by running the steps on 2026-10-23.",
+    "verify-flags.json is the file the current `act` writes on this case's state with u9's flag and b1-u9 taken out.",
+    "u7 migrates the storm line but edits nothing, so it isn't one of the units that edited the line in turn; it has no flag of its own."
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, area-mara."
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 10,
+          "text": "- Mara repaints the lamp room every spring. #status/committed"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Areas/area-mara.md",
+          "under": "# Mara",
+          "lines": [
+            "- Mara repaints the lamp room every spring."
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "committed",
+      "status_from": "tag",
+      "why": "See the comment."
+    },
+    {
+      "id": "u2",
+      "action": "edit",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, say afraid, not scared."
+      },
+      "sources": [],
+      "copies": [],
+      "edits": [
+        {
+          "note": "Areas/area-mara.md",
+          "line": 9,
+          "before": "- Mara is scared of deep water. #status/provisional",
+          "after": "- Mara is afraid of deep water. #status/provisional"
+        }
+      ],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "See the comment."
+    },
+    {
+      "id": "u3",
+      "action": "reject",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, reject the dog. It makes her too cosy."
+      },
+      "sources": [
+        {
+          "note": "Areas/area-mara.md",
+          "line": 11,
+          "text": "- Mara keeps a dog called Skipper."
+        }
+      ],
+      "copies": [
+        {
+          "note": "Areas/area-mara.md",
+          "under": "## Rejected",
+          "lines": [
+            "- Mara keeps a dog called Skipper. #status/rejected",
+            "%% It makes her too cosy. %%"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "rejected",
+      "status_from": "comment",
+      "why": "See the comment."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

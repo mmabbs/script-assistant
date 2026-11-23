@@ -1,0 +1,29 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 15,
+          "text": "- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "under": "# Idea - Mara",
+          "lines": [
+            "- Mara counts the tower's one hundred and twelve steps every night. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional"
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

@@ -1,0 +1,12 @@
+{
+  "about": "Two pieces, each opening with a comment on its own under its date heading, scoping the bullets below. 2026-10-23: u1, started by the storm line's tag, migrates the storm line, so the record names a line in the comment's piece and the comment goes on as `comment`. 2026-10-24: the comment sits above two untagged lines and nothing in the record names any line of that piece, so it stays off the handled list and the log lists it under Other notes.",
+  "spec": [
+    "spec-run-manager.md 07.1 items 9, 15",
+    "spec-run-manager.md 07.3 item 2 entry 10",
+    "spec-run-manager.md 11 Decisions Log item 106",
+    "plan-run-manager.md Milestone 17, first checkbox, item 6 ('a comment on its own under a date heading goes on when the record names any line in its piece, and stays off when it names none')"
+  ],
+  "readings": [
+    "'On its own under a date heading' is a comment that isn't directly below a bullet: here, the first line after the heading's blank line."
+  ]
+}

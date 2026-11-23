@@ -1,0 +1,10 @@
+[
+  {
+    "id": "f1",
+    "rule": "writer-line-edited",
+    "note": "Ideas/idea-mara.md",
+    "before": "- Mara counts a hundred steps every night.",
+    "after": "- Mara counts one hundred and twelve steps every night.",
+    "unit": "b1-u1"
+  }
+]

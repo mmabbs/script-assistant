@@ -1,0 +1,10 @@
+[
+  {
+    "id": "f1",
+    "rule": "unexplained-change",
+    "note": "Ideas/idea-mara.md",
+    "before": "- Mara took the keeper's post after the last keeper retired.",
+    "after": "- Mara took the keeper's post after old Keeper Hale retired.",
+    "unit": ""
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "about": "The research-planner returns nothing on its first try and both retries, so it is called 3 times. No researcher, research-writer, or research-evaluator runs. The outcome is failed, with no note and a reason.",
+  "spec": [
+    "spec-research-workflow.md 04 item 13",
+    "spec-run-manager.md 06 item 5",
+    "spec-run-manager.md 06 item 8"
+  ],
+  "args": {
+    "project": "/Users/writer/Projects/Copper Coast",
+    "run_id": "run-2026-10-08-1400-research",
+    "requests": [
+      {
+        "id": "r1",
+        "note": "Ideas/idea-harrow-point.md",
+        "line": 15,
+        "text": "- [r] How did printed tide tables reach small villages in the 1950s? #research/run-2",
+        "comment": "%% Look for printed almanacs. %%"
+      }
+    ]
+  },
+  "answers": {
+    "plan r1": [
+      null,
+      null,
+      null
+    ]
+  },
+  "expect": {
+    "result": [
+      {
+        "request": "r1",
+        "outcome": "failed",
+        "note": null,
+        "reason": "set",
+        "failed_topics": []
+      }
+    ],
+    "calls": {
+      "plan r1": {
+        "count": 3,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/Ideas/idea-harrow-point.md",
+          "- [r] How did printed tide tables reach small villages in the 1950s? #research/run-2"
+        ]
+      }
+    },
+    "not_called": [
+      "topic r1 1",
+      "write r1",
+      "check r1",
+      "fix r1",
+      "recheck r1"
+    ]
+  }
+}

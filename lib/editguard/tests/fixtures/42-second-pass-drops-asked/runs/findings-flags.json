@@ -1,0 +1,24 @@
+{
+  "flags": [
+    {
+      "flag": "f1",
+      "verdict": "asked",
+      "asked_by": {
+        "kind": "comment",
+        "note": "Ideas/idea-harrow-point.md",
+        "line": 9,
+        "text": "%% Agent, fix the number: it's three hundred. %%"
+      }
+    },
+    {
+      "flag": "f2",
+      "verdict": "asked",
+      "asked_by": {
+        "kind": "comment",
+        "note": "Ideas/idea-tobias.md",
+        "line": 9,
+        "text": "%% Agent, winters, not summers. %%"
+      }
+    }
+  ]
+}

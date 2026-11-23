@@ -1,0 +1,11 @@
+{
+  "about": "A research run whose outcomes file was never saved: `mark` edits nothing, the Edit guard finds nothing, and `act` ends at 'acted' with nothing awaited. recover runs once (nothing to redo). `abandon` at 16:40 has only the snapshot folder to name, and still writes its log: the first two lines, then Other notes with `.runs/run-2026-10-10-1600-research/snapshot/`. Every other section is left out.",
+  "spec": [
+    "spec-run-manager.md 09.3 item 4 (empty sections left out; section 4)",
+    "spec-run-manager.md 11 item 109",
+    "plan-run-manager.md Milestone 18, second checkbox, item 4"
+  ],
+  "readings": [
+    "`act` ran on flags-1 and nothing is awaited, and `mark` wrote no link line, so Never checked is empty."
+  ]
+}

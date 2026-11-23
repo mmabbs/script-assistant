@@ -1,0 +1,18 @@
+[
+  {
+    "id": "f1",
+    "rule": "unexplained-change",
+    "note": "Ideas/idea-harrow-point.md",
+    "before": "- The harbour is too shallow now for anything bigger than a creel boat.",
+    "after": "- The harbour silted up, so only creel boats can use it now.",
+    "unit": ""
+  },
+  {
+    "id": "f2",
+    "rule": "unexplained-change",
+    "note": "Ideas/idea-harrow-point.md",
+    "before": "",
+    "after": "- The lighthouse was automated in 1987.",
+    "unit": ""
+  }
+]

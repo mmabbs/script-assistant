@@ -1,0 +1,29 @@
+{
+  "file": "Runs/run-2026-10-14-1530-migration.md",
+  "first_line": "Migration run, started 2026-10-14 15:30.",
+  "sections": [
+    {
+      "heading": "Migrated",
+      "contains": [
+        "`- Tobias can't swim, which is why the ferry job scares him. #status/provisional",
+        "[[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]"
+      ]
+    }
+  ],
+  "absent": [
+    "Questions for you",
+    "Units undone",
+    "Lines the checker says were missed",
+    "Changes put back",
+    "Rejected",
+    "Other edits you asked for",
+    "Left in place, and why",
+    "Could not do",
+    "Other notes"
+  ],
+  "contains": [
+    "Your request: \"put the ferry lines in idea-tobias\"",
+    "Nothing needs you."
+  ],
+  "nothing_needs_you": false
+}

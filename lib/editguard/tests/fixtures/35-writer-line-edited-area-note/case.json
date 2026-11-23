@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "A graduation into area-mara also fixed the wording of a neighbouring line, recorded in the same unit's edits (spec-migrator.md 05.4 item 7). The edits entry explains the change (spec-edit-guard.md 03.2 item 2), and every recorded edit to one of the writer's existing lines is writer-line-edited, in Area Notes too (04 item 1; 11 Decisions Log item 4). The copy itself has no tag and is in place."
+}

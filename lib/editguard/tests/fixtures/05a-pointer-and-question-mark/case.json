@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "Run manager edits on a migration run: a pointer at the end of a source line, and a pointer on a nested - [?] line that also removes the [?] (spec-run-manager.md 08.2 items 2 and 4; guide-metadata-and-markup.md 14). Both are stripped at their known spots before comparing, and what is left matches the snapshot (spec-edit-guard.md 03.1 item 2; 03.2 item 4). A line from an earlier run that already carried a pointer in the snapshot is unchanged and must not flag. The Question keeps its [?] in its copy. No flags."
+}

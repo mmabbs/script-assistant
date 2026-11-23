@@ -1,0 +1,15 @@
+{
+  "about": "The same rename as case 201: Ideas/idea-mara.md is now Ideas/idea-mara-keeper.md, and the scan finds it (batches.json `renamed`). The run crashes before the migrator writes anything, and the writer runs `recover`, then the Edit guard (no flags), `act`, and `close`. A crashed run updates nothing: the handled list still holds both entries exactly as before the run, with the old path, the old link text, and pointer [Ideas/idea-mara.md], so the next migration run finds the rename again. The history entry is the crashed run's with how 'recovered'.",
+  "spec": [
+    "spec-run-manager.md 07.1 items 6 and 13 ('A crashed run updates nothing')",
+    "spec-run-manager.md 09.2 item 3",
+    "spec-run-manager.md 04 item 17",
+    "spec-run-manager.md 11 Decisions Log item 104",
+    "CONTRACT.md 5.6 items 7, 8",
+    "plan-run-manager.md Milestone 17, first checkbox, item 3 ('a crashed run changes no entry')"
+  ],
+  "readings": [
+    "A recovered run's history entry holds no `renamed`: 04 item 17 gives `renamed` to a closed migration run's entry, and a crashed run carried nothing over, so the record guard has nothing of it to follow. If the build reads it the other way (`renamed` copied on a recovered entry too), this expected file changes.",
+    "The recover log is checked only for its first line; the spec doesn't say whether it names a rename the crashed run found."
+  ]
+}

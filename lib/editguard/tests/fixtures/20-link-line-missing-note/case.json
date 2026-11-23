@@ -1,0 +1,5 @@
+{
+  "kind": "research",
+  "run_id": "run-2026-10-10-1600-research",
+  "about": "The link line is in the settled form and right under the request, but points to research-light-causeway-flood, which doesn't exist; the note the outcomes file names is research-light-causeway-floods (spec-edit-guard.md 04 table: 'pointing to a note that doesn't exist'). It is link-line-invalid, and the close has no valid link line under it, so it is close-invalid (04 item 6). The link's vault path Projects/Lighthouse/... resolves inside the project folder handed as --project. The named note exists, so no unexpected-research-note."
+}

@@ -1,0 +1,9 @@
+{
+  "about": "`findings` first with no findings file, then with twelve wrong findings files (file name says how): a unit missing, an extra unit, a unit twice, fix with no problems, approve with a problem, an unknown verdict, an unknown check, a problem with no what, the wrong round, the wrong batch, missed not a list, and a missed entry with no source. Each exits 1 and changes nothing: the run is still at verifying with fixing [u1, u2], and the unit index is empty. A wrongly accepted file would move the run on, and the end state would differ.",
+  "spec": [
+    "CONTRACT.md 5.3 item 7",
+    "spec-migration-verifier.md 05.1 item 2, 05.2",
+    "spec-run-manager.md 04 item 22 (findings row: needs the findings file)",
+    "plan-run-manager.md 04 Milestone 9, test case 4"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "about": "The migrator's record is invalid (no could_not list) and its retries failed, after it wrote copies into two notes. `record` refuses; then `record --failed` on round 0 exits 0: the batch has no units, the step becomes batch-failed, and next_check is 1, the run's first flags file. Nothing is undone here, since there is no record to undo from: the copies stay until the Edit guard flags them and `act` restores them (a later milestone). The unit index stays empty.",
+  "spec": [
+    "CONTRACT.md 5.3 item 6, second bullet",
+    "spec-run-manager.md 04 item 22 (When a part fails, second bullet)",
+    "spec-run-manager.md 07.2 item 4, second bullet",
+    "spec-migration-verifier.md 07 item 4",
+    "plan-run-manager.md 04 Milestone 9, test case 2"
+  ],
+  "readings": [
+    "fixing is null at batch-failed (CONTRACT.md 5.3 item 5: null outside the batch cycle)."
+  ]
+}

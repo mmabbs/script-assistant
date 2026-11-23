@@ -1,0 +1,10 @@
+{
+  "about": "A merge: two Brain Dump lines under two date headings, one copy in a note the migrator created (Ideas/idea-lamp.md). Both source lines get a pointer to idea-lamp. The record lists the sources paraffin first, though the mains line sits higher in the note (newest date on top), so pointed_lines follows sources order: the paraffin line, then the mains line. The real Edit guard gives [].",
+  "spec": [
+    "CONTRACT.md 5.4 items 2, 3, 8, 10, 11",
+    "spec-run-manager.md 04 item 15; 08.2 item 2",
+    "spec-migrator.md 05.4 item 3, 05.5 item 5",
+    "guide-metadata-and-markup.md 13 (multiple source units, one note)",
+    "plan-run-manager.md 04 Milestone 10"
+  ]
+}

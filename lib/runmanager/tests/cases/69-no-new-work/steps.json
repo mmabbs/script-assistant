@@ -1,0 +1,12 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "migration"
+    ],
+    "now": "2026-10-14 15:30",
+    "exit": 1,
+    "stderr": "No new work since the last migration run."
+  }
+]

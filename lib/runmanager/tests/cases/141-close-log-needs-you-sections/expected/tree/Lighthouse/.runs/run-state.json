@@ -1,0 +1,55 @@
+{
+  "open_run": null,
+  "history": [
+    {
+      "id": "run-2026-10-14-1530-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-14 15:30",
+      "ended": "2026-10-14 16:10",
+      "how": "closed",
+      "renamed": []
+    }
+  ],
+  "handled": [
+    {
+      "note": "Ideas/idea-mara.md",
+      "text": "- Mara counts the tower's one hundred and twelve steps every night. #status/provisional",
+      "outcome": "written",
+      "run": "run-2026-10-14-1530-migration",
+      "pointer": null
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara|idea-mara]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-14-1530-migration",
+      "pointer": [
+        "Ideas/idea-mara.md"
+      ]
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- Maybe the light is haunted, or maybe that's just Tobias. #status/tentative",
+      "outcome": "left in place",
+      "run": "run-2026-10-14-1530-migration",
+      "pointer": null
+    }
+  ],
+  "unit_index": [
+    {
+      "run": "run-2026-10-14-1530-migration",
+      "unit": "b1-u1",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara|idea-mara]]]"
+      ]
+    },
+    {
+      "run": "run-2026-10-14-1530-migration",
+      "unit": "b1-u2",
+      "state": "undone",
+      "pointed_lines": []
+    }
+  ]
+}

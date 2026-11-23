@@ -1,0 +1,77 @@
+{
+  "about": "Topic 1 answers none. Topic 2 waits on topic 1 and topic 3 waits on topic 2, so both are skipped. Every skip traces back to a none, so they count like a none: the outcome is no findings, with no note and no reason, and the two skipped topics are still listed. No research-writer or research-evaluator runs.",
+  "spec": [
+    "the writer's ruling of 2026-10-12: a skip caused only by a none counts like a none; if every topic answered none or was skipped down a chain from a none, the outcome is no findings, with the skipped topics still listed",
+    "spec-research-workflow.md 04 items 10 and 15"
+  ],
+  "args": {
+    "project": "/Users/writer/Projects/Copper Coast",
+    "run_id": "run-2026-10-08-1400-research",
+    "requests": [
+      {
+        "id": "r1",
+        "note": "Ideas/idea-harrow-point.md",
+        "line": 15,
+        "text": "- [r] How did printed tide tables reach small villages in the 1950s? #research/run-2",
+        "comment": "%% Look for printed almanacs. %%"
+      }
+    ]
+  },
+  "answers": {
+    "plan r1": [
+      {
+        "research_topic": "tide-tables",
+        "topics": [
+          {
+            "n": 1,
+            "waits_on": []
+          },
+          {
+            "n": 2,
+            "waits_on": [
+              1
+            ]
+          },
+          {
+            "n": 3,
+            "waits_on": [
+              2
+            ]
+          }
+        ]
+      }
+    ],
+    "topic r1 1": [
+      {
+        "result": "none"
+      }
+    ]
+  },
+  "expect": {
+    "result": [
+      {
+        "request": "r1",
+        "outcome": "no findings",
+        "note": null,
+        "reason": null,
+        "failed_topics": [
+          "topic 2 (skipped: a topic it waits on found nothing)",
+          "topic 3 (skipped: a topic it waits on found nothing)"
+        ]
+      }
+    ],
+    "calls": {
+      "topic r1 1": {
+        "count": 1
+      }
+    },
+    "not_called": [
+      "topic r1 2",
+      "topic r1 3",
+      "write r1",
+      "check r1",
+      "fix r1",
+      "recheck r1"
+    ]
+  }
+}

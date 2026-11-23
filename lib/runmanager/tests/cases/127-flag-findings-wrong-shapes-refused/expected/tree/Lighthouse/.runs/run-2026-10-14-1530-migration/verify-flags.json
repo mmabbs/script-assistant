@@ -1,0 +1,13 @@
+{
+  "flags": [
+    {
+      "id": "f2",
+      "rule": "unexplained-change",
+      "note": "Ideas/idea-tobias.md",
+      "before": "",
+      "after": "- Tobias hums sea shanties while he coils the ropes.",
+      "unit": ""
+    }
+  ],
+  "units": {}
+}

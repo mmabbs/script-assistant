@@ -1,0 +1,26 @@
+[
+  {
+    "id": "f1",
+    "rule": "writer-line-edited",
+    "note": "Ideas/idea-mara.md",
+    "before": "- Mara counts a hundred steps every night.",
+    "after": "- Mara counts one hundred and twelve steps every night.",
+    "unit": "b1-u1"
+  },
+  {
+    "id": "f2",
+    "rule": "agent-line-added",
+    "note": "Ideas/idea-tobias.md",
+    "before": "",
+    "after": "- [AGENT] Tobias's father forbade him the water after his brother drowned.",
+    "unit": "b1-u2"
+  },
+  {
+    "id": "f3",
+    "rule": "agent-line-added",
+    "note": "Ideas/idea-tobias.md",
+    "before": "",
+    "after": "- [AGENT] He takes the ferry job to prove his father wrong.",
+    "unit": "b1-u2"
+  }
+]

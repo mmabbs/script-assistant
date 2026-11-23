@@ -1,0 +1,9 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "The same idea-tobias swap as case 48, but no unit explains it: the run's only unit is a reject in idea-mara-lighthouse (as case 04), which passes with no flags. A moved line is a removed line and an added line, each needing its own explanation (spec-edit-guard.md 03.1 item 3), and nothing in the record explains either reading of the swap, so it is flagged. They are separate diff blocks, so they don't pair into one changed line (03.1 item 6). Two unexplained-change flags with no unit, one added and one removed.",
+  "readings": [
+    "With blank lines skipped, the swap reads equally as the bullet moving down or as '## Rejected' moving up, and the spec does not say which line a move with no record names (03.1 item 3 says only that a moved line is a removed line and an added line). This case picks the heading, the reading the guard took before the case 48 fix: when no record explains the bullet's move, the guard keeps its default and names '## Rejected'. So a fix that always prefers moving a bullet over a heading, or skips headings, fails here; only a fix that prefers the reading a record explains passes both 48 and 49.",
+    "The unrelated reject unit sits in a different note, so a fix can't key on 'the run has a reject unit'; it has to match the unit's note and source line."
+  ]
+}

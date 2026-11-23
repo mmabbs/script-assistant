@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "Batch b2's migrator failed and its record file was left out, so only b1's record is handed over. The Edit guard runs on the spot, before any pointer (spec-run-manager.md 07.2 item 4). b1's reject unit explains its own changes. b2's writes to idea-tobias, a heading and a copy, have no record, so each is unexplained-change with no unit (spec-migration-verifier.md 07 item 4; spec-edit-guard.md 03.2)."
+}

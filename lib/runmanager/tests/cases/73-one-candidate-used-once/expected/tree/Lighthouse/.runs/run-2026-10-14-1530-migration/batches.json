@@ -1,0 +1,28 @@
+{
+  "batches": [
+    {
+      "batch": "b1",
+      "pieces": [
+        {
+          "note": "brain-dump.md",
+          "heading": "### 2026-10-04",
+          "lines": [
+            {
+              "line": 11,
+              "text": "- Mara never once leaves the island, not even for her sister's funeral. #status/committed [migrated-to:: [[Projects/Lighthouse/Areas/area-mara|area-mara]]]"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "note": "brain-dump.md",
+      "line": 15,
+      "text": "- Mara never leaves the island, not even in winter. #status/committed [migrated-to:: [[Projects/Lighthouse/Areas/area-mara|area-mara]]]",
+      "was": "- Mara never leaves the island. #status/committed [migrated-to:: [[Projects/Lighthouse/Areas/area-mara|area-mara]]]"
+    }
+  ],
+  "renamed": []
+}

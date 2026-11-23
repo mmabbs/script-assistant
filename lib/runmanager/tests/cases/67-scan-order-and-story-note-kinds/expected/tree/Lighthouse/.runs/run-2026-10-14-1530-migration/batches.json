@@ -1,0 +1,95 @@
+{
+  "batches": [
+    {
+      "batch": "b1",
+      "pieces": [
+        {
+          "note": "brain-dump.md",
+          "heading": null,
+          "lines": [
+            {
+              "line": 9,
+              "text": "- Working title: The Harrow Light. #status/provisional"
+            }
+          ]
+        },
+        {
+          "note": "brain-dump.md",
+          "heading": "### 2026-09-21",
+          "lines": [
+            {
+              "line": 17,
+              "text": "- Mara takes the posting because nobody else will. #status/committed"
+            }
+          ]
+        },
+        {
+          "note": "brain-dump.md",
+          "heading": "## 2026-09-28",
+          "lines": [
+            {
+              "line": 21,
+              "text": "- The relief keeper is called Ewan. #status/provisional"
+            },
+            {
+              "line": 22,
+              "text": "- Ewan is twenty-two and has never seen a storm at sea. #status/provisional"
+            }
+          ]
+        },
+        {
+          "note": "brain-dump.md",
+          "heading": "### 2026-10-02",
+          "lines": [
+            {
+              "line": 13,
+              "text": "- The storm night is the midpoint. #status/provisional"
+            }
+          ]
+        },
+        {
+          "note": "Areas/area-mara.md",
+          "heading": null,
+          "lines": [
+            {
+              "line": 10,
+              "text": "- Mara's sister writes every month and Mara never answers. #status/provisional"
+            }
+          ]
+        },
+        {
+          "note": "Ideas/idea-cliff-scene.md",
+          "heading": null,
+          "lines": [
+            {
+              "line": 9,
+              "text": "- Mara watches the boat go down from the cliff path. #status/provisional"
+            }
+          ]
+        },
+        {
+          "note": "Ideas/idea-harrow-point.md",
+          "heading": null,
+          "lines": [
+            {
+              "line": 10,
+              "text": "- The pub closes at nine in winter. #status/provisional"
+            }
+          ]
+        },
+        {
+          "note": "Ideas/idea-tobias.md",
+          "heading": null,
+          "lines": [
+            {
+              "line": 13,
+              "text": "%% Agent, all three of these are Tobias's backstory. %%"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": [],
+  "renamed": []
+}

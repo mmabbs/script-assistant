@@ -1,0 +1,26 @@
+{
+  "batches": [
+    {
+      "batch": "b1",
+      "pieces": [
+        {
+          "note": "brain-dump.md",
+          "heading": "### 2026-10-24",
+          "lines": [
+            {
+              "line": 15,
+              "text": "- The supply boat comes every second Tuesday. #status/tentative"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": [],
+  "renamed": [
+    {
+      "from": "Ideas/idea-mara.md",
+      "to": "Ideas/idea-mara-keeper.md"
+    }
+  ]
+}

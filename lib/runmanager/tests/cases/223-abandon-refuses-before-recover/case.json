@@ -1,0 +1,12 @@
+{
+  "about": "`abandon` with no open run exits 1. Then a research run starts, and `abandon` on it, with no recover tried, exits 1 with \"Run /script-asst:run recover first.\" The run stays open as it was, with no `recover_tried`, and no note changes.",
+  "spec": [
+    "spec-run-manager.md 09.3 item 1",
+    "spec-run-manager.md 04 item 18 (abandon needs an open run with recover_tried)",
+    "spec-run-manager.md 11 item 109",
+    "plan-run-manager.md Milestone 18, second checkbox, item 2"
+  ],
+  "readings": [
+    "The refusal with no open run has no words in the spec, so only its exit code is checked."
+  ]
+}

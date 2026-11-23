@@ -1,0 +1,63 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "comment",
+        "text": "%% Agent, these two lines are about Mara and Tobias. Put each in their note. %%"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 12,
+          "text": "- Mara counts the tower's steps every night, one hundred and twelve."
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "under": "# Idea - Mara",
+          "lines": [
+            "- Mara counts the tower's one hundred and twelve steps every night. #status/tentative"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "tentative",
+      "status_from": "default",
+      "why": "Mara's habit; the comment says it's about her."
+    },
+    {
+      "id": "u2",
+      "action": "migrate",
+      "trigger": {
+        "kind": "comment",
+        "text": "%% Agent, these two lines are about Mara and Tobias. Put each in their note. %%"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 13,
+          "text": "- Tobias can't swim, which is why the ferry job scares him."
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- Tobias can't swim, so he fears the sea. #status/tentative"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "tentative",
+      "status_from": "default",
+      "why": "Tobias's fear of the water; the comment says it's about him."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

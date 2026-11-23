@@ -1,0 +1,162 @@
+{
+  "about": "Two requests in one call. Each gets its own research-planner. The planners run one after another, never side by side: r2's planner starts after r1's ends and is handed r1's research topic name as already taken. r1 finds something and passes. r2's only topic answers none, so r2 gets no note. The result holds one entry per request, and each research-planner gets only its own request.",
+  "spec": [
+    "spec-research-workflow.md The Flow, first line",
+    "spec-research-workflow.md 03 table, 1 per request",
+    "spec-research-workflow.md 04 item 1",
+    "spec-research-workflow.md 04 item 10",
+    "spec-research-workflow.md 11 Decisions Log item 57",
+    "spec-run-manager.md 06 item 5",
+    "the writer's ruling of 2026-10-12: planners run one after another, each handed the names already taken"
+  ],
+  "args": {
+    "project": "/Users/writer/Projects/Copper Coast",
+    "run_id": "run-2026-10-08-1400-research",
+    "requests": [
+      {
+        "id": "r1",
+        "note": "Ideas/idea-harrow-point.md",
+        "line": 15,
+        "text": "- [r] How did printed tide tables reach small villages in the 1950s? #research/run-2",
+        "comment": "%% Look for printed almanacs. %%"
+      },
+      {
+        "id": "r2",
+        "note": "Concepts/concept-lighthouse-keepers.md",
+        "line": 4,
+        "text": "- [r] What did a lighthouse keeper's working day look like on the Atlantic coast? #research/run-2",
+        "comment": "%% Canada only. Read the Writer's Statement first. %%"
+      }
+    ]
+  },
+  "answers": {
+    "plan r1": [
+      {
+        "research_topic": "tide-tables",
+        "topics": [
+          {
+            "n": 1,
+            "waits_on": []
+          }
+        ]
+      }
+    ],
+    "plan r2": [
+      {
+        "research_topic": "lighthouse-keepers",
+        "topics": [
+          {
+            "n": 1,
+            "waits_on": []
+          }
+        ]
+      }
+    ],
+    "topic r1 1": [
+      {
+        "result": "found"
+      }
+    ],
+    "topic r2 1": [
+      {
+        "result": "none"
+      }
+    ],
+    "write r1": [
+      {
+        "note": "Research/research-tide-tables.md"
+      }
+    ],
+    "check r1": [
+      {
+        "verdict": "pass",
+        "problems": []
+      }
+    ]
+  },
+  "delay_ms": {
+    "plan r1": 40,
+    "plan r2": 40
+  },
+  "expect": {
+    "result": [
+      {
+        "request": "r1",
+        "outcome": "passed",
+        "note": "Research/research-tide-tables.md",
+        "reason": null,
+        "failed_topics": []
+      },
+      {
+        "request": "r2",
+        "outcome": "no findings",
+        "note": null,
+        "reason": null,
+        "failed_topics": []
+      }
+    ],
+    "calls": {
+      "plan r1": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/Ideas/idea-harrow-point.md",
+          "- [r] How did printed tide tables reach small villages in the 1950s? #research/run-2",
+          "Look for printed almanacs."
+        ],
+        "prompt_excludes": [
+          "Concepts/concept-lighthouse-keepers.md",
+          "- [r] What did a lighthouse keeper's working day look like on the Atlantic coast? #research/run-2"
+        ]
+      },
+      "plan r2": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/Concepts/concept-lighthouse-keepers.md",
+          "- [r] What did a lighthouse keeper's working day look like on the Atlantic coast? #research/run-2",
+          "Canada only. Read the Writer's Statement first.",
+          "tide-tables"
+        ],
+        "prompt_excludes": [
+          "Ideas/idea-harrow-point.md",
+          "- [r] How did printed tide tables reach small villages in the 1950s? #research/run-2"
+        ]
+      },
+      "topic r1 1": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-tide-tables.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-1.md"
+        ]
+      },
+      "topic r2 1": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-lighthouse-keepers.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/lighthouse-keepers/topic-1.md"
+        ]
+      },
+      "write r1": {
+        "count": 1,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-tide-tables.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-1.md"
+        ],
+        "prompt_excludes": [
+          "lighthouse-keepers"
+        ]
+      }
+    },
+    "not_called": [
+      "write r2",
+      "check r2",
+      "fix r2",
+      "recheck r2"
+    ],
+    "after": [
+      [
+        "plan r2",
+        "plan r1"
+      ]
+    ]
+  }
+}

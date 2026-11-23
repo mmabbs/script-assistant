@@ -1,0 +1,8 @@
+{
+  "about": "u6 tags the line and u7 migrates it, but the record gives u7's source text as the tagged line, the line as u6's edit left it, not as it read when the run started. `record` refuses the record with one line naming u7 and saying its source text must be the line as it read when the run started; nothing changes, and the run stays at migrating, so the skill's retry sends the migrator back. The migrator's corrected record, with the run-start text, then passes.",
+  "spec": [
+    "CONTRACT.md 5.3 items 1, 14",
+    "spec-migrator.md 05.2 (sources: text and line as at run start)"
+  ],
+  "readings": []
+}

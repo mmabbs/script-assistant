@@ -1,0 +1,116 @@
+{
+  "about": "The research-evaluator fails the first draft. The fix-round research-writer is handed the note's path and the draft-1.md path, which sits in the request's findings folder, the same folder as its topic files: {project}/llm-files/research-findings/{run_id}/{research_topic}/draft-1.md. The second check passes, so the outcome is passed.",
+  "spec": [
+    "spec-research-workflow.md The Flow, the research-evaluator step: on fail, problems + path {dir}/draft-1.md to the research-writer",
+    "spec-research-workflow.md 04 item 5",
+    "spec-research-workflow.md 11 Decisions Log item 106",
+    "plan-research-workflow.md Milestone 5, the harness-cases bullet"
+  ],
+  "args": {
+    "project": "/Users/writer/Projects/Copper Coast",
+    "run_id": "run-2026-10-08-1400-research",
+    "requests": [
+      {
+        "id": "r1",
+        "note": "Ideas/idea-harrow-point.md",
+        "line": 15,
+        "text": "- [r] How did printed tide tables reach small villages in the 1950s? #research/run-2",
+        "comment": "%% Look for printed almanacs. %%"
+      }
+    ]
+  },
+  "answers": {
+    "plan r1": [
+      {
+        "research_topic": "tide-tables",
+        "topics": [
+          {
+            "n": 1,
+            "waits_on": []
+          },
+          {
+            "n": 2,
+            "waits_on": []
+          }
+        ]
+      }
+    ],
+    "topic r1 1": [
+      {
+        "result": "found"
+      }
+    ],
+    "topic r1 2": [
+      {
+        "result": "found"
+      }
+    ],
+    "write r1": [
+      {
+        "note": "Research/research-tide-tables.md"
+      }
+    ],
+    "check r1": [
+      {
+        "verdict": "fail",
+        "problems": [
+          {
+            "check": "matches findings",
+            "where": "Topic 2, paragraph 3",
+            "detail": "Note says about 1,200 copies; topic-1.md says about 800."
+          }
+        ]
+      }
+    ],
+    "fix r1": [
+      {
+        "note": "Research/research-tide-tables.md"
+      }
+    ],
+    "recheck r1": [
+      {
+        "verdict": "pass",
+        "problems": []
+      }
+    ]
+  },
+  "expect": {
+    "result": [
+      {
+        "request": "r1",
+        "outcome": "passed",
+        "note": "Research/research-tide-tables.md",
+        "reason": null,
+        "failed_topics": []
+      }
+    ],
+    "calls": {
+      "write r1": {
+        "count": 1
+      },
+      "check r1": {
+        "count": 1
+      },
+      "fix r1": {
+        "count": 1,
+        "prompt_includes": [
+          "Research/research-tide-tables.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/draft-1.md"
+        ]
+      },
+      "recheck r1": {
+        "count": 1
+      }
+    },
+    "after": [
+      [
+        "fix r1",
+        "check r1"
+      ],
+      [
+        "recheck r1",
+        "fix r1"
+      ]
+    ]
+  }
+}

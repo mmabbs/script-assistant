@@ -1,0 +1,16 @@
+{
+  "about": "Case 123's batch, with a line no record explains added at the end of idea-mara. u1 (trigger `comment`) corrects the step count in idea-mara; u2 (trigger `tag`) moves the swim line to idea-tobias with two [AGENT] lines. Both are approved and u2 is pointed. The real Edit guard raises writer-line-edited on b1-u1, agent-line-added twice on b1-u2, and unexplained-change on the added line. b1-u1's flag stands; the other three go to the flags call: verify-flags.json holds them and the cut-down b1-u2. The migration-verifier fails, and the session runs `findings --failed`: the three flags it was handed count as not asked for, and the flag that stood still stands. `act` at judged undoes b1-u2, pointer included, and removes the added line; the step correction in idea-mara stays. The step is acted, next_check 2. The second check drops the flag that stood and comes back []. The log lists the swim line under Units undone, the removed line under Changes put back, and the step correction under Other edits you asked for.",
+  "spec": [
+    "spec-migration-verifier.md 06 item 7; 07 item 2 ('a flag it was handed and didn't judge counts as not asked for'); 10 item 35",
+    "spec-run-manager.md 04 item 22 ('When a part fails', last bullet: 'On the flags call, every flag counts as not asked for'); 05 item 8; 11 item 101",
+    "spec-edit-guard.md 06 item 1; 07 item 2",
+    "plan-run-manager.md 06 item 13",
+    "plan-run-manager.md Milestone 16, test case 4"
+  ],
+  "readings": [
+    "flags-1.json is the real Edit guard's output on this case's state, taken by running the steps on 2026-10-23. flags-2.json is [] by the spec.",
+    "'Every flag counts as not asked for' (spec-run-manager.md 04 item 22) is read as every flag handed to the call, as spec-migration-verifier.md 07 item 2 words it: a flag that stood was never handed, so `findings --failed` doesn't turn it into not asked for.",
+    "findings-flags.json isn't in expected/ (see case 193's reading). Why u2 was undone isn't checked: the case pins that it was undone, not the reason's words.",
+    "Log wording (plan-run-manager.md 06 item 14, reading 1): exactly one comment in the unit's piece holds the trigger's text, so the entry quotes that comment whole, %% marks included, with its note, as a judged flag's line does. Tightened 2026-10-23."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "file": "Runs/run-2026-10-14-1530-migration.md",
+  "first_line": "Migration run, started 2026-10-14 15:30.",
+  "sections": [
+    {
+      "heading": "Questions for you",
+      "contains": [
+        "`- Maybe the light is haunted, or maybe that's just Tobias. #status/tentative",
+        "Is the haunting a real story thread, or Tobias teasing? I can't tell which note it belongs in.",
+        "Answer with a comment on the source line, then start another migration run."
+      ]
+    },
+    {
+      "heading": "Migrated",
+      "contains": [
+        "`- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional",
+        "[[Projects/Lighthouse/Ideas/idea-mara|idea-mara]]"
+      ]
+    },
+    {
+      "heading": "Units undone",
+      "contains": [
+        "`- Tobias can't swim, which is why the ferry job scares him. #status/provisional",
+        "[[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]",
+        "the migration-verifier still found problems after 2 fix rounds:",
+        "lost-detail: The copy says he won't take the ferry. The source only says the ferry job scares him.",
+        "The next migration run tries this again."
+      ]
+    },
+    {
+      "heading": "Lines the checker says were missed",
+      "contains": [
+        "`- The supply boat brings the post once a month.",
+        "The comment asks to put the post line in idea-mara; nothing did.",
+        "The next migration run tries this again."
+      ]
+    },
+    {
+      "heading": "Changes put back",
+      "contains": [
+        "Mara took the keeper's post after old Keeper Hale retired."
+      ]
+    }
+  ],
+  "absent": [
+    "Rejected",
+    "Other edits you asked for",
+    "Left in place, and why",
+    "Could not do",
+    "Other notes"
+  ],
+  "contains": [],
+  "nothing_needs_you": false
+}

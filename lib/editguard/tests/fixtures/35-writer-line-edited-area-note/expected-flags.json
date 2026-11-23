@@ -1,0 +1,10 @@
+[
+  {
+    "id": "f1",
+    "rule": "writer-line-edited",
+    "note": "Areas/area-mara.md",
+    "before": "- She took the post after her father left.",
+    "after": "- Mara took the post after her father left.",
+    "unit": "b1-u1"
+  }
+]

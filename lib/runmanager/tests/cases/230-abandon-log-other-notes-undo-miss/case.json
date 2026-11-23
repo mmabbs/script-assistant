@@ -1,0 +1,13 @@
+{
+  "about": "A migration run at 'verifying' crashes, and the writer rewords u2's copy in idea-tobias before typing recover. recover runs once: it undoes u1, and can't find u2's copy, so it leaves that line alone and saves an undo miss. The Edit guard never runs. `abandon` at 16:55: Other notes names the line undo couldn't find and the snapshot folder. idea-tobias keeps the writer's line; idea-mara is back as it was.",
+  "spec": [
+    "spec-run-manager.md 09.3 item 4 (section 4)",
+    "spec-run-manager.md 09.1 item 5",
+    "spec-run-manager.md 11 item 109",
+    "plan-run-manager.md Milestone 18, second checkbox, item 4"
+  ],
+  "readings": [
+    "The undo miss is quoted as the line undo looked for, the copy as the record holds it.",
+    "Never checked also appears here (flags-1 never written); this case checks only Other notes."
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "f1",
+    "rule": "agent-line-added",
+    "note": "Ideas/idea-harrow-point.md",
+    "before": "",
+    "after": "- [?] [AGENT] Who kept the harbour log before the war?",
+    "unit": "b1-u1"
+  }
+]

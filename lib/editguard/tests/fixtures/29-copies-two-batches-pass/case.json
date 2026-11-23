@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "Two batches, each with its own record file and its own u1 (spec-run-manager.md 07.2 item 6). Each copy sits in idea-tobias character for character (spec-edit-guard.md 03.3 item 1), and each pointer names exactly idea-tobias (03.3 item 2). Units are found by run and batch-qualified key, b1-u1 and b2-u1 (03.2 item 5). The plot outline is fingerprinted and unchanged; the run log in Runs/ is new but Runs/ is never covered (spec-run-manager.md 04 item 9). No flags."
+}

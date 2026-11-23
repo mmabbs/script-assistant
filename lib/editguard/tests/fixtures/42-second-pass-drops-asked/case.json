@@ -1,0 +1,6 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "pass": 2,
+  "about": "Second pass. The first pass raised an unexplained-change (an unrecorded edit a comment asked for) and a writer-line-edited (a recorded edit a comment asked for); the migration-verifier judged both asked, so both changes stand. The second pass finds both again and drops each, since each matches a flag judged asked on rule, note, before, and after (spec-edit-guard.md 07 item 2; 02 item 6; spec-migration-verifier.md 05.3). No flags."
+}

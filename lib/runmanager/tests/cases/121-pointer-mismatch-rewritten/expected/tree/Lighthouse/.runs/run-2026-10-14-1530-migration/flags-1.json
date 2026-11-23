@@ -1,0 +1,10 @@
+[
+  {
+    "id": "f1",
+    "rule": "pointer-mismatch",
+    "note": "brain-dump.md",
+    "before": "- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional",
+    "after": "- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]]",
+    "unit": "b1-u1"
+  }
+]

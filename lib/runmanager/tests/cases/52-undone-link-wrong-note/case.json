@@ -1,0 +1,10 @@
+{
+  "about": "Both requests were closed, but a stray write changed both link lines: r1's points to research-light-harrow-ferry, an older note that exists but isn't the one written for it, and r2's points to research-light-tide-table, which doesn't exist. Each is link-line-invalid plus close-invalid. act undoes both closes, so the note matches its snapshot. Both get the reason 'its link line pointed to a note that doesn't exist, or to a different note than the one written for it', then 'The request is open again.' Nothing is closed, so Done is absent. Reading: an undone close is listed under Closes undone only, not also under Requests still open.",
+  "spec": [
+    "spec-run-manager.md 06.1 items 2 and 3",
+    "spec-run-manager.md 08.4 item 3",
+    "spec-edit-guard.md 04 item 6",
+    "spec-edit-guard.md 06 item 3",
+    "CONTRACT.md 4 item 5"
+  ]
+}

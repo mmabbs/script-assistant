@@ -1,0 +1,16 @@
+[
+  {
+    "request": "r1",
+    "outcome": "passed",
+    "note": "Research/research-light-causeway-floods.md",
+    "reason": null,
+    "failed_topics": []
+  },
+  {
+    "request": "r2",
+    "outcome": "failed",
+    "note": null,
+    "reason": "No source gave a keeper's wage for 1950.",
+    "failed_topics": []
+  }
+]

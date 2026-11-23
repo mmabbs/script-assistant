@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "A realistic migration run on the Lighthouse project: two batches, seven units (five migrate, one edit, one reject), with a question left for the writer. The Brain Dump doc has five dated headings, the first three handled by an earlier run and carrying its pointers. Plot and Research notes are fingerprinted; Runs/ and llm-files/ are never covered. No expected flags; the answer key is planted.md."
+}

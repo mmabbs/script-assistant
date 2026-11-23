@@ -1,0 +1,6 @@
+{
+  "about": "The comment under the request runs over two lines (one %% ... %% block). The requests entry's comment is the whole block, with its line break kept as \\n and no trailing newline.",
+  "spec": [
+    "spec-run-manager.md 04 item 13"
+  ]
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "run": [
+      "abandon"
+    ],
+    "now": "2026-10-10 15:50",
+    "exit": 1
+  },
+  {
+    "run": [
+      "start",
+      "--kind",
+      "research",
+      "--run-number",
+      "2"
+    ],
+    "now": "2026-10-10 16:00",
+    "exit": 0
+  },
+  {
+    "run": [
+      "abandon"
+    ],
+    "now": "2026-10-10 16:10",
+    "exit": 1,
+    "stderr": "Run /script-asst:run recover first."
+  }
+]

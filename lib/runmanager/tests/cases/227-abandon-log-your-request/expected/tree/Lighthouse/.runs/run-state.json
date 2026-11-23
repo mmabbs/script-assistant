@@ -1,0 +1,15 @@
+{
+  "open_run": null,
+  "history": [
+    {
+      "id": "run-2026-10-14-1530-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-14 15:30",
+      "ended": "2026-10-14 16:55",
+      "how": "abandoned"
+    }
+  ],
+  "handled": [],
+  "unit_index": []
+}

@@ -1,0 +1,15 @@
+{
+  "about": "Case 221's run: recover's `mark` closed r1, then failed on r2's read-only note. With `Ideas/` writable again, `abandon` at 17:00 exits 0. Every note is byte for byte what it was before `abandon`: r1 stays closed with its link line (abandon undoes nothing), r2 stays open, and both light research notes stay. The handled list and the earlier history entry are unchanged. The open run is cleared, and the history gains the run's entry with `how: \"abandoned\"` and `failed: []`. The run folder keeps its snapshot.",
+  "spec": [
+    "spec-run-manager.md 09.3 items 2 and 5",
+    "spec-run-manager.md 04 item 17",
+    "spec-run-manager.md 11 item 109",
+    "plan-run-manager.md Milestone 18, second checkbox, item 3"
+  ],
+  "readings": [
+    "`write_note_whole` swaps a temp file in beside the note (test_skeleton.py, test_write_note_whole_*), so a read-only note alone can't stop the write; the case makes the note's folder read-only (mode 555) with the runner's `chmod` step, and gives it back (755) before the next command.",
+    "The crashed recover is expected to exit 1: the spec doesn't name a code for a recover that fails partway; an uncaught error and a refusal both give 1 (CONTRACT.md 1 item 2).",
+    "The history entry's `ended` is the time `abandon` runs.",
+    "Abandon leaves the unit index as it is; a research run has none of its own."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "about": "One piece: the tagged swim line, then the untagged sister line with a comment under it. u1, started by the swim line's tag, migrates it. Nothing in the record or the findings accounts for the comment: no unit's trigger holds its words, nothing names the sister line directly above it, and it doesn't stand on its own under the date heading. So the comment stays off the handled list (the old code put it on as `comment`), and the run log lists it under Other notes with the lines the run did nothing with, so the next run hands it to the migrator again.",
+  "spec": [
+    "spec-run-manager.md 07.1 items 9, 15",
+    "spec-run-manager.md 07.3 item 2 entry 10",
+    "spec-run-manager.md 11 Decisions Log item 106",
+    "plan-run-manager.md Milestone 17, first checkbox, item 6 ('a comment under an untagged line that nothing in the record names stays off the handled list and is listed with the lines the run did nothing with')"
+  ],
+  "readings": [
+    "The listed comment is checked by its words only, not by how it is quoted."
+  ]
+}

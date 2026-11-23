@@ -1,0 +1,12 @@
+{
+  "about": "Two units point from one Brain Dump line: u1 to idea-mara, u2 to idea-tobias, whose copy is an [AGENT] line. The pointer reads idea-mara, idea-tobias. The real Edit guard raises agent-line-added on b1-u2; the migration-verifier judges it not asked for. `act` at judged undoes b1-u2: its line leaves idea-tobias, and only idea-tobias comes off the pointer. idea-mara stays, since u1 isn't undone and still points there. b1-u1 stays pointer-written with its pointed_lines, which match the line again. The second check comes back [].",
+  "spec": [
+    "CONTRACT.md 5.5 items 5, 6",
+    "spec-run-manager.md 09.1 items 2, 3; 08.2 item 3",
+    "spec-edit-guard.md 04 rule 5 (agent-line-added)",
+    "plan-run-manager.md 04 Milestone 11, added item (a pointer that keeps another unit's destination)"
+  ],
+  "readings": [
+    "Undo updates another unit's pointed_lines only where it held the line's old text (CONTRACT.md 5.5 item 6); here u1's pointed_lines never held it, so it stays as it was."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "about": "Case 100 carried on: the real Edit guard gives []. `act` at pointed has nothing to undo, rewrite, or send on, so it writes no verify-flags.json and goes straight to acted, with edited false and next_check null: no second check. first_check stays 1.",
+  "spec": [
+    "CONTRACT.md 5.5 items 1, 2 ('With no other flags, the step becomes acted'; next_check null)",
+    "spec-run-manager.md 04 item 22 (act row: 'None: acted')",
+    "spec-migration-verifier.md 02 item 3 (the flags call runs only if there are flags)",
+    "plan-run-manager.md 04 Milestone 11, test case 1"
+  ]
+}

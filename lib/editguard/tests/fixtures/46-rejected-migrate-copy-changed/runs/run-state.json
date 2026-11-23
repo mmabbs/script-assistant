@@ -1,0 +1,19 @@
+{
+  "open_run": {
+    "run": "run-2026-10-10-1530-migration",
+    "kind": "migration",
+    "step": "edit-guard"
+  },
+  "history": [],
+  "handled": [],
+  "unit_index": [
+    {
+      "run": "run-2026-10-10-1530-migration",
+      "unit": "b1-u1",
+      "state": "pointer-written",
+      "pointed_lines": [
+        "- Mara has a sister on the mainland who writes every week. #status/rejected [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara-lighthouse|idea-mara-lighthouse]]]"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "f1",
+    "rule": "unexplained-change",
+    "note": "brain-dump.md",
+    "before": "- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional",
+    "after": "- Mara counts the tower's steps every night: one hundred and twelve of them. #status/provisional",
+    "unit": ""
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "reject",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, reject the dog."
+      },
+      "sources": [
+        {
+          "note": "Ideas/idea-mara-lighthouse.md",
+          "line": 9,
+          "text": "- Mara keeps a dog called Skipper."
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-mara-lighthouse.md",
+          "under": "## Rejected",
+          "lines": [
+            "- Mara keeps a dog called Skipper. #status/rejected"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "rejected",
+      "status_from": "comment",
+      "why": "See the comment."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

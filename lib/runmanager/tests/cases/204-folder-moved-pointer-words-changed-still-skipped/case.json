@@ -1,0 +1,14 @@
+{
+  "about": "The writer moved the project folder from Lighthouse to Lighthouse-Isle, so Obsidian rewrote the prefix of both Brain Dump pointers, which name the same note, idea-mara. The writer also reworded the logbook line ('coat pocket'), keeping its tag and pointer. The count line matches its entry with link targets left out, which uses that entry. The logbook line matches no entry by text; its only candidate with the same note and destinations is the logbook entry, since the count entry is used, so it is skipped with `was` the old entry's text, as 07.1 item 4 says, and the run log names it under Other notes. (Under the old pointer match both lines had two candidates and came back as new work.) The swim line is new; u1 migrates it to idea-tobias, its pointer written with the new prefix. At close the count entry's `text` is the line as it now reads (07.1 item 13), the logbook entry's `text` is the reworded line (the skipped-line update), and both keep note, pointer, outcome, and run. The copies in idea-mara hold no links and stay as they were. No rename: `renamed` is [] in batches.json and in the history entry.",
+  "spec": [
+    "spec-run-manager.md 07.1 items 4, 10, 13",
+    "spec-run-manager.md 04 items 17, 20, 21",
+    "CONTRACT.md 5.2 item 8 (each entry used at most once); 5.6 item 4",
+    "spec-run-manager.md 11 Decisions Log item 102 ('A change to a pointer line's other words is still skipped')",
+    "plan-run-manager.md Milestone 17, first checkbox, items 1 ('a pointer line whose other words changed is still skipped and named in the run log, as before') and 3 ('close rewrites text ... on matched entries only')"
+  ],
+  "readings": [
+    "An entry matched with link targets left out counts as used (CONTRACT.md 5.2 item 8), so it is no candidate for another pointer line.",
+    "A folder move moves no story note, so it is no rename and the log gets no rename line."
+  ]
+}

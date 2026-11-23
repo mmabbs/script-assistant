@@ -1,0 +1,21 @@
+{
+  "batches": [
+    {
+      "batch": "b1",
+      "pieces": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "heading": null,
+          "lines": [
+            {
+              "line": 11,
+              "text": "- Mara still writes to [[Projects/Lighthouse/Areas/area-tobias|Tobias]] every winter. #status/committed"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": [],
+  "renamed": []
+}

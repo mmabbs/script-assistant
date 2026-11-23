@@ -1,0 +1,12 @@
+{
+  "about": "The source is an indented '    - [?] …' line; `pointers` wrote its pointer and took the [?] off (case 106). A copy step then stands in for the copy going missing from idea-mara. The real Edit guard raises copy-mismatch on b1-u1. `act` at pointed undoes b1-u1: the pointer comes off with the space before it, and since no destination this run added is left, '- ' turns back into '- [?] ', indent kept, so the line reads as it did at the start. The missing copy is an undo miss. acted, next_check 2; the second check comes back [].",
+  "spec": [
+    "CONTRACT.md 5.5 items 2, 6 ('[?] goes back')",
+    "spec-run-manager.md 09.1 item 2, last bullet; 08.2 item 4",
+    "CONTRACT.md 5.4 item 6",
+    "plan-run-manager.md 04 Milestone 11, added item (undo of a unit with a pointer)"
+  ],
+  "readings": [
+    "As in case 120, the copy line copy-mismatch names as missing is an undo miss."
+  ]
+}

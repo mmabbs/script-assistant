@@ -1,0 +1,26 @@
+[
+  {
+    "id": "f1",
+    "rule": "close-invalid",
+    "note": "Ideas/idea-mara-lighthouse.md",
+    "before": "- [r] How often did the relief boat reach a rock light in winter? #research/run-2",
+    "after": "- [x] How often did the relief boat reach a rock light in winter? #research/run-2",
+    "unit": ""
+  },
+  {
+    "id": "f2",
+    "rule": "link-line-invalid",
+    "note": "Ideas/idea-mara-lighthouse.md",
+    "before": "",
+    "after": "    - [AGENT] [[Projects/Lighthouse/Ideas/research-light-relief-boat|research-light-relief-boat]]",
+    "unit": ""
+  },
+  {
+    "id": "f3",
+    "rule": "fingerprint-changed",
+    "note": "Ideas/research-light-relief-boat.md",
+    "before": "",
+    "after": "",
+    "unit": ""
+  }
+]

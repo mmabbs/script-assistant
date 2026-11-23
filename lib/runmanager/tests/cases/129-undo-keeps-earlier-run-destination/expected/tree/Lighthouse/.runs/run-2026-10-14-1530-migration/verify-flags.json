@@ -1,0 +1,36 @@
+{
+  "flags": [
+    {
+      "id": "f1",
+      "rule": "agent-line-added",
+      "note": "Ideas/idea-tobias.md",
+      "before": "",
+      "after": "- [AGENT] Tobias lies awake at night hearing Mara count the tower's steps. #status/provisional",
+      "unit": "b1-u1"
+    }
+  ],
+  "units": {
+    "b1-u1": {
+      "id": "u1",
+      "action": "migrate",
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara|idea-mara]]]"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- [AGENT] Tobias lies awake at night hearing Mara count the tower's steps. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional"
+    }
+  }
+}

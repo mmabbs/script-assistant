@@ -1,0 +1,8 @@
+{
+  "about": "Two requests in the Brain Dump doc, both passed and marked, and the Edit guard finds nothing. act edits nothing, so close follows with no second check. The log opens with its first line, then 'Nothing needs you.', and holds only Done, naming each request and the note it now points to. After close, open_run is null and the history holds one closed entry with an empty failed list. The run folder keeps its snapshot, requests file and fingerprints file. Reading: 'failed' is always present on a research entry, empty when nothing failed.",
+  "spec": [
+    "spec-run-manager.md 04 items 16 and 17",
+    "spec-run-manager.md 06.1 items 1 and 2",
+    "CONTRACT.md 4 item 5"
+  ]
+}

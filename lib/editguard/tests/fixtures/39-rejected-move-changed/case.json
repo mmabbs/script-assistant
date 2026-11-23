@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "A reject unit moved the dog line into the Rejected section but added 'scruffy'. The record holds the same text, so the line is explained and there is no copy-mismatch, but it differs from its source line by more than its status tag: rejected-move-changed on b1-u1 (spec-edit-guard.md 04 table; 04 item 4). The reason comment below it is not a moved line. Fixture worker's choice: the flag is for the added line, so before is empty and after is the moved line (05 item 2)."
+}

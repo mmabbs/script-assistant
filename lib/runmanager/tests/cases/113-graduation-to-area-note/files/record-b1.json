@@ -1,0 +1,42 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/committed"
+      },
+      "sources": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "line": 10,
+          "text": "- Mara never leaves the rock in winter, because no boat could bring a relief keeper in time. #status/committed"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Areas/area-mara.md",
+          "under": "## Habits",
+          "lines": [
+            "- Mara never leaves the rock in winter."
+          ]
+        },
+        {
+          "note": "Areas/area-mara.md",
+          "under": "## Rationale",
+          "lines": [
+            "- She stays because no boat could bring a relief keeper in time."
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "committed",
+      "status_from": "tag",
+      "why": "Committed material graduates to Mara's Area Note: the statement under Habits, the reason under Rationale."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

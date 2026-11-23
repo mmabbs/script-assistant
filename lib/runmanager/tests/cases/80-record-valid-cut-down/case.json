@@ -1,0 +1,10 @@
+{
+  "about": "A valid record with two migrate units and one entry in each list. `record` saves it, writes the cut-down record verify-b1-r0.json, and moves the run to verifying with fixing [u1, u2]. The cut-down units keep id, action, sources, copies (creates_note included, as written), edits, and status, and lose trigger, status_from, and why. Each left_in_place, questions, and could_not entry keeps only its source; the could_not entry with no source is dropped. The notes stay as the migrator wrote them.",
+  "spec": [
+    "CONTRACT.md 5.3 items 1, 2, 4, 5",
+    "spec-run-manager.md 04 item 22 (record row)",
+    "spec-migration-verifier.md 03.1 item 1",
+    "spec-migrator.md 05.2",
+    "plan-run-manager.md 04 Milestone 9, test case 1"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "about": "Added: the spec says each agent retries twice, and none of the 13 listed cases shows a retry that succeeds. Topic 1 returns nothing once, then found. Topic 2 throws once, then found. The research-writer and research-evaluator each return nothing once, then answer. Every one is called twice, the found topics reach the research-writer, and the note passes with no failed topics.",
+  "spec": [
+    "spec-research-workflow.md 04 item 13",
+    "spec-run-manager.md 06 item 8"
+  ],
+  "args": {
+    "project": "/Users/writer/Projects/Copper Coast",
+    "run_id": "run-2026-10-08-1400-research",
+    "requests": [
+      {
+        "id": "r1",
+        "note": "Ideas/idea-harrow-point.md",
+        "line": 15,
+        "text": "- [r] How did printed tide tables reach small villages in the 1950s? #research/run-2",
+        "comment": "%% Look for printed almanacs. %%"
+      }
+    ]
+  },
+  "answers": {
+    "plan r1": [
+      {
+        "research_topic": "tide-tables",
+        "topics": [
+          {
+            "n": 1,
+            "waits_on": []
+          },
+          {
+            "n": 2,
+            "waits_on": []
+          }
+        ]
+      }
+    ],
+    "topic r1 1": [
+      null,
+      {
+        "result": "found"
+      }
+    ],
+    "topic r1 2": [
+      {
+        "$throw": "agent died"
+      },
+      {
+        "result": "found"
+      }
+    ],
+    "write r1": [
+      null,
+      {
+        "note": "Research/research-tide-tables.md"
+      }
+    ],
+    "check r1": [
+      null,
+      {
+        "verdict": "pass",
+        "problems": []
+      }
+    ]
+  },
+  "expect": {
+    "result": [
+      {
+        "request": "r1",
+        "outcome": "passed",
+        "note": "Research/research-tide-tables.md",
+        "reason": null,
+        "failed_topics": []
+      }
+    ],
+    "calls": {
+      "topic r1 1": {
+        "count": 2,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-tide-tables.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-1.md"
+        ]
+      },
+      "topic r1 2": {
+        "count": 2,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-tide-tables.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-2.md"
+        ]
+      },
+      "write r1": {
+        "count": 2,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-tide-tables.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-1.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-2.md"
+        ]
+      },
+      "check r1": {
+        "count": 2,
+        "prompt_includes": [
+          "/Users/writer/Projects/Copper Coast/llm-files/research-plans/research-plan-tide-tables.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-1.md",
+          "/Users/writer/Projects/Copper Coast/llm-files/research-findings/run-2026-10-08-1400-research/tide-tables/topic-2.md",
+          "Research/research-tide-tables.md"
+        ]
+      }
+    },
+    "not_called": [
+      "fix r1",
+      "recheck r1"
+    ]
+  }
+}

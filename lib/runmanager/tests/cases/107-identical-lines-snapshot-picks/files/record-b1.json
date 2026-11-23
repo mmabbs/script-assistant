@@ -1,0 +1,44 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "comment",
+        "text": "Agent, migrate the dusk line under this date. Leave the one above."
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 16,
+          "text": "- The lamp is lit at dusk and put out at dawn. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "under": "# Idea - Mara",
+          "lines": [
+            "- Mara lights the lamp at dusk and puts it out at dawn. #status/provisional"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "The comment asks for the dusk line under 2026-09-21."
+    }
+  ],
+  "left_in_place": [
+    {
+      "source": {
+        "note": "brain-dump.md",
+        "line": 11,
+        "text": "- The lamp is lit at dusk and put out at dawn. #status/provisional"
+      },
+      "why": "The comment under 2026-09-21 says to leave this one."
+    }
+  ],
+  "questions": [],
+  "could_not": []
+}

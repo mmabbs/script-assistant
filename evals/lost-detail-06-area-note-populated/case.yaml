@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: lost-detail-06-area-note-populated
+context:
+  scaffold_script: fixture.sh

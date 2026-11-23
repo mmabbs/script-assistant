@@ -1,0 +1,5 @@
+{
+  "kind": "research",
+  "run_id": "run-2026-10-10-1600-research",
+  "about": "idea-tobias is fingerprinted and changed; research-light-harrow-ferry is fingerprinted and gone; idea-keepers-log is new and outside Research/. On a research run all three are fingerprint-changed (spec-edit-guard.md 04 table; 11 Decisions Log items 23 and 28), with before, after, and unit empty (05 item 5). Fingerprinted notes are not compared line by line, and a new note on a research run is judged by the research rules instead (03.1 item 8), so none of their lines raise unexplained-change. The request passed cleanly."
+}

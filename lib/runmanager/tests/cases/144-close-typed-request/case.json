@@ -1,0 +1,13 @@
+{
+  "about": "The writer typed a request: start --request 'put the ferry lines in idea-tobias'. One unit migrates the swim line to idea-tobias; nothing needs the writer. The log's first line is 'Migration run, started 2026-10-14 15:30.', the next line is 'Your request: \"put the ferry lines in idea-tobias\"', and 'Nothing needs you.' comes after it.",
+  "spec": [
+    "CONTRACT.md 5.1 item 2; 5.6 item 6",
+    "spec-run-manager.md 02 item 4; 07.3 item 1; 11 Decisions Log item 78",
+    "plan-run-manager.md 04 Milestone 11 test case 3"
+  ],
+  "readings": [
+    "New handled entries follow the ones already there, sorted by note path (as Python sorts strings, so 'Ideas/…' comes before 'brain-dump.md'), then by their place in the note at close. Neither spec nor contract fixes the order, and run-state.json is compared as parsed JSON, so list order counts.",
+    "A handled entry's `pointer` lists every destination on the line at close, as paths inside the project.",
+    "'Nothing needs you.' follows the request line, so it is the third line, not the second. The runner's nothing_needs_you check reads only the second line, so this case sets it false (the second line is the request) and checks both lines with `contains`. log.json can't check that the request line comes right after the first line."
+  ]
+}

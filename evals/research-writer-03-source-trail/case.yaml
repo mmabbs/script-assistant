@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: research-writer-03-source-trail
+context:
+  scaffold_script: fixture.sh

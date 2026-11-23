@@ -1,0 +1,14 @@
+{
+  "about": "A migration run started with the typed request 'put the ferry lines in idea-tobias'. u1 (trigger tag) copies the Mara line to idea-mara; u2 (trigger request) copies the untagged Tobias line to idea-tobias. `record` passes; recover, with `Ideas/` read-only, fails on its first undo. `abandon` at 16:55: the log's Your request section quotes the request, then u2's source line, then \"Type your request again on the next migration run.\" It doesn't name the Mara line, which its tag started. Copies still in your notes comes first and lists both units. Abandon writes no request comment: brain-dump.md is unchanged.",
+  "spec": [
+    "spec-run-manager.md 09.3 items 2 and 4 (section 2)",
+    "spec-run-manager.md 11 items 96 and 112",
+    "plan-run-manager.md Milestone 18, second checkbox, item 4"
+  ],
+  "readings": [
+    "`write_note_whole` swaps a temp file in beside the note (test_skeleton.py, test_write_note_whole_*), so a read-only note alone can't stop the write; the case makes the note's folder read-only (mode 555) with the runner's `chmod` step, and gives it back (755) before the next command.",
+    "The crashed recover is expected to exit 1: the spec doesn't name a code for a recover that fails partway; an uncaught error and a refusal both give 1 (CONTRACT.md 1 item 2).",
+    "The request is quoted in code marks, as 09.3 item 4's last line says of requests.",
+    "Your request lists the source lines of every unit the request started, whatever the unit index says of it."
+  ]
+}

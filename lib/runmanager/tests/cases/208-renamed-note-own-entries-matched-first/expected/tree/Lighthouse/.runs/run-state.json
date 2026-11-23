@@ -1,0 +1,47 @@
+{
+  "open_run": {
+    "id": "run-2026-10-25-1530-migration",
+    "kind": "migration",
+    "run_number": null,
+    "request": null,
+    "step": "migrating",
+    "next_check": null,
+    "started": "2026-10-25 15:30",
+    "batch": 1,
+    "round": 0
+  },
+  "history": [
+    {
+      "id": "run-2026-10-20-1000-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-20 10:00",
+      "ended": "2026-10-20 10:40",
+      "how": "closed"
+    }
+  ],
+  "handled": [
+    {
+      "note": "Ideas/idea-mara.md",
+      "text": "- Mara and Tobias meet at the landing every Thursday. #status/provisional",
+      "outcome": "written",
+      "run": "run-2026-10-20-1000-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-mara.md",
+      "text": "- Mara counts the tower's one hundred and twelve steps every night. #status/provisional",
+      "outcome": "written",
+      "run": "run-2026-10-20-1000-migration",
+      "pointer": null
+    },
+    {
+      "note": "Ideas/idea-tobias.md",
+      "text": "- Mara and Tobias meet at the landing every Thursday. #status/provisional",
+      "outcome": "written",
+      "run": "run-2026-10-20-1000-migration",
+      "pointer": null
+    }
+  ],
+  "unit_index": []
+}

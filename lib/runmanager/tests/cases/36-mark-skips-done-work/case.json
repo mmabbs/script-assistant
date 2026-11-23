@@ -1,0 +1,7 @@
+{
+  "about": "CONTRACT.md 4 item 3; spec-run-manager.md 09.2 item 4 (recover runs mark again, which skips requests already closed). Simulates a mark that stopped partway: after start and the outcomes file, the request note is copied in with r1 already closed and linked, and r2's link line written but r2 still - [r]. The run is still at 'started', so mark runs. It skips r1 (no second link line) and only closes r2 (no second link line). The result is the same note a clean mark writes. The Edit guard finds nothing; act edits nothing: 'acted', next_check null.",
+  "spec": [
+    "CONTRACT.md 4 item 3",
+    "spec-run-manager.md 09.2 item 4"
+  ]
+}

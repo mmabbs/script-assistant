@@ -1,0 +1,16 @@
+{
+  "about": "The writer typed a request. u1 migrates the count line to idea-mara and is approved; the migrator also renamed the old keeper in idea-mara with no record. The first check flags that line (unexplained-change, no unit); the migration-verifier judges it asked for by the typed request, so `act` at judged changes nothing and the run is at acted with next_check null. Then the session crashes before `close`. `recover` at 16:50 undoes u1 (copy and pointer) and sets first_check null, so its check, flags-2, runs with no --judged and flags the renamed line again. `act` at recovered restores it, because a recover keeps nothing of the crashed run, and `close` writes the recover log with the removed text under Changes put back. Every note ends as it started; nothing goes on the handled list.",
+  "spec": [
+    "CONTRACT.md 5.6 items 7 (first_check null), 8",
+    "CONTRACT.md 5.5 items 4, 5 (asked), 8 (restoring an unexplained-change)",
+    "spec-run-manager.md 09.2 item 3",
+    "spec-edit-guard.md 07 item 2",
+    "plan-run-manager.md 04 Milestone 11 test case 5"
+  ],
+  "readings": [
+    "The history entry's `ended` is the time `close` runs; `recover` and `close` share the same `now` here, so the case doesn't depend on which.",
+    "'Nothing needs you.' on a recover log comes after the every-unit-undone sentence (CONTRACT.md 5.6 item 8), so it is the third line. The runner's nothing_needs_you check reads only the second line, so it is set false (the second line is that sentence) and 'Nothing needs you.' is checked with `contains` when Changes put back is empty. log.json can't check that it is absent when Changes put back is there.",
+    "The recover check's flag gets id f1 again: ids count from f1 in each flags file.",
+    "act at recovered restores the line even though the crashed run's findings judged it asked for: recover undoes the whole run, and its check is a first check (CONTRACT.md 5.6 item 7)."
+  ]
+}

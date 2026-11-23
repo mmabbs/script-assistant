@@ -1,0 +1,14 @@
+{
+  "about": "A split: u1 and u2 share one Brain Dump source line. u1 (to idea-mara) is approved on round 0; u2 (to idea-tobias) gets a fix on rounds 0, 1 and 2 and is undone, its copy leaving idea-tobias. `pointers` writes u1's pointer only, and it stays on the line. The Edit guard gives [] and the run closes with no second check. The shared source line stays off the handled list, so the next run retries u2; u1's copy still goes on as `written`, and nothing of u2's copy goes on. The log opens with 'Nothing needs you.' (no questions) and lists u1 under Migrated, then u2 under Units undone (the line quoted, idea-tobias, round 2's problem, then 'The next migration run tries this again.').",
+  "spec": [
+    "CONTRACT.md 5.6 item 3 ('A source line shared by a counted unit and an undone unit stays off, so the next run retries the undone unit ... The counted unit's copies still go on as `written`'), item 6; spec-run-manager.md 11 Decisions Log items 81, 83 (supersedes item 79)",
+    "spec-run-manager.md 07.1 items 2, 6; 07.3 item 2",
+    "spec-migrator.md 05.4 item 2",
+    "plan-run-manager.md 04 Milestone 11 test cases 3, 4"
+  ],
+  "readings": [
+    "New handled entries follow the ones already there, sorted by note path (as Python sorts strings, so 'Ideas/…' comes before 'brain-dump.md'), then by their place in the note at close. Neither spec nor contract fixes the order, and run-state.json is compared as parsed JSON, so list order counts.",
+    "A handled entry's `pointer` lists every destination on the line at close, as paths inside the project.",
+    "The line stays off with u1's pointer on it. The next run's scan matches it to no handled entry by text, and finds no handled entry in brain-dump.md with that pointer whose text has gone (CONTRACT.md 5.2 item 8), so it is new work, and 'The next migration run tries this again.' holds. The migrator's instruction 5 keeps u1's copy from being written twice."
+  ]
+}

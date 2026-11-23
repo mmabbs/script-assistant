@@ -1,0 +1,13 @@
+{
+  "about": "The writer renamed Ideas/idea-mara.md to Ideas/idea-mara-keeper.md after the last run, and Obsidian rewrote every link to it, inside comments too. The scan finds the rename from the tagged copy inside idea-mara-keeper (its entry names the old path) and from the Brain Dump count line's pointer. Comment 1, under the count line, links to Mara's note: its only change is the renamed target, a rename the scan found, so it counts as unchanged and is not new work. Comment 2, under the rowing line, was pointed by the writer from Ideas/idea-lamp to Ideas/idea-tobias, keeping its shown text; idea-lamp still exists, so that is a new instruction and the comment is new work. batches.json holds one piece, 2026-09-27, holding only comment 2, and `renamed` holds the one rename.",
+  "spec": [
+    "spec-run-manager.md 07.1 items 11 and 12",
+    "spec-run-manager.md 04 item 21",
+    "spec-run-manager.md 11 Decisions Log items 103 and 104",
+    "plan-run-manager.md Milestone 17, first checkbox, item 2 ('a comment whose link names a renamed Idea Note is not new work; a comment whose link the writer pointed at a different Idea Note that still exists is new work')"
+  ],
+  "readings": [
+    "The shown text after `|` is kept on both links. A comment's link target counts as unchanged only through 07.1 item 11's two allowances; the shown text is compared as written.",
+    "One rename found two ways (a carried-over copy and a Brain Dump pointer) is listed once in `renamed`."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "about": "Run 2 is open at step started (its workflow still running). A second start, for run 3, which has an open request, refuses: exit 1, and the stderr line points the writer to recover. Nothing changes: run-state.json still holds run 2 as the open run, run 2's folder is untouched, and no snapshot is saved for the refused run. The stderr check is only the word \"recover\" (reading: spec 09.2 item 2 says the stopped run tells the writer to type /script-asst:run recover; the exact wording is the code's).",
+  "spec": [
+    "spec-run-manager.md 04 item 3",
+    "spec-run-manager.md 09.2 items 1 and 2",
+    "spec-run-manager.md 04 item 18",
+    "plan-run-manager.md 03 Milestone 2 done check"
+  ]
+}

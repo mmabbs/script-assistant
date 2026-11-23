@@ -1,0 +1,10 @@
+{
+  "about": "Pieces in scan order with their sizes (new tagged bullets only): 2026-09-01 has 8 (plus 2 handled pointer lines, which don't count), 2026-09-02 has 7 (plus 2 untagged bullets, which don't count, since the piece holds no new comment), 2026-09-03 has 5, 2026-09-04 has 1, then idea-tobias has 2. b1 takes 8 + 7 + 5 = 20, which is allowed (20 or under). 2026-09-04 would make 21, so it starts b2, and idea-tobias joins it: a batch can hold pieces from several notes.",
+  "spec": [
+    "spec-run-manager.md 04 item 21",
+    "spec-run-manager.md 07.2 items 1 to 3",
+    "spec-run-manager.md 11 Decisions Log item 32",
+    "CONTRACT.md 5.2 items 11, 12",
+    "plan-run-manager.md 04 Milestone 8"
+  ]
+}

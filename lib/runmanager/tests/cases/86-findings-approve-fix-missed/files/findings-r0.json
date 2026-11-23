@@ -1,0 +1,33 @@
+{
+  "batch": "b1",
+  "round": 0,
+  "units": [
+    {
+      "unit": "u1",
+      "verdict": "approve",
+      "problems": []
+    },
+    {
+      "unit": "u2",
+      "verdict": "fix",
+      "problems": [
+        {
+          "check": "lost-detail",
+          "note": "Ideas/idea-mara.md",
+          "line": 10,
+          "what": "The source says she counts the steps every night. The copy drops 'every night'."
+        }
+      ]
+    }
+  ],
+  "missed": [
+    {
+      "source": {
+        "note": "brain-dump.md",
+        "line": 15,
+        "text": "- The cottage roof leaks over the bed. #status/provisional"
+      },
+      "what": "The tag asks for this line to move, and nothing did."
+    }
+  ]
+}

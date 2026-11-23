@@ -1,0 +1,48 @@
+{
+  "file": "Runs/run-2026-10-14-1530-migration.md",
+  "first_line": "Migration run, started 2026-10-14 15:30.",
+  "sections": [
+    {
+      "heading": "Migrated",
+      "contains": [
+        "`- Tobias can't swim, which is why the ferry job scares him. #status/provisional",
+        "[[Projects/Lighthouse/Ideas/idea-tobias|idea-tobias]]"
+      ]
+    },
+    {
+      "heading": "Units undone",
+      "contains": [
+        "`- The supply boat captain calls her \"Miss Quill\" and nobody else does. #status/provisional",
+        "its copy didn't match its record",
+        "The next migration run tries this again."
+      ]
+    },
+    {
+      "heading": "Changes put back",
+      "contains": [
+        "Only the supply boat captain calls Mara \"Miss Quill.\""
+      ]
+    },
+    {
+      "heading": "Other notes",
+      "contains": [
+        "every night: one hundred and twelve",
+        "`- The gallery rail is loose on the seaward side. #status/tentative",
+        "\"Miss Quill\". #status/provisional",
+        "plot-outline",
+        "unexplained-change",
+        "idea-lamp"
+      ]
+    }
+  ],
+  "absent": [
+    "Questions for you",
+    "Lines the checker says were missed",
+    "Rejected",
+    "Other edits you asked for",
+    "Left in place, and why",
+    "Could not do"
+  ],
+  "contains": [],
+  "nothing_needs_you": true
+}

@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "A reject unit: its source line is removed from the live part of its note, explained by the unit's sources (spec-edit-guard.md 03.2 item 3), and the tagged line plus the reason comment added under Rejected are explained by its copies (03.2 item 1; 03.1 item 4). The moved line differs from its source only by #status/rejected, so rejected-move-changed does not fire (04 item 4). A reject unit gets no pointer (spec-run-manager.md 08.2 item 1). No flags."
+}

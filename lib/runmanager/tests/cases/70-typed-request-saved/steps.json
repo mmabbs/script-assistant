@@ -1,0 +1,13 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "migration",
+      "--request",
+      "skip the 09-19 entries"
+    ],
+    "now": "2026-10-14 15:30",
+    "exit": 0
+  }
+]

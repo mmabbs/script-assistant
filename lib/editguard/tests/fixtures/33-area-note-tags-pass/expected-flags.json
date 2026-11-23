@@ -1,0 +1,10 @@
+[
+  {
+    "id": "f1",
+    "rule": "writer-line-edited",
+    "note": "Areas/area-mara.md",
+    "before": "- Mara is scared of deep water. #status/provisional",
+    "after": "- Mara is afraid of deep water. #status/provisional",
+    "unit": "b1-u2"
+  }
+]

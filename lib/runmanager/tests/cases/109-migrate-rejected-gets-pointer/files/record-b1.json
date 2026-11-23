@@ -1,0 +1,35 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/rejected"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Mara keeps a cat in the lamp room. #status/rejected"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-mara.md",
+          "under": "## Rejected",
+          "lines": [
+            "- Mara keeps a cat in the lamp room. #status/rejected"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "rejected",
+      "status_from": "tag",
+      "why": "The writer tagged it rejected; it goes to the Rejected section of Mara's note."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

@@ -1,0 +1,28 @@
+{
+  "file": "Runs/run-2026-10-10-1600-research.md",
+  "first_line": "Research run 2, started 2026-10-10 16:00.",
+  "sections": [
+    {
+      "heading": "Closes undone",
+      "contains": [
+        "How did printed tide tables reach small villages in the 1950s?",
+        "it had no link line under it",
+        "The request is open again."
+      ]
+    },
+    {
+      "heading": "Done",
+      "contains": [
+        "What did a relief keeper's contract look like in the 1950s?",
+        "research-light-relief-keeper-contracts"
+      ]
+    }
+  ],
+  "absent": [
+    "Requests still open",
+    "Notes changed outside the run",
+    "Still flagged after the second check"
+  ],
+  "contains": [],
+  "nothing_needs_you": false
+}

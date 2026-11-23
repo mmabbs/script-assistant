@@ -1,0 +1,9 @@
+{
+  "about": "Three earlier research runs left run folders with snapshots. The fourth run (run number 3) closes. Afterwards only the 3 newest runs by start time keep snapshot/: the oldest, run-2026-10-01-0900-research, loses it, and keeps the rest of its folder (its requests file). The new run's snapshot holds its request note. The clean run's log opens with 'Nothing needs you.'",
+  "spec": [
+    "plan-run-manager.md 03 Milestone 5 item 5",
+    "spec-run-manager.md 04 item 8",
+    "spec-run-manager.md 11 Decisions Log item 15",
+    "CONTRACT.md 4 item 2"
+  ]
+}

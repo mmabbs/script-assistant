@@ -1,0 +1,9 @@
+{
+  "about": "mark runs, then the Edit guard fails and writes no flags file (simulated by leaving out the editguard step). act refuses with exit 1, so the run stays open at 'marked'. recover picks it up: mark runs again and skips the request already closed, then the Edit guard, act and close run as usual. close writes the recover log, opening 'Recover run, for run-2026-10-10-1600-research.', with 'Markup wasn't checked on the first try.' under Notes changed outside the run, and adds one history entry for the crashed run with how 'recovered'. recover and close share one time, so 'ended' is that time either way.",
+  "spec": [
+    "plan-run-manager.md 03 Milestone 5 item 4",
+    "spec-edit-guard.md 08 items 1 and 2",
+    "spec-run-manager.md 09.2 items 2 and 4",
+    "CONTRACT.md 4 items 3 and 4"
+  ]
+}

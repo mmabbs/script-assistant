@@ -1,0 +1,10 @@
+{
+  "about": "The workflow is run with a question as its args instead of through the Run manager. It gets text, not the Run manager's args, so it stops before any agent and returns an empty list.",
+  "spec": ["task note: Research workflow slash command (2026-10-25); the guard in lib/research.js"],
+  "args": "How do memory clinics get licensed?",
+  "answers": {},
+  "expect": {
+    "result": [],
+    "not_called": ["plan r1"]
+  }
+}

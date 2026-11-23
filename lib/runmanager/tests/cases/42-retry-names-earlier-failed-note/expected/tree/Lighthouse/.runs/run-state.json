@@ -1,0 +1,34 @@
+{
+  "open_run": null,
+  "history": [
+    {
+      "id": "run-2026-10-10-1600-research",
+      "kind": "research",
+      "run_number": 2,
+      "started": "2026-10-10 16:00",
+      "ended": "2026-10-10 16:40",
+      "how": "closed",
+      "failed": [
+        {
+          "text": "- [r] What did a keeper earn in 1950? #research/run-2",
+          "note": "Research/research-light-keeper-wages.md"
+        },
+        {
+          "text": "- [r] How did printed tide tables reach small villages in the 1950s? #research/run-2",
+          "note": "Research/research-light-tide-tables.md"
+        }
+      ]
+    },
+    {
+      "id": "run-2026-10-12-0930-research",
+      "kind": "research",
+      "run_number": 2,
+      "started": "2026-10-12 09:30",
+      "ended": "2026-10-12 10:10",
+      "how": "closed",
+      "failed": []
+    }
+  ],
+  "handled": [],
+  "unit_index": []
+}

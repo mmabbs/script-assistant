@@ -1,0 +1,48 @@
+{
+  "file": "Runs/run-2026-10-10-1600-research.md",
+  "first_line": "Research run 2, started 2026-10-10 16:00.",
+  "sections": [
+    {
+      "heading": "Requests still open",
+      "contains": [
+        "What did a keeper earn in 1950?",
+        "research-light-keeper-wages",
+        "Did the Board of Lights inspect remote stations in winter?",
+        "idea-harrow-point",
+        "Topics that failed: topic 2 (findings cut short).",
+        "Topics that failed: topic 2 (skipped: a topic it waits on found nothing).",
+        "    - It failed: The note failed the second check after the fix round.",
+        "        - matches findings, at Wages: The note's only wage figure had no source.",
+        "    - The failed note is"
+      ]
+    },
+    {
+      "heading": "Closes undone",
+      "contains": [
+        "How did printed tide tables reach small villages in the 1950s?",
+        "its link line sat below your comment",
+        "The request is open again."
+      ]
+    },
+    {
+      "heading": "Notes changed outside the run",
+      "contains": [
+        "idea-harrow-point",
+        "The co-op sells diesel, bread, batteries and paraffin."
+      ]
+    },
+    {
+      "heading": "Done",
+      "contains": [
+        "What did a relief keeper's contract look like in the 1950s?",
+        "research-light-relief-keeper-contracts",
+        "Union rules for relief keepers"
+      ]
+    }
+  ],
+  "absent": [
+    "Still flagged after the second check"
+  ],
+  "contains": [],
+  "nothing_needs_you": false
+}

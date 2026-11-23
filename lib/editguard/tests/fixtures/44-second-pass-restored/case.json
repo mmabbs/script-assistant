@@ -1,0 +1,6 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "pass": 2,
+  "about": "Second pass. The first pass flagged a changed village line and an added line in idea-harrow-point, both unexplained, and a writer-line-edited on b1-u2; all three were judged not asked. The Run manager restored both lines (spec-run-manager.md 08.5) and undid b1-u2 (09.1), which the unit index now marks undone, so its record is skipped (spec-edit-guard.md 02 item 4). The notes now match the snapshot apart from the clean unit b1-u1, so nothing flags (07 item 1)."
+}

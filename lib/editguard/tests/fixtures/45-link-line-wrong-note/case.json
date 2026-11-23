@@ -1,0 +1,5 @@
+{
+  "kind": "research",
+  "run_id": "run-2026-10-10-1600-research",
+  "about": "The link line is in the settled form and right under the request, and points to research-light-harrow-ferry, which exists (fingerprinted, unchanged), but the outcomes file names research-light-causeway-floods for r1. A link line must point to the note the outcomes file names for its request (coordinator's ruling on gap 13, 2026-10-10, being added to spec-edit-guard.md 04), so it is link-line-invalid. The close then has no valid link line under it: close-invalid with the snapshot request line as before and the current line as after (04 item 6). The named note exists and is new, so no unexpected-research-note."
+}

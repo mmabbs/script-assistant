@@ -1,0 +1,30 @@
+{
+  "file": "Runs/run-2026-10-14-1655-abandon.md",
+  "first_line": "Abandoned run, for run-2026-10-14-1530-migration.",
+  "second_line": "This run was closed without its last checks. Below is what was never checked.",
+  "sections": [
+    {
+      "heading": "Copies still in your notes",
+      "contains": [
+        "`- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional`",
+        "idea-mara",
+        "Delete this copy before the next migration run, or the run copies this line again."
+      ],
+      "lacks": [
+        "Tobias worked summers",
+        "area-tobias"
+      ]
+    },
+    {
+      "heading": "Other notes",
+      "contains": [
+        "- Tobias worked the ferry every summer. #status/tentative",
+        "area-tobias",
+        ".runs/run-2026-10-14-1530-migration/snapshot/"
+      ]
+    }
+  ],
+  "absent": [
+    "Your request"
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "kind": "research",
+  "run_id": "run-2026-10-10-1600-research",
+  "about": "Two new notes in Research/, each named in the outcomes file, so neither is unexpected-research-note (spec-edit-guard.md 04 item 7). r2 is a retry: its note has the date added to its name, and the earlier failed note, research-light-harrow-ferry, stays in Research/ (spec-run-manager.md 06 item 2). That earlier note is fingerprinted and unchanged. Both link lines and closes are valid. No flags."
+}

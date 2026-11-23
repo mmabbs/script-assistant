@@ -1,0 +1,10 @@
+{
+  "about": "Plan Milestone 4 item 4; spec-edit-guard.md 06 item 3; spec-run-manager.md 08.4 item 3; CONTRACT.md 4 item 5. Both requests passed and mark closed them. Then a stray write moves r1's link line below r1's comment. The real Edit guard raises link-line-invalid (the link line) and close-invalid (r1). act puts r1's request line back to its snapshot text (- [r]) and removes the link line, which sits elsewhere in the request's block, so it is found by the flag's 'after' text. The comment stays. r2's close and link line stay. act edited something, so the run waits for flags-2 (next_check 2), and the second check finds nothing.",
+  "spec": [
+    "spec-edit-guard.md 06 item 3",
+    "spec-run-manager.md 08.4 item 3",
+    "spec-run-manager.md 04 item 18",
+    "CONTRACT.md 4 item 5",
+    "plan-run-manager.md 03 Milestone 4 test cases 4, 6"
+  ]
+}

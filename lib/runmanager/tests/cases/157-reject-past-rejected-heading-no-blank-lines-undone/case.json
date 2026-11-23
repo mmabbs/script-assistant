@@ -1,0 +1,12 @@
+{
+  "about": "Case 156's reject, no blank lines: the bullet moved from directly above the empty '## Rejected' heading to below it. `record` passes to verifying; then the migration-verifier fails and `findings --failed` undoes b1-u1. The copy below the heading is removed (the one the snapshot can't account for, not read as the heading), and the source line goes back under the nearest non-blank line above it in the snapshot, the ferry line. idea-tobias ends byte for byte as it was at run start, with no blank line added. undo-misses.json is []. One batch, so the run is at batches-done.",
+  "spec": [
+    "CONTRACT.md 5.3 items 1, 9, 10",
+    "spec-run-manager.md 09.1 items 2, 5",
+    "spec-migrator.md 05.4 item 5",
+    "lib/editguard/tests/fixtures/48-reject-move-past-empty-rejected-heading"
+  ],
+  "readings": [
+    "The note is back to its run-start text exactly, because putting the line back under the ferry line restores the snapshot's order."
+  ]
+}

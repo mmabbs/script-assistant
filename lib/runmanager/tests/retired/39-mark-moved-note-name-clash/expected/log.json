@@ -1,0 +1,21 @@
+{
+  "file": "Runs/run-2026-10-10-1600-research.md",
+  "first_line": "Research run 2, started 2026-10-10 16:00.",
+  "sections": [
+    {
+      "heading": "Done",
+      "contains": [
+        "How often did the relief boat reach a rock light in winter?",
+        "[[Projects/Lighthouse/Research/research-light-relief-boat-2026-10-10|research-light-relief-boat-2026-10-10]]"
+      ]
+    }
+  ],
+  "absent": [
+    "Requests still open",
+    "Closes undone",
+    "Notes changed outside the run",
+    "Still flagged after the second check"
+  ],
+  "contains": [],
+  "nothing_needs_you": true
+}

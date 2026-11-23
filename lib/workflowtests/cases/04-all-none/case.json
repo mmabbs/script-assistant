@@ -1,0 +1,73 @@
+{
+  "about": "Every topic answers none. No note is written: the research-writer and research-evaluator are never called. The outcome is no findings, with no note, no reason, and no failed topics, since none isn't a failure.",
+  "spec": [
+    "spec-research-workflow.md 04 item 10",
+    "spec-research-workflow.md 08 item 8",
+    "spec-run-manager.md 06 item 5"
+  ],
+  "args": {
+    "project": "/Users/writer/Projects/Copper Coast",
+    "run_id": "run-2026-10-08-1400-research",
+    "requests": [
+      {
+        "id": "r1",
+        "note": "Ideas/idea-harrow-point.md",
+        "line": 15,
+        "text": "- [r] How did printed tide tables reach small villages in the 1950s? #research/run-2",
+        "comment": "%% Look for printed almanacs. %%"
+      }
+    ]
+  },
+  "answers": {
+    "plan r1": [
+      {
+        "research_topic": "tide-tables",
+        "topics": [
+          {
+            "n": 1,
+            "waits_on": []
+          },
+          {
+            "n": 2,
+            "waits_on": []
+          }
+        ]
+      }
+    ],
+    "topic r1 1": [
+      {
+        "result": "none"
+      }
+    ],
+    "topic r1 2": [
+      {
+        "result": "none"
+      }
+    ]
+  },
+  "expect": {
+    "result": [
+      {
+        "request": "r1",
+        "outcome": "no findings",
+        "note": null,
+        "reason": null,
+        "failed_topics": []
+      }
+    ],
+    "calls": {
+      "topic r1 1": {
+        "count": 1
+      },
+      "topic r1 2": {
+        "count": 1
+      }
+    },
+    "not_called": [
+      "write r1",
+      "check r1",
+      "fix r1",
+      "recheck r1"
+    ]
+  }
+}

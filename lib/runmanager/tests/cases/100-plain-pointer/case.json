@@ -1,0 +1,13 @@
+{
+  "about": "A plain migration: one Brain Dump line, one copy in idea-mara, approved on round 0. `pointers` appends ' [migrated-to:: [[Projects/Lighthouse/Ideas/idea-mara|idea-mara]]]' after the line's tag, one space before it, and changes nothing else. The run moves to pointed with next_check 1 (no flags file yet). b1-u1 becomes pointer-written, its pointed_lines the line as it reads now. The real Edit guard gives [].",
+  "spec": [
+    "CONTRACT.md 5.4 items 1, 2, 3, 4, 8, 11",
+    "spec-run-manager.md 04 items 15, 22 (pointers row); 05 item 1; 08.2 items 1, 2",
+    "spec-edit-guard.md 03.1 item 2, 03.2 item 4, 03.3 item 2",
+    "plan-run-manager.md 04 Milestone 10"
+  ],
+  "readings": [
+    "next_check is 1 when the run folder holds no flags file (CONTRACT.md 5.4 item 1).",
+    "The open run at pointed keeps batch at the last batch, round 0, fixing null, as at batches-done."
+  ]
+}

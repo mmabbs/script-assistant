@@ -1,0 +1,13 @@
+{
+  "about": "A research run at 'started'. The workflow wrote one light research note into Research/ before the writer stopped it; no outcomes file was saved. `mark --stopped` exits 0, edits no note (both requests stay `- [r]`, no link line), leaves the research note where it is, and saves `stopped: true` on the open run, which moves to 'marked', waiting for flags-1.",
+  "spec": [
+    "spec-run-manager.md 09.4 items 2 to 4",
+    "spec-run-manager.md 04 items 16 and 18",
+    "spec-run-manager.md 11 items 114 and 115",
+    "plan-run-manager.md Milestone 18, second checkbox, item 6"
+  ],
+  "readings": [
+    "`stopped` sits after the open run's other keys; key order doesn't matter to the comparison.",
+    "Where \"You stopped this run.\" is saved isn't fixed by the spec (CONTRACT.md 4 item 1 says only that the reason is saved for the log), so case 235 checks it in the log."
+  ]
+}

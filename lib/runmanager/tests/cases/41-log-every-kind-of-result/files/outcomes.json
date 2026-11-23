@@ -1,0 +1,36 @@
+[
+  {
+    "request": "r1",
+    "outcome": "passed",
+    "note": "Research/research-light-relief-keeper-contracts.md",
+    "reason": null,
+    "failed_topics": [
+      "Union rules for relief keepers"
+    ]
+  },
+  {
+    "request": "r2",
+    "outcome": "passed",
+    "note": "Research/research-light-tide-tables.md",
+    "reason": null,
+    "failed_topics": []
+  },
+  {
+    "request": "r3",
+    "outcome": "failed",
+    "note": "Research/research-light-keeper-wages.md",
+    "reason": "The note failed the second check after the fix round.\nmatches findings, at Wages: The note's only wage figure had no source.",
+    "failed_topics": [
+      "topic 2 (findings cut short)"
+    ]
+  },
+  {
+    "request": "r4",
+    "outcome": "no findings",
+    "note": null,
+    "reason": null,
+    "failed_topics": [
+      "topic 2 (skipped: a topic it waits on found nothing)"
+    ]
+  }
+]

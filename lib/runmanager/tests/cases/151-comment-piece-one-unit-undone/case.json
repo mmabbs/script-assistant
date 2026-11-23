@@ -1,0 +1,14 @@
+{
+  "about": "A comment on its own line under 2026-09-20 scopes the two untagged bullets below it. The piece's only trigger line is the comment. u1 (the Mara line to idea-mara) is approved on round 0; u2 (the Tobias line to idea-tobias) gets a fix on rounds 0, 1 and 2 and is undone after round 2, its copy leaving idea-tobias. `pointers` writes u1's pointer on the untagged Mara line. The Edit guard gives [] and the run closes with no second check. The handled list: u1's source line as `migrated`, with its pointer, and u1's copy as `written`. The comment stays off, because its piece holds the source line of an undone unit, so the next run hands the piece to the migrator again; the Tobias line stays off. The log opens with 'Nothing needs you.' and holds Migrated, then Units undone, ending 'The next migration run tries this again.'",
+  "spec": [
+    "CONTRACT.md 5.6 items 3 (migrated, written, comment and its exception, never: undone units), 6",
+    "spec-run-manager.md 07.1 items 6, 9; 07.3 item 2; 11 Decisions Log items 73, 81",
+    "CONTRACT.md 5.2 items 3, 11 (a comment on its own line; a comment piece counts every bullet)"
+  ],
+  "readings": [
+    "New handled entries follow the ones already there, sorted by note path (as Python sorts strings, so 'Ideas/…' comes before 'brain-dump.md'), then by their place in the note at close.",
+    "An untagged source line of a counted migrate unit goes on as `migrated` (CONTRACT.md 5.6 item 3, first bullet names every source line; item 3's last bullet says a line that isn't a trigger line still goes on).",
+    "u1's copy carries #status/tentative, from status_from 'default', since neither the comment nor the line names a status.",
+    "Units undone quotes only the last round's problems, as '{check}: {what}', as in case 141."
+  ]
+}

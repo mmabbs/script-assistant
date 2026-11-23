@@ -1,0 +1,53 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "comment",
+        "text": "move the sea glass line to idea-tobias"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- Tobias keeps a jar of sea glass on the sill."
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-tobias.md",
+          "under": "# Idea - Tobias",
+          "lines": [
+            "- Tobias keeps a jar of sea glass on the sill. #status/tentative"
+          ]
+        }
+      ],
+      "edits": [],
+      "status": "tentative",
+      "status_from": "default",
+      "why": "A Tobias detail."
+    }
+  ],
+  "left_in_place": [
+    {
+      "source": {
+        "note": "brain-dump.md",
+        "line": 17,
+        "text": "- Mara hums hymns she doesn't believe in."
+      },
+      "why": "Your comment says you aren't sure about it yet."
+    }
+  ],
+  "questions": [
+    {
+      "source": {
+        "note": "brain-dump.md",
+        "line": 22,
+        "text": "- Mara's sister writes from Halifax every spring."
+      },
+      "ask": "Should the sister's letters go in idea-mara, or in a new Idea Note?"
+    }
+  ],
+  "could_not": []
+}

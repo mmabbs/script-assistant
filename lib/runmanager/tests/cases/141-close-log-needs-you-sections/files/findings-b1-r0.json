@@ -1,0 +1,33 @@
+{
+  "batch": "b1",
+  "round": 0,
+  "units": [
+    {
+      "unit": "u1",
+      "verdict": "approve",
+      "problems": []
+    },
+    {
+      "unit": "u2",
+      "verdict": "fix",
+      "problems": [
+        {
+          "check": "lost-detail",
+          "note": "Ideas/idea-tobias.md",
+          "line": 10,
+          "what": "The copy drops why: he can't swim."
+        }
+      ]
+    }
+  ],
+  "missed": [
+    {
+      "source": {
+        "note": "brain-dump.md",
+        "line": 14,
+        "text": "- The supply boat brings the post once a month."
+      },
+      "what": "The comment asks to put the post line in idea-mara; nothing did."
+    }
+  ]
+}

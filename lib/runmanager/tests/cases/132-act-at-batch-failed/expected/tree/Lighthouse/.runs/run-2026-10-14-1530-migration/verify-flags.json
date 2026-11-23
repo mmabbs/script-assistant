@@ -1,0 +1,13 @@
+{
+  "flags": [
+    {
+      "id": "f1",
+      "rule": "fingerprint-changed",
+      "note": "Characters/cast.md",
+      "before": "",
+      "after": "",
+      "unit": ""
+    }
+  ],
+  "units": {}
+}

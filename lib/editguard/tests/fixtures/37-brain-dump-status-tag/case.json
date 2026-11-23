@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "The writer's comment asked for a status tag in the Brain Dump doc, and the migrator added it with an edit unit (spec-migrator.md 05.4 item 6). A status tag the run added in the Brain Dump doc is always flagged, even when a comment asked (spec-edit-guard.md 04 item 2): brain-dump-status-tag. It is also a recorded edit to the writer's existing line: writer-line-edited (04 item 1). Fixture worker's reading: both rules fire on the one change. The relief keeper line carries the writer's own tag from an earlier run and is unchanged, so it is not flagged."
+}

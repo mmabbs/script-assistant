@@ -1,0 +1,7 @@
+{
+  "about": "spec-run-manager.md 04 item 18 (mark needs 'started'); CONTRACT.md 4 item 3. mark runs and closes both requests; a second mark finds the run at 'marked', exits 1, and changes nothing, so no request gets a second link line. The run carries on: the Edit guard finds nothing, act edits nothing, 'acted', next_check null. Reading (see Gaps): CONTRACT 4 item 3's 'safe to run twice' is reached through recover (case 36); a plain second mark is refused by the step check.",
+  "spec": [
+    "spec-run-manager.md 04 item 18",
+    "CONTRACT.md 4 item 3"
+  ]
+}

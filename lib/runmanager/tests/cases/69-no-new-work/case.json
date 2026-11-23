@@ -1,0 +1,10 @@
+{
+  "about": "Nothing is new: every trigger line is handled, a handled comment was removed (makes nothing new), a - [r] request with a status tag and its comment are skipped, and the only other find is the Mara pointer line whose words changed with the same tag, which would be skipped, not new work. The plot outline isn't a story note, so its tagged bullet doesn't count. start exits 1 with \"No new work since the last migration run.\" and claims nothing: run-state.json is unchanged and no snapshot is saved for the would-be run.",
+  "spec": [
+    "spec-run-manager.md 04 item 22",
+    "spec-run-manager.md 07.1 items 4, 5",
+    "spec-run-manager.md 11 Decisions Log item 73",
+    "CONTRACT.md 5.1 item 5",
+    "plan-run-manager.md 04 Milestone 8"
+  ]
+}

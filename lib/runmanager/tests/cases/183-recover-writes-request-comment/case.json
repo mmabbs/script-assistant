@@ -1,0 +1,14 @@
+{
+  "about": "The run is started with the typed request 'put the ferry lines in idea-tobias'. One piece: the tagged Mara line and the untagged summers line. u1 (trigger `tag`) copies the Mara line to idea-mara; u2 (trigger `request`) copies the summers line to idea-tobias. `record` passes, then the session crashes at verifying. `recover` undoes both units, newest first; the Edit guard gives []; `act` goes to acted; `close` writes the recover log. At that close, the request is written as a comment under u2's source line, the summers line, indented one level. u1 was started by its tag, so no comment goes under the Mara line. Nothing goes on the handled list.",
+  "spec": [
+    "spec-run-manager.md 11 Decisions Log item 96 ('Recover does the same')",
+    "spec-run-manager.md 09.2 item 3",
+    "CONTRACT.md 5.6 items 7, 8",
+    "plan-run-manager.md Milestone 15, first checkbox, group 4"
+  ],
+  "readings": [
+    "Form, indent, and date as in case 180; the date is the crashed run's start date.",
+    "The recover log's wording about the comment isn't checked: CONTRACT.md 5.6 item 8 gives the recover log no Units undone section, and the spec doesn't say where such a line goes.",
+    "Units not yet in the unit index join it in undo order, newest first, as in case 145."
+  ]
+}

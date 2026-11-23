@@ -1,0 +1,7 @@
+{
+  "about": "The project has no .runs/run-state.json (init was never run). start stops with exit 1 and a line pointing the writer to init. It creates no run state and saves no snapshot. The stderr check is only the word \"init\" (reading: spec 04 item 11 says the message points to init; the exact wording is the code's). expected/tree holds no run-state.json, meaning none may exist after the step.",
+  "spec": [
+    "spec-run-manager.md 04 items 10 and 11",
+    "plan-run-manager.md 03 Milestone 2 done check"
+  ]
+}

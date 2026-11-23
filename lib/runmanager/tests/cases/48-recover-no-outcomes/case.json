@@ -1,0 +1,10 @@
+{
+  "about": "The run crashed at 'started' before the session saved an outcomes file, so no note was edited. recover runs mark, which finds no outcomes file and edits nothing; the Edit guard, act and close follow. The run closes with both requests open, each quoted under Requests still open with a link to its note (area-mara). No note changes. The history entry is how 'recovered' with an empty failed list. Reading as in case 47: a run that crashed at 'started' was waiting for no flags file, so Notes changed outside the run is absent.",
+  "spec": [
+    "plan-run-manager.md 03 Milestone 5 item 6",
+    "spec-run-manager.md 09.2 item 4",
+    "spec-run-manager.md 04 item 19",
+    "spec-run-manager.md 06 item 8",
+    "CONTRACT.md 4 items 1 and 4"
+  ]
+}

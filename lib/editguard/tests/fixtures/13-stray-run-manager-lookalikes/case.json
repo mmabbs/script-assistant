@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "A Run manager edit is explained only where the Run manager makes it (writer's ruling B, 2026-10-10, to be added to spec-edit-guard.md): a pointer only on a migrate unit's source line, and a removed [?] only together with that pointer. The sea glass line got a pointer but no unit names it as a source, and the [?] in idea-mara-lighthouse was removed with no pointer. Each is a changed line no record explains, so each is one unexplained-change with both texts and no unit (spec-edit-guard.md 05 item 2). The after text is the line as it stands in the note, pointer included. u1's own pointer is on its source line, so it is explained."
+}

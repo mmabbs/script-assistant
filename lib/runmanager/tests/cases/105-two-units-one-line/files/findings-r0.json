@@ -1,0 +1,24 @@
+{
+  "batch": "b1",
+  "round": 0,
+  "units": [
+    {
+      "unit": "u1",
+      "verdict": "fix",
+      "problems": [
+        {
+          "check": "lost-detail",
+          "note": "Ideas/idea-mara.md",
+          "line": 10,
+          "what": "The source says fish from the bay. The copy drops 'from the bay'."
+        }
+      ]
+    },
+    {
+      "unit": "u2",
+      "verdict": "approve",
+      "problems": []
+    }
+  ],
+  "missed": []
+}

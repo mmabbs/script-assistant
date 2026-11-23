@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "Unit b1-u2 failed its fix rounds and is undone in the unit index, but its copy line is still in idea-tobias (the undo did not land). The Edit guard skips an undone unit's record (spec-edit-guard.md 02 item 4), so that line is unexplained-change with no unit, even though the skipped record would match it. Skipping also means no copy-mismatch or pointer-mismatch for b1-u2 (its source line has no pointer). The unit index also holds an earlier run's b1-u2 at pointer-written; the index is matched by run and unit (spec-run-manager.md 04 item 15), so it does not apply."
+}

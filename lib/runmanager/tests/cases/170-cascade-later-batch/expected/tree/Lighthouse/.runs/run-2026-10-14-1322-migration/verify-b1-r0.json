@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "edit",
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 15,
+          "text": "- The lamp burned paraffin until the 1958 refit. #status/provisional"
+        }
+      ],
+      "copies": [],
+      "edits": [
+        {
+          "note": "brain-dump.md",
+          "line": 15,
+          "before": "- The lamp burned paraffin until the 1958 refit. #status/provisional",
+          "after": "- The lamp burned paraffin until the 1958 refit, then diesel. #status/provisional"
+        }
+      ],
+      "status": "provisional"
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

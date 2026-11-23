@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: research-writer-09-out-of-scope-findings
+context:
+  scaffold_script: fixture.sh

@@ -1,0 +1,9 @@
+{
+  "about": "u6 tags the line and u7 migrates it. Round 0 asks for fixes to both. On round 1 the migrator takes u6's tag off and then fails for good: `record --failed` sorts u6 as not started and undoes it, while u7's copy is whole, so u7 goes on to the check, waiting there when u6 is undone. When the re-check approves u7 and it joins the unit index, the same `findings` finds that its source line is the line u6's undone edit changed, and undoes u7 (CONTRACT.md 5.3 item 13): its copy comes out. The run reaches batches-done, `pointers` writes nothing, the Edit guard raises nothing, and `close` lists both units under Units undone.",
+  "spec": [
+    "CONTRACT.md 5.3 items 6, 8, 13; 5.6 items 3, 6"
+  ],
+  "readings": [
+    "The migrator taking u6's tag off on round 1 is stood in for by a copy step before `record --failed`."
+  ]
+}

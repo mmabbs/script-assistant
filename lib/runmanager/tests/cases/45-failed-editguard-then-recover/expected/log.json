@@ -1,0 +1,26 @@
+{
+  "file": "Runs/run-2026-10-10-1705-recover.md",
+  "first_line": "Recover run, for run-2026-10-10-1600-research.",
+  "sections": [
+    {
+      "heading": "Notes changed outside the run",
+      "contains": [
+        "Markup wasn't checked on the first try."
+      ]
+    },
+    {
+      "heading": "Done",
+      "contains": [
+        "How long does a wooden rowing boat last if nobody hauls it out?",
+        "research-light-wooden-boats"
+      ]
+    }
+  ],
+  "absent": [
+    "Requests still open",
+    "Closes undone",
+    "Still flagged after the second check"
+  ],
+  "contains": [],
+  "nothing_needs_you": false
+}

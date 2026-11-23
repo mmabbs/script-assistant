@@ -1,0 +1,15 @@
+{
+  "about": "One approved migrate unit (count line to idea-mara), plus three changes no record explains, written with the migrator's notes: a changed line in the Brain Dump doc (the ferry line), an added line in idea-mara (the cat), and a removed line in idea-tobias (his father). The real Edit guard raises unexplained-change on each, with no unit. `act` at pointed sends them to the migration-verifier (verify-flags.json: the three flags, units {}). All three are judged not asked for. `act` at judged restores each: the ferry line goes back to its before text, the cat line is removed, and the father line goes back under the nearest non-blank line above it in the snapshot, Tobias's ferry job. u1 stays pointer-written. The step is acted, next_check 2, and the second check comes back [].",
+  "spec": [
+    "CONTRACT.md 5.5 items 2, 3, 4, 5 (not-asked, no unit)",
+    "spec-run-manager.md 08.5; 01 item 7",
+    "spec-migration-verifier.md 04.3 item 4; 06 item 5",
+    "spec-edit-guard.md 03.1 item 6, 05 item 2, 06 items 1 and 2",
+    "CONTRACT.md 4 item 11 (putting back a removed line)",
+    "plan-run-manager.md 04 Milestone 11, test case 2"
+  ],
+  "readings": [
+    "verify-flags.json's units is {} when no flag names a unit.",
+    "Restoring lines isn't an undo, so `act` writes no undo-misses.json here."
+  ]
+}

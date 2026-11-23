@@ -1,0 +1,28 @@
+{
+  "file": "Runs/run-2026-10-23-1530-migration.md",
+  "first_line": "Migration run, started 2026-10-23 15:30.",
+  "sections": [
+    {
+      "heading": "Other edits you asked for",
+      "contains": [
+        "`- Mara has never once left the light during a storm.` now reads `- Mara has never once left the light during a storm. #status/provisional`",
+        "as your comment `%% Agent, tag this provisional. %%` in [[Projects/Lighthouse/brain-dump|brain-dump]] asked."
+      ]
+    },
+    {
+      "heading": "Units undone",
+      "contains": [
+        "`- Mara counts the tower's steps every night, one hundred and twelve. #status/provisional`",
+        "its copy didn't match its record",
+        "The next migration run tries this again."
+      ]
+    }
+  ],
+  "absent": [
+    "Questions for you",
+    "Migrated",
+    "Changes put back"
+  ],
+  "contains": [],
+  "nothing_needs_you": true
+}

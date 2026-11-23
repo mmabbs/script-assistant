@@ -1,0 +1,44 @@
+{
+  "open_run": {
+    "id": "run-2026-10-14-1530-migration",
+    "kind": "migration",
+    "run_number": null,
+    "request": null,
+    "step": "migrating",
+    "next_check": null,
+    "started": "2026-10-14 15:30",
+    "batch": 1,
+    "round": 0
+  },
+  "history": [
+    {
+      "id": "run-2026-10-07-1000-migration",
+      "kind": "migration",
+      "run_number": null,
+      "started": "2026-10-07 10:00",
+      "ended": "2026-10-07 10:50",
+      "how": "closed"
+    }
+  ],
+  "handled": [
+    {
+      "note": "brain-dump.md",
+      "text": "- Harrow Point is a fishing village of about two hundred people. #status/committed [migrated-to:: [[Projects/Lighthouse/Ideas/idea-harrow-point|idea-harrow-point]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-07-1000-migration",
+      "pointer": [
+        "Ideas/idea-harrow-point.md"
+      ]
+    },
+    {
+      "note": "brain-dump.md",
+      "text": "- The village has one pub, the Anchor. #status/committed [migrated-to:: [[Projects/Lighthouse/Ideas/idea-harrow-point|idea-harrow-point]]]",
+      "outcome": "migrated",
+      "run": "run-2026-10-07-1000-migration",
+      "pointer": [
+        "Ideas/idea-harrow-point.md"
+      ]
+    }
+  ],
+  "unit_index": []
+}

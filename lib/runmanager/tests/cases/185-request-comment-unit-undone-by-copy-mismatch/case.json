@@ -1,0 +1,17 @@
+{
+  "about": "The run is started with the typed request 'put the ferry lines in idea-tobias'. One piece under 2026-09-20: the untagged summers line and a tagged Mara line. u1 (trigger `request`) copies the summers line to idea-tobias with an [AGENT] line; u2 (trigger `tag`) moves the Mara line to idea-mara. Both are approved and get their pointers. Then a copy step stands in for u1's [AGENT] line going missing from idea-tobias. The real Edit guard raises copy-mismatch on b1-u1; `act` at pointed undoes u1, its pointer included, and saves the missing line as an undo miss. Nothing goes to the flags call. The second check is clean and the run closes. u1 still gets the request comment under the summers line, indented one level, and its Units undone entry says the request sentence, then 'The next migration run tries this again.' The comment and the summers line stay off the handled list; u2's lines go on. Other notes names the undo miss.",
+  "spec": [
+    "spec-run-manager.md 11 Decisions Log item 96 (Claude's readings: a unit undone for any reason still gets the comment)",
+    "spec-run-manager.md 07.3 item 2, entry 7",
+    "CONTRACT.md 5.5 items 2, 4, 5, 6",
+    "plan-run-manager.md Milestone 15, first checkbox, group 4",
+    "CONTRACT.md 5.6 item 10 ('whatever undid it')",
+    "spec-migration-verifier.md 06 items 6 and 7"
+  ],
+  "readings": [
+    "Form, indent, date, and the `…` as in case 180.",
+    "flags-1.json and flags-2.json are the real Edit guard's output on this case's state, taken by running the case's steps on 2026-10-23.",
+    "The reason is checked only by its fixed words, 'its copy didn't match its record' (CONTRACT.md 5.6 item 6).",
+    "Revised 2026-10-23 for Run manager Milestone 16 (plan-run-manager.md 06 item 14, reading 5): u1 is approved and the typed request started it, so a flag judged not asked for can no longer undo it; its agent-line-added flag would stand. It is undone by a copy-mismatch instead, which keeps 'whatever undid it' covered. The steps that saved flag findings, ran `findings`, and ran `act` at judged are gone (the unused findings file is kept with the suffix .retired-m16). Any copy-mismatch leaves a copy line undo can't find, so undo-misses.json holds it and the log gains Other notes (case 120's reading). The folder is renamed from 185-request-comment-unit-undone-by-flag-not-asked."
+  ]
+}

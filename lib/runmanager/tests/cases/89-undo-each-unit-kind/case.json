@@ -1,0 +1,17 @@
+{
+  "about": "One unit of each kind, all undone by `findings --failed` on round 0. u1 migrate into an existing note: its copy line leaves idea-mara. u2 migrate that created Ideas/idea-ezra-hale.md: its heading and bullet are removed, which leaves only frontmatter and blank lines, so the note moves to .runs/{run-id}/removed/Ideas/idea-ezra-hale.md holding what was left. u3 reject inside idea-tobias: the Rejected-section copy is removed and the source line goes back under the line above it in the snapshot (the copy and the source have the same text, so the note ends with that line once, in its old place). u4 edit: the Brain Dump line's after goes back to before. Every note ends as it started. All four join the unit index as undone, in record order; the run ends at batches-done.",
+  "spec": [
+    "CONTRACT.md 5.3 items 9, 10, 11",
+    "spec-run-manager.md 09.1 items 2, 4, 6",
+    "spec-run-manager.md 08.1 item 1",
+    "spec-migrator.md 05.4 items 1, 5, 6; 05.5 items 6, 7",
+    "spec-migration-verifier.md 07 item 1",
+    "plan-run-manager.md 04 Milestone 9 (undo moved in from Milestone 10)"
+  ],
+  "readings": [
+    "A created note's frontmatter is not in its copies, so undo leaves it (CONTRACT.md 5.3 item 10 says 'only blank lines and frontmatter'; spec-run-manager.md 09.1 item 4 says 'only blank lines').",
+    "The note in removed/ holds what undo left (frontmatter and blank lines), not the note as the migrator wrote it.",
+    "A reject unit whose copy has the same text as its source: the end note holds the line once, back at its source place, and the Rejected section is as it was.",
+    "After batches-done, round is 0."
+  ]
+}

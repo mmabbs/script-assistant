@@ -1,0 +1,12 @@
+{
+  "about": "After `record`, a copy step stands in for the writer rewording u1's copy in idea-tobias. `findings --failed` undoes u1 and u2. u2's copy leaves idea-mara. u1's copy line can't be found, so idea-tobias is left alone with the writer's line, and the miss is saved in .runs/{run-id}/undo-misses.json. Both units join the unit index as undone.",
+  "spec": [
+    "CONTRACT.md 5.3 items 9, 10 (the undo-misses bullet)",
+    "spec-run-manager.md 09.1 item 5",
+    "plan-run-manager.md 04 Milestone 9 (undo moved in from Milestone 10)"
+  ],
+  "readings": [
+    "undo-misses.json names the unit as it reads in the unit index, 'b1-u1'.",
+    "A unit with an undo miss still joins the unit index as undone."
+  ]
+}

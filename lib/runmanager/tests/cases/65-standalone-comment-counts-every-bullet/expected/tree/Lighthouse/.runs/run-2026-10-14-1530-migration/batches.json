@@ -1,0 +1,92 @@
+{
+  "batches": [
+    {
+      "batch": "b1",
+      "pieces": [
+        {
+          "note": "brain-dump.md",
+          "heading": "### 2026-09-01",
+          "lines": [
+            {
+              "line": 22,
+              "text": "- The lamp burned paraffin until the 1958 refit. #status/provisional"
+            },
+            {
+              "line": 23,
+              "text": "- The tower has one hundred and twelve steps. #status/provisional"
+            },
+            {
+              "line": 24,
+              "text": "- The lens came from a works in Birmingham. #status/provisional"
+            },
+            {
+              "line": 25,
+              "text": "- The keeper winds the clockwork every four hours. #status/provisional"
+            },
+            {
+              "line": 26,
+              "text": "- Salt eats the brass fittings faster than anyone can polish them. #status/provisional"
+            },
+            {
+              "line": 27,
+              "text": "- The oil store sits apart from the tower in case of fire. #status/provisional"
+            },
+            {
+              "line": 28,
+              "text": "- Supply boats come on the first Monday of the month. #status/provisional"
+            },
+            {
+              "line": 29,
+              "text": "- In winter the supply boat can be three weeks late. #status/provisional"
+            },
+            {
+              "line": 30,
+              "text": "- The radio set is newer than anything else on the rock. #status/provisional"
+            },
+            {
+              "line": 31,
+              "text": "- The cottage has two rooms and a scullery. #status/provisional"
+            },
+            {
+              "line": 32,
+              "text": "- Rainwater is caught off the cottage roof into a cistern. #status/provisional"
+            },
+            {
+              "line": 33,
+              "text": "- The gallery rail is loose on the seaward side. #status/provisional"
+            },
+            {
+              "line": 34,
+              "text": "- Gulls nest on the oil store roof every spring. #status/provisional"
+            },
+            {
+              "line": 35,
+              "text": "- A bell hangs by the landing for fog when the signal fails. #status/provisional"
+            },
+            {
+              "line": 36,
+              "text": "- The logbook records the weather every three hours. #status/provisional"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "batch": "b2",
+      "pieces": [
+        {
+          "note": "brain-dump.md",
+          "heading": "### 2026-09-03",
+          "lines": [
+            {
+              "line": 18,
+              "text": "%% migrate all the bullets between \"- The keeper's cottage\" to \"The stove\" %%"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": [],
+  "renamed": []
+}

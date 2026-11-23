@@ -1,0 +1,86 @@
+[
+  {
+    "run": [
+      "start",
+      "--kind",
+      "migration"
+    ],
+    "now": "2026-10-14 15:30",
+    "exit": 0
+  },
+  {
+    "copy": "files/notes-b1",
+    "to": "."
+  },
+  {
+    "copy": "files/record-b1.json",
+    "to": ".runs/units/{run_id}-b1.json"
+  },
+  {
+    "run": [
+      "record"
+    ],
+    "exit": 0
+  },
+  {
+    "copy": "files/findings-b1-r0.json",
+    "to": ".runs/{run_id}/findings-b1-r0.json"
+  },
+  {
+    "run": [
+      "findings"
+    ],
+    "exit": 0
+  },
+  {
+    "run": [
+      "pointers"
+    ],
+    "exit": 0
+  },
+  {
+    "copy": "files/later/Ideas/idea-mara.md",
+    "to": "Ideas/idea-mara.md"
+  },
+  {
+    "editguard": true,
+    "exit": 0
+  },
+  {
+    "run": [
+      "act"
+    ],
+    "exit": 0
+  },
+  {
+    "copy": "files/findings-flags.json",
+    "to": ".runs/{run_id}/findings-flags.json"
+  },
+  {
+    "run": [
+      "findings"
+    ],
+    "exit": 0
+  },
+  {
+    "run": [
+      "act"
+    ],
+    "exit": 0
+  },
+  {
+    "copy": "files/stray/Ideas/idea-lamp.md",
+    "to": "Ideas/idea-lamp.md"
+  },
+  {
+    "editguard": true,
+    "exit": 0
+  },
+  {
+    "run": [
+      "close"
+    ],
+    "now": "2026-10-14 16:10",
+    "exit": 0
+  }
+]

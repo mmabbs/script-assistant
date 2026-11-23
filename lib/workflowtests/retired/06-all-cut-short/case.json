@@ -1,0 +1,85 @@
+{
+  "about": "Both topics answer found, but the research-writer finds both files cut short, writes no note, and returns note null. The research-evaluator is never called. The outcome is failed, with no note, a reason that says the files were cut short, and both topics in failed_topics.",
+  "spec": [
+    "spec-research-workflow.md 04 item 14",
+    "spec-research-workflow.md 04 item 11",
+    "spec-research-workflow.md 11 Decisions Log item 70",
+    "spec-run-manager.md 06 item 5"
+  ],
+  "args": {
+    "project": "/Users/writer/Projects/Copper Coast",
+    "run_id": "run-2026-10-08-1400-research",
+    "requests": [
+      {
+        "id": "r1",
+        "note": "Ideas/idea-harrow-point.md",
+        "line": 15,
+        "text": "- [r] How did printed tide tables reach small villages in the 1950s? #research/run-2",
+        "comment": "%% Look for printed almanacs. %%"
+      }
+    ]
+  },
+  "answers": {
+    "plan r1": [
+      {
+        "research_topic": "tide-tables",
+        "topics": [
+          {
+            "n": 1,
+            "waits_on": []
+          },
+          {
+            "n": 2,
+            "waits_on": []
+          }
+        ]
+      }
+    ],
+    "topic r1 1": [
+      {
+        "result": "found"
+      }
+    ],
+    "topic r1 2": [
+      {
+        "result": "found"
+      }
+    ],
+    "write r1": [
+      {
+        "note": null,
+        "cut_short_topics": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "expect": {
+    "result": [
+      {
+        "request": "r1",
+        "outcome": "failed",
+        "note": null,
+        "reason": "set",
+        "failed_topics": [
+          "topic 1 (findings cut short)",
+          "topic 2 (findings cut short)"
+        ],
+        "reason_includes": [
+          "cut short"
+        ]
+      }
+    ],
+    "calls": {
+      "write r1": {
+        "count": 1
+      }
+    },
+    "not_called": [
+      "check r1",
+      "fix r1",
+      "recheck r1"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "about": "Two pieces: the Brain Dump swim line, and idea-lamp with two new tagged lines. u1 migrates the swim line. The record's could_not entry names Ideas/idea-lamp.md and no line: the run couldn't read that story note. Every line of idea-lamp stays off the handled list, and none is listed under Other notes as a line the run did nothing with, so the log has no Other notes section. The swim line and its copy go on.",
+  "spec": [
+    "spec-run-manager.md 07.1 items 6, 8, 14",
+    "spec-run-manager.md 11 Decisions Log item 105",
+    "plan-run-manager.md Milestone 17, first checkbox, item 5 ('a could_not entry naming a story note and no line keeps every line of it off the handled list and out of that list')"
+  ],
+  "readings": [
+    "A could_not entry that names a story note and no line has a `source` holding only `note`. spec-migrator.md 05.2 gives a source `note`, `line`, `text` 'where one applies', and fixes no form for a note with no line.",
+    "This behaviour is what the old code already did for every could_not note; the case keeps it from being lost. On the old code it fails only on the history entry's `renamed`."
+  ]
+}

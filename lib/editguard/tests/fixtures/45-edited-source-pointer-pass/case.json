@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-14-1322-migration",
+  "about": "Taken from a live run (2026-10-14). u6 is an edit unit that tagged a Brain Dump line provisional, as the comment under it asked; u7 migrates the same line to idea-mara-lighthouse, its source text the line before the tag. `pointers` wrote u7's pointer on the edited line, after the tag (runmanager CONTRACT.md 5.4 items 4 and 9). Stripping the pointer leaves the edit's `after`, so the edits entry explains the line and the pointer is the Run manager's (spec-edit-guard.md 03.1 item 2, 03.2 items 2 and 4). Only the edit's own flags are raised, with `after` the edit's text: writer-line-edited and brain-dump-status-tag on b1-u6. No unexplained-change and no pointer-mismatch."
+}

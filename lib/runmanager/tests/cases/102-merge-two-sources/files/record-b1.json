@@ -1,0 +1,42 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "action": "migrate",
+      "trigger": {
+        "kind": "tag",
+        "text": "#status/provisional"
+      },
+      "sources": [
+        {
+          "note": "brain-dump.md",
+          "line": 15,
+          "text": "- The lamp burned paraffin until the 1958 refit. #status/provisional"
+        },
+        {
+          "note": "brain-dump.md",
+          "line": 11,
+          "text": "- After the refit the lamp ran on mains power from the cable. #status/provisional"
+        }
+      ],
+      "copies": [
+        {
+          "note": "Ideas/idea-lamp.md",
+          "under": "",
+          "lines": [
+            "# Idea - Lamp",
+            "- The lamp burned paraffin until the 1958 refit, then ran on mains power from the cable. #status/provisional"
+          ],
+          "creates_note": true
+        }
+      ],
+      "edits": [],
+      "status": "provisional",
+      "status_from": "tag",
+      "why": "A merge: both lines are the lamp's fuel history, and no note covers the lamp yet."
+    }
+  ],
+  "left_in_place": [],
+  "questions": [],
+  "could_not": []
+}

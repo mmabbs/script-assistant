@@ -1,0 +1,5 @@
+{
+  "kind": "migration",
+  "run_id": "run-2026-10-10-1530-migration",
+  "about": "As case 36, but the copy in idea-mara-lighthouse's Rejected section says 'every month' where the source says 'every week'. The record holds the same text, so the copy is explained and there is no copy-mismatch. A migrate copy placed in a Rejected section gets the same check as a moved line (coordinator's ruling on gap 10, 2026-10-10, being added to spec-edit-guard.md 04 item 4): it differs from its source by more than its status tag, so rejected-move-changed on b1-u1, before empty, after the copy line. The tag is the writer's, so no brain-dump-status-tag; the pointer names exactly the copy's note, so no pointer-mismatch."
+}

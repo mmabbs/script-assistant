@@ -1,0 +1,14 @@
+{
+  "about": "The dry run's slip: the migrator's record says u2's copy is 'leaves him scared', but the line it wrote in idea-tobias says 'leaves him frightened'. u1's copy matches. `record` checks every copy line of every unit it checks this round against its note and refuses: exit 1, one line naming the note and the record's line (run twice, so stderr is checked for each), and nothing changes, so the session sends the migrator back. The migrator's retry rewrites its record to match the note it wrote (the note is unchanged). `record` now passes: it writes verify-b1-r0.json from the retried record and moves to verifying with fixing [u1, u2]. The record file ends as the retried record.",
+  "spec": [
+    "CONTRACT.md 5.3 items 1, 4, 5",
+    "spec-run-manager.md 11 Decisions Log item 81 (first bullet)",
+    "spec-migrator.md 05.5 item 2",
+    "spec-run-manager.md 04 item 22 (record row; When a part fails, second bullet)"
+  ],
+  "readings": [
+    "The refusal names the note and the record's copy line, the one the note lacks, not the line the note holds. Neither the unit's form ('u2' or 'b1-u2') nor the refusal's other words are checked.",
+    "The retry here is a record-only fix; the note's line stays as the migrator wrote it. The contract leaves which side the migrator changes to the migrator.",
+    "No verify-b1-r0.json is checked between the refusals; the runner compares only the end state, where it must hold the retried record's units."
+  ]
+}

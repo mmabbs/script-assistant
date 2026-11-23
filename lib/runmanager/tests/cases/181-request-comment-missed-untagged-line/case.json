@@ -1,0 +1,12 @@
+{
+  "about": "The run is started with the typed request 'put the ferry lines in idea-tobias'. One piece under 2026-09-20, with no comment in it: the tagged swim line and the untagged summers line. u1 (trigger `tag`) moves the swim line to idea-tobias and is approved; the findings list the summers line as missed. The Edit guard gives [] and the run closes. The missed line has no status tag and the run had a typed request, so `close` writes the request as a comment on the line under it, indented one level, and its entry under Lines the checker says were missed says 'The run wrote your request as a comment under this line: `…`. Keep it until this migrates.' above 'The next migration run tries this again.' The comment and the missed line stay off the handled list.",
+  "spec": [
+    "spec-run-manager.md 11 Decisions Log item 96 (a missed line with no status tag, in a run with a typed request)",
+    "spec-run-manager.md 07.3 item 2, entry 8",
+    "plan-run-manager.md Milestone 15, first checkbox, group 4"
+  ],
+  "readings": [
+    "Form, indent, date, and the `…` as in case 180.",
+    "The piece holds no comment, so the case doesn't decide whether a missed line gets item 93's keep lines as well as the request sentence."
+  ]
+}

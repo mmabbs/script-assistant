@@ -1,0 +1,34 @@
+{
+  "flags": [
+    {
+      "flag": "f1",
+      "verdict": "asked",
+      "asked_by": {
+        "kind": "comment",
+        "note": "brain-dump.md",
+        "line": 12,
+        "text": "%% Agent, tag this provisional. %%"
+      }
+    },
+    {
+      "flag": "f2",
+      "verdict": "asked",
+      "asked_by": {
+        "kind": "comment",
+        "note": "brain-dump.md",
+        "line": 12,
+        "text": "%% Agent, tag this provisional. %%"
+      }
+    },
+    {
+      "flag": "f3",
+      "verdict": "asked",
+      "asked_by": {
+        "kind": "comment",
+        "note": "brain-dump.md",
+        "line": 12,
+        "text": "%% Agent, tag this provisional. %%"
+      }
+    }
+  ]
+}

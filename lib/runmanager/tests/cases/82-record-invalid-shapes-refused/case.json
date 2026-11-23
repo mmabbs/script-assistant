@@ -1,0 +1,9 @@
+{
+  "about": "Eighteen record files, each wrong in one way (file name says how): not JSON, a list instead of an object, a missing top-level list, a duplicate or badly formed unit id, an unknown action, status, status_from, or trigger kind, no sources, a line of 0, a note path with .. or not ending in .md, a copy with no lines, an edit with no before, a left_in_place entry with no why, a question with no ask, and creates_note that isn't true or false. Each `record` exits 1 with one line naming the record file, and nothing changes: the run is still at migrating at the end. If any file were wrongly accepted, the run would sit at verifying and the end state would differ.",
+  "spec": [
+    "CONTRACT.md 5.3 items 1, 2",
+    "spec-migrator.md 05.2",
+    "spec-run-manager.md 07.2 item 4",
+    "plan-run-manager.md 04 Milestone 9, test case 2"
+  ]
+}

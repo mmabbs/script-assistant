@@ -1,0 +1,26 @@
+{
+  "file": "Runs/run-2026-10-10-1600-research.md",
+  "first_line": "Research run 2, started 2026-10-10 16:00.",
+  "sections": [
+    {
+      "heading": "Requests still open",
+      "contains": [
+        "Could a lone keeper legally refuse a relief posting?",
+        "What did a keeper earn in 1950?"
+      ]
+    },
+    {
+      "heading": "Notes changed outside the run",
+      "contains": [
+        "research-light-keeper-wages"
+      ]
+    }
+  ],
+  "absent": [
+    "Closes undone",
+    "Done",
+    "Still flagged after the second check"
+  ],
+  "contains": [],
+  "nothing_needs_you": false
+}

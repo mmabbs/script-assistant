@@ -1,0 +1,26 @@
+[
+  {
+    "id": "f1",
+    "rule": "copy-mismatch",
+    "note": "Ideas/idea-mara.md",
+    "before": "",
+    "after": "- Only the supply boat captain calls Mara \"Miss Quill\". #status/provisional",
+    "unit": "b1-u2"
+  },
+  {
+    "id": "f2",
+    "rule": "unexplained-change",
+    "note": "Ideas/idea-mara.md",
+    "before": "",
+    "after": "- Only the supply boat captain calls Mara \"Miss Quill.\" #status/provisional",
+    "unit": ""
+  },
+  {
+    "id": "f3",
+    "rule": "fingerprint-changed",
+    "note": "Plot/plot-outline.md",
+    "before": "",
+    "after": "",
+    "unit": ""
+  }
+]
